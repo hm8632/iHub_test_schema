@@ -1,0 +1,26 @@
+{
+"$id": "https://schema.psanalytics.co.uk/schemas/victim",
+"$schema": "https://json-schema.org/draft/2020-12/schema",
+"type": "object",
+"allOf": [
+{
+"$ref": "/schemas/person"
+}
+],
+"properties": {
+"date_of_birth": {
+"type": "string",
+"format": "date"
+},
+"place_of_birth": {
+"type": "string"
+},
+"home_telephone": {
+"$ref": "/schemas/telephone"
+}
+},
+"required": [
+"date_of_birth",
+"place_of_birth"
+]
+}
