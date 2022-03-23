@@ -1,0 +1,52 @@
+{
+  "$id": "https://schema.psanalytics.co.uk/schemas/person",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "given_name": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "surname": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 120
+    },
+    "date_of_birth": {
+      "type": "string",
+      "format": "date"
+    },
+    "place_of_birth": {
+      "type": "string"
+    },
+    "gender": {
+      "$ref": "/schemas/enums/gender"
+    },
+    "address": {
+      "$ref": "/schemas/address"
+    },
+    "address_type": {
+      "type": "string",
+      "enum": [
+        "home",
+        "business",
+        "contact",
+        "c/o",
+        "no fixed abode"
+      ]
+    }
+  },
+  "required": [
+    "first_names",
+    "last_name",
+    "address",
+    "gender",
+    "address_type",
+    "age"
+  ]
+}
