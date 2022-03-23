@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/hm8632/iHub_test_schema/blob/main/person",
+  "$id": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/person",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
@@ -25,10 +25,10 @@
       "type": "string"
     },
     "gender": {
-      "$ref": "/schemas/enums/gender"
+      "$ref": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/enums/gender"
     },
     "address": {
-      "$ref": "/schemas/address"
+      "$ref": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/address"
     },
     "address_type": {
       "type": "string",
