@@ -1,10 +1,10 @@
 {
-"$id": "https://schema.psanalytics.co.uk/schemas/victim",
+"$id": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/victim",
 "$schema": "https://json-schema.org/draft/2020-12/schema",
 "type": "object",
 "allOf": [
 {
-"$ref": "/schemas/person"
+"$ref": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/person"
 }
 ],
 "properties": {
@@ -16,7 +16,7 @@
 "type": "string"
 },
 "home_telephone": {
-"$ref": "/schemas/telephone"
+"$ref": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/telephone"
 }
 },
 "required": [
