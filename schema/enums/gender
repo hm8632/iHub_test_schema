@@ -1,5 +1,5 @@
 {
-"$id": "https://schema.psanalytics.co.uk/schemas/enums/gender",
+"$id": "https://github.com/hm8632/iHub_test_schema/blob/main/schema/enums/gender",
 "$schema": "https://json-schema.org/draft/2020-12/schema",
 "type": "string",
 "enum": [
