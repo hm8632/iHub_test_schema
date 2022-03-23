@@ -1,0 +1,21 @@
+{
+"$id": "https://schema.psanalytics.co.uk/schemas/crime",
+"$schema": "https://json-schema.org/draft/2020-12/schema",
+"type": "object",
+"properties": {
+"complainer": {
+"$ref": "/schemas/person"
+},
+"crime_locus": {
+"$ref": "/schemas/address"
+},
+"victim": {
+"$ref": "/schemas/victim"
+}
+},
+"required": [
+"complainer",
+"crime_locus",
+"victim"
+]
+}
