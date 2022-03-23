@@ -13,7 +13,7 @@
 "format": "date"
 },
 "place_of_birth": {
-"type": "string"
+"type": "string" 
 },
 "home_telephone": {
 "$ref": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/telephone"
