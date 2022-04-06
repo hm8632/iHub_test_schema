@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "telephone",
   "type": "object",
-  "properties": { 
+  "properties": {
     "type": "string",
     "pattern": "^([0-9]{5})?-[0-9]{6}$"
   }
