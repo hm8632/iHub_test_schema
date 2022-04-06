@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "person",
   "type": "object",
-  "properties": {
+  "properties": { 
     "given_name": {
       "type": "array",
       "items": {
