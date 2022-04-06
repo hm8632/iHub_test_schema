@@ -8,7 +8,7 @@
     }
   ],
   "properties": {
-    "date_of_birth": {
+    "date_of_birth": { 
       "type": "string",
       "format": "date"
     },
