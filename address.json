@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "address",
   "type": "object",
-  "properties": { 
+  "properties": {  
     "street_address": {
       "type": "string"
     },
