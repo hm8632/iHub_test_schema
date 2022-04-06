@@ -1,6 +1,0 @@
-{
-"$id": "https://raw.githubusercontent.com/hm8632/iHub_test_schema/main/schema/telephone",
-"$schema": "https://json-schema.org/draft/2020-12/schema",
-"type": "string", 
-"pattern": "^([0-9]{5})?-[0-9]{6}$"
-}
