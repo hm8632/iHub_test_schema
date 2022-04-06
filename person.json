@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "person",
+  "type": "object",
+  "properties": {
+    "given_name": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "surname": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 120,
+      "format": "int32"
+    },
+    "date_of_birth": {
+      "type": "string",
+      "format": "date"
+    },
+    "place_of_birth": {
+      "type": "string"
+    },
+    "gender": {
+      "$ref": "./gender.json"
+    },
+    "address": {
+      "$ref": "./address.json"
+    },
+    "address_type": {
+      "type": "string",
+      "enum": [
+        "home",
+        "business",
+        "contact",
+        "c/o",
+        "no fixed abode"
+      ]
+    }
+  },
+  "required": [
+    "age",
+    "gender",
+    "address",
+    "address_type"
+  ]
+}
