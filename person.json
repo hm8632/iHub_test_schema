@@ -3,7 +3,7 @@
   "title": "person",
   "type": "object",   
   "properties": {
-    "given_name": {
+    "given_name": { 
       "type": "array",
       "items": {
         "type": "string"
