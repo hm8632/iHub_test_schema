@@ -4,7 +4,7 @@
   "type": "object",   
   "properties": {
     "given_name": { 
-      "type": "array",
+      "type": "array", 
       "items": {
         "type": "string"
       } 
