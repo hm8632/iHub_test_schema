@@ -3,7 +3,7 @@
   "title": "address",
   "type": "object",
   "properties": { 
-    "street_address": {
+    "street_address": {    
       "type": "string"
     },
     "city": {
