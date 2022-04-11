@@ -10,7 +10,7 @@
       "type": "string"  
     },
     "county": {
-      "type": "string"
+      "type": "string"   
     },
     "postcode": {
       "type": "string",
