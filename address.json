@@ -1,5 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "new idea need to go here",
   "title": "address",
   "type": "object",
   "properties": { 
