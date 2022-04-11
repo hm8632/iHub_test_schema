@@ -5,7 +5,7 @@
   "properties": { 
     "street_address": {
       "type": "string"
-    },
+    },     
     "city": {
       "type": "string"  
     },
