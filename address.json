@@ -7,7 +7,7 @@
       "type": "string"
     },
     "city": {
-      "type": "string"
+      "type": "string"  
     },
     "county": {
       "type": "string"
