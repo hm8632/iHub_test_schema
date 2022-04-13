@@ -16,7 +16,7 @@
       "type": "string"
     },
     "home_telephone": {
-      "$ref": "./telephone.json"
+      "$ref": "./telephone.json"   
     }
   },
   "required": [

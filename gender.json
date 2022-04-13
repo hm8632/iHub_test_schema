@@ -1,12 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id":"https://psanalytics.co.uk/schemas/enum/gender.json  ",
   "title": "gender",
   "type": "string",
   "enum": [ 
     "Male",
     "Female",
     "Trans Male",
-    "Trans Female",
+    "Trans Female",    
     "Non Binary",
     "Intersex",
     "Not Specified",
