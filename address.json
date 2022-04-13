@@ -3,7 +3,7 @@
   "$id": "new idea need to go here!",
   "title": "address",
   "type": "object",
-  "properties": { 
+  "properties": {      
     "street_address": {    
       "type": "string"
     },     
