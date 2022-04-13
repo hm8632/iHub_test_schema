@@ -14,9 +14,9 @@ pipeline {
                 script_output.each() {
                                             echo it
                                      }
-                def files = findFiles(glob: '*.json')
+                def files = findFiles(glob: '**/*.json')
                 files.each()         {
-                                            echo it
+                                            echo it.name
                                      }
                 }
                 
