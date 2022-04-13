@@ -9,7 +9,7 @@ pipeline {
                 script {
                        def files = findFiles(glob: '**/*.json')
                        files.each()  {
-                                        echo it.name
+                                        echo its.name
                                      }
                 }
                 
