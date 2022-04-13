@@ -11,7 +11,9 @@ pipeline {
                             #!/bin/bash
                             ls *.json
                             ''')
-                echo script_output
+                script_output.each() {
+                                            echo it
+                                     }
                 }
             }
         }
