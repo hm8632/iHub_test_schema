@@ -6,6 +6,9 @@ pipeline {
             steps {
                 echo 'Building.....'
                 echo "BUILD_NUMBER= ${env.BUILD_NUMBER}"
+                sh '''#!/bin/bash
+                 echo "hello world" 
+                   '''
             }
         }
      stage('Test') {
