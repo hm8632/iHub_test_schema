@@ -9,7 +9,9 @@ pipeline {
                 script {
                        def files = findFiles(glob: '**/*.json')
                        files.each()  {
-                                        echo it.name
+                                        if(it.name != "styleguide.json" && it.name !- "spectral.json"){
+                                            echo it.name
+                                        }
                                      }
                 }
                 
