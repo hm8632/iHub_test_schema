@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building.....'
                 echo "BUILD_NUMBER= ${env.BUILD_NUMBER}"
-                files = sh '''#!/bin/bash
+                def script_output = sh(returnStdout: true, script: '''#!/bin/bash
                       ls *.json
                    '''
             }
