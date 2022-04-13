@@ -1,10 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id":"https://psanalytics.co.uk/schemas/address.json",
+  "$id": "new idea need to go here!",
   "title": "address",
   "type": "object",
   "properties": { 
-    "street_address": {
+    "street_address": {    
       "type": "string"
     },     
     "city": {

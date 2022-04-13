@@ -1,6 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+<<<<<<< HEAD
   "id":"https://psanalytics.co.uk/schemas/enum/gender.json  ",
+=======
+  "$id":"https://psanalytics.co.uk/schemas/enum/gender.JSON",
+>>>>>>> ef6f0311b93aeaf12240a3ebd416576f2f888a00
   "title": "gender",
   "type": "string",
   "enum": [ 
