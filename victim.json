@@ -1,14 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "victim",
-  "type": "object",
-  "allOf": [ 
+  "allOf": [
     {
-      "$ref": "./person.json" 
+      "$ref": "./person.json"
     }
   ],
   "properties": {
-    "date_of_birth": { 
+    "date_of_birth": {
       "type": "string",
       "format": "date"
     },
@@ -16,11 +15,8 @@
       "type": "string"
     },
     "home_telephone": {
-      "$ref": "./telephone.json"   
+      "$ref": "./telephone.json"
     }
   },
-  "required": [
-    "date_of_birth",
-    "place_of_birth"
-  ]
+  "type": "object"
 }
