@@ -11,25 +11,25 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                echo 'Running pytest..'
+                echo 'Running Json Validator of .json files..'
             }
         }
         stage('Build') {
             steps {
                 echo 'Building..'
-                echo 'Running docker build -t sntshk/cotu .'
+                echo 'Adding $id tags to files.'
             }
         }
         stage('Publish') {
             steps {
                 echo 'Publishing..'
-                echo 'Running docker push..'
+                echo 'Publiching to web location ..'
             }
         }
         stage('Cleanup') {
             steps {
                 echo 'Cleaning..'
-                echo 'Running docker rmi..'
+                echo 'Cleaning old builds'
             }
         }
     }
