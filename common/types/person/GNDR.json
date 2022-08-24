@@ -1,0 +1,47 @@
+{
+  "gender": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "GNDR_0001",
+        "description": "Female"
+      },
+      {
+        "const": "GNDR_0002",
+        "description": "Intersex"
+      },
+      {
+        "const": "GNDR_0003",
+        "description": "Male"
+      },
+      {
+        "const": "GNDR_0004",
+        "description": "Non Binary"
+      },
+      {
+        "const": "GNDR_0005",
+        "description": "Not Known"
+      },
+      {
+        "const": "GNDR_0006",
+        "description": "Not Specified"
+      },
+      {
+        "const": "GNDR_0007",
+        "description": "Prefer not to say"
+      },
+      {
+        "const": "GNDR_0008",
+        "description": "Self-describe"
+      },
+      {
+        "const": "GNDR_0009",
+        "description": "Trans Female"
+      },
+      {
+        "const": "GNDR_0010",
+        "description": "Trans Male"
+      }
+    ]
+  }
+}

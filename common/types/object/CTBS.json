@@ -1,0 +1,27 @@
+{
+  "connectionToBusiness": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "CTBS_0001",
+        "description": "Customer"
+      },
+      {
+        "const": "CTBS_0002",
+        "description": "Employee"
+      },
+      {
+        "const": "CTBS_0003",
+        "description": "Supplier"
+      },
+      {
+        "const": "CTBS_0004",
+        "description": "Other"
+      },
+      {
+        "const": "CTBS_0005",
+        "description": "Owner"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "howToProvideTheirMedia": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "HTPT_0001",
+        "description": "Describe evidence they have which will need to be collected later"
+      },
+      {
+        "const": "HTPT_0002",
+        "description": "Upload their evidence now"
+      }
+    ]
+  }
+}

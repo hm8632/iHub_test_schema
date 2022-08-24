@@ -1,0 +1,591 @@
+{
+  "personToPersonRelationships": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "PTPR_0001",
+        "description": "Acquaintance/other known relationship"
+      },
+      {
+        "const": "PTPR_0002",
+        "description": "Adopted brother"
+      },
+      {
+        "const": "PTPR_0003",
+        "description": "Adopted Child"
+      },
+      {
+        "const": "PTPR_0004",
+        "description": "Adopted daughter"
+      },
+      {
+        "const": "PTPR_0005",
+        "description": "Adopted Father"
+      },
+      {
+        "const": "PTPR_0006",
+        "description": "Adopted Grandchild"
+      },
+      {
+        "const": "PTPR_0007",
+        "description": "Adopted granddaughter"
+      },
+      {
+        "const": "PTPR_0008",
+        "description": "Adopted Grandfather"
+      },
+      {
+        "const": "PTPR_0009",
+        "description": "Victim is Crown"
+      },
+      {
+        "const": "PTPR_0010",
+        "description": "Adopted Grandmother"
+      },
+      {
+        "const": "PTPR_0011",
+        "description": "Adopted Grandparent"
+      },
+      {
+        "const": "PTPR_0012",
+        "description": "Adopted grandson"
+      },
+      {
+        "const": "PTPR_0013",
+        "description": "Adopted mother"
+      },
+      {
+        "const": "PTPR_0014",
+        "description": "Adopted Parent"
+      },
+      {
+        "const": "PTPR_0015",
+        "description": "Adopted Sibling"
+      },
+      {
+        "const": "PTPR_0016",
+        "description": "Adopted sister"
+      },
+      {
+        "const": "PTPR_0017",
+        "description": "Adopted son"
+      },
+      {
+        "const": "PTPR_0018",
+        "description": "Adulterous relationship"
+      },
+      {
+        "const": "PTPR_0019",
+        "description": "Appropriate Adult"
+      },
+      {
+        "const": "PTPR_0020",
+        "description": "Associate"
+      },
+      {
+        "const": "PTPR_0021",
+        "description": "Aunt"
+      },
+      {
+        "const": "PTPR_0022",
+        "description": "Aunt/Uncle"
+      },
+      {
+        "const": "PTPR_0023",
+        "description": "Boyfriend"
+      },
+      {
+        "const": "PTPR_0024",
+        "description": "Brother"
+      },
+      {
+        "const": "PTPR_0025",
+        "description": "Brother in Law"
+      },
+      {
+        "const": "PTPR_0026",
+        "description": "Business associate"
+      },
+      {
+        "const": "PTPR_0027",
+        "description": "Business Associates"
+      },
+      {
+        "const": "PTPR_0028",
+        "description": "Care Home Client"
+      },
+      {
+        "const": "PTPR_0029",
+        "description": "Carer"
+      },
+      {
+        "const": "PTPR_0030",
+        "description": "Carer/health worker/patient"
+      },
+      {
+        "const": "PTPR_0031",
+        "description": "Casual sexual partner"
+      },
+      {
+        "const": "PTPR_0032",
+        "description": "Child"
+      },
+      {
+        "const": "PTPR_0033",
+        "description": "Child-In-Law"
+      },
+      {
+        "const": "PTPR_0034",
+        "description": "Civil partner"
+      },
+      {
+        "const": "PTPR_0035",
+        "description": "Client"
+      },
+      {
+        "const": "PTPR_0036",
+        "description": "Co-habiting partner"
+      },
+      {
+        "const": "PTPR_0037",
+        "description": "Colleague / Work"
+      },
+      {
+        "const": "PTPR_0038",
+        "description": "Common-law-spouse"
+      },
+      {
+        "const": "PTPR_0039",
+        "description": "Cousin"
+      },
+      {
+        "const": "PTPR_0040",
+        "description": "Criminal associate"
+      },
+      {
+        "const": "PTPR_0041",
+        "description": "Customer/client"
+      },
+      {
+        "const": "PTPR_0042",
+        "description": "Daughter"
+      },
+      {
+        "const": "PTPR_0043",
+        "description": "Daughter-in-law"
+      },
+      {
+        "const": "PTPR_0044",
+        "description": "Dentist"
+      },
+      {
+        "const": "PTPR_0045",
+        "description": "Dependent"
+      },
+      {
+        "const": "PTPR_0046",
+        "description": "Described Person"
+      },
+      {
+        "const": "PTPR_0047",
+        "description": "Doctor"
+      },
+      {
+        "const": "PTPR_0048",
+        "description": "Doctor / Medical"
+      },
+      {
+        "const": "PTPR_0049",
+        "description": "Emotional rival (not elsewhere specified)"
+      },
+      {
+        "const": "PTPR_0050",
+        "description": "Employee"
+      },
+      {
+        "const": "PTPR_0051",
+        "description": "Employer"
+      },
+      {
+        "const": "PTPR_0052",
+        "description": "Ex Foster Child"
+      },
+      {
+        "const": "PTPR_0053",
+        "description": "Ex Foster Parent"
+      },
+      {
+        "const": "PTPR_0054",
+        "description": "Ex Partner"
+      },
+      {
+        "const": "PTPR_0055",
+        "description": "Ex-boyfriend"
+      },
+      {
+        "const": "PTPR_0056",
+        "description": "Ex-Child In Law"
+      },
+      {
+        "const": "PTPR_0057",
+        "description": "Ex-civil partner"
+      },
+      {
+        "const": "PTPR_0058",
+        "description": "Ex-co-habiting partner"
+      },
+      {
+        "const": "PTPR_0059",
+        "description": "Ex-common-law-spouse"
+      },
+      {
+        "const": "PTPR_0060",
+        "description": "Ex-daughter-in-law"
+      },
+      {
+        "const": "PTPR_0061",
+        "description": "Ex-father-in-law"
+      },
+      {
+        "const": "PTPR_0062",
+        "description": "Ex-girlfriend"
+      },
+      {
+        "const": "PTPR_0063",
+        "description": "Ex-husband"
+      },
+      {
+        "const": "PTPR_0064",
+        "description": "Ex-mother-in-law"
+      },
+      {
+        "const": "PTPR_0065",
+        "description": "Ex-Parent In Law"
+      },
+      {
+        "const": "PTPR_0066",
+        "description": "Ex-son-in-law"
+      },
+      {
+        "const": "PTPR_0067",
+        "description": "Ex-wife"
+      },
+      {
+        "const": "PTPR_0068",
+        "description": "Father"
+      },
+      {
+        "const": "PTPR_0069",
+        "description": "Father-in-law"
+      },
+      {
+        "const": "PTPR_0070",
+        "description": "Foster Child"
+      },
+      {
+        "const": "PTPR_0071",
+        "description": "Foster Parent"
+      },
+      {
+        "const": "PTPR_0072",
+        "description": "Friend"
+      },
+      {
+        "const": "PTPR_0073",
+        "description": "Friend or social acquaintance"
+      },
+      {
+        "const": "PTPR_0074",
+        "description": "Girlfriend"
+      },
+      {
+        "const": "PTPR_0075",
+        "description": "Grandchild"
+      },
+      {
+        "const": "PTPR_0076",
+        "description": "Granddaughter"
+      },
+      {
+        "const": "PTPR_0077",
+        "description": "Grandfather"
+      },
+      {
+        "const": "PTPR_0078",
+        "description": "Grandmother"
+      },
+      {
+        "const": "PTPR_0079",
+        "description": "Grandparent"
+      },
+      {
+        "const": "PTPR_0080",
+        "description": "Grandson"
+      },
+      {
+        "const": "PTPR_0081",
+        "description": "Great Grandchild"
+      },
+      {
+        "const": "PTPR_0082",
+        "description": "Great Grandparent"
+      },
+      {
+        "const": "PTPR_0083",
+        "description": "Guardian"
+      },
+      {
+        "const": "PTPR_0084",
+        "description": "Half-brother"
+      },
+      {
+        "const": "PTPR_0085",
+        "description": "Half-daughter"
+      },
+      {
+        "const": "PTPR_0086",
+        "description": "Half-Parent"
+      },
+      {
+        "const": "PTPR_0087",
+        "description": "Half-Sibling"
+      },
+      {
+        "const": "PTPR_0088",
+        "description": "Half-sister"
+      },
+      {
+        "const": "PTPR_0089",
+        "description": "Half-son"
+      },
+      {
+        "const": "PTPR_0090",
+        "description": "Heterosexual partnership"
+      },
+      {
+        "const": "PTPR_0091",
+        "description": "Homosexual partnership"
+      },
+      {
+        "const": "PTPR_0092",
+        "description": "Husband"
+      },
+      {
+        "const": "PTPR_0093",
+        "description": "Landlord"
+      },
+      {
+        "const": "PTPR_0094",
+        "description": "Lover&#39;s spouse"
+      },
+      {
+        "const": "PTPR_0095",
+        "description": "Mother"
+      },
+      {
+        "const": "PTPR_0096",
+        "description": "Mother-in-law"
+      },
+      {
+        "const": "PTPR_0097",
+        "description": "Neighbour"
+      },
+      {
+        "const": "PTPR_0098",
+        "description": "Nephew"
+      },
+      {
+        "const": "PTPR_0099",
+        "description": "Niece"
+      },
+      {
+        "const": "PTPR_0100",
+        "description": "Niece / Nephew"
+      },
+      {
+        "const": "PTPR_0101",
+        "description": "No relation"
+      },
+      {
+        "const": "PTPR_0102",
+        "description": "Not known/no current suspect"
+      },
+      {
+        "const": "PTPR_0103",
+        "description": "Not required - Aggrieved is REGINA/BUSINESS"
+      },
+      {
+        "const": "PTPR_0104",
+        "description": "Other"
+      },
+      {
+        "const": "PTPR_0105",
+        "description": "Other ex-in-law relationship"
+      },
+      {
+        "const": "PTPR_0106",
+        "description": "Other in-law relationship"
+      },
+      {
+        "const": "PTPR_0107",
+        "description": "Overseen By"
+      },
+      {
+        "const": "PTPR_0108",
+        "description": "Parent"
+      },
+      {
+        "const": "PTPR_0109",
+        "description": "Parent In Law"
+      },
+      {
+        "const": "PTPR_0110",
+        "description": "Partner"
+      },
+      {
+        "const": "PTPR_0111",
+        "description": "Partnership not known"
+      },
+      {
+        "const": "PTPR_0112",
+        "description": "Patient"
+      },
+      {
+        "const": "PTPR_0113",
+        "description": "Position Of Trust"
+      },
+      {
+        "const": "PTPR_0114",
+        "description": "Prostitute/client"
+      },
+      {
+        "const": "PTPR_0115",
+        "description": "Relationship Type Refused"
+      },
+      {
+        "const": "PTPR_0116",
+        "description": "Relationship Unknown"
+      },
+      {
+        "const": "PTPR_0117",
+        "description": "Relative &#8211; Other"
+      },
+      {
+        "const": "PTPR_0118",
+        "description": "Responsible For"
+      },
+      {
+        "const": "PTPR_0119",
+        "description": "Sibling"
+      },
+      {
+        "const": "PTPR_0120",
+        "description": "Sister"
+      },
+      {
+        "const": "PTPR_0121",
+        "description": "Sister in Law"
+      },
+      {
+        "const": "PTPR_0122",
+        "description": "Social Carer"
+      },
+      {
+        "const": "PTPR_0123",
+        "description": "Solicitor"
+      },
+      {
+        "const": "PTPR_0124",
+        "description": "Son"
+      },
+      {
+        "const": "PTPR_0125",
+        "description": "Son-in-law"
+      },
+      {
+        "const": "PTPR_0126",
+        "description": "Spouse"
+      },
+      {
+        "const": "PTPR_0127",
+        "description": "Step Child"
+      },
+      {
+        "const": "PTPR_0128",
+        "description": "Step Daughter"
+      },
+      {
+        "const": "PTPR_0129",
+        "description": "Step Parent"
+      },
+      {
+        "const": "PTPR_0130",
+        "description": "Step Sibling"
+      },
+      {
+        "const": "PTPR_0131",
+        "description": "Step Son"
+      },
+      {
+        "const": "PTPR_0132",
+        "description": "Step-brother"
+      },
+      {
+        "const": "PTPR_0133",
+        "description": "Step-father"
+      },
+      {
+        "const": "PTPR_0134",
+        "description": "Step-Grandchild"
+      },
+      {
+        "const": "PTPR_0135",
+        "description": "Step-granddaughter"
+      },
+      {
+        "const": "PTPR_0136",
+        "description": "Step-grandfather"
+      },
+      {
+        "const": "PTPR_0137",
+        "description": "Step-grandmother"
+      },
+      {
+        "const": "PTPR_0138",
+        "description": "Step-Grandparent"
+      },
+      {
+        "const": "PTPR_0139",
+        "description": "Step-grandson"
+      },
+      {
+        "const": "PTPR_0140",
+        "description": "Step-mother"
+      },
+      {
+        "const": "PTPR_0141",
+        "description": "Step-sister"
+      },
+      {
+        "const": "PTPR_0142",
+        "description": "Stranger"
+      },
+      {
+        "const": "PTPR_0143",
+        "description": "Tenant"
+      },
+      {
+        "const": "PTPR_0144",
+        "description": "Uncle"
+      },
+      {
+        "const": "PTPR_0145",
+        "description": "Wife"
+      },
+      {
+        "const": "PTPR_0146",
+        "description": "Witness"
+      }
+    ]
+  }
+}

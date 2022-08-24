@@ -1,0 +1,19 @@
+{
+  "nationalityAcquisitionMethod": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "NAMD_0001",
+        "description": "Birth"
+      },
+      {
+        "const": "NAMD_0002",
+        "description": "Not Known"
+      },
+      {
+        "const": "NAMD_0003",
+        "description": "Parentage"
+      }
+    ]
+  }
+}

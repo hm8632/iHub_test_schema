@@ -1,0 +1,520 @@
+Identifier,Deprecated,Value_SOH,Value_English,Value_Welsh,Value_Gaelic,Comments
+LNGG_AAR,,,Afar,,,ISO639-2
+LNGG_ABK,,,Abkhazian,,,ISO639-2
+LNGG_ACE,,,Achinese,,,ISO639-2
+LNGG_ACH,,Acholi,Acoli,,,ISO639-2
+LNGG_ADA,,,Adangme,,,ISO639-2
+LNGG_ADY,,,Adyghe; Adygei,,,ISO639-2
+LNGG_AFA,,,Afro-Asiatic languages,,,ISO639-2
+LNGG_AFH,,,Afrihili,,,ISO639-2
+LNGG_AFR,,Afrikaans,Afrikaans,,,ISO639-2
+LNGG_AIN,,,Ainu,,,ISO639-2
+LNGG_AKA,,Akan,Akan,,,ISO639-2
+LNGG_AKK,,,Akkadian,,,ISO639-2
+LNGG_ALE,,,Aleut,,,ISO639-2
+LNGG_ALG,,,Algonquian languages,,,ISO639-2
+LNGG_ALT,,,Southern Altai,,,ISO639-2
+LNGG_AMH,,Amharic,Amharic,,,ISO639-2
+LNGG_ANG,,,"English, Old (ca.450–1100)",,,ISO639-2
+LNGG_ANP,,,Angika,,,ISO639-2
+LNGG_APA,,,Apache languages,,,ISO639-2
+LNGG_ARA,,Arabic,Arabic,,,ISO639-2
+LNGG_ARC,,,Official Aramaic (700–300 BCE); Imperial Aramaic (700–300 BCE),,,ISO639-2
+LNGG_ARG,,,Aragonese,,,ISO639-2
+LNGG_ARN,,,Mapudungun; Mapuche,,,ISO639-2
+LNGG_ARP,,,Arapaho,,,ISO639-2
+LNGG_ART,,,Artificial languages,,,ISO639-2
+LNGG_ARW,,,Arawak,,,ISO639-2
+LNGG_ASM,,Assamese,Assamese,,,ISO639-2
+LNGG_AST,,,Asturian; Bable; Leonese; Asturleonese,,,ISO639-2
+LNGG_ATH,,,Athapascan languages,,,ISO639-2
+LNGG_AUS,,,Australian languages,,,ISO639-2
+LNGG_AVA,,,Avaric,,,ISO639-2
+LNGG_AVE,,,Avestan,,,ISO639-2
+LNGG_AWA,,,Awadhi,,,ISO639-2
+LNGG_AYM,,Aymara,Aymara,,,ISO639-2
+LNGG_AZE,,Azerbaijani,Azerbaijani,,,ISO639-2
+LNGG_BAD,,,Banda languages,,,ISO639-2
+LNGG_BAI,,,Bamileke languages,,,ISO639-2
+LNGG_BAK,,,Bashkir,,,ISO639-2
+LNGG_BAL,,Balochi,Baluchi,,,ISO639-2
+LNGG_BAM,,,Bambara,,,ISO639-2
+LNGG_BAN,,,Balinese,,,ISO639-2
+LNGG_BAS,,,Basa,,,ISO639-2
+LNGG_BAT,,,Baltic languages,,,ISO639-2
+LNGG_BEJ,,,Beja; Bedawiyet,,,ISO639-2
+LNGG_BEL,,Belarusian,Belarusian,,,ISO639-2
+LNGG_BEM,,,Bemba,,,ISO639-2
+LNGG_BEN,,Bengali,Bengali,,,ISO639-2
+LNGG_BER,,Berber,Berber Languages,,,ISO639-2
+LNGG_BHO,,Bhojpuri,Bhojpuri,,,ISO639-2
+LNGG_BIH,,,Bihari languages,,,ISO639-2
+LNGG_BIK,,,Bikol,,,ISO639-2
+LNGG_BIN,,,Bini; Edo,,,ISO639-2
+LNGG_BIS,,Bislama,Bislama,,,ISO639-2
+LNGG_BLA,,,Siksika,,,ISO639-2
+LNGG_BNT,,Comorian,Bantu languages,,,ISO639-2
+LNGG_BOD,,Tibetan,Tibetan,,,ISO639-2
+LNGG_BOS,,Bosnian,Bosnian,,,ISO639-2
+LNGG_BRA,,,Braj,,,ISO639-2
+LNGG_BRE,,,Breton,,,ISO639-2
+LNGG_BTK,,,Batak languages,,,ISO639-2
+LNGG_BUA,,,Buriat,,,ISO639-2
+LNGG_BUG,,,Buginese,,,ISO639-2
+LNGG_BUL,,Bulgarian,Bulgarian,,,ISO639-2
+LNGG_BYN,,,Blin; Bilin,,,ISO639-2
+LNGG_CAD,,,Caddo,,,ISO639-2
+LNGG_CAI,,,Central American Indian languages,,,ISO639-2
+LNGG_CAR,,,Galibi Carib,,,ISO639-2
+LNGG_CAT,,Catalan,Catalan; Valencian,,,ISO639-2
+LNGG_CAU,,,Caucasian languages,,,ISO639-2
+LNGG_CEB,,Cebuano (Visayan),Cebuano,,,ISO639-2
+LNGG_CEL,,,Celtic languages,,,ISO639-2
+LNGG_CES,,Czech,Czech,,,ISO639-2
+LNGG_CHA,,,Chamorro,,,ISO639-2
+LNGG_CHB,,,Chibcha,,,ISO639-2
+LNGG_CHE,,,Chechen,,,ISO639-2
+LNGG_CHG,,,Chagatai,,,ISO639-2
+LNGG_CHK,,,Chuukese,,,ISO639-2
+LNGG_CHM,,,Mari,,,ISO639-2
+LNGG_CHN,,,Chinook jargon,,,ISO639-2
+LNGG_CHO,,,Choctaw,,,ISO639-2
+LNGG_CHP,,,Chipewyan; Dene Suline,,,ISO639-2
+LNGG_CHR,,,Cherokee,,,ISO639-2
+LNGG_CHU,,,Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic,,,ISO639-2
+LNGG_CHV,,,Chuvash,,,ISO639-2
+LNGG_CHY,,,Cheyenne,,,ISO639-2
+LNGG_CMC,,,Chamic languages,,,ISO639-2
+LNGG_CNR,,Montenegrin,Montenegrin,,,ISO639-2
+LNGG_COP,,,Coptic,,,ISO639-2
+LNGG_COR,,Cornish,Cornish,,,ISO639-2
+LNGG_COS,,Corsican,Corsican,,,ISO639-2
+LNGG_CPE,,Pidgin English,"Creoles and pidgins, English based",,,ISO639-2
+LNGG_CPF,,,"Creoles and pidgins, French-based",,,ISO639-2
+LNGG_CPP,,,"Creoles and pidgins, Portuguese-based",,,ISO639-2
+LNGG_CRE,,,Cree,,,ISO639-2
+LNGG_CRH,,,Crimean Tatar; Crimean Turkish,,,ISO639-2
+LNGG_CRP,,Creole,Creoles and pidgins,,,ISO639-2
+LNGG_CSB,,,Kashubian,,,ISO639-2
+LNGG_CUS,,,Cushitic languages,,,ISO639-2
+LNGG_CYM,,Welsh,Welsh,,,ISO639-2
+LNGG_DAK,,,Dakota,,,ISO639-2
+LNGG_DAN,,Danish,Danish,,,ISO639-2
+LNGG_DAR,,,Dargwa,,,ISO639-2
+LNGG_DAY,,,Land Dayak languages,,,ISO639-2
+LNGG_DEL,,,Delaware,,,ISO639-2
+LNGG_DEN,,,Slave (Athapascan),,,ISO639-2
+LNGG_DEU,,German,German,,,ISO639-2
+LNGG_DGR,,,Dogrib,,,ISO639-2
+LNGG_DIN,,,Dinka,,,ISO639-2
+LNGG_DIV,,Dhivehi,Divehi; Dhivehi; Maldivian,,,ISO639-2
+LNGG_DOI,,,Dogri,,,ISO639-2
+LNGG_DRA,,,Dravidian languages,,,ISO639-2
+LNGG_DSB,,,Lower Sorbian,,,ISO639-2
+LNGG_DUA,,,Duala,,,ISO639-2
+LNGG_DUM,,,"Dutch, Middle (ca. 1050–1350)",,,ISO639-2
+LNGG_DYU,,,Dyula,,,ISO639-2
+LNGG_DZO,,Dzongkha,Dzongkha,,,ISO639-2
+LNGG_EFI,,,Efik,,,ISO639-2
+LNGG_EGY,,,Egyptian (Ancient),,,ISO639-2
+LNGG_EKA,,,Ekajuk,,,ISO639-2
+LNGG_ELL,,Greek,"Greek, Modern (1453–)",,,ISO639-2
+LNGG_ELX,,,Elamite,,,ISO639-2
+LNGG_ENG,,English,English,,,ISO639-2
+LNGG_ENM,,,"English, Middle (1100–1500)",,,ISO639-2
+LNGG_EPO,,,Esperanto,,,ISO639-2
+LNGG_EST,,Estonian,Estonian,,,ISO639-2
+LNGG_EUS,,Basque,Basque,,,ISO639-2
+LNGG_EWE,,,Ewe,,,ISO639-2
+LNGG_EWO,,,Ewondo,,,ISO639-2
+LNGG_FAN,,,Fang,,,ISO639-2
+LNGG_FAO,,Faroese,Faroese,,,ISO639-2
+LNGG_FAS,,Persian,Persian,,,ISO639-2
+LNGG_FAT,,,Fanti,,,ISO639-2
+LNGG_FIJ,,Fijian,Fijian,,,ISO639-2
+LNGG_FIL,,Filipino,Filipino; Pilipino,,,ISO639-2
+LNGG_FIN,,Finnish,Finnish,,,ISO639-2
+LNGG_FIU,,,Finno-Ugrian languages,,,ISO639-2
+LNGG_FON,,,Fon,,,ISO639-2
+LNGG_FRA,,French,French,,,ISO639-2
+LNGG_FRM,,,"French, Middle (ca. 1400–1600)",,,ISO639-2
+LNGG_FRO,,,"French, Old (842–ca. 1400)",,,ISO639-2
+LNGG_FRR,,,Northern Frisian,,,ISO639-2
+LNGG_FRS,,,East Frisian Low Saxon,,,ISO639-2
+LNGG_FRY,,,Western Frisian,,,ISO639-2
+LNGG_FUL,,"Fula,Fulfulde",Fulah,,,ISO639-2
+LNGG_FUR,,,Friulian,,,ISO639-2
+LNGG_GAA,,,Ga,,,ISO639-2
+LNGG_GAY,,,Gayo,,,ISO639-2
+LNGG_GBA,,,Gbaya,,,ISO639-2
+LNGG_GEM,,,Germanic languages,,,ISO639-2
+LNGG_GEZ,,,Geez,,,ISO639-2
+LNGG_GIL,,,Gilbertese,,,ISO639-2
+LNGG_GLA,,,Gaelic; Scottish Gaelic,,,ISO639-2
+LNGG_GLE,,Irish,Irish,,,ISO639-2
+LNGG_GLG,,,Galician,,,ISO639-2
+LNGG_GLV,,Manx,Manx,,,ISO639-2
+LNGG_GMH,,,"German, Middle High (ca. 1050–1500)",,,ISO639-2
+LNGG_GOH,,,"German, Old High (ca. 750–1050)",,,ISO639-2
+LNGG_GON,,,Gondi,,,ISO639-2
+LNGG_GOR,,,Gorontalo,,,ISO639-2
+LNGG_GOT,,,Gothic,,,ISO639-2
+LNGG_GRB,,,Grebo,,,ISO639-2
+LNGG_GRC,,,"Greek, Ancient (to 1453)",,,ISO639-2
+LNGG_GRN,,,Guarani,,,ISO639-2
+LNGG_GSW,,,Swiss German; Alemannic; Alsatian,,,ISO639-2
+LNGG_GUJ,,Gujarati,Gujarati,,,ISO639-2
+LNGG_GWI,,,Gwich'in,,,ISO639-2
+LNGG_HAI,,,Haida,,,ISO639-2
+LNGG_HAT,,Haitian Creole,Haitian; Haitian Creole,,,ISO639-2
+LNGG_HAU,,Hausa,Hausa,,,ISO639-2
+LNGG_HAW,,,Hawaiian,,,ISO639-2
+LNGG_HEB,,Hebrew,Hebrew,,,ISO639-2
+LNGG_HER,,,Herero,,,ISO639-2
+LNGG_HIL,,Hiligaynon,Hiligaynon,,,ISO639-2
+LNGG_HIM,,,Himachali languages; Pahari languages,,,ISO639-2
+LNGG_HIN,,Hindi,Hindi,,,ISO639-2
+LNGG_HIT,,,Hittite,,,ISO639-2
+LNGG_HMN,,Hmong,Hmong; Mong,,,ISO639-2
+LNGG_HMO,,,Hiri Motu,,,ISO639-2
+LNGG_HRV,,Croatian,Croatian,,,ISO639-2
+LNGG_HSB,,,Upper Sorbian,,,ISO639-2
+LNGG_HUN,,Hungarian,Hungarian,,,ISO639-2
+LNGG_HUP,,,Hupa,,,ISO639-2
+LNGG_HYE,,Armenian,Armenian,,,ISO639-2
+LNGG_IBA,,,Iban,,,ISO639-2
+LNGG_IBO,,Igbo,Igbo,,,ISO639-2
+LNGG_IDO,,,Ido,,,ISO639-2
+LNGG_III,,,Sichuan Yi; Nuosu,,,ISO639-2
+LNGG_IJO,,,Ijo languages,,,ISO639-2
+LNGG_IKU,,,Inuktitut,,,ISO639-2
+LNGG_ILE,,,Interlingue; Occidental,,,ISO639-2
+LNGG_ILO,,Ilocano,Iloko,,,ISO639-2
+LNGG_INA,,,Interlingua (International Auxiliary Language Association),,,ISO639-2
+LNGG_INC,,,Indo-Aryan languages,,,ISO639-2
+LNGG_IND,,Indonesian,Indonesian,,,ISO639-2
+LNGG_INE,,,Indo-European languages,,,ISO639-2
+LNGG_INH,,,Ingush,,,ISO639-2
+LNGG_IPK,,,Inupiaq,,,ISO639-2
+LNGG_IRA,,,Iranian languages,,,ISO639-2
+LNGG_IRO,,,Iroquoian languages,,,ISO639-2
+LNGG_ISL,,Icelandic,Icelandic,,,ISO639-2
+LNGG_ITA,,Italian,Italian,,,ISO639-2
+LNGG_JAV,,Javanese,Javanese,,,ISO639-2
+LNGG_JBO,,,Lojban,,,ISO639-2
+LNGG_JPN,,Japanese,Japanese,,,ISO639-2
+LNGG_JPR,,,Judeo-Persian,,,ISO639-2
+LNGG_JRB,,,Judeo-Arabic,,,ISO639-2
+LNGG_KAA,,,Kara-Kalpak,,,ISO639-2
+LNGG_KAB,,,Kabyle,,,ISO639-2
+LNGG_KAC,,,Kachin; Jingpho,,,ISO639-2
+LNGG_KAL,,Greenlandic,Kalaallisut; Greenlandic,,,ISO639-2
+LNGG_KAM,,,Kamba,,,ISO639-2
+LNGG_KAN,,Kannada,Kannada,,,ISO639-2
+LNGG_KAR,,,Karen languages,,,ISO639-2
+LNGG_KAS,,Kashmiri,Kashmiri,,,ISO639-2
+LNGG_KAT,,Georgian,Georgian,,,ISO639-2
+LNGG_KAU,,Kanuri,Kanuri,,,ISO639-2
+LNGG_KAW,,,Kawi,,,ISO639-2
+LNGG_KAZ,,Kazakh,Kazakh,,,ISO639-2
+LNGG_KBD,,,Kabardian,,,ISO639-2
+LNGG_KHA,,,Khasi,,,ISO639-2
+LNGG_KHI,,,Khoisan languages,,,ISO639-2
+LNGG_KHM,,Khmer,Central Khmer,,,ISO639-2
+LNGG_KHO,,,Khotanese; Sakan,,,ISO639-2
+LNGG_KIK,,Kikuyu,Kikuyu; Gikuyu,,,ISO639-2
+LNGG_KIN,,Kinyarwanda,Kinyarwanda,,,ISO639-2
+LNGG_KIR,,,Kirghiz; Kyrgyz,,,ISO639-2
+LNGG_KMB,,,Kimbundu,,,ISO639-2
+LNGG_KOK,,Konkani,Konkani,,,ISO639-2
+LNGG_KOM,,,Komi,,,ISO639-2
+LNGG_KON,,,Kongo,,,ISO639-2
+LNGG_KOR,,Korean,Korean,,,ISO639-2
+LNGG_KOS,,,Kosraean,,,ISO639-2
+LNGG_KPE,,,Kpelle,,,ISO639-2
+LNGG_KRC,,,Karachay-Balkar,,,ISO639-2
+LNGG_KRL,,,Karelian,,,ISO639-2
+LNGG_KRO,,,Kru languages,,,ISO639-2
+LNGG_KRU,,,Kurukh,,,ISO639-2
+LNGG_KUA,,,Kuanyama; Kwanyama,,,ISO639-2
+LNGG_KUM,,,Kumyk,,,ISO639-2
+LNGG_KUR,,Kurdish,Kurdish,,,ISO639-2
+LNGG_KUT,,,Kutenai,,,ISO639-2
+LNGG_LAD,,,Ladino,,,ISO639-2
+LNGG_LAH,,,Lahnda,,,ISO639-2
+LNGG_LAM,,,Lamba,,,ISO639-2
+LNGG_LAO,,Lao,Lao,,,ISO639-2
+LNGG_LAT,,,Latin,,,ISO639-2
+LNGG_LAV,,Latvian,Latvian,,,ISO639-2
+LNGG_LEZ,,,Lezghian,,,ISO639-2
+LNGG_LIM,,,Limburgan; Limburger; Limburgish,,,ISO639-2
+LNGG_LIN,,,Lingala,,,ISO639-2
+LNGG_LIT,,Lithuanian,Lithuanian,,,ISO639-2
+LNGG_LOL,,,Mongo,,,ISO639-2
+LNGG_LOZ,,,Lozi,,,ISO639-2
+LNGG_LTZ,,Luxembourgish,Luxembourgish; Letzeburgesch,,,ISO639-2
+LNGG_LUA,,,Luba-Lulua,,,ISO639-2
+LNGG_LUB,,,Luba-Katanga,,,ISO639-2
+LNGG_LUG,,,Ganda,,,ISO639-2
+LNGG_LUI,,,Luiseno,,,ISO639-2
+LNGG_LUN,,,Lunda,,,ISO639-2
+LNGG_LUO,,,Luo (Kenya and Tanzania),,,ISO639-2
+LNGG_LUS,,,Lushai,,,ISO639-2
+LNGG_MAD,,Madurese,Madurese,,,ISO639-2
+LNGG_MAG,,Magahi,Magahi,,,ISO639-2
+LNGG_MAH,,Marshallese,Marshallese,,,ISO639-2
+LNGG_MAI,,Maithili,Maithili,,,ISO639-2
+LNGG_MAK,,,Makasar,,,ISO639-2
+LNGG_MAL,,Malayalam,Malayalam,,,ISO639-2
+LNGG_MAN,,,Mandingo,,,ISO639-2
+LNGG_MAP,,,Austronesian languages,,,ISO639-2
+LNGG_MAR,,Marathi,Marathi,,,ISO639-2
+LNGG_MAS,,,Masai,,,ISO639-2
+LNGG_MDF,,,Moksha,,,ISO639-2
+LNGG_MDR,,,Mandar,,,ISO639-2
+LNGG_MEN,,,Mende,,,ISO639-2
+LNGG_MGA,,,"Irish, Middle (900–1200)",,,ISO639-2
+LNGG_MIC,,,Mi'kmaq; Micmac,,,ISO639-2
+LNGG_MIN,,,Minangkabau,,,ISO639-2
+LNGG_MKD,,Macedonian,Macedonian,,,ISO639-2
+LNGG_MKH,,,Mon-Khmer languages,,,ISO639-2
+LNGG_MLG,,Malagasy,Malagasy,,,ISO639-2
+LNGG_MLT,,Maltese,Maltese,,,ISO639-2
+LNGG_MNC,,,Manchu,,,ISO639-2
+LNGG_MNI,,,Manipuri,,,ISO639-2
+LNGG_MNO,,,Manobo languages,,,ISO639-2
+LNGG_MOH,,,Mohawk,,,ISO639-2
+LNGG_MON,,Mongolian,Mongolian,,,ISO639-2
+LNGG_MOS,,Mossi,Mossi,,,ISO639-2
+LNGG_MRI,,Maori,Māori,,,ISO639-2
+LNGG_MSA,,Malay,Malay,,,ISO639-2
+LNGG_MUL,,,Multiple languages,,,ISO639-2
+LNGG_MUN,,,Munda languages,,,ISO639-2
+LNGG_MUS,,,Creek,,,ISO639-2
+LNGG_MWL,,,Mirandese,,,ISO639-2
+LNGG_MWR,,Marwari,Marwari,,,ISO639-2
+LNGG_MYA,,Burmese,Burmese,,,ISO639-2
+LNGG_MYN,,,Mayan languages,,,ISO639-2
+LNGG_MYV,,,Erzya,,,ISO639-2
+LNGG_NAH,,,Nahuatl languages,,,ISO639-2
+LNGG_NAI,,,North American Indian languages,,,ISO639-2
+LNGG_NAP,,Neopolitan,Neapolitan,,,ISO639-2
+LNGG_NAU,,Nauruan,Nauru,,,ISO639-2
+LNGG_NAV,,,Navajo; Navaho,,,ISO639-2
+LNGG_NBL,,,"Ndebele, South; South Ndebele",,,ISO639-2
+LNGG_NDE,,,"Ndebele, North; North Ndebele",,,ISO639-2
+LNGG_NDO,,,Ndonga,,,ISO639-2
+LNGG_NDS,,,"Low German; Low Saxon; German, Low; Saxon, Low",,,ISO639-2
+LNGG_NEP,,Nepali,Nepali,,,ISO639-2
+LNGG_NEW,,,Nepal Bhasa; Newari,,,ISO639-2
+LNGG_NIA,,,Nias,,,ISO639-2
+LNGG_NIC,,,Niger-Kordofanian languages,,,ISO639-2
+LNGG_NIU,,Niuean,Niuean,,,ISO639-2
+LNGG_NLD,,Dutch,Dutch; Flemish,,,ISO639-2
+LNGG_NNO,,,"Norwegian Nynorsk; Nynorsk, Norwegian",,,ISO639-2
+LNGG_NOB,,,"Bokmål, Norwegian; Norwegian Bokmål",,,ISO639-2
+LNGG_NOG,,,Nogai,,,ISO639-2
+LNGG_NON,,,"Norse, Old",,,ISO639-2
+LNGG_NOR,,Norwegian,Norwegian,,,ISO639-2
+LNGG_NQO,,,N'Ko,,,ISO639-2
+LNGG_NSO,,,Pedi; Sepedi; Northern Sotho,,,ISO639-2
+LNGG_NUB,,,Nubian languages,,,ISO639-2
+LNGG_NWC,,,Classical Newari; Old Newari; Classical Nepal Bhasa,,,ISO639-2
+LNGG_NYA,,"Chewa,Chichewa",Chichewa; Chewa; Nyanja,,,ISO639-2
+LNGG_NYM,,,Nyamwezi,,,ISO639-2
+LNGG_NYN,,,Nyankole,,,ISO639-2
+LNGG_NYO,,,Nyoro,,,ISO639-2
+LNGG_NZI,,,Nzima,,,ISO639-2
+LNGG_OCI,,,Occitan (post 1500),,,ISO639-2
+LNGG_OJI,,,Ojibwa,,,ISO639-2
+LNGG_ORI,,Odia (Oriya),Oriya,,,ISO639-2
+LNGG_ORM,,Oromo,Oromo,,,ISO639-2
+LNGG_OSA,,,Osage,,,ISO639-2
+LNGG_OSS,,,Ossetian; Ossetic,,,ISO639-2
+LNGG_OTA,,,"Turkish, Ottoman (1500–1928)",,,ISO639-2
+LNGG_OTO,,,Otomian languages,,,ISO639-2
+LNGG_PAA,,,Papuan languages,,,ISO639-2
+LNGG_PAG,,Pangasinan,Pangasinan,,,ISO639-2
+LNGG_PAL,,,Pahlavi,,,ISO639-2
+LNGG_PAM,,Pampangan,Pampanga; Kapampangan,,,ISO639-2
+LNGG_PAN,,Punjabi,Panjabi; Punjabi,,,ISO639-2
+LNGG_PAP,,,Papiamento,,,ISO639-2
+LNGG_PAU,,Palauan,Palauan,,,ISO639-2
+LNGG_PEO,,,"Persian, Old (ca. 600–400 B.C.)",,,ISO639-2
+LNGG_PHI,,,Philippine languages,,,ISO639-2
+LNGG_PHN,,,Phoenician,,,ISO639-2
+LNGG_PLI,,,Pali,,,ISO639-2
+LNGG_POL,,Polish,Polish,,,ISO639-2
+LNGG_PON,,,Pohnpeian,,,ISO639-2
+LNGG_POR,,Portuguese,Portuguese,,,ISO639-2
+LNGG_PRA,,,Prakrit languages,,,ISO639-2
+LNGG_PRO,,,"Provençal, Old (to 1500); Old Occitan (to 1500)",,,ISO639-2
+LNGG_PUS,,Pashto,Pushto; Pashto,,,ISO639-2
+LNGG_QUE,,Quechua,Quechua,,,ISO639-2
+LNGG_RAJ,,,Rajasthani,,,ISO639-2
+LNGG_RAP,,,Rapanui,,,ISO639-2
+LNGG_RAR,,,Rarotongan; Cook Islands Māori,,,ISO639-2
+LNGG_ROA,,,Romance languages,,,ISO639-2
+LNGG_ROH,,,Romansh,,,ISO639-2
+LNGG_ROM,,Romany,Romany,,,ISO639-2
+LNGG_RON,,"Romanian,Moldovan",Romanian; Moldavian; Moldovan,,,ISO639-2
+LNGG_RUN,,Kirundi,Rundi,,,ISO639-2
+LNGG_RUP,,,Aromanian; Arumanian; Macedo-Romanian,,,ISO639-2
+LNGG_RUS,,Russian,Russian,,,ISO639-2
+LNGG_SAD,,,Sandawe,,,ISO639-2
+LNGG_SAG,,Sango,Sango,,,ISO639-2
+LNGG_SAH,,,Yakut,,,ISO639-2
+LNGG_SAI,,,South American Indian languages,,,ISO639-2
+LNGG_SAL,,,Salishan languages,,,ISO639-2
+LNGG_SAM,,,Samaritan Aramaic,,,ISO639-2
+LNGG_SAN,,,Sanskrit,,,ISO639-2
+LNGG_SAS,,,Sasak,,,ISO639-2
+LNGG_SAT,,,Santali,,,ISO639-2
+LNGG_SCN,,Sicilian,Sicilian,,,ISO639-2
+LNGG_SCO,,,Scots,,,ISO639-2
+LNGG_SEL,,,Selkup,,,ISO639-2
+LNGG_SEM,,,Semitic languages,,,ISO639-2
+LNGG_SGA,,,"Irish, Old (to 900)",,,ISO639-2
+LNGG_SGN,,Sign Languages,Sign Languages,,,ISO639-2
+LNGG_SHN,,,Shan,,,ISO639-2
+LNGG_SID,,,Sidamo,,,ISO639-2
+LNGG_SIN,,Sinhala,Sinhala; Sinhalese,,,ISO639-2
+LNGG_SIO,,,Siouan languages,,,ISO639-2
+LNGG_SIT,,,Sino-Tibetan languages,,,ISO639-2
+LNGG_SLA,,,Slavic languages,,,ISO639-2
+LNGG_SLK,,Slovak,Slovak,,,ISO639-2
+LNGG_SLV,,Slovenian,Slovenian,,,ISO639-2
+LNGG_SMA,,,Southern Sami,,,ISO639-2
+LNGG_SME,,,Northern Sami,,,ISO639-2
+LNGG_SMI,,,Sami languages,,,ISO639-2
+LNGG_SMJ,,,Lule Sami,,,ISO639-2
+LNGG_SMN,,,Inari Sami,,,ISO639-2
+LNGG_SMO,,Samoan,Samoan,,,ISO639-2
+LNGG_SMS,,,Skolt Sami,,,ISO639-2
+LNGG_SNA,,Shona,Shona,,,ISO639-2
+LNGG_SND,,Sindhi,Sindhi,,,ISO639-2
+LNGG_SNK,,,Soninke,,,ISO639-2
+LNGG_SOG,,,Sogdian,,,ISO639-2
+LNGG_SOM,,Somali,Somali,,,ISO639-2
+LNGG_SON,,,Songhai languages,,,ISO639-2
+LNGG_SOT,,Sesotho,"Sotho, Southern",,,ISO639-2
+LNGG_SPA,,Spanish,Spanish; Castilian,,,ISO639-2
+LNGG_SQI,,Albanian,Albanian,,,ISO639-2
+LNGG_SRD,,Sardinian,Sardinian,,,ISO639-2
+LNGG_SRN,,,Sranan Tongo,,,ISO639-2
+LNGG_SRP,,Serbian,Serbian,,,ISO639-2
+LNGG_SRR,,,Serer,,,ISO639-2
+LNGG_SSA,,,Nilo-Saharan languages,,,ISO639-2
+LNGG_SSW,,,Swati,,,ISO639-2
+LNGG_SUK,,,Sukuma,,,ISO639-2
+LNGG_SUN,,,Sundanese,,,ISO639-2
+LNGG_SUS,,Susu,Susu,,,ISO639-2
+LNGG_SUX,,,Sumerian,,,ISO639-2
+LNGG_SWA,,Swahili,Swahili,,,ISO639-2
+LNGG_SWE,,Swedish,Swedish,,,ISO639-2
+LNGG_SYC,,,Classical Syriac,,,ISO639-2
+LNGG_SYR,,,Syriac,,,ISO639-2
+LNGG_TAH,,,Tahitian,,,ISO639-2
+LNGG_TAI,,,Tai languages,,,ISO639-2
+LNGG_TAM,,Tamil,Tamil,,,ISO639-2
+LNGG_TAT,,,Tatar,,,ISO639-2
+LNGG_TEL,,Telugu,Telugu,,,ISO639-2
+LNGG_TEM,,,Timne,,,ISO639-2
+LNGG_TER,,,Tereno,,,ISO639-2
+LNGG_TET,,Tetum,Tetum,,,ISO639-2
+LNGG_TGK,,Tajik,Tajik,,,ISO639-2
+LNGG_TGL,,Tagalog,Tagalog,,,ISO639-2
+LNGG_THA,,Thai,Thai,,,ISO639-2
+LNGG_TIG,,Tigre,Tigre,,,ISO639-2
+LNGG_TIR,,Tigrinyan,Tigrinya,,,ISO639-2
+LNGG_TIV,,,Tiv,,,ISO639-2
+LNGG_TKL,,Tokelauan,Tokelau,,,ISO639-2
+LNGG_TLH,,,Klingon; tlhIngan-Hol,,,ISO639-2
+LNGG_TLI,,,Tlingit,,,ISO639-2
+LNGG_TMH,,,Tamashek,,,ISO639-2
+LNGG_TOG,,,Tonga (Nyasa),,,ISO639-2
+LNGG_TON,,Tongan,Tonga (Tonga Islands),,,ISO639-2
+LNGG_TPI,,,Tok Pisin,,,ISO639-2
+LNGG_TSI,,,Tsimshian,,,ISO639-2
+LNGG_TSN,,Setswana,Tswana,,,ISO639-2
+LNGG_TSO,,,Tsonga,,,ISO639-2
+LNGG_TUK,,Turkmen,Turkmen,,,ISO639-2
+LNGG_TUM,,,Tumbuka,,,ISO639-2
+LNGG_TUP,,,Tupi languages,,,ISO639-2
+LNGG_TUR,,Turkish,Turkish,,,ISO639-2
+LNGG_TUT,,,Altaic languages,,,ISO639-2
+LNGG_TVL,,Tuvaluan,Tuvalu,,,ISO639-2
+LNGG_TWI,,,Twi,,,ISO639-2
+LNGG_TYV,,,Tuvinian,,,ISO639-2
+LNGG_UDM,,,Udmurt,,,ISO639-2
+LNGG_UGA,,,Ugaritic,,,ISO639-2
+LNGG_UIG,,Uyghur,Uighur; Uyghur,,,ISO639-2
+LNGG_UKR,,Ukrainian,Ukrainian,,,ISO639-2
+LNGG_UMB,,,Umbundu,,,ISO639-2
+LNGG_URD,,Urdu,Urdu,,,ISO639-2
+LNGG_UZB,,Uzbek,Uzbek,,,ISO639-2
+LNGG_VAI,,,Vai,,,ISO639-2
+LNGG_VEN,,,Venda,,,ISO639-2
+LNGG_VIE,,Vietnamese,Vietnamese,,,ISO639-2
+LNGG_VOL,,,Volapük,,,ISO639-2
+LNGG_VOT,,,Votic,,,ISO639-2
+LNGG_WAK,,,Wakashan languages,,,ISO639-2
+LNGG_WAL,,,Wolaitta; Wolaytta,,,ISO639-2
+LNGG_WAR,,,Waray,,,ISO639-2
+LNGG_WAS,,,Washo,,,ISO639-2
+LNGG_WEN,,,Sorbian languages,,,ISO639-2
+LNGG_WLN,,,Walloon,,,ISO639-2
+LNGG_WOL,,Wolof,Wolof,,,ISO639-2
+LNGG_XAL,,,Kalmyk; Oirat,,,ISO639-2
+LNGG_XHO,,Xhosa,Xhosa,,,ISO639-2
+LNGG_YAO,,,Yao,,,ISO639-2
+LNGG_YAP,,,Yapese,,,ISO639-2
+LNGG_YID,,Yiddish,Yiddish,,,ISO639-2
+LNGG_YOR,,Yoruba,Yoruba,,,ISO639-2
+LNGG_YPK,,Yupik,Yupik languages,,,ISO639-2
+LNGG_ZAP,,,Zapotec,,,ISO639-2
+LNGG_ZBL,,,Blissymbols; Blissymbolics; Bliss,,,ISO639-2
+LNGG_ZEN,,,Zenaga,,,ISO639-2
+LNGG_ZGH,,,Standard Moroccan Tamazight,,,ISO639-2
+LNGG_ZHA,,Zhuang,Zhuang; Chuang,,,ISO639-2
+LNGG_ZHO,,,Chinese,,,ISO639-2
+LNGG_ZND,,,Zande languages,,,ISO639-2
+LNGG_ZUL,,Zulu,Zulu,,,ISO639-2
+LNGG_ZUN,,,Zuni,,,ISO639-2
+LNGG_ZXX,,,No linguistic content; Not applicable,,,ISO639-2
+LNGG_ZZA,,,Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki,,,ISO639-2
+LNGG_ASE,,American Sign Language,American Sign Language,,,ISO639-3
+LNGG_BFI,,British Sign Language,British Sign Language,,,ISO639-3
+LNGG_BGC,,Haryanvi,Haryanvi,,,ISO639-3
+LNGG_CDO,,Eastern Min,Min Dong Chinese,,,ISO639-3
+LNGG_CJY,,Jin,Jinyu Chinese,,,ISO639-3
+LNGG_CMN,,Mandarin Chinese,Mandarin Chinese,,,ISO639-3
+LNGG_CTG,,Chittagonian,Chittagonian,,,ISO639-3
+LNGG_DCC,,Deccan,Deccan,,,ISO639-3
+LNGG_DHD,,Dhundhari,Dhundari,,,ISO639-3
+LNGG_GAN,,Gan Chinese,Gan Chinese,,,ISO639-3
+LNGG_HAK,,Hakka,Hakka Chinese,,,ISO639-3
+LNGG_HNE,,Chhattisgarhi,Chhattisgarhi,,,ISO639-3
+LNGG_HSN,,Xiang (Hunnanese),Xiang Chinese,,,ISO639-3
+LNGG_IBB,,Ibibio,Ibibio,,,ISO639-3
+LNGG_KRI,,Krio,Krio,,,ISO639-3
+LNGG_MNK,,Mandinka,Mandinka,,,ISO639-3
+LNGG_MNP,,Northern Min,Min Bei Chinese,,,ISO639-3
+LNGG_NAN,,Southern Min,Min Nan Chinese,,,ISO639-3
+LNGG_SKR,,Saraiki,Saraiki,,,ISO639-3
+LNGG_SYL,,Sylheti,Sylheti,,,ISO639-3
+LNGG_WUU,,Wu (inc. Shanghainese),Wu Chinese,,,ISO639-3
+LNGG_YUE,,"Cantonese,Yue (Cantonese)",Yue (Cantonese),,,ISO639-3
+LNGG_0004,,Jamaican,Jamaican,,,Jamaican English/Jamaican Patois
+LNGG_0006,,Libyan,Libyan,,,Libyan Arabic?
+LNGG_0001,,American,American,,,
+LNGG_0002,,Eastern Arabic,Eastern Arabic,,,
+LNGG_0003,,French Canadian,French Canadian,,,
+LNGG_0005,,Kalibi,Kalibi,,,
+LNGG_0007,,Mexican,Mexican,,,
+LNGG_0008,,Not Known,Not Known,,,
+LNGG_0009,,Scottish,Scottish,,,
+LNGG_0010,,Somoan,Somoan,,,
+LNGG_0011,,Sudanese,Sudanese,,,
+LNGG_0012,,Ulster Scots,Ulster Scots,,,
+LNGG_0013,,Taiwanese,Taiwanese,,,

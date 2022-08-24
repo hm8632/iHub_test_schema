@@ -1,0 +1,1143 @@
+{
+  "vehicleMakeList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VMLT_0001",
+        "description": "Audi"
+      },
+      {
+        "const": "VMLT_0002",
+        "description": "Austin"
+      },
+      {
+        "const": "VMLT_0003",
+        "description": "Austin Healey"
+      },
+      {
+        "const": "VMLT_0004",
+        "description": "Austin Morris"
+      },
+      {
+        "const": "VMLT_0005",
+        "description": "Avanti"
+      },
+      {
+        "const": "VMLT_0006",
+        "description": "Aveling Barford"
+      },
+      {
+        "const": "VMLT_0007",
+        "description": "Bajaj"
+      },
+      {
+        "const": "VMLT_0008",
+        "description": "Barossa"
+      },
+      {
+        "const": "VMLT_0009",
+        "description": "Bashan"
+      },
+      {
+        "const": "VMLT_0010",
+        "description": "Battistinis"
+      },
+      {
+        "const": "VMLT_0011",
+        "description": "Beauford"
+      },
+      {
+        "const": "VMLT_0012",
+        "description": "Bedford"
+      },
+      {
+        "const": "VMLT_0013",
+        "description": "Benelli"
+      },
+      {
+        "const": "VMLT_0014",
+        "description": "Bentley"
+      },
+      {
+        "const": "VMLT_0015",
+        "description": "Beta"
+      },
+      {
+        "const": "VMLT_0016",
+        "description": "Bmc"
+      },
+      {
+        "const": "VMLT_0017",
+        "description": "Bmw"
+      },
+      {
+        "const": "VMLT_0018",
+        "description": "Bond"
+      },
+      {
+        "const": "VMLT_0019",
+        "description": "Bra"
+      },
+      {
+        "const": "VMLT_0020",
+        "description": "Bristol"
+      },
+      {
+        "const": "VMLT_0021",
+        "description": "Bristol (Blmc)"
+      },
+      {
+        "const": "VMLT_0022",
+        "description": "Bronto"
+      },
+      {
+        "const": "VMLT_0023",
+        "description": "Bsa"
+      },
+      {
+        "const": "VMLT_0024",
+        "description": "Bugatti"
+      },
+      {
+        "const": "VMLT_0025",
+        "description": "Buick"
+      },
+      {
+        "const": "VMLT_0026",
+        "description": "Cadillac"
+      },
+      {
+        "const": "VMLT_0027",
+        "description": "Cagiva"
+      },
+      {
+        "const": "VMLT_0028",
+        "description": "Can-Am"
+      },
+      {
+        "const": "VMLT_0029",
+        "description": "Capri"
+      },
+      {
+        "const": "VMLT_0030",
+        "description": "Carbodies"
+      },
+      {
+        "const": "VMLT_0031",
+        "description": "Case"
+      },
+      {
+        "const": "VMLT_0032",
+        "description": "Caterham"
+      },
+      {
+        "const": "VMLT_0033",
+        "description": "Caterpillar"
+      },
+      {
+        "const": "VMLT_0034",
+        "description": "Ccm"
+      },
+      {
+        "const": "VMLT_0035",
+        "description": "Cf Moto"
+      },
+      {
+        "const": "VMLT_0036",
+        "description": "Chevrolet"
+      },
+      {
+        "const": "VMLT_0037",
+        "description": "Chevrolet Gmc"
+      },
+      {
+        "const": "VMLT_0038",
+        "description": "Chrysler"
+      },
+      {
+        "const": "VMLT_0039",
+        "description": "Cimotorhome"
+      },
+      {
+        "const": "VMLT_0040",
+        "description": "Citroen"
+      },
+      {
+        "const": "VMLT_0041",
+        "description": "Clark"
+      },
+      {
+        "const": "VMLT_0042",
+        "description": "Classic Custom"
+      },
+      {
+        "const": "VMLT_0043",
+        "description": "Classic Replicas"
+      },
+      {
+        "const": "VMLT_0044",
+        "description": "Coleman Milne"
+      },
+      {
+        "const": "VMLT_0045",
+        "description": "Colt"
+      },
+      {
+        "const": "VMLT_0046",
+        "description": "Commer"
+      },
+      {
+        "const": "VMLT_0047",
+        "description": "Corvette"
+      },
+      {
+        "const": "VMLT_0048",
+        "description": "County Comm Cars"
+      },
+      {
+        "const": "VMLT_0049",
+        "description": "Cz"
+      },
+      {
+        "const": "VMLT_0050",
+        "description": "Dacia"
+      },
+      {
+        "const": "VMLT_0051",
+        "description": "Daewoo"
+      },
+      {
+        "const": "VMLT_0052",
+        "description": "Daf Trucks"
+      },
+      {
+        "const": "VMLT_0053",
+        "description": "Daihatsu"
+      },
+      {
+        "const": "VMLT_0054",
+        "description": "Daimler"
+      },
+      {
+        "const": "VMLT_0055",
+        "description": "Daimler Chrysler"
+      },
+      {
+        "const": "VMLT_0056",
+        "description": "Datsun"
+      },
+      {
+        "const": "VMLT_0057",
+        "description": "David Brown"
+      },
+      {
+        "const": "VMLT_0058",
+        "description": "Dax"
+      },
+      {
+        "const": "VMLT_0059",
+        "description": "De Tomaso"
+      },
+      {
+        "const": "VMLT_0060",
+        "description": "Demm"
+      },
+      {
+        "const": "VMLT_0061",
+        "description": "Dennis"
+      },
+      {
+        "const": "VMLT_0062",
+        "description": "Dfsk"
+      },
+      {
+        "const": "VMLT_0063",
+        "description": "Dinli"
+      },
+      {
+        "const": "VMLT_0064",
+        "description": "Dodge"
+      },
+      {
+        "const": "VMLT_0065",
+        "description": "Douglas"
+      },
+      {
+        "const": "VMLT_0066",
+        "description": "Ds"
+      },
+      {
+        "const": "VMLT_0067",
+        "description": "Eagle"
+      },
+      {
+        "const": "VMLT_0068",
+        "description": "Ebro"
+      },
+      {
+        "const": "VMLT_0069",
+        "description": "Electricars"
+      },
+      {
+        "const": "VMLT_0070",
+        "description": "Enfield"
+      },
+      {
+        "const": "VMLT_0071",
+        "description": "Farboud"
+      },
+      {
+        "const": "VMLT_0072",
+        "description": "Ferrari"
+      },
+      {
+        "const": "VMLT_0073",
+        "description": "Fiat"
+      },
+      {
+        "const": "VMLT_0074",
+        "description": "Ford"
+      },
+      {
+        "const": "VMLT_0075",
+        "description": "Fordson"
+      },
+      {
+        "const": "VMLT_0076",
+        "description": "Freight Rover"
+      },
+      {
+        "const": "VMLT_0077",
+        "description": "Fso Cars"
+      },
+      {
+        "const": "VMLT_0078",
+        "description": "Gas Gas"
+      },
+      {
+        "const": "VMLT_0079",
+        "description": "Geely"
+      },
+      {
+        "const": "VMLT_0080",
+        "description": "General Motors"
+      },
+      {
+        "const": "VMLT_0081",
+        "description": "Ginetta"
+      },
+      {
+        "const": "VMLT_0082",
+        "description": "Gordon Murray"
+      },
+      {
+        "const": "VMLT_0083",
+        "description": "Great Wall"
+      },
+      {
+        "const": "VMLT_0084",
+        "description": "Grinnall"
+      },
+      {
+        "const": "VMLT_0085",
+        "description": "Hillman"
+      },
+      {
+        "const": "VMLT_0086",
+        "description": "Holden"
+      },
+      {
+        "const": "VMLT_0087",
+        "description": "Honda"
+      },
+      {
+        "const": "VMLT_0088",
+        "description": "Humber"
+      },
+      {
+        "const": "VMLT_0089",
+        "description": "Hummer"
+      },
+      {
+        "const": "VMLT_0090",
+        "description": "Hyster"
+      },
+      {
+        "const": "VMLT_0091",
+        "description": "Hyundai"
+      },
+      {
+        "const": "VMLT_0092",
+        "description": "Ibc"
+      },
+      {
+        "const": "VMLT_0093",
+        "description": "Infiniti"
+      },
+      {
+        "const": "VMLT_0094",
+        "description": "Int. Harvester"
+      },
+      {
+        "const": "VMLT_0095",
+        "description": "Irisbus"
+      },
+      {
+        "const": "VMLT_0096",
+        "description": "Isuzu"
+      },
+      {
+        "const": "VMLT_0097",
+        "description": "Isuzu Trucks"
+      },
+      {
+        "const": "VMLT_0098",
+        "description": "Iveco"
+      },
+      {
+        "const": "VMLT_0099",
+        "description": "Iveco-Ford"
+      },
+      {
+        "const": "VMLT_0100",
+        "description": "Jaguar"
+      },
+      {
+        "const": "VMLT_0101",
+        "description": "Jaguar Land Rover"
+      },
+      {
+        "const": "VMLT_0102",
+        "description": "James"
+      },
+      {
+        "const": "VMLT_0103",
+        "description": "Jcb"
+      },
+      {
+        "const": "VMLT_0104",
+        "description": "Jeep"
+      },
+      {
+        "const": "VMLT_0105",
+        "description": "Jensen"
+      },
+      {
+        "const": "VMLT_0106",
+        "description": "Jialing"
+      },
+      {
+        "const": "VMLT_0107",
+        "description": "John Deere"
+      },
+      {
+        "const": "VMLT_0108",
+        "description": "Jonway"
+      },
+      {
+        "const": "VMLT_0109",
+        "description": "Jordan"
+      },
+      {
+        "const": "VMLT_0110",
+        "description": "Kawasaki"
+      },
+      {
+        "const": "VMLT_0111",
+        "description": "Kia"
+      },
+      {
+        "const": "VMLT_0112",
+        "description": "Koenigsegg"
+      },
+      {
+        "const": "VMLT_0113",
+        "description": "Ktm"
+      },
+      {
+        "const": "VMLT_0114",
+        "description": "Kubota"
+      },
+      {
+        "const": "VMLT_0115",
+        "description": "Kymco"
+      },
+      {
+        "const": "VMLT_0116",
+        "description": "Lada"
+      },
+      {
+        "const": "VMLT_0117",
+        "description": "Lamborghini"
+      },
+      {
+        "const": "VMLT_0118",
+        "description": "Lambretta"
+      },
+      {
+        "const": "VMLT_0119",
+        "description": "Lancia"
+      },
+      {
+        "const": "VMLT_0120",
+        "description": "Land Rover"
+      },
+      {
+        "const": "VMLT_0121",
+        "description": "Lansing Linde"
+      },
+      {
+        "const": "VMLT_0122",
+        "description": "Ldv"
+      },
+      {
+        "const": "VMLT_0123",
+        "description": "Lexus"
+      },
+      {
+        "const": "VMLT_0124",
+        "description": "Leyland"
+      },
+      {
+        "const": "VMLT_0125",
+        "description": "Leyland Aec"
+      },
+      {
+        "const": "VMLT_0126",
+        "description": "Leyland Cars"
+      },
+      {
+        "const": "VMLT_0127",
+        "description": "Leyland Daf"
+      },
+      {
+        "const": "VMLT_0128",
+        "description": "Leyland National"
+      },
+      {
+        "const": "VMLT_0129",
+        "description": "Leyland Redline"
+      },
+      {
+        "const": "VMLT_0130",
+        "description": "Leyland Scotstoun"
+      },
+      {
+        "const": "VMLT_0131",
+        "description": "Ligier"
+      },
+      {
+        "const": "VMLT_0132",
+        "description": "Lincoln"
+      },
+      {
+        "const": "VMLT_0133",
+        "description": "London Taxis"
+      },
+      {
+        "const": "VMLT_0134",
+        "description": "London Taxis Int."
+      },
+      {
+        "const": "VMLT_0135",
+        "description": "Lonsdale"
+      },
+      {
+        "const": "VMLT_0136",
+        "description": "Lotus"
+      },
+      {
+        "const": "VMLT_0137",
+        "description": "Luego"
+      },
+      {
+        "const": "VMLT_0138",
+        "description": "Mahindra"
+      },
+      {
+        "const": "VMLT_0139",
+        "description": "Man"
+      },
+      {
+        "const": "VMLT_0140",
+        "description": "Manitou"
+      },
+      {
+        "const": "VMLT_0141",
+        "description": "Marcos"
+      },
+      {
+        "const": "VMLT_0142",
+        "description": "Marshall"
+      },
+      {
+        "const": "VMLT_0143",
+        "description": "Maserati"
+      },
+      {
+        "const": "VMLT_0144",
+        "description": "Massey Ferguson"
+      },
+      {
+        "const": "VMLT_0145",
+        "description": "Matchless"
+      },
+      {
+        "const": "VMLT_0146",
+        "description": "Maybach"
+      },
+      {
+        "const": "VMLT_0147",
+        "description": "Mazda"
+      },
+      {
+        "const": "VMLT_0148",
+        "description": "Mcc"
+      },
+      {
+        "const": "VMLT_0149",
+        "description": "Mclaren"
+      },
+      {
+        "const": "VMLT_0150",
+        "description": "Mercedes"
+      },
+      {
+        "const": "VMLT_0151",
+        "description": "Mercury"
+      },
+      {
+        "const": "VMLT_0152",
+        "description": "Mg"
+      },
+      {
+        "const": "VMLT_0153",
+        "description": "Mg Xpower"
+      },
+      {
+        "const": "VMLT_0154",
+        "description": "Mia"
+      },
+      {
+        "const": "VMLT_0155",
+        "description": "Microcar"
+      },
+      {
+        "const": "VMLT_0156",
+        "description": "Mini"
+      },
+      {
+        "const": "VMLT_0157",
+        "description": "Mitsubishi"
+      },
+      {
+        "const": "VMLT_0158",
+        "description": "Mitsubishi Fuso"
+      },
+      {
+        "const": "VMLT_0159",
+        "description": "Mk Sportscars"
+      },
+      {
+        "const": "VMLT_0160",
+        "description": "Mobilvetta"
+      },
+      {
+        "const": "VMLT_0161",
+        "description": "Mobylette"
+      },
+      {
+        "const": "VMLT_0162",
+        "description": "Moke Automibili"
+      },
+      {
+        "const": "VMLT_0163",
+        "description": "Morgan"
+      },
+      {
+        "const": "VMLT_0164",
+        "description": "Morris"
+      },
+      {
+        "const": "VMLT_0165",
+        "description": "Moskvich"
+      },
+      {
+        "const": "VMLT_0166",
+        "description": "Moto Guzzi"
+      },
+      {
+        "const": "VMLT_0167",
+        "description": "Moto Roma"
+      },
+      {
+        "const": "VMLT_0168",
+        "description": "Mz"
+      },
+      {
+        "const": "VMLT_0169",
+        "description": "New Holland"
+      },
+      {
+        "const": "VMLT_0170",
+        "description": "Nilsson"
+      },
+      {
+        "const": "VMLT_0171",
+        "description": "Nissan"
+      },
+      {
+        "const": "VMLT_0172",
+        "description": "Noble"
+      },
+      {
+        "const": "VMLT_0173",
+        "description": "Noble Automotive"
+      },
+      {
+        "const": "VMLT_0174",
+        "description": "Norton"
+      },
+      {
+        "const": "VMLT_0175",
+        "description": "Nsu"
+      },
+      {
+        "const": "VMLT_0176",
+        "description": "Nuffield"
+      },
+      {
+        "const": "VMLT_0177",
+        "description": "Oldsmobile"
+      },
+      {
+        "const": "VMLT_0178",
+        "description": "Opel"
+      },
+      {
+        "const": "VMLT_0179",
+        "description": "Other Agric/Constructional"
+      },
+      {
+        "const": "VMLT_0180",
+        "description": "Other British"
+      },
+      {
+        "const": "VMLT_0181",
+        "description": "Other Countries"
+      },
+      {
+        "const": "VMLT_0182",
+        "description": "Other East European"
+      },
+      {
+        "const": "VMLT_0183",
+        "description": "Other Electric"
+      },
+      {
+        "const": "VMLT_0184",
+        "description": "Other French"
+      },
+      {
+        "const": "VMLT_0185",
+        "description": "Other German"
+      },
+      {
+        "const": "VMLT_0186",
+        "description": "Other Italian"
+      },
+      {
+        "const": "VMLT_0187",
+        "description": "Other Japanese/Asian"
+      },
+      {
+        "const": "VMLT_0188",
+        "description": "Other Us/Aust/Can"
+      },
+      {
+        "const": "VMLT_0189",
+        "description": "Other West European"
+      },
+      {
+        "const": "VMLT_0190",
+        "description": "Other/Commercial/Thorneycroft"
+      },
+      {
+        "const": "VMLT_0191",
+        "description": "Panther"
+      },
+      {
+        "const": "VMLT_0192",
+        "description": "Pegaso"
+      },
+      {
+        "const": "VMLT_0193",
+        "description": "Perodua"
+      },
+      {
+        "const": "VMLT_0194",
+        "description": "Peugeot"
+      },
+      {
+        "const": "VMLT_0195",
+        "description": "Pgo"
+      },
+      {
+        "const": "VMLT_0196",
+        "description": "Piaggio"
+      },
+      {
+        "const": "VMLT_0197",
+        "description": "Pilgrim"
+      },
+      {
+        "const": "VMLT_0198",
+        "description": "Pinzgauer"
+      },
+      {
+        "const": "VMLT_0199",
+        "description": "Plymouth"
+      },
+      {
+        "const": "VMLT_0200",
+        "description": "Polaris"
+      },
+      {
+        "const": "VMLT_0201",
+        "description": "Polski-Fiat"
+      },
+      {
+        "const": "VMLT_0202",
+        "description": "Pontiac"
+      },
+      {
+        "const": "VMLT_0203",
+        "description": "Porsche"
+      },
+      {
+        "const": "VMLT_0204",
+        "description": "Proton"
+      },
+      {
+        "const": "VMLT_0205",
+        "description": "Puch"
+      },
+      {
+        "const": "VMLT_0206",
+        "description": "Pulse"
+      },
+      {
+        "const": "VMLT_0207",
+        "description": "R-Vision"
+      },
+      {
+        "const": "VMLT_0208",
+        "description": "Raleigh"
+      },
+      {
+        "const": "VMLT_0209",
+        "description": "Ransome"
+      },
+      {
+        "const": "VMLT_0210",
+        "description": "Regent"
+      },
+      {
+        "const": "VMLT_0211",
+        "description": "Reliant"
+      },
+      {
+        "const": "VMLT_0212",
+        "description": "Renault"
+      },
+      {
+        "const": "VMLT_0213",
+        "description": "Renault Trucks"
+      },
+      {
+        "const": "VMLT_0214",
+        "description": "Reva"
+      },
+      {
+        "const": "VMLT_0215",
+        "description": "Riley"
+      },
+      {
+        "const": "VMLT_0216",
+        "description": "Ris Bus"
+      },
+      {
+        "const": "VMLT_0217",
+        "description": "Robin Hood"
+      },
+      {
+        "const": "VMLT_0218",
+        "description": "Rolls Royce"
+      },
+      {
+        "const": "VMLT_0219",
+        "description": "Rover"
+      },
+      {
+        "const": "VMLT_0220",
+        "description": "Ruf"
+      },
+      {
+        "const": "VMLT_0221",
+        "description": "Saab"
+      },
+      {
+        "const": "VMLT_0222",
+        "description": "Santana"
+      },
+      {
+        "const": "VMLT_0223",
+        "description": "Sanyang"
+      },
+      {
+        "const": "VMLT_0224",
+        "description": "Sao"
+      },
+      {
+        "const": "VMLT_0225",
+        "description": "Saviem"
+      },
+      {
+        "const": "VMLT_0226",
+        "description": "Saxon"
+      },
+      {
+        "const": "VMLT_0227",
+        "description": "Scammell"
+      },
+      {
+        "const": "VMLT_0228",
+        "description": "Scania"
+      },
+      {
+        "const": "VMLT_0229",
+        "description": "Scutum"
+      },
+      {
+        "const": "VMLT_0230",
+        "description": "Seat"
+      },
+      {
+        "const": "VMLT_0231",
+        "description": "Secma"
+      },
+      {
+        "const": "VMLT_0232",
+        "description": "Simca"
+      },
+      {
+        "const": "VMLT_0233",
+        "description": "Singer"
+      },
+      {
+        "const": "VMLT_0234",
+        "description": "Sitcar"
+      },
+      {
+        "const": "VMLT_0235",
+        "description": "Skoda"
+      },
+      {
+        "const": "VMLT_0236",
+        "description": "Skywind"
+      },
+      {
+        "const": "VMLT_0237",
+        "description": "Smart"
+      },
+      {
+        "const": "VMLT_0238",
+        "description": "Smc"
+      },
+      {
+        "const": "VMLT_0239",
+        "description": "Smiths"
+      },
+      {
+        "const": "VMLT_0240",
+        "description": "Spyker"
+      },
+      {
+        "const": "VMLT_0241",
+        "description": "Ssangyong"
+      },
+      {
+        "const": "VMLT_0242",
+        "description": "Steyr"
+      },
+      {
+        "const": "VMLT_0243",
+        "description": "Strathcarron"
+      },
+      {
+        "const": "VMLT_0244",
+        "description": "Stuart Taylor"
+      },
+      {
+        "const": "VMLT_0245",
+        "description": "Subaru"
+      },
+      {
+        "const": "VMLT_0246",
+        "description": "Sukida"
+      },
+      {
+        "const": "VMLT_0247",
+        "description": "Sunbeam"
+      },
+      {
+        "const": "VMLT_0248",
+        "description": "Superbyke"
+      },
+      {
+        "const": "VMLT_0249",
+        "description": "Suzuki"
+      },
+      {
+        "const": "VMLT_0250",
+        "description": "Talbot"
+      },
+      {
+        "const": "VMLT_0251",
+        "description": "Tata"
+      },
+      {
+        "const": "VMLT_0252",
+        "description": "Tesla"
+      },
+      {
+        "const": "VMLT_0253",
+        "description": "Think Global"
+      },
+      {
+        "const": "VMLT_0254",
+        "description": "Tiger"
+      },
+      {
+        "const": "VMLT_0255",
+        "description": "Toyota"
+      },
+      {
+        "const": "VMLT_0256",
+        "description": "Trigano"
+      },
+      {
+        "const": "VMLT_0257",
+        "description": "Triumph"
+      },
+      {
+        "const": "VMLT_0258",
+        "description": "Tvr"
+      },
+      {
+        "const": "VMLT_0259",
+        "description": "Uaz"
+      },
+      {
+        "const": "VMLT_0260",
+        "description": "Urban"
+      },
+      {
+        "const": "VMLT_0261",
+        "description": "Vanden Plas"
+      },
+      {
+        "const": "VMLT_0262",
+        "description": "Vauxhall"
+      },
+      {
+        "const": "VMLT_0263",
+        "description": "Vdl"
+      },
+      {
+        "const": "VMLT_0264",
+        "description": "Velocette"
+      },
+      {
+        "const": "VMLT_0265",
+        "description": "Venturi"
+      },
+      {
+        "const": "VMLT_0266",
+        "description": "Vespa (Douglas)"
+      },
+      {
+        "const": "VMLT_0267",
+        "description": "Vintage"
+      },
+      {
+        "const": "VMLT_0268",
+        "description": "Volga"
+      },
+      {
+        "const": "VMLT_0269",
+        "description": "Volkswagen"
+      },
+      {
+        "const": "VMLT_0270",
+        "description": "Volkswagen  Comm"
+      },
+      {
+        "const": "VMLT_0271",
+        "description": "Volvo"
+      },
+      {
+        "const": "VMLT_0272",
+        "description": "Wartburg"
+      },
+      {
+        "const": "VMLT_0273",
+        "description": "Weidemann"
+      },
+      {
+        "const": "VMLT_0274",
+        "description": "Westfield"
+      },
+      {
+        "const": "VMLT_0275",
+        "description": "Winget"
+      },
+      {
+        "const": "VMLT_0276",
+        "description": "Wolseley"
+      },
+      {
+        "const": "VMLT_0277",
+        "description": "X-Bow"
+      },
+      {
+        "const": "VMLT_0278",
+        "description": "Yale"
+      },
+      {
+        "const": "VMLT_0279",
+        "description": "Yamaha"
+      },
+      {
+        "const": "VMLT_0280",
+        "description": "Yuan"
+      },
+      {
+        "const": "VMLT_0281",
+        "description": "Zastava"
+      },
+      {
+        "const": "VMLT_0282",
+        "description": "Zenos"
+      },
+      {
+        "const": "VMLT_0283",
+        "description": "Zhenhua"
+      },
+      {
+        "const": "VMLT_0284",
+        "description": "Zingyue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bicycleGearsNumber": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BGNR_0001",
+        "description": "1"
+      },
+      {
+        "const": "BGNR_0002",
+        "description": "2"
+      },
+      {
+        "const": "BGNR_0003",
+        "description": "3"
+      },
+      {
+        "const": "BGNR_0004",
+        "description": "4"
+      },
+      {
+        "const": "BGNR_0005",
+        "description": "5"
+      },
+      {
+        "const": "BGNR_0006",
+        "description": "6"
+      },
+      {
+        "const": "BGNR_0007",
+        "description": "7"
+      },
+      {
+        "const": "BGNR_0008",
+        "description": "8"
+      },
+      {
+        "const": "BGNR_0009",
+        "description": "9"
+      },
+      {
+        "const": "BGNR_0010",
+        "description": "10"
+      },
+      {
+        "const": "BGNR_0011",
+        "description": "11"
+      },
+      {
+        "const": "BGNR_0012",
+        "description": "12"
+      },
+      {
+        "const": "BGNR_0013",
+        "description": "13"
+      },
+      {
+        "const": "BGNR_0014",
+        "description": "14"
+      },
+      {
+        "const": "BGNR_0015",
+        "description": "15"
+      },
+      {
+        "const": "BGNR_0016",
+        "description": "16"
+      },
+      {
+        "const": "BGNR_0017",
+        "description": "17"
+      },
+      {
+        "const": "BGNR_0018",
+        "description": "18"
+      },
+      {
+        "const": "BGNR_0019",
+        "description": "19"
+      },
+      {
+        "const": "BGNR_0020",
+        "description": "20"
+      },
+      {
+        "const": "BGNR_0021",
+        "description": "21"
+      }
+    ]
+  }
+}

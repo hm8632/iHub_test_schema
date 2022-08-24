@@ -1,0 +1,19 @@
+{
+  "contactPreference": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "CPNC_0001",
+        "description": "By email"
+      },
+      {
+        "const": "CPNC_0002",
+        "description": "By phone"
+      },
+      {
+        "const": "CPNC_0003",
+        "description": "By post"
+      }
+    ]
+  }
+}

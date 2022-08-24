@@ -1,0 +1,31 @@
+{
+  "bicycleBrakes": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BBKS_0001",
+        "description": "Cable"
+      },
+      {
+        "const": "BBKS_0002",
+        "description": "Calliper"
+      },
+      {
+        "const": "BBKS_0003",
+        "description": "Cantilever"
+      },
+      {
+        "const": "BBKS_0004",
+        "description": "Disk"
+      },
+      {
+        "const": "BBKS_0005",
+        "description": "Rod"
+      },
+      {
+        "const": "BBKS_0006",
+        "description": "V"
+      }
+    ]
+  }
+}

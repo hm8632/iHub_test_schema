@@ -1,7 +1,7 @@
 {
   "title": "addressAlarm",
   "x-stoplight": {
-    "id": "eq9brhauldli8"
+    "id": "y7hplqh8n91ov"
   },
   "type": "object",
   "properties": {
@@ -15,15 +15,5 @@
       "maxLength": 1000,
       "description": "Details of the alarms fitted at the location/address"
     }
-  },
-  "examples": [
-    {
-      "physicallyAssaulted": true,
-      "physicallyAssaultedDetails": "string",
-      "subjectedToThreatAbuseOrAssault": true,
-      "subjectedToThreatAbuseOrAssaultDetails": "string",
-      "targetedByOffender": true,
-      "targetedByOffenderDetails": "string"
-    }
-  ]
+  }
 }

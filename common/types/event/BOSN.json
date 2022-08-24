@@ -1,0 +1,15 @@
+{
+  "btptrainOrStation": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BOSN_0001",
+        "description": "At a station"
+      },
+      {
+        "const": "BOSN_0002",
+        "description": "On a train"
+      }
+    ]
+  }
+}

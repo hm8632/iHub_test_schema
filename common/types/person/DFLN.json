@@ -1,0 +1,135 @@
+{
+  "distinguishingFeatureLocation": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "DFLN_0001",
+        "description": "Abdomen"
+      },
+      {
+        "const": "DFLN_0002",
+        "description": "Ankle"
+      },
+      {
+        "const": "DFLN_0003",
+        "description": "Arms"
+      },
+      {
+        "const": "DFLN_0004",
+        "description": "Back"
+      },
+      {
+        "const": "DFLN_0005",
+        "description": "Breast"
+      },
+      {
+        "const": "DFLN_0006",
+        "description": "Brow"
+      },
+      {
+        "const": "DFLN_0007",
+        "description": "Buttocks"
+      },
+      {
+        "const": "DFLN_0008",
+        "description": "Chest"
+      },
+      {
+        "const": "DFLN_0009",
+        "description": "Chin"
+      },
+      {
+        "const": "DFLN_0010",
+        "description": "Ears"
+      },
+      {
+        "const": "DFLN_0011",
+        "description": "Elbow"
+      },
+      {
+        "const": "DFLN_0012",
+        "description": "Eyebrow"
+      },
+      {
+        "const": "DFLN_0013",
+        "description": "Eyes"
+      },
+      {
+        "const": "DFLN_0014",
+        "description": "Face"
+      },
+      {
+        "const": "DFLN_0015",
+        "description": "Feet"
+      },
+      {
+        "const": "DFLN_0016",
+        "description": "Fingers"
+      },
+      {
+        "const": "DFLN_0017",
+        "description": "Gait"
+      },
+      {
+        "const": "DFLN_0018",
+        "description": "Genitals"
+      },
+      {
+        "const": "DFLN_0019",
+        "description": "Hand"
+      },
+      {
+        "const": "DFLN_0020",
+        "description": "Hips"
+      },
+      {
+        "const": "DFLN_0021",
+        "description": "Knee"
+      },
+      {
+        "const": "DFLN_0022",
+        "description": "Legs"
+      },
+      {
+        "const": "DFLN_0023",
+        "description": "Lips"
+      },
+      {
+        "const": "DFLN_0024",
+        "description": "Neck"
+      },
+      {
+        "const": "DFLN_0025",
+        "description": "Nipple"
+      },
+      {
+        "const": "DFLN_0026",
+        "description": "Nose"
+      },
+      {
+        "const": "DFLN_0027",
+        "description": "Penis"
+      },
+      {
+        "const": "DFLN_0028",
+        "description": "Scalp"
+      },
+      {
+        "const": "DFLN_0029",
+        "description": "Speech"
+      },
+      {
+        "const": "DFLN_0030",
+        "description": "Teeth"
+      },
+      {
+        "const": "DFLN_0031",
+        "description": "Toes"
+      },
+      {
+        "const": "DFLN_0032",
+        "description": "Tongue"
+      }
+    ]
+  }
+}

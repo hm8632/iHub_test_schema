@@ -1,0 +1,31 @@
+{
+  "bicycleFrameType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BFTP_0001",
+        "description": "Female"
+      },
+      {
+        "const": "BFTP_0002",
+        "description": "Folding"
+      },
+      {
+        "const": "BFTP_0003",
+        "description": "Male"
+      },
+      {
+        "const": "BFTP_0004",
+        "description": "Other"
+      },
+      {
+        "const": "BFTP_0005",
+        "description": "Tricycle"
+      },
+      {
+        "const": "BFTP_0006",
+        "description": "Unisex"
+      }
+    ]
+  }
+}

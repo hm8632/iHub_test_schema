@@ -1,7 +1,7 @@
 {
   "title": "addressUK",
   "x-stoplight": {
-    "id": "se9c8v8g7v4o9"
+    "id": "53qlq997mhkki"
   },
   "type": "object",
   "description": "",
@@ -51,11 +51,5 @@
       "maxLength": 25,
       "description": "Postcode of the location"
     }
-  },
-  "examples": [
-    {
-      "alarmFitted": true,
-      "alarmFittedDetails": "string"
-    }
-  ]
+  }
 }

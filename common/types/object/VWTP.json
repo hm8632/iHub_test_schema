@@ -1,0 +1,19 @@
+{
+  "vehicleWheelType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VWTP_0001",
+        "description": "Alloy"
+      },
+      {
+        "const": "VWTP_0002",
+        "description": "Other"
+      },
+      {
+        "const": "VWTP_0003",
+        "description": "Steel"
+      }
+    ]
+  }
+}

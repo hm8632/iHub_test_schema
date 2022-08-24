@@ -1,0 +1,110 @@
+openapi: 3.1.0
+x-stoplight:
+  id: lizjyb9lwy4sh
+info:
+  title: p-inflight-routing
+  version: '1.0'
+  summary: Gets routing information for SOH and Standard API submissions
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  '/routes/{forceIdentifier}/{category}/{subCategory}':
+    get:
+      summary: Get Routes
+      tags: []
+      responses:
+        '200':
+          $ref: '#/components/responses/Route-Response'
+        '401':
+          description: Unauthorized
+        '500':
+          $ref: '#/components/responses/Error-Response'
+      operationId: get-routes
+    parameters:
+      - schema:
+          type: string
+        name: forceIdentifier
+        in: path
+        required: true
+        description: Force PNC Code
+      - schema:
+          type: string
+        name: category
+        in: path
+        required: true
+        description: Request Category
+      - schema:
+          type: string
+        name: subCategory
+        in: path
+        description: Request SubCategory
+components:
+  schemas:
+    Route:
+      title: Route
+      x-stoplight:
+        id: 1ovnokwqlwrrv
+      type: object
+      description: ''
+      properties:
+        type:
+          type: string
+          enum:
+            - route
+        id:
+          type: string
+        attributes:
+          type: object
+          properties:
+            destination:
+              type: string
+            sendPermenantFailuresViaEmail:
+              type: boolean
+            routeType:
+              type: string
+              enum:
+                - DigitalReporting
+                - Media
+            configuration:
+              type: object
+      required:
+        - destination
+        - sendPermenantFailuresViaEmail
+        - routeType
+  responses:
+    Route-Response:
+      description: Example response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              links:
+                type: object
+                properties:
+                  self:
+                    type: string
+              data:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Route'
+          examples:
+            Basic Digital Reporting Route:
+              value:
+                links:
+                  self: 'https://internal-ihub-np-dlb.lb.anypointdns.net:443/p-inflight-routing/routes/1/OCR/SDA'
+                data:
+                  - type: route
+                    id: 36750ecd-68e8-477b-8899-ddbb53e79448
+                    attributes:
+                      destination: 'https://internal-ihub-np-dlb.lb.anypointdns.net:443/s-connect-rms/v1/processRequest'
+                      sendPermenantFailuresViaEmail: true
+                      routeType: DigitalReporting
+                      configuration: {}
+    Error-Response:
+      description: Example response
+      content:
+        application/json:
+          schema:
+            $ref: ./Standard-API.yaml#/components/schemas/Error
+  securitySchemes: {}

@@ -1,0 +1,23 @@
+{
+  "vehicleFuelTypeList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VFTL_0001",
+        "description": "Diesel"
+      },
+      {
+        "const": "VFTL_0002",
+        "description": "Electric"
+      },
+      {
+        "const": "VFTL_0003",
+        "description": "Other"
+      },
+      {
+        "const": "VFTL_0004",
+        "description": "Petrol"
+      }
+    ]
+  }
+}

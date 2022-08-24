@@ -1,0 +1,31 @@
+{
+  "stolenItemType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "SITP_0001",
+        "description": "Bank card"
+      },
+      {
+        "const": "SITP_0002",
+        "description": "Bicycle"
+      },
+      {
+        "const": "SITP_0003",
+        "description": "Identifiable item"
+      },
+      {
+        "const": "SITP_0004",
+        "description": "Mobile phone or tablet"
+      },
+      {
+        "const": "SITP_0005",
+        "description": "Other"
+      },
+      {
+        "const": "SITP_0006",
+        "description": "Vehicle"
+      }
+    ]
+  }
+}

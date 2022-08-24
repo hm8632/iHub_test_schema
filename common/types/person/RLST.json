@@ -1,0 +1,287 @@
+{
+  "religionList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "RLST_0001",
+        "description": "Adventist"
+      },
+      {
+        "const": "RLST_0002",
+        "description": "Agnostic"
+      },
+      {
+        "const": "RLST_0003",
+        "description": "Anglican"
+      },
+      {
+        "const": "RLST_0004",
+        "description": "Apostolic"
+      },
+      {
+        "const": "RLST_0005",
+        "description": "Atheist"
+      },
+      {
+        "const": "RLST_0006",
+        "description": "Ba&#8217;Hai"
+      },
+      {
+        "const": "RLST_0007",
+        "description": "Baptist"
+      },
+      {
+        "const": "RLST_0008",
+        "description": "Black Muslim"
+      },
+      {
+        "const": "RLST_0009",
+        "description": "Buddhist"
+      },
+      {
+        "const": "RLST_0010",
+        "description": "Calvinist"
+      },
+      {
+        "const": "RLST_0011",
+        "description": "Celestial Church of God"
+      },
+      {
+        "const": "RLST_0012",
+        "description": "Christadelphian"
+      },
+      {
+        "const": "RLST_0013",
+        "description": "Christian"
+      },
+      {
+        "const": "RLST_0014",
+        "description": "Christian Scientist"
+      },
+      {
+        "const": "RLST_0015",
+        "description": "Church In Wales"
+      },
+      {
+        "const": "RLST_0016",
+        "description": "Church of England (Anglican)"
+      },
+      {
+        "const": "RLST_0017",
+        "description": "Church of Ireland"
+      },
+      {
+        "const": "RLST_0018",
+        "description": "Church of Norway"
+      },
+      {
+        "const": "RLST_0019",
+        "description": "Church of Scotland"
+      },
+      {
+        "const": "RLST_0020",
+        "description": "Church of Sweden"
+      },
+      {
+        "const": "RLST_0021",
+        "description": "Congregational"
+      },
+      {
+        "const": "RLST_0022",
+        "description": "Coptic"
+      },
+      {
+        "const": "RLST_0023",
+        "description": "Druid"
+      },
+      {
+        "const": "RLST_0024",
+        "description": "Dutch Reform Church"
+      },
+      {
+        "const": "RLST_0025",
+        "description": "Episcopalian"
+      },
+      {
+        "const": "RLST_0026",
+        "description": "Ethiopian Orthodox"
+      },
+      {
+        "const": "RLST_0027",
+        "description": "Evangelical"
+      },
+      {
+        "const": "RLST_0028",
+        "description": "Gospel"
+      },
+      {
+        "const": "RLST_0029",
+        "description": "Greek Orthodox"
+      },
+      {
+        "const": "RLST_0030",
+        "description": "Hare Krishna"
+      },
+      {
+        "const": "RLST_0031",
+        "description": "Hindu"
+      },
+      {
+        "const": "RLST_0032",
+        "description": "Islam"
+      },
+      {
+        "const": "RLST_0033",
+        "description": "Jain"
+      },
+      {
+        "const": "RLST_0034",
+        "description": "Jehovah&#39;s Witness"
+      },
+      {
+        "const": "RLST_0035",
+        "description": "Jewish"
+      },
+      {
+        "const": "RLST_0036",
+        "description": "Lutheran"
+      },
+      {
+        "const": "RLST_0037",
+        "description": "Methodist"
+      },
+      {
+        "const": "RLST_0038",
+        "description": "Moonie (Krishna Conciousness Movement)"
+      },
+      {
+        "const": "RLST_0039",
+        "description": "Mormon"
+      },
+      {
+        "const": "RLST_0040",
+        "description": "Muslim"
+      },
+      {
+        "const": "RLST_0041",
+        "description": "No religion"
+      },
+      {
+        "const": "RLST_0042",
+        "description": "Non Conformist"
+      },
+      {
+        "const": "RLST_0043",
+        "description": "Non Permitted Religions"
+      },
+      {
+        "const": "RLST_0044",
+        "description": "Not Known"
+      },
+      {
+        "const": "RLST_0045",
+        "description": "Other"
+      },
+      {
+        "const": "RLST_0046",
+        "description": "Pagan"
+      },
+      {
+        "const": "RLST_0047",
+        "description": "Parsi"
+      },
+      {
+        "const": "RLST_0048",
+        "description": "Pentecostal"
+      },
+      {
+        "const": "RLST_0049",
+        "description": "Presbyterian"
+      },
+      {
+        "const": "RLST_0050",
+        "description": "Protestant"
+      },
+      {
+        "const": "RLST_0051",
+        "description": "Quaker"
+      },
+      {
+        "const": "RLST_0052",
+        "description": "Rastafarian"
+      },
+      {
+        "const": "RLST_0053",
+        "description": "Roman Catholic"
+      },
+      {
+        "const": "RLST_0054",
+        "description": "Russian Orthodox"
+      },
+      {
+        "const": "RLST_0055",
+        "description": "Salvation Army"
+      },
+      {
+        "const": "RLST_0056",
+        "description": "Satanism"
+      },
+      {
+        "const": "RLST_0057",
+        "description": "Scientologist"
+      },
+      {
+        "const": "RLST_0058",
+        "description": "Seventh Day Adventist"
+      },
+      {
+        "const": "RLST_0059",
+        "description": "Shia Muslim"
+      },
+      {
+        "const": "RLST_0060",
+        "description": "Shintoist"
+      },
+      {
+        "const": "RLST_0061",
+        "description": "Sikh"
+      },
+      {
+        "const": "RLST_0062",
+        "description": "Spiritualist"
+      },
+      {
+        "const": "RLST_0063",
+        "description": "Sunni Muslim"
+      },
+      {
+        "const": "RLST_0064",
+        "description": "Taoist"
+      },
+      {
+        "const": "RLST_0065",
+        "description": "Unification"
+      },
+      {
+        "const": "RLST_0066",
+        "description": "Unitarian"
+      },
+      {
+        "const": "RLST_0067",
+        "description": "United Reform"
+      },
+      {
+        "const": "RLST_0068",
+        "description": "United Reformed"
+      },
+      {
+        "const": "RLST_0069",
+        "description": "Welsh Independent"
+      },
+      {
+        "const": "RLST_0070",
+        "description": "Zoroastrian"
+      }
+    ]
+  }
+}

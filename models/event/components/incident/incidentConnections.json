@@ -1,7 +1,7 @@
 {
   "title": "incidentConnections",
   "x-stoplight": {
-    "id": "0rcqu9t8vywyl"
+    "id": "5zhe3vbni5vvl"
   },
   "type": "object",
   "description": "",
@@ -16,12 +16,5 @@
       "maxLength": 200,
       "description": "Details of additional persons involved in the incident"
     }
-  },
-  "examples": [
-    {
-      "asbClass": "string",
-      "asbQuestionnaire": true,
-      "asbType": "string"
-    }
-  ]
+  }
 }

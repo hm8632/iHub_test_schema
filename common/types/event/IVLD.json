@@ -1,0 +1,23 @@
+{
+  "howInvolvedInCrime": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "IVLD_0001",
+        "description": "I'm a victim"
+      },
+      {
+        "const": "IVLD_0002",
+        "description": "I witnessed a crime taking place"
+      },
+      {
+        "const": "IVLD_0003",
+        "description": "I'm reporting on behalf of a victim"
+      },
+      {
+        "const": "IVLD_0004",
+        "description": "I'm reporting on behalf of a business"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "bicycleSaddle": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BSDL_0001",
+        "description": "Comfort"
+      },
+      {
+        "const": "BSDL_0002",
+        "description": "Cruiser"
+      },
+      {
+        "const": "BSDL_0003",
+        "description": "Mountain Bike"
+      },
+      {
+        "const": "BSDL_0004",
+        "description": "Noseless"
+      },
+      {
+        "const": "BSDL_0005",
+        "description": "Road Bike"
+      },
+      {
+        "const": "BSDL_0006",
+        "description": "Split"
+      }
+    ]
+  }
+}

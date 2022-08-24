@@ -1,0 +1,95 @@
+{
+  "bicycleType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BICT_0001",
+        "description": "ATB"
+      },
+      {
+        "const": "BICT_0002",
+        "description": "Antique"
+      },
+      {
+        "const": "BICT_0003",
+        "description": "BMX"
+      },
+      {
+        "const": "BICT_0004",
+        "description": "Chopper"
+      },
+      {
+        "const": "BICT_0005",
+        "description": "Cross country"
+      },
+      {
+        "const": "BICT_0006",
+        "description": "Downhill"
+      },
+      {
+        "const": "BICT_0007",
+        "description": "Dual slalom"
+      },
+      {
+        "const": "BICT_0008",
+        "description": "Electric"
+      },
+      {
+        "const": "BICT_0009",
+        "description": "Folding"
+      },
+      {
+        "const": "BICT_0010",
+        "description": "Freestyle"
+      },
+      {
+        "const": "BICT_0011",
+        "description": "Mountain"
+      },
+      {
+        "const": "BICT_0012",
+        "description": "Other"
+      },
+      {
+        "const": "BICT_0013",
+        "description": "Police - marked"
+      },
+      {
+        "const": "BICT_0014",
+        "description": "Police - unmarked"
+      },
+      {
+        "const": "BICT_0015",
+        "description": "Racing"
+      },
+      {
+        "const": "BICT_0016",
+        "description": "Recumbent"
+      },
+      {
+        "const": "BICT_0017",
+        "description": "Regular"
+      },
+      {
+        "const": "BICT_0018",
+        "description": "Tandem"
+      },
+      {
+        "const": "BICT_0019",
+        "description": "Touring"
+      },
+      {
+        "const": "BICT_0020",
+        "description": "Tricycle - adult"
+      },
+      {
+        "const": "BICT_0021",
+        "description": "Tricycle - child"
+      },
+      {
+        "const": "BICT_0022",
+        "description": "Unicycle"
+      }
+    ]
+  }
+}

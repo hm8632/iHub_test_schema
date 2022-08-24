@@ -1,0 +1,383 @@
+{
+  "titleList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "TLST_0001",
+        "description": "Admiral"
+      },
+      {
+        "const": "TLST_0002",
+        "description": "Air chief marshal"
+      },
+      {
+        "const": "TLST_0003",
+        "description": "Air commodore"
+      },
+      {
+        "const": "TLST_0004",
+        "description": "Air marshal"
+      },
+      {
+        "const": "TLST_0005",
+        "description": "Air vice marshal"
+      },
+      {
+        "const": "TLST_0006",
+        "description": "Archdeacon"
+      },
+      {
+        "const": "TLST_0007",
+        "description": "Baron"
+      },
+      {
+        "const": "TLST_0008",
+        "description": "Baroness"
+      },
+      {
+        "const": "TLST_0009",
+        "description": "Brigadier"
+      },
+      {
+        "const": "TLST_0010",
+        "description": "Brother"
+      },
+      {
+        "const": "TLST_0011",
+        "description": "C/Insp"
+      },
+      {
+        "const": "TLST_0012",
+        "description": "C/Supt"
+      },
+      {
+        "const": "TLST_0013",
+        "description": "Canon"
+      },
+      {
+        "const": "TLST_0014",
+        "description": "Captain"
+      },
+      {
+        "const": "TLST_0015",
+        "description": "Chief Constable"
+      },
+      {
+        "const": "TLST_0016",
+        "description": "Chief petty officer"
+      },
+      {
+        "const": "TLST_0017",
+        "description": "Colonel"
+      },
+      {
+        "const": "TLST_0018",
+        "description": "Colour sergeant"
+      },
+      {
+        "const": "TLST_0019",
+        "description": "Commander"
+      },
+      {
+        "const": "TLST_0020",
+        "description": "Commodore"
+      },
+      {
+        "const": "TLST_0021",
+        "description": "Company sergeant major"
+      },
+      {
+        "const": "TLST_0022",
+        "description": "Corporal"
+      },
+      {
+        "const": "TLST_0023",
+        "description": "Councillor"
+      },
+      {
+        "const": "TLST_0024",
+        "description": "Countess"
+      },
+      {
+        "const": "TLST_0025",
+        "description": "D.Supt"
+      },
+      {
+        "const": "TLST_0026",
+        "description": "DC"
+      },
+      {
+        "const": "TLST_0027",
+        "description": "DCC"
+      },
+      {
+        "const": "TLST_0028",
+        "description": "DCI"
+      },
+      {
+        "const": "TLST_0029",
+        "description": "DI"
+      },
+      {
+        "const": "TLST_0030",
+        "description": "DS"
+      },
+      {
+        "const": "TLST_0031",
+        "description": "Dame"
+      },
+      {
+        "const": "TLST_0032",
+        "description": "Dean"
+      },
+      {
+        "const": "TLST_0033",
+        "description": "Doctor"
+      },
+      {
+        "const": "TLST_0034",
+        "description": "Duchess"
+      },
+      {
+        "const": "TLST_0035",
+        "description": "Duke"
+      },
+      {
+        "const": "TLST_0036",
+        "description": "Earl"
+      },
+      {
+        "const": "TLST_0037",
+        "description": "Father"
+      },
+      {
+        "const": "TLST_0038",
+        "description": "Field marshal"
+      },
+      {
+        "const": "TLST_0039",
+        "description": "Flight lieutenant"
+      },
+      {
+        "const": "TLST_0040",
+        "description": "Flight sergeant"
+      },
+      {
+        "const": "TLST_0041",
+        "description": "Flying officer"
+      },
+      {
+        "const": "TLST_0042",
+        "description": "General"
+      },
+      {
+        "const": "TLST_0043",
+        "description": "Group captain"
+      },
+      {
+        "const": "TLST_0044",
+        "description": "HRH"
+      },
+      {
+        "const": "TLST_0045",
+        "description": "Insp"
+      },
+      {
+        "const": "TLST_0046",
+        "description": "Judge"
+      },
+      {
+        "const": "TLST_0047",
+        "description": "Lady"
+      },
+      {
+        "const": "TLST_0048",
+        "description": "Lance corporal"
+      },
+      {
+        "const": "TLST_0049",
+        "description": "Lieutenant"
+      },
+      {
+        "const": "TLST_0050",
+        "description": "Lieutenant colonel"
+      },
+      {
+        "const": "TLST_0051",
+        "description": "Lieutenant general"
+      },
+      {
+        "const": "TLST_0052",
+        "description": "Lieutenant-commander"
+      },
+      {
+        "const": "TLST_0053",
+        "description": "Lord"
+      },
+      {
+        "const": "TLST_0054",
+        "description": "Madam"
+      },
+      {
+        "const": "TLST_0055",
+        "description": "Major"
+      },
+      {
+        "const": "TLST_0056",
+        "description": "Major general"
+      },
+      {
+        "const": "TLST_0057",
+        "description": "Marchioness"
+      },
+      {
+        "const": "TLST_0058",
+        "description": "Marquess"
+      },
+      {
+        "const": "TLST_0059",
+        "description": "Messrs"
+      },
+      {
+        "const": "TLST_0060",
+        "description": "Miss"
+      },
+      {
+        "const": "TLST_0061",
+        "description": "Mr"
+      },
+      {
+        "const": "TLST_0062",
+        "description": "Mrs"
+      },
+      {
+        "const": "TLST_0063",
+        "description": "Ms"
+      },
+      {
+        "const": "TLST_0064",
+        "description": "Other title"
+      },
+      {
+        "const": "TLST_0065",
+        "description": "PC"
+      },
+      {
+        "const": "TLST_0066",
+        "description": "PCSO"
+      },
+      {
+        "const": "TLST_0067",
+        "description": "PS"
+      },
+      {
+        "const": "TLST_0068",
+        "description": "Pastor"
+      },
+      {
+        "const": "TLST_0069",
+        "description": "Petty officer"
+      },
+      {
+        "const": "TLST_0070",
+        "description": "Pilot officer"
+      },
+      {
+        "const": "TLST_0071",
+        "description": "Private"
+      },
+      {
+        "const": "TLST_0072",
+        "description": "Professor"
+      },
+      {
+        "const": "TLST_0073",
+        "description": "Rabbi"
+      },
+      {
+        "const": "TLST_0074",
+        "description": "Rear admiral"
+      },
+      {
+        "const": "TLST_0075",
+        "description": "Rector"
+      },
+      {
+        "const": "TLST_0076",
+        "description": "Regimental sergeant major"
+      },
+      {
+        "const": "TLST_0077",
+        "description": "Reverend"
+      },
+      {
+        "const": "TLST_0078",
+        "description": "Right honourable"
+      },
+      {
+        "const": "TLST_0079",
+        "description": "Second lieutenant"
+      },
+      {
+        "const": "TLST_0080",
+        "description": "Sergeant"
+      },
+      {
+        "const": "TLST_0081",
+        "description": "Sir"
+      },
+      {
+        "const": "TLST_0082",
+        "description": "Sister"
+      },
+      {
+        "const": "TLST_0083",
+        "description": "Squadron leader"
+      },
+      {
+        "const": "TLST_0084",
+        "description": "Staff sergeant"
+      },
+      {
+        "const": "TLST_0085",
+        "description": "Sub-lieutenant"
+      },
+      {
+        "const": "TLST_0086",
+        "description": "Supt"
+      },
+      {
+        "const": "TLST_0087",
+        "description": "The honourable"
+      },
+      {
+        "const": "TLST_0088",
+        "description": "Vice admiral"
+      },
+      {
+        "const": "TLST_0089",
+        "description": "Viscount"
+      },
+      {
+        "const": "TLST_0090",
+        "description": "Viscountess"
+      },
+      {
+        "const": "TLST_0091",
+        "description": "Warrant officer"
+      },
+      {
+        "const": "TLST_0092",
+        "description": "Warrant officer class 1"
+      },
+      {
+        "const": "TLST_0093",
+        "description": "Warrant officer class 2"
+      },
+      {
+        "const": "TLST_0094",
+        "description": "Wing commander"
+      }
+    ]
+  }
+}

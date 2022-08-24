@@ -1,0 +1,179 @@
+{
+  "weaponType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "WTLT_0001",
+        "description": "Asp"
+      },
+      {
+        "const": "WTLT_0002",
+        "description": "Axe"
+      },
+      {
+        "const": "WTLT_0003",
+        "description": "Baseball bat"
+      },
+      {
+        "const": "WTLT_0004",
+        "description": "Baton"
+      },
+      {
+        "const": "WTLT_0005",
+        "description": "Bayonet"
+      },
+      {
+        "const": "WTLT_0006",
+        "description": "Bow"
+      },
+      {
+        "const": "WTLT_0007",
+        "description": "Catapult"
+      },
+      {
+        "const": "WTLT_0008",
+        "description": "Concealed"
+      },
+      {
+        "const": "WTLT_0009",
+        "description": "Cosh"
+      },
+      {
+        "const": "WTLT_0010",
+        "description": "Cross Bow"
+      },
+      {
+        "const": "WTLT_0011",
+        "description": "Crowbar"
+      },
+      {
+        "const": "WTLT_0012",
+        "description": "Dagger"
+      },
+      {
+        "const": "WTLT_0013",
+        "description": "Disguised"
+      },
+      {
+        "const": "WTLT_0014",
+        "description": "Dynamite"
+      },
+      {
+        "const": "WTLT_0015",
+        "description": "Incapacitant spray-CS"
+      },
+      {
+        "const": "WTLT_0016",
+        "description": "Incapacitant spray-Mace"
+      },
+      {
+        "const": "WTLT_0017",
+        "description": "Incapacitant spray-PAVA"
+      },
+      {
+        "const": "WTLT_0018",
+        "description": "Incapacitant spray-Pepper"
+      },
+      {
+        "const": "WTLT_0019",
+        "description": "Knife-Butterfly"
+      },
+      {
+        "const": "WTLT_0020",
+        "description": "Knife-Craft"
+      },
+      {
+        "const": "WTLT_0021",
+        "description": "Knife-Diving"
+      },
+      {
+        "const": "WTLT_0022",
+        "description": "Knife-Flick"
+      },
+      {
+        "const": "WTLT_0023",
+        "description": "Knife-Kitchen"
+      },
+      {
+        "const": "WTLT_0024",
+        "description": "Knife-Lock"
+      },
+      {
+        "const": "WTLT_0025",
+        "description": "Knife-Stanley"
+      },
+      {
+        "const": "WTLT_0026",
+        "description": "Knife-Swiss Army"
+      },
+      {
+        "const": "WTLT_0027",
+        "description": "Knife-other"
+      },
+      {
+        "const": "WTLT_0028",
+        "description": "Knuckle Duster"
+      },
+      {
+        "const": "WTLT_0029",
+        "description": "Kukri | Metal bar"
+      },
+      {
+        "const": "WTLT_0030",
+        "description": "Nunchukas"
+      },
+      {
+        "const": "WTLT_0031",
+        "description": "Other Martial Art"
+      },
+      {
+        "const": "WTLT_0032",
+        "description": "Other weapons - not guns"
+      },
+      {
+        "const": "WTLT_0033",
+        "description": "Penknife"
+      },
+      {
+        "const": "WTLT_0034",
+        "description": "Pistol"
+      },
+      {
+        "const": "WTLT_0035",
+        "description": "Rifle"
+      },
+      {
+        "const": "WTLT_0036",
+        "description": "Sjambok"
+      },
+      {
+        "const": "WTLT_0037",
+        "description": "Spear"
+      },
+      {
+        "const": "WTLT_0038",
+        "description": "Sword-cane"
+      },
+      {
+        "const": "WTLT_0039",
+        "description": "Sword-military"
+      },
+      {
+        "const": "WTLT_0040",
+        "description": "Sword-ornamental"
+      },
+      {
+        "const": "WTLT_0041",
+        "description": "Sword-other"
+      },
+      {
+        "const": "WTLT_0042",
+        "description": "Sword-samurai"
+      },
+      {
+        "const": "WTLT_0043",
+        "description": "Throwing Star"
+      }
+    ]
+  }
+}

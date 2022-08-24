@@ -1,0 +1,71 @@
+{
+  "damagedPropertyUnits": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "DPUS_0001",
+        "description": "cc"
+      },
+      {
+        "const": "DPUS_0002",
+        "description": "cl"
+      },
+      {
+        "const": "DPUS_0003",
+        "description": "cm"
+      },
+      {
+        "const": "DPUS_0004",
+        "description": "g"
+      },
+      {
+        "const": "DPUS_0005",
+        "description": "gb"
+      },
+      {
+        "const": "DPUS_0006",
+        "description": "kb"
+      },
+      {
+        "const": "DPUS_0007",
+        "description": "kg"
+      },
+      {
+        "const": "DPUS_0008",
+        "description": "lb"
+      },
+      {
+        "const": "DPUS_0009",
+        "description": "litre"
+      },
+      {
+        "const": "DPUS_0010",
+        "description": "m"
+      },
+      {
+        "const": "DPUS_0011",
+        "description": "mb"
+      },
+      {
+        "const": "DPUS_0012",
+        "description": "mcL"
+      },
+      {
+        "const": "DPUS_0013",
+        "description": "mg"
+      },
+      {
+        "const": "DPUS_0014",
+        "description": "ml"
+      },
+      {
+        "const": "DPUS_0015",
+        "description": "mm"
+      },
+      {
+        "const": "DPUS_0016",
+        "description": "oz"
+      }
+    ]
+  }
+}

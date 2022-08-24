@@ -1,0 +1,19 @@
+{
+  "suspectKnown": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "SKWN_0001",
+        "description": "No, I don&#39;t know anything about them"
+      },
+      {
+        "const": "SKWN_0002",
+        "description": "No, but I can describe them"
+      },
+      {
+        "const": "SKWN_0003",
+        "description": "Yes, I know them"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "disabilityCategory": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "DCRY_0001",
+        "description": "I don&#39;t know"
+      },
+      {
+        "const": "DCRY_0002",
+        "description": "Learning difficulties"
+      },
+      {
+        "const": "DCRY_0003",
+        "description": "Mental health / psychological"
+      },
+      {
+        "const": "DCRY_0004",
+        "description": "Other"
+      },
+      {
+        "const": "DCRY_0005",
+        "description": "Physical"
+      },
+      {
+        "const": "DCRY_0006",
+        "description": "Prefer not to say"
+      },
+      {
+        "const": "DCRY_0007",
+        "description": "Sensory"
+      }
+    ]
+  }
+}

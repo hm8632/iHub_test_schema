@@ -1,0 +1,51 @@
+{
+  "ageRange": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "ARNG_0001",
+        "description": "0 to 9"
+      },
+      {
+        "const": "ARNG_0002",
+        "description": "10 to 16"
+      },
+      {
+        "const": "ARNG_0003",
+        "description": "10 to 17"
+      },
+      {
+        "const": "ARNG_0004",
+        "description": "17 to 24"
+      },
+      {
+        "const": "ARNG_0005",
+        "description": "18 to 24"
+      },
+      {
+        "const": "ARNG_0006",
+        "description": "25 to 39"
+      },
+      {
+        "const": "ARNG_0007",
+        "description": "40 to 54"
+      },
+      {
+        "const": "ARNG_0008",
+        "description": "55 to 69"
+      },
+      {
+        "const": "ARNG_0009",
+        "description": "70 to 79"
+      },
+      {
+        "const": "ARNG_0010",
+        "description": "80+"
+      },
+      {
+        "const": "ARNG_0011",
+        "description": "Not Known"
+      }
+    ]
+  }
+}

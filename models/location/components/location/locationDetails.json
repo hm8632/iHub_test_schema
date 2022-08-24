@@ -1,7 +1,7 @@
 {
   "title": "locationDetails",
   "x-stoplight": {
-    "id": "4luzs9bied7as"
+    "id": "mxwvpzkxtghp9"
   },
   "type": "object",
   "properties": {
@@ -47,17 +47,5 @@
       "type": "boolean",
       "description": "Whether the map location is correct"
     }
-  },
-  "examples": [
-    {
-      "locationArea": "string",
-      "locationEasting": "string",
-      "locationLatitude": "string",
-      "locationLongitude": "string",
-      "locationNorthing": "string",
-      "locationUPRN": "stringstring",
-      "mapLocationAdditionalDetails": "string",
-      "mapLocationCorrect": true
-    }
-  ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "title": "incidentTime",
   "x-stoplight": {
-    "id": "efn5rlhbnopao"
+    "id": "yqii6f5m4kspp"
   },
   "type": "object",
   "properties": {
@@ -36,15 +36,5 @@
       "format": "date-time",
       "description": "Exact start time of which the incident took place"
     }
-  },
-  "examples": [
-    {
-      "physicallyAssaulted": true,
-      "physicallyAssaultedDetails": "string",
-      "subjectedToThreatAbuseOrAssault": true,
-      "subjectedToThreatAbuseOrAssaultDetails": "string",
-      "targetedByOffender": true,
-      "targetedByOffenderDetails": "string"
-    }
-  ]
+  }
 }

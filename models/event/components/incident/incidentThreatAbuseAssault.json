@@ -1,7 +1,7 @@
 {
   "title": "incidentThreatAbuseAssault",
   "x-stoplight": {
-    "id": "m5rvuahp86qbr"
+    "id": "d6qpmfuegtgaf"
   },
   "type": "object",
   "properties": {
@@ -33,11 +33,5 @@
       "type": "string",
       "description": "Details of the victim being targeted by the offender"
     }
-  },
-  "examples": [
-    {
-      "nsirClosingCode": "str",
-      "nsirOpeningCode": "str"
-    }
-  ]
+  }
 }

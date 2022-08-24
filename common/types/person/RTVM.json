@@ -1,0 +1,19 @@
+{
+  "relationshipToVictim": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "RTVM_0001",
+        "description": "Friend"
+      },
+      {
+        "const": "RTVM_0002",
+        "description": "Other"
+      },
+      {
+        "const": "RTVM_0003",
+        "description": "Relative"
+      }
+    ]
+  }
+}

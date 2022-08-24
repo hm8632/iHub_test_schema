@@ -1,0 +1,27 @@
+{
+  "beforeWebsiteBtp": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BWBP_0001",
+        "description": "I called 0800 40 50 40"
+      },
+      {
+        "const": "BWBP_0002",
+        "description": "I spoke to an officer in person"
+      },
+      {
+        "const": "BWBP_0003",
+        "description": "I visited a police station"
+      },
+      {
+        "const": "BWBP_0004",
+        "description": "None of the above; this is the first time I&#39;m contacting you about this"
+      },
+      {
+        "const": "BWBP_0005",
+        "description": "Other"
+      }
+    ]
+  }
+}

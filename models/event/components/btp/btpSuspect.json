@@ -1,7 +1,7 @@
 {
   "title": "btpSuspect",
   "x-stoplight": {
-    "id": "f527nofd3es25"
+    "id": "xuay62x1hmedh"
   },
   "type": "object",
   "properties": {
@@ -17,12 +17,5 @@
       "type": "string",
       "description": "Whether the suspect got on or off the train"
     }
-  },
-  "examples": [
-    {
-      "btpsuspectBoardingStation": "string",
-      "btpsuspectDisembarkStation": "string",
-      "btpsuspectGotOnOrOff": "string"
-    }
-  ]
+  }
 }

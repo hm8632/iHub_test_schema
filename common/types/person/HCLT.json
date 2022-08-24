@@ -1,0 +1,103 @@
+{
+  "hairColourList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "HCLT_0001",
+        "description": "Auburn"
+      },
+      {
+        "const": "HCLT_0002",
+        "description": "Black"
+      },
+      {
+        "const": "HCLT_0003",
+        "description": "Blonde"
+      },
+      {
+        "const": "HCLT_0004",
+        "description": "Blue"
+      },
+      {
+        "const": "HCLT_0005",
+        "description": "Brown"
+      },
+      {
+        "const": "HCLT_0006",
+        "description": "Dark Brown"
+      },
+      {
+        "const": "HCLT_0007",
+        "description": "Dark brown"
+      },
+      {
+        "const": "HCLT_0008",
+        "description": "Fair"
+      },
+      {
+        "const": "HCLT_0009",
+        "description": "Ginger"
+      },
+      {
+        "const": "HCLT_0010",
+        "description": "Green"
+      },
+      {
+        "const": "HCLT_0011",
+        "description": "Grey"
+      },
+      {
+        "const": "HCLT_0012",
+        "description": "Light Brown"
+      },
+      {
+        "const": "HCLT_0013",
+        "description": "Light brown"
+      },
+      {
+        "const": "HCLT_0014",
+        "description": "Mousey"
+      },
+      {
+        "const": "HCLT_0015",
+        "description": "Multi"
+      },
+      {
+        "const": "HCLT_0016",
+        "description": "None"
+      },
+      {
+        "const": "HCLT_0017",
+        "description": "Orange"
+      },
+      {
+        "const": "HCLT_0018",
+        "description": "Other"
+      },
+      {
+        "const": "HCLT_0019",
+        "description": "Pink"
+      },
+      {
+        "const": "HCLT_0020",
+        "description": "Purple"
+      },
+      {
+        "const": "HCLT_0021",
+        "description": "Red"
+      },
+      {
+        "const": "HCLT_0022",
+        "description": "Sandy"
+      },
+      {
+        "const": "HCLT_0023",
+        "description": "White"
+      },
+      {
+        "const": "HCLT_0024",
+        "description": "Yellow"
+      }
+    ]
+  }
+}

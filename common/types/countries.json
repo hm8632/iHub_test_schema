@@ -1,0 +1,9 @@
+{
+  "countries": {
+    "type": "string",
+    "enum": [
+      "Great Britain",
+      "United States Of America"
+    ]
+  }
+}

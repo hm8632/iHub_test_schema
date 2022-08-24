@@ -1,7 +1,7 @@
 {
   "title": "incidentPublicTransport",
   "x-stoplight": {
-    "id": "90jkyof1f1545"
+    "id": "6p2f1qpraekdy"
   },
   "type": "object",
   "properties": {
@@ -26,11 +26,5 @@
     "publicTransportType": {
       "$ref": "../../../../common/types/event/PTTP.json#/publicTransportType"
     }
-  },
-  "examples": [
-    {
-      "nsirClosingCode": "str",
-      "nsirOpeningCode": "str"
-    }
-  ]
+  }
 }

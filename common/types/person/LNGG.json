@@ -1,0 +1,2083 @@
+{
+  "language": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "LNGG_AAR",
+        "description": "Afar"
+      },
+      {
+        "const": "LNGG_ABK",
+        "description": "Abkhazian"
+      },
+      {
+        "const": "LNGG_ACE",
+        "description": "Achinese"
+      },
+      {
+        "const": "LNGG_ACH",
+        "description": "Acoli"
+      },
+      {
+        "const": "LNGG_ADA",
+        "description": "Adangme"
+      },
+      {
+        "const": "LNGG_ADY",
+        "description": "Adyghe; Adygei"
+      },
+      {
+        "const": "LNGG_AFA",
+        "description": "Afro-Asiatic languages"
+      },
+      {
+        "const": "LNGG_AFH",
+        "description": "Afrihili"
+      },
+      {
+        "const": "LNGG_AFR",
+        "description": "Afrikaans"
+      },
+      {
+        "const": "LNGG_AIN",
+        "description": "Ainu"
+      },
+      {
+        "const": "LNGG_AKA",
+        "description": "Akan"
+      },
+      {
+        "const": "LNGG_AKK",
+        "description": "Akkadian"
+      },
+      {
+        "const": "LNGG_ALE",
+        "description": "Aleut"
+      },
+      {
+        "const": "LNGG_ALG",
+        "description": "Algonquian languages"
+      },
+      {
+        "const": "LNGG_ALT",
+        "description": "Southern Altai"
+      },
+      {
+        "const": "LNGG_AMH",
+        "description": "Amharic"
+      },
+      {
+        "const": "LNGG_ANG",
+        "description": "English, Old (ca.450–1100)"
+      },
+      {
+        "const": "LNGG_ANP",
+        "description": "Angika"
+      },
+      {
+        "const": "LNGG_APA",
+        "description": "Apache languages"
+      },
+      {
+        "const": "LNGG_ARA",
+        "description": "Arabic"
+      },
+      {
+        "const": "LNGG_ARC",
+        "description": "Official Aramaic (700–300 BCE); Imperial Aramaic (700–300 BCE)"
+      },
+      {
+        "const": "LNGG_ARG",
+        "description": "Aragonese"
+      },
+      {
+        "const": "LNGG_ARN",
+        "description": "Mapudungun; Mapuche"
+      },
+      {
+        "const": "LNGG_ARP",
+        "description": "Arapaho"
+      },
+      {
+        "const": "LNGG_ART",
+        "description": "Artificial languages"
+      },
+      {
+        "const": "LNGG_ARW",
+        "description": "Arawak"
+      },
+      {
+        "const": "LNGG_ASM",
+        "description": "Assamese"
+      },
+      {
+        "const": "LNGG_AST",
+        "description": "Asturian; Bable; Leonese; Asturleonese"
+      },
+      {
+        "const": "LNGG_ATH",
+        "description": "Athapascan languages"
+      },
+      {
+        "const": "LNGG_AUS",
+        "description": "Australian languages"
+      },
+      {
+        "const": "LNGG_AVA",
+        "description": "Avaric"
+      },
+      {
+        "const": "LNGG_AVE",
+        "description": "Avestan"
+      },
+      {
+        "const": "LNGG_AWA",
+        "description": "Awadhi"
+      },
+      {
+        "const": "LNGG_AYM",
+        "description": "Aymara"
+      },
+      {
+        "const": "LNGG_AZE",
+        "description": "Azerbaijani"
+      },
+      {
+        "const": "LNGG_BAD",
+        "description": "Banda languages"
+      },
+      {
+        "const": "LNGG_BAI",
+        "description": "Bamileke languages"
+      },
+      {
+        "const": "LNGG_BAK",
+        "description": "Bashkir"
+      },
+      {
+        "const": "LNGG_BAL",
+        "description": "Baluchi"
+      },
+      {
+        "const": "LNGG_BAM",
+        "description": "Bambara"
+      },
+      {
+        "const": "LNGG_BAN",
+        "description": "Balinese"
+      },
+      {
+        "const": "LNGG_BAS",
+        "description": "Basa"
+      },
+      {
+        "const": "LNGG_BAT",
+        "description": "Baltic languages"
+      },
+      {
+        "const": "LNGG_BEJ",
+        "description": "Beja; Bedawiyet"
+      },
+      {
+        "const": "LNGG_BEL",
+        "description": "Belarusian"
+      },
+      {
+        "const": "LNGG_BEM",
+        "description": "Bemba"
+      },
+      {
+        "const": "LNGG_BEN",
+        "description": "Bengali"
+      },
+      {
+        "const": "LNGG_BER",
+        "description": "Berber Languages"
+      },
+      {
+        "const": "LNGG_BHO",
+        "description": "Bhojpuri"
+      },
+      {
+        "const": "LNGG_BIH",
+        "description": "Bihari languages"
+      },
+      {
+        "const": "LNGG_BIK",
+        "description": "Bikol"
+      },
+      {
+        "const": "LNGG_BIN",
+        "description": "Bini; Edo"
+      },
+      {
+        "const": "LNGG_BIS",
+        "description": "Bislama"
+      },
+      {
+        "const": "LNGG_BLA",
+        "description": "Siksika"
+      },
+      {
+        "const": "LNGG_BNT",
+        "description": "Bantu languages"
+      },
+      {
+        "const": "LNGG_BOD",
+        "description": "Tibetan"
+      },
+      {
+        "const": "LNGG_BOS",
+        "description": "Bosnian"
+      },
+      {
+        "const": "LNGG_BRA",
+        "description": "Braj"
+      },
+      {
+        "const": "LNGG_BRE",
+        "description": "Breton"
+      },
+      {
+        "const": "LNGG_BTK",
+        "description": "Batak languages"
+      },
+      {
+        "const": "LNGG_BUA",
+        "description": "Buriat"
+      },
+      {
+        "const": "LNGG_BUG",
+        "description": "Buginese"
+      },
+      {
+        "const": "LNGG_BUL",
+        "description": "Bulgarian"
+      },
+      {
+        "const": "LNGG_BYN",
+        "description": "Blin; Bilin"
+      },
+      {
+        "const": "LNGG_CAD",
+        "description": "Caddo"
+      },
+      {
+        "const": "LNGG_CAI",
+        "description": "Central American Indian languages"
+      },
+      {
+        "const": "LNGG_CAR",
+        "description": "Galibi Carib"
+      },
+      {
+        "const": "LNGG_CAT",
+        "description": "Catalan; Valencian"
+      },
+      {
+        "const": "LNGG_CAU",
+        "description": "Caucasian languages"
+      },
+      {
+        "const": "LNGG_CEB",
+        "description": "Cebuano"
+      },
+      {
+        "const": "LNGG_CEL",
+        "description": "Celtic languages"
+      },
+      {
+        "const": "LNGG_CES",
+        "description": "Czech"
+      },
+      {
+        "const": "LNGG_CHA",
+        "description": "Chamorro"
+      },
+      {
+        "const": "LNGG_CHB",
+        "description": "Chibcha"
+      },
+      {
+        "const": "LNGG_CHE",
+        "description": "Chechen"
+      },
+      {
+        "const": "LNGG_CHG",
+        "description": "Chagatai"
+      },
+      {
+        "const": "LNGG_CHK",
+        "description": "Chuukese"
+      },
+      {
+        "const": "LNGG_CHM",
+        "description": "Mari"
+      },
+      {
+        "const": "LNGG_CHN",
+        "description": "Chinook jargon"
+      },
+      {
+        "const": "LNGG_CHO",
+        "description": "Choctaw"
+      },
+      {
+        "const": "LNGG_CHP",
+        "description": "Chipewyan; Dene Suline"
+      },
+      {
+        "const": "LNGG_CHR",
+        "description": "Cherokee"
+      },
+      {
+        "const": "LNGG_CHU",
+        "description": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+      },
+      {
+        "const": "LNGG_CHV",
+        "description": "Chuvash"
+      },
+      {
+        "const": "LNGG_CHY",
+        "description": "Cheyenne"
+      },
+      {
+        "const": "LNGG_CMC",
+        "description": "Chamic languages"
+      },
+      {
+        "const": "LNGG_CNR",
+        "description": "Montenegrin"
+      },
+      {
+        "const": "LNGG_COP",
+        "description": "Coptic"
+      },
+      {
+        "const": "LNGG_COR",
+        "description": "Cornish"
+      },
+      {
+        "const": "LNGG_COS",
+        "description": "Corsican"
+      },
+      {
+        "const": "LNGG_CPE",
+        "description": "Creoles and pidgins, English based"
+      },
+      {
+        "const": "LNGG_CPF",
+        "description": "Creoles and pidgins, French-based"
+      },
+      {
+        "const": "LNGG_CPP",
+        "description": "Creoles and pidgins, Portuguese-based"
+      },
+      {
+        "const": "LNGG_CRE",
+        "description": "Cree"
+      },
+      {
+        "const": "LNGG_CRH",
+        "description": "Crimean Tatar; Crimean Turkish"
+      },
+      {
+        "const": "LNGG_CRP",
+        "description": "Creoles and pidgins"
+      },
+      {
+        "const": "LNGG_CSB",
+        "description": "Kashubian"
+      },
+      {
+        "const": "LNGG_CUS",
+        "description": "Cushitic languages"
+      },
+      {
+        "const": "LNGG_CYM",
+        "description": "Welsh"
+      },
+      {
+        "const": "LNGG_DAK",
+        "description": "Dakota"
+      },
+      {
+        "const": "LNGG_DAN",
+        "description": "Danish"
+      },
+      {
+        "const": "LNGG_DAR",
+        "description": "Dargwa"
+      },
+      {
+        "const": "LNGG_DAY",
+        "description": "Land Dayak languages"
+      },
+      {
+        "const": "LNGG_DEL",
+        "description": "Delaware"
+      },
+      {
+        "const": "LNGG_DEN",
+        "description": "Slave (Athapascan)"
+      },
+      {
+        "const": "LNGG_DEU",
+        "description": "German"
+      },
+      {
+        "const": "LNGG_DGR",
+        "description": "Dogrib"
+      },
+      {
+        "const": "LNGG_DIN",
+        "description": "Dinka"
+      },
+      {
+        "const": "LNGG_DIV",
+        "description": "Divehi; Dhivehi; Maldivian"
+      },
+      {
+        "const": "LNGG_DOI",
+        "description": "Dogri"
+      },
+      {
+        "const": "LNGG_DRA",
+        "description": "Dravidian languages"
+      },
+      {
+        "const": "LNGG_DSB",
+        "description": "Lower Sorbian"
+      },
+      {
+        "const": "LNGG_DUA",
+        "description": "Duala"
+      },
+      {
+        "const": "LNGG_DUM",
+        "description": "Dutch, Middle (ca. 1050–1350)"
+      },
+      {
+        "const": "LNGG_DYU",
+        "description": "Dyula"
+      },
+      {
+        "const": "LNGG_DZO",
+        "description": "Dzongkha"
+      },
+      {
+        "const": "LNGG_EFI",
+        "description": "Efik"
+      },
+      {
+        "const": "LNGG_EGY",
+        "description": "Egyptian (Ancient)"
+      },
+      {
+        "const": "LNGG_EKA",
+        "description": "Ekajuk"
+      },
+      {
+        "const": "LNGG_ELL",
+        "description": "Greek, Modern (1453–)"
+      },
+      {
+        "const": "LNGG_ELX",
+        "description": "Elamite"
+      },
+      {
+        "const": "LNGG_ENG",
+        "description": "English"
+      },
+      {
+        "const": "LNGG_ENM",
+        "description": "English, Middle (1100–1500)"
+      },
+      {
+        "const": "LNGG_EPO",
+        "description": "Esperanto"
+      },
+      {
+        "const": "LNGG_EST",
+        "description": "Estonian"
+      },
+      {
+        "const": "LNGG_EUS",
+        "description": "Basque"
+      },
+      {
+        "const": "LNGG_EWE",
+        "description": "Ewe"
+      },
+      {
+        "const": "LNGG_EWO",
+        "description": "Ewondo"
+      },
+      {
+        "const": "LNGG_FAN",
+        "description": "Fang"
+      },
+      {
+        "const": "LNGG_FAO",
+        "description": "Faroese"
+      },
+      {
+        "const": "LNGG_FAS",
+        "description": "Persian"
+      },
+      {
+        "const": "LNGG_FAT",
+        "description": "Fanti"
+      },
+      {
+        "const": "LNGG_FIJ",
+        "description": "Fijian"
+      },
+      {
+        "const": "LNGG_FIL",
+        "description": "Filipino; Pilipino"
+      },
+      {
+        "const": "LNGG_FIN",
+        "description": "Finnish"
+      },
+      {
+        "const": "LNGG_FIU",
+        "description": "Finno-Ugrian languages"
+      },
+      {
+        "const": "LNGG_FON",
+        "description": "Fon"
+      },
+      {
+        "const": "LNGG_FRA",
+        "description": "French"
+      },
+      {
+        "const": "LNGG_FRM",
+        "description": "French, Middle (ca. 1400–1600)"
+      },
+      {
+        "const": "LNGG_FRO",
+        "description": "French, Old (842–ca. 1400)"
+      },
+      {
+        "const": "LNGG_FRR",
+        "description": "Northern Frisian"
+      },
+      {
+        "const": "LNGG_FRS",
+        "description": "East Frisian Low Saxon"
+      },
+      {
+        "const": "LNGG_FRY",
+        "description": "Western Frisian"
+      },
+      {
+        "const": "LNGG_FUL",
+        "description": "Fulah"
+      },
+      {
+        "const": "LNGG_FUR",
+        "description": "Friulian"
+      },
+      {
+        "const": "LNGG_GAA",
+        "description": "Ga"
+      },
+      {
+        "const": "LNGG_GAY",
+        "description": "Gayo"
+      },
+      {
+        "const": "LNGG_GBA",
+        "description": "Gbaya"
+      },
+      {
+        "const": "LNGG_GEM",
+        "description": "Germanic languages"
+      },
+      {
+        "const": "LNGG_GEZ",
+        "description": "Geez"
+      },
+      {
+        "const": "LNGG_GIL",
+        "description": "Gilbertese"
+      },
+      {
+        "const": "LNGG_GLA",
+        "description": "Gaelic; Scottish Gaelic"
+      },
+      {
+        "const": "LNGG_GLE",
+        "description": "Irish"
+      },
+      {
+        "const": "LNGG_GLG",
+        "description": "Galician"
+      },
+      {
+        "const": "LNGG_GLV",
+        "description": "Manx"
+      },
+      {
+        "const": "LNGG_GMH",
+        "description": "German, Middle High (ca. 1050–1500)"
+      },
+      {
+        "const": "LNGG_GOH",
+        "description": "German, Old High (ca. 750–1050)"
+      },
+      {
+        "const": "LNGG_GON",
+        "description": "Gondi"
+      },
+      {
+        "const": "LNGG_GOR",
+        "description": "Gorontalo"
+      },
+      {
+        "const": "LNGG_GOT",
+        "description": "Gothic"
+      },
+      {
+        "const": "LNGG_GRB",
+        "description": "Grebo"
+      },
+      {
+        "const": "LNGG_GRC",
+        "description": "Greek, Ancient (to 1453)"
+      },
+      {
+        "const": "LNGG_GRN",
+        "description": "Guarani"
+      },
+      {
+        "const": "LNGG_GSW",
+        "description": "Swiss German; Alemannic; Alsatian"
+      },
+      {
+        "const": "LNGG_GUJ",
+        "description": "Gujarati"
+      },
+      {
+        "const": "LNGG_GWI",
+        "description": "Gwich'in"
+      },
+      {
+        "const": "LNGG_HAI",
+        "description": "Haida"
+      },
+      {
+        "const": "LNGG_HAT",
+        "description": "Haitian; Haitian Creole"
+      },
+      {
+        "const": "LNGG_HAU",
+        "description": "Hausa"
+      },
+      {
+        "const": "LNGG_HAW",
+        "description": "Hawaiian"
+      },
+      {
+        "const": "LNGG_HEB",
+        "description": "Hebrew"
+      },
+      {
+        "const": "LNGG_HER",
+        "description": "Herero"
+      },
+      {
+        "const": "LNGG_HIL",
+        "description": "Hiligaynon"
+      },
+      {
+        "const": "LNGG_HIM",
+        "description": "Himachali languages; Pahari languages"
+      },
+      {
+        "const": "LNGG_HIN",
+        "description": "Hindi"
+      },
+      {
+        "const": "LNGG_HIT",
+        "description": "Hittite"
+      },
+      {
+        "const": "LNGG_HMN",
+        "description": "Hmong; Mong"
+      },
+      {
+        "const": "LNGG_HMO",
+        "description": "Hiri Motu"
+      },
+      {
+        "const": "LNGG_HRV",
+        "description": "Croatian"
+      },
+      {
+        "const": "LNGG_HSB",
+        "description": "Upper Sorbian"
+      },
+      {
+        "const": "LNGG_HUN",
+        "description": "Hungarian"
+      },
+      {
+        "const": "LNGG_HUP",
+        "description": "Hupa"
+      },
+      {
+        "const": "LNGG_HYE",
+        "description": "Armenian"
+      },
+      {
+        "const": "LNGG_IBA",
+        "description": "Iban"
+      },
+      {
+        "const": "LNGG_IBO",
+        "description": "Igbo"
+      },
+      {
+        "const": "LNGG_IDO",
+        "description": "Ido"
+      },
+      {
+        "const": "LNGG_III",
+        "description": "Sichuan Yi; Nuosu"
+      },
+      {
+        "const": "LNGG_IJO",
+        "description": "Ijo languages"
+      },
+      {
+        "const": "LNGG_IKU",
+        "description": "Inuktitut"
+      },
+      {
+        "const": "LNGG_ILE",
+        "description": "Interlingue; Occidental"
+      },
+      {
+        "const": "LNGG_ILO",
+        "description": "Iloko"
+      },
+      {
+        "const": "LNGG_INA",
+        "description": "Interlingua (International Auxiliary Language Association)"
+      },
+      {
+        "const": "LNGG_INC",
+        "description": "Indo-Aryan languages"
+      },
+      {
+        "const": "LNGG_IND",
+        "description": "Indonesian"
+      },
+      {
+        "const": "LNGG_INE",
+        "description": "Indo-European languages"
+      },
+      {
+        "const": "LNGG_INH",
+        "description": "Ingush"
+      },
+      {
+        "const": "LNGG_IPK",
+        "description": "Inupiaq"
+      },
+      {
+        "const": "LNGG_IRA",
+        "description": "Iranian languages"
+      },
+      {
+        "const": "LNGG_IRO",
+        "description": "Iroquoian languages"
+      },
+      {
+        "const": "LNGG_ISL",
+        "description": "Icelandic"
+      },
+      {
+        "const": "LNGG_ITA",
+        "description": "Italian"
+      },
+      {
+        "const": "LNGG_JAV",
+        "description": "Javanese"
+      },
+      {
+        "const": "LNGG_JBO",
+        "description": "Lojban"
+      },
+      {
+        "const": "LNGG_JPN",
+        "description": "Japanese"
+      },
+      {
+        "const": "LNGG_JPR",
+        "description": "Judeo-Persian"
+      },
+      {
+        "const": "LNGG_JRB",
+        "description": "Judeo-Arabic"
+      },
+      {
+        "const": "LNGG_KAA",
+        "description": "Kara-Kalpak"
+      },
+      {
+        "const": "LNGG_KAB",
+        "description": "Kabyle"
+      },
+      {
+        "const": "LNGG_KAC",
+        "description": "Kachin; Jingpho"
+      },
+      {
+        "const": "LNGG_KAL",
+        "description": "Kalaallisut; Greenlandic"
+      },
+      {
+        "const": "LNGG_KAM",
+        "description": "Kamba"
+      },
+      {
+        "const": "LNGG_KAN",
+        "description": "Kannada"
+      },
+      {
+        "const": "LNGG_KAR",
+        "description": "Karen languages"
+      },
+      {
+        "const": "LNGG_KAS",
+        "description": "Kashmiri"
+      },
+      {
+        "const": "LNGG_KAT",
+        "description": "Georgian"
+      },
+      {
+        "const": "LNGG_KAU",
+        "description": "Kanuri"
+      },
+      {
+        "const": "LNGG_KAW",
+        "description": "Kawi"
+      },
+      {
+        "const": "LNGG_KAZ",
+        "description": "Kazakh"
+      },
+      {
+        "const": "LNGG_KBD",
+        "description": "Kabardian"
+      },
+      {
+        "const": "LNGG_KHA",
+        "description": "Khasi"
+      },
+      {
+        "const": "LNGG_KHI",
+        "description": "Khoisan languages"
+      },
+      {
+        "const": "LNGG_KHM",
+        "description": "Central Khmer"
+      },
+      {
+        "const": "LNGG_KHO",
+        "description": "Khotanese; Sakan"
+      },
+      {
+        "const": "LNGG_KIK",
+        "description": "Kikuyu; Gikuyu"
+      },
+      {
+        "const": "LNGG_KIN",
+        "description": "Kinyarwanda"
+      },
+      {
+        "const": "LNGG_KIR",
+        "description": "Kirghiz; Kyrgyz"
+      },
+      {
+        "const": "LNGG_KMB",
+        "description": "Kimbundu"
+      },
+      {
+        "const": "LNGG_KOK",
+        "description": "Konkani"
+      },
+      {
+        "const": "LNGG_KOM",
+        "description": "Komi"
+      },
+      {
+        "const": "LNGG_KON",
+        "description": "Kongo"
+      },
+      {
+        "const": "LNGG_KOR",
+        "description": "Korean"
+      },
+      {
+        "const": "LNGG_KOS",
+        "description": "Kosraean"
+      },
+      {
+        "const": "LNGG_KPE",
+        "description": "Kpelle"
+      },
+      {
+        "const": "LNGG_KRC",
+        "description": "Karachay-Balkar"
+      },
+      {
+        "const": "LNGG_KRL",
+        "description": "Karelian"
+      },
+      {
+        "const": "LNGG_KRO",
+        "description": "Kru languages"
+      },
+      {
+        "const": "LNGG_KRU",
+        "description": "Kurukh"
+      },
+      {
+        "const": "LNGG_KUA",
+        "description": "Kuanyama; Kwanyama"
+      },
+      {
+        "const": "LNGG_KUM",
+        "description": "Kumyk"
+      },
+      {
+        "const": "LNGG_KUR",
+        "description": "Kurdish"
+      },
+      {
+        "const": "LNGG_KUT",
+        "description": "Kutenai"
+      },
+      {
+        "const": "LNGG_LAD",
+        "description": "Ladino"
+      },
+      {
+        "const": "LNGG_LAH",
+        "description": "Lahnda"
+      },
+      {
+        "const": "LNGG_LAM",
+        "description": "Lamba"
+      },
+      {
+        "const": "LNGG_LAO",
+        "description": "Lao"
+      },
+      {
+        "const": "LNGG_LAT",
+        "description": "Latin"
+      },
+      {
+        "const": "LNGG_LAV",
+        "description": "Latvian"
+      },
+      {
+        "const": "LNGG_LEZ",
+        "description": "Lezghian"
+      },
+      {
+        "const": "LNGG_LIM",
+        "description": "Limburgan; Limburger; Limburgish"
+      },
+      {
+        "const": "LNGG_LIN",
+        "description": "Lingala"
+      },
+      {
+        "const": "LNGG_LIT",
+        "description": "Lithuanian"
+      },
+      {
+        "const": "LNGG_LOL",
+        "description": "Mongo"
+      },
+      {
+        "const": "LNGG_LOZ",
+        "description": "Lozi"
+      },
+      {
+        "const": "LNGG_LTZ",
+        "description": "Luxembourgish; Letzeburgesch"
+      },
+      {
+        "const": "LNGG_LUA",
+        "description": "Luba-Lulua"
+      },
+      {
+        "const": "LNGG_LUB",
+        "description": "Luba-Katanga"
+      },
+      {
+        "const": "LNGG_LUG",
+        "description": "Ganda"
+      },
+      {
+        "const": "LNGG_LUI",
+        "description": "Luiseno"
+      },
+      {
+        "const": "LNGG_LUN",
+        "description": "Lunda"
+      },
+      {
+        "const": "LNGG_LUO",
+        "description": "Luo (Kenya and Tanzania)"
+      },
+      {
+        "const": "LNGG_LUS",
+        "description": "Lushai"
+      },
+      {
+        "const": "LNGG_MAD",
+        "description": "Madurese"
+      },
+      {
+        "const": "LNGG_MAG",
+        "description": "Magahi"
+      },
+      {
+        "const": "LNGG_MAH",
+        "description": "Marshallese"
+      },
+      {
+        "const": "LNGG_MAI",
+        "description": "Maithili"
+      },
+      {
+        "const": "LNGG_MAK",
+        "description": "Makasar"
+      },
+      {
+        "const": "LNGG_MAL",
+        "description": "Malayalam"
+      },
+      {
+        "const": "LNGG_MAN",
+        "description": "Mandingo"
+      },
+      {
+        "const": "LNGG_MAP",
+        "description": "Austronesian languages"
+      },
+      {
+        "const": "LNGG_MAR",
+        "description": "Marathi"
+      },
+      {
+        "const": "LNGG_MAS",
+        "description": "Masai"
+      },
+      {
+        "const": "LNGG_MDF",
+        "description": "Moksha"
+      },
+      {
+        "const": "LNGG_MDR",
+        "description": "Mandar"
+      },
+      {
+        "const": "LNGG_MEN",
+        "description": "Mende"
+      },
+      {
+        "const": "LNGG_MGA",
+        "description": "Irish, Middle (900–1200)"
+      },
+      {
+        "const": "LNGG_MIC",
+        "description": "Mi'kmaq; Micmac"
+      },
+      {
+        "const": "LNGG_MIN",
+        "description": "Minangkabau"
+      },
+      {
+        "const": "LNGG_MKD",
+        "description": "Macedonian"
+      },
+      {
+        "const": "LNGG_MKH",
+        "description": "Mon-Khmer languages"
+      },
+      {
+        "const": "LNGG_MLG",
+        "description": "Malagasy"
+      },
+      {
+        "const": "LNGG_MLT",
+        "description": "Maltese"
+      },
+      {
+        "const": "LNGG_MNC",
+        "description": "Manchu"
+      },
+      {
+        "const": "LNGG_MNI",
+        "description": "Manipuri"
+      },
+      {
+        "const": "LNGG_MNO",
+        "description": "Manobo languages"
+      },
+      {
+        "const": "LNGG_MOH",
+        "description": "Mohawk"
+      },
+      {
+        "const": "LNGG_MON",
+        "description": "Mongolian"
+      },
+      {
+        "const": "LNGG_MOS",
+        "description": "Mossi"
+      },
+      {
+        "const": "LNGG_MRI",
+        "description": "Māori"
+      },
+      {
+        "const": "LNGG_MSA",
+        "description": "Malay"
+      },
+      {
+        "const": "LNGG_MUL",
+        "description": "Multiple languages"
+      },
+      {
+        "const": "LNGG_MUN",
+        "description": "Munda languages"
+      },
+      {
+        "const": "LNGG_MUS",
+        "description": "Creek"
+      },
+      {
+        "const": "LNGG_MWL",
+        "description": "Mirandese"
+      },
+      {
+        "const": "LNGG_MWR",
+        "description": "Marwari"
+      },
+      {
+        "const": "LNGG_MYA",
+        "description": "Burmese"
+      },
+      {
+        "const": "LNGG_MYN",
+        "description": "Mayan languages"
+      },
+      {
+        "const": "LNGG_MYV",
+        "description": "Erzya"
+      },
+      {
+        "const": "LNGG_NAH",
+        "description": "Nahuatl languages"
+      },
+      {
+        "const": "LNGG_NAI",
+        "description": "North American Indian languages"
+      },
+      {
+        "const": "LNGG_NAP",
+        "description": "Neapolitan"
+      },
+      {
+        "const": "LNGG_NAU",
+        "description": "Nauru"
+      },
+      {
+        "const": "LNGG_NAV",
+        "description": "Navajo; Navaho"
+      },
+      {
+        "const": "LNGG_NBL",
+        "description": "Ndebele, South; South Ndebele"
+      },
+      {
+        "const": "LNGG_NDE",
+        "description": "Ndebele, North; North Ndebele"
+      },
+      {
+        "const": "LNGG_NDO",
+        "description": "Ndonga"
+      },
+      {
+        "const": "LNGG_NDS",
+        "description": "Low German; Low Saxon; German, Low; Saxon, Low"
+      },
+      {
+        "const": "LNGG_NEP",
+        "description": "Nepali"
+      },
+      {
+        "const": "LNGG_NEW",
+        "description": "Nepal Bhasa; Newari"
+      },
+      {
+        "const": "LNGG_NIA",
+        "description": "Nias"
+      },
+      {
+        "const": "LNGG_NIC",
+        "description": "Niger-Kordofanian languages"
+      },
+      {
+        "const": "LNGG_NIU",
+        "description": "Niuean"
+      },
+      {
+        "const": "LNGG_NLD",
+        "description": "Dutch; Flemish"
+      },
+      {
+        "const": "LNGG_NNO",
+        "description": "Norwegian Nynorsk; Nynorsk, Norwegian"
+      },
+      {
+        "const": "LNGG_NOB",
+        "description": "Bokmål, Norwegian; Norwegian Bokmål"
+      },
+      {
+        "const": "LNGG_NOG",
+        "description": "Nogai"
+      },
+      {
+        "const": "LNGG_NON",
+        "description": "Norse, Old"
+      },
+      {
+        "const": "LNGG_NOR",
+        "description": "Norwegian"
+      },
+      {
+        "const": "LNGG_NQO",
+        "description": "N'Ko"
+      },
+      {
+        "const": "LNGG_NSO",
+        "description": "Pedi; Sepedi; Northern Sotho"
+      },
+      {
+        "const": "LNGG_NUB",
+        "description": "Nubian languages"
+      },
+      {
+        "const": "LNGG_NWC",
+        "description": "Classical Newari; Old Newari; Classical Nepal Bhasa"
+      },
+      {
+        "const": "LNGG_NYA",
+        "description": "Chichewa; Chewa; Nyanja"
+      },
+      {
+        "const": "LNGG_NYM",
+        "description": "Nyamwezi"
+      },
+      {
+        "const": "LNGG_NYN",
+        "description": "Nyankole"
+      },
+      {
+        "const": "LNGG_NYO",
+        "description": "Nyoro"
+      },
+      {
+        "const": "LNGG_NZI",
+        "description": "Nzima"
+      },
+      {
+        "const": "LNGG_OCI",
+        "description": "Occitan (post 1500)"
+      },
+      {
+        "const": "LNGG_OJI",
+        "description": "Ojibwa"
+      },
+      {
+        "const": "LNGG_ORI",
+        "description": "Oriya"
+      },
+      {
+        "const": "LNGG_ORM",
+        "description": "Oromo"
+      },
+      {
+        "const": "LNGG_OSA",
+        "description": "Osage"
+      },
+      {
+        "const": "LNGG_OSS",
+        "description": "Ossetian; Ossetic"
+      },
+      {
+        "const": "LNGG_OTA",
+        "description": "Turkish, Ottoman (1500–1928)"
+      },
+      {
+        "const": "LNGG_OTO",
+        "description": "Otomian languages"
+      },
+      {
+        "const": "LNGG_PAA",
+        "description": "Papuan languages"
+      },
+      {
+        "const": "LNGG_PAG",
+        "description": "Pangasinan"
+      },
+      {
+        "const": "LNGG_PAL",
+        "description": "Pahlavi"
+      },
+      {
+        "const": "LNGG_PAM",
+        "description": "Pampanga; Kapampangan"
+      },
+      {
+        "const": "LNGG_PAN",
+        "description": "Panjabi; Punjabi"
+      },
+      {
+        "const": "LNGG_PAP",
+        "description": "Papiamento"
+      },
+      {
+        "const": "LNGG_PAU",
+        "description": "Palauan"
+      },
+      {
+        "const": "LNGG_PEO",
+        "description": "Persian, Old (ca. 600–400 B.C.)"
+      },
+      {
+        "const": "LNGG_PHI",
+        "description": "Philippine languages"
+      },
+      {
+        "const": "LNGG_PHN",
+        "description": "Phoenician"
+      },
+      {
+        "const": "LNGG_PLI",
+        "description": "Pali"
+      },
+      {
+        "const": "LNGG_POL",
+        "description": "Polish"
+      },
+      {
+        "const": "LNGG_PON",
+        "description": "Pohnpeian"
+      },
+      {
+        "const": "LNGG_POR",
+        "description": "Portuguese"
+      },
+      {
+        "const": "LNGG_PRA",
+        "description": "Prakrit languages"
+      },
+      {
+        "const": "LNGG_PRO",
+        "description": "Provençal, Old (to 1500); Old Occitan (to 1500)"
+      },
+      {
+        "const": "LNGG_PUS",
+        "description": "Pushto; Pashto"
+      },
+      {
+        "const": "LNGG_QUE",
+        "description": "Quechua"
+      },
+      {
+        "const": "LNGG_RAJ",
+        "description": "Rajasthani"
+      },
+      {
+        "const": "LNGG_RAP",
+        "description": "Rapanui"
+      },
+      {
+        "const": "LNGG_RAR",
+        "description": "Rarotongan; Cook Islands Māori"
+      },
+      {
+        "const": "LNGG_ROA",
+        "description": "Romance languages"
+      },
+      {
+        "const": "LNGG_ROH",
+        "description": "Romansh"
+      },
+      {
+        "const": "LNGG_ROM",
+        "description": "Romany"
+      },
+      {
+        "const": "LNGG_RON",
+        "description": "Romanian; Moldavian; Moldovan"
+      },
+      {
+        "const": "LNGG_RUN",
+        "description": "Rundi"
+      },
+      {
+        "const": "LNGG_RUP",
+        "description": "Aromanian; Arumanian; Macedo-Romanian"
+      },
+      {
+        "const": "LNGG_RUS",
+        "description": "Russian"
+      },
+      {
+        "const": "LNGG_SAD",
+        "description": "Sandawe"
+      },
+      {
+        "const": "LNGG_SAG",
+        "description": "Sango"
+      },
+      {
+        "const": "LNGG_SAH",
+        "description": "Yakut"
+      },
+      {
+        "const": "LNGG_SAI",
+        "description": "South American Indian languages"
+      },
+      {
+        "const": "LNGG_SAL",
+        "description": "Salishan languages"
+      },
+      {
+        "const": "LNGG_SAM",
+        "description": "Samaritan Aramaic"
+      },
+      {
+        "const": "LNGG_SAN",
+        "description": "Sanskrit"
+      },
+      {
+        "const": "LNGG_SAS",
+        "description": "Sasak"
+      },
+      {
+        "const": "LNGG_SAT",
+        "description": "Santali"
+      },
+      {
+        "const": "LNGG_SCN",
+        "description": "Sicilian"
+      },
+      {
+        "const": "LNGG_SCO",
+        "description": "Scots"
+      },
+      {
+        "const": "LNGG_SEL",
+        "description": "Selkup"
+      },
+      {
+        "const": "LNGG_SEM",
+        "description": "Semitic languages"
+      },
+      {
+        "const": "LNGG_SGA",
+        "description": "Irish, Old (to 900)"
+      },
+      {
+        "const": "LNGG_SGN",
+        "description": "Sign Languages"
+      },
+      {
+        "const": "LNGG_SHN",
+        "description": "Shan"
+      },
+      {
+        "const": "LNGG_SID",
+        "description": "Sidamo"
+      },
+      {
+        "const": "LNGG_SIN",
+        "description": "Sinhala; Sinhalese"
+      },
+      {
+        "const": "LNGG_SIO",
+        "description": "Siouan languages"
+      },
+      {
+        "const": "LNGG_SIT",
+        "description": "Sino-Tibetan languages"
+      },
+      {
+        "const": "LNGG_SLA",
+        "description": "Slavic languages"
+      },
+      {
+        "const": "LNGG_SLK",
+        "description": "Slovak"
+      },
+      {
+        "const": "LNGG_SLV",
+        "description": "Slovenian"
+      },
+      {
+        "const": "LNGG_SMA",
+        "description": "Southern Sami"
+      },
+      {
+        "const": "LNGG_SME",
+        "description": "Northern Sami"
+      },
+      {
+        "const": "LNGG_SMI",
+        "description": "Sami languages"
+      },
+      {
+        "const": "LNGG_SMJ",
+        "description": "Lule Sami"
+      },
+      {
+        "const": "LNGG_SMN",
+        "description": "Inari Sami"
+      },
+      {
+        "const": "LNGG_SMO",
+        "description": "Samoan"
+      },
+      {
+        "const": "LNGG_SMS",
+        "description": "Skolt Sami"
+      },
+      {
+        "const": "LNGG_SNA",
+        "description": "Shona"
+      },
+      {
+        "const": "LNGG_SND",
+        "description": "Sindhi"
+      },
+      {
+        "const": "LNGG_SNK",
+        "description": "Soninke"
+      },
+      {
+        "const": "LNGG_SOG",
+        "description": "Sogdian"
+      },
+      {
+        "const": "LNGG_SOM",
+        "description": "Somali"
+      },
+      {
+        "const": "LNGG_SON",
+        "description": "Songhai languages"
+      },
+      {
+        "const": "LNGG_SOT",
+        "description": "Sotho, Southern"
+      },
+      {
+        "const": "LNGG_SPA",
+        "description": "Spanish; Castilian"
+      },
+      {
+        "const": "LNGG_SQI",
+        "description": "Albanian"
+      },
+      {
+        "const": "LNGG_SRD",
+        "description": "Sardinian"
+      },
+      {
+        "const": "LNGG_SRN",
+        "description": "Sranan Tongo"
+      },
+      {
+        "const": "LNGG_SRP",
+        "description": "Serbian"
+      },
+      {
+        "const": "LNGG_SRR",
+        "description": "Serer"
+      },
+      {
+        "const": "LNGG_SSA",
+        "description": "Nilo-Saharan languages"
+      },
+      {
+        "const": "LNGG_SSW",
+        "description": "Swati"
+      },
+      {
+        "const": "LNGG_SUK",
+        "description": "Sukuma"
+      },
+      {
+        "const": "LNGG_SUN",
+        "description": "Sundanese"
+      },
+      {
+        "const": "LNGG_SUS",
+        "description": "Susu"
+      },
+      {
+        "const": "LNGG_SUX",
+        "description": "Sumerian"
+      },
+      {
+        "const": "LNGG_SWA",
+        "description": "Swahili"
+      },
+      {
+        "const": "LNGG_SWE",
+        "description": "Swedish"
+      },
+      {
+        "const": "LNGG_SYC",
+        "description": "Classical Syriac"
+      },
+      {
+        "const": "LNGG_SYR",
+        "description": "Syriac"
+      },
+      {
+        "const": "LNGG_TAH",
+        "description": "Tahitian"
+      },
+      {
+        "const": "LNGG_TAI",
+        "description": "Tai languages"
+      },
+      {
+        "const": "LNGG_TAM",
+        "description": "Tamil"
+      },
+      {
+        "const": "LNGG_TAT",
+        "description": "Tatar"
+      },
+      {
+        "const": "LNGG_TEL",
+        "description": "Telugu"
+      },
+      {
+        "const": "LNGG_TEM",
+        "description": "Timne"
+      },
+      {
+        "const": "LNGG_TER",
+        "description": "Tereno"
+      },
+      {
+        "const": "LNGG_TET",
+        "description": "Tetum"
+      },
+      {
+        "const": "LNGG_TGK",
+        "description": "Tajik"
+      },
+      {
+        "const": "LNGG_TGL",
+        "description": "Tagalog"
+      },
+      {
+        "const": "LNGG_THA",
+        "description": "Thai"
+      },
+      {
+        "const": "LNGG_TIG",
+        "description": "Tigre"
+      },
+      {
+        "const": "LNGG_TIR",
+        "description": "Tigrinya"
+      },
+      {
+        "const": "LNGG_TIV",
+        "description": "Tiv"
+      },
+      {
+        "const": "LNGG_TKL",
+        "description": "Tokelau"
+      },
+      {
+        "const": "LNGG_TLH",
+        "description": "Klingon; tlhIngan-Hol"
+      },
+      {
+        "const": "LNGG_TLI",
+        "description": "Tlingit"
+      },
+      {
+        "const": "LNGG_TMH",
+        "description": "Tamashek"
+      },
+      {
+        "const": "LNGG_TOG",
+        "description": "Tonga (Nyasa)"
+      },
+      {
+        "const": "LNGG_TON",
+        "description": "Tonga (Tonga Islands)"
+      },
+      {
+        "const": "LNGG_TPI",
+        "description": "Tok Pisin"
+      },
+      {
+        "const": "LNGG_TSI",
+        "description": "Tsimshian"
+      },
+      {
+        "const": "LNGG_TSN",
+        "description": "Tswana"
+      },
+      {
+        "const": "LNGG_TSO",
+        "description": "Tsonga"
+      },
+      {
+        "const": "LNGG_TUK",
+        "description": "Turkmen"
+      },
+      {
+        "const": "LNGG_TUM",
+        "description": "Tumbuka"
+      },
+      {
+        "const": "LNGG_TUP",
+        "description": "Tupi languages"
+      },
+      {
+        "const": "LNGG_TUR",
+        "description": "Turkish"
+      },
+      {
+        "const": "LNGG_TUT",
+        "description": "Altaic languages"
+      },
+      {
+        "const": "LNGG_TVL",
+        "description": "Tuvalu"
+      },
+      {
+        "const": "LNGG_TWI",
+        "description": "Twi"
+      },
+      {
+        "const": "LNGG_TYV",
+        "description": "Tuvinian"
+      },
+      {
+        "const": "LNGG_UDM",
+        "description": "Udmurt"
+      },
+      {
+        "const": "LNGG_UGA",
+        "description": "Ugaritic"
+      },
+      {
+        "const": "LNGG_UIG",
+        "description": "Uighur; Uyghur"
+      },
+      {
+        "const": "LNGG_UKR",
+        "description": "Ukrainian"
+      },
+      {
+        "const": "LNGG_UMB",
+        "description": "Umbundu"
+      },
+      {
+        "const": "LNGG_URD",
+        "description": "Urdu"
+      },
+      {
+        "const": "LNGG_UZB",
+        "description": "Uzbek"
+      },
+      {
+        "const": "LNGG_VAI",
+        "description": "Vai"
+      },
+      {
+        "const": "LNGG_VEN",
+        "description": "Venda"
+      },
+      {
+        "const": "LNGG_VIE",
+        "description": "Vietnamese"
+      },
+      {
+        "const": "LNGG_VOL",
+        "description": "Volapük"
+      },
+      {
+        "const": "LNGG_VOT",
+        "description": "Votic"
+      },
+      {
+        "const": "LNGG_WAK",
+        "description": "Wakashan languages"
+      },
+      {
+        "const": "LNGG_WAL",
+        "description": "Wolaitta; Wolaytta"
+      },
+      {
+        "const": "LNGG_WAR",
+        "description": "Waray"
+      },
+      {
+        "const": "LNGG_WAS",
+        "description": "Washo"
+      },
+      {
+        "const": "LNGG_WEN",
+        "description": "Sorbian languages"
+      },
+      {
+        "const": "LNGG_WLN",
+        "description": "Walloon"
+      },
+      {
+        "const": "LNGG_WOL",
+        "description": "Wolof"
+      },
+      {
+        "const": "LNGG_XAL",
+        "description": "Kalmyk; Oirat"
+      },
+      {
+        "const": "LNGG_XHO",
+        "description": "Xhosa"
+      },
+      {
+        "const": "LNGG_YAO",
+        "description": "Yao"
+      },
+      {
+        "const": "LNGG_YAP",
+        "description": "Yapese"
+      },
+      {
+        "const": "LNGG_YID",
+        "description": "Yiddish"
+      },
+      {
+        "const": "LNGG_YOR",
+        "description": "Yoruba"
+      },
+      {
+        "const": "LNGG_YPK",
+        "description": "Yupik languages"
+      },
+      {
+        "const": "LNGG_ZAP",
+        "description": "Zapotec"
+      },
+      {
+        "const": "LNGG_ZBL",
+        "description": "Blissymbols; Blissymbolics; Bliss"
+      },
+      {
+        "const": "LNGG_ZEN",
+        "description": "Zenaga"
+      },
+      {
+        "const": "LNGG_ZGH",
+        "description": "Standard Moroccan Tamazight"
+      },
+      {
+        "const": "LNGG_ZHA",
+        "description": "Zhuang; Chuang"
+      },
+      {
+        "const": "LNGG_ZHO",
+        "description": "Chinese"
+      },
+      {
+        "const": "LNGG_ZND",
+        "description": "Zande languages"
+      },
+      {
+        "const": "LNGG_ZUL",
+        "description": "Zulu"
+      },
+      {
+        "const": "LNGG_ZUN",
+        "description": "Zuni"
+      },
+      {
+        "const": "LNGG_ZXX",
+        "description": "No linguistic content; Not applicable"
+      },
+      {
+        "const": "LNGG_ZZA",
+        "description": "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
+      },
+      {
+        "const": "LNGG_ASE",
+        "description": "American Sign Language"
+      },
+      {
+        "const": "LNGG_BFI",
+        "description": "British Sign Language"
+      },
+      {
+        "const": "LNGG_BGC",
+        "description": "Haryanvi"
+      },
+      {
+        "const": "LNGG_CDO",
+        "description": "Min Dong Chinese"
+      },
+      {
+        "const": "LNGG_CJY",
+        "description": "Jinyu Chinese"
+      },
+      {
+        "const": "LNGG_CMN",
+        "description": "Mandarin Chinese"
+      },
+      {
+        "const": "LNGG_CTG",
+        "description": "Chittagonian"
+      },
+      {
+        "const": "LNGG_DCC",
+        "description": "Deccan"
+      },
+      {
+        "const": "LNGG_DHD",
+        "description": "Dhundari"
+      },
+      {
+        "const": "LNGG_GAN",
+        "description": "Gan Chinese"
+      },
+      {
+        "const": "LNGG_HAK",
+        "description": "Hakka Chinese"
+      },
+      {
+        "const": "LNGG_HNE",
+        "description": "Chhattisgarhi"
+      },
+      {
+        "const": "LNGG_HSN",
+        "description": "Xiang Chinese"
+      },
+      {
+        "const": "LNGG_IBB",
+        "description": "Ibibio"
+      },
+      {
+        "const": "LNGG_KRI",
+        "description": "Krio"
+      },
+      {
+        "const": "LNGG_MNK",
+        "description": "Mandinka"
+      },
+      {
+        "const": "LNGG_MNP",
+        "description": "Min Bei Chinese"
+      },
+      {
+        "const": "LNGG_NAN",
+        "description": "Min Nan Chinese"
+      },
+      {
+        "const": "LNGG_SKR",
+        "description": "Saraiki"
+      },
+      {
+        "const": "LNGG_SYL",
+        "description": "Sylheti"
+      },
+      {
+        "const": "LNGG_WUU",
+        "description": "Wu Chinese"
+      },
+      {
+        "const": "LNGG_YUE",
+        "description": "Yue (Cantonese)"
+      },
+      {
+        "const": "LNGG_0004",
+        "description": "Jamaican"
+      },
+      {
+        "const": "LNGG_0006",
+        "description": "Libyan"
+      },
+      {
+        "const": "LNGG_0001",
+        "description": "American"
+      },
+      {
+        "const": "LNGG_0002",
+        "description": "Eastern Arabic"
+      },
+      {
+        "const": "LNGG_0003",
+        "description": "French Canadian"
+      },
+      {
+        "const": "LNGG_0005",
+        "description": "Kalibi"
+      },
+      {
+        "const": "LNGG_0007",
+        "description": "Mexican"
+      },
+      {
+        "const": "LNGG_0008",
+        "description": "Not Known"
+      },
+      {
+        "const": "LNGG_0009",
+        "description": "Scottish"
+      },
+      {
+        "const": "LNGG_0010",
+        "description": "Somoan"
+      },
+      {
+        "const": "LNGG_0011",
+        "description": "Sudanese"
+      },
+      {
+        "const": "LNGG_0012",
+        "description": "Ulster Scots"
+      },
+      {
+        "const": "LNGG_0013",
+        "description": "Taiwanese"
+      }
+    ]
+  }
+}

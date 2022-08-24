@@ -1,0 +1,71 @@
+{
+  "buildList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BLST_0001",
+        "description": "Athletic"
+      },
+      {
+        "const": "BLST_0002",
+        "description": "Broad"
+      },
+      {
+        "const": "BLST_0003",
+        "description": "Fat"
+      },
+      {
+        "const": "BLST_0004",
+        "description": "Heavy"
+      },
+      {
+        "const": "BLST_0005",
+        "description": "Large"
+      },
+      {
+        "const": "BLST_0006",
+        "description": "Medium"
+      },
+      {
+        "const": "BLST_0007",
+        "description": "Muscular"
+      },
+      {
+        "const": "BLST_0008",
+        "description": "Not Known"
+      },
+      {
+        "const": "BLST_0009",
+        "description": "Obese"
+      },
+      {
+        "const": "BLST_0010",
+        "description": "Proportionate"
+      },
+      {
+        "const": "BLST_0011",
+        "description": "Skinny"
+      },
+      {
+        "const": "BLST_0012",
+        "description": "Slight"
+      },
+      {
+        "const": "BLST_0013",
+        "description": "Slim"
+      },
+      {
+        "const": "BLST_0014",
+        "description": "Small"
+      },
+      {
+        "const": "BLST_0015",
+        "description": "Stocky"
+      },
+      {
+        "const": "BLST_0016",
+        "description": "Thin"
+      }
+    ]
+  }
+}

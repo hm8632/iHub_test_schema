@@ -1,0 +1,35 @@
+{
+  "ethnicityGroup": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "EGRP_0001",
+        "description": "Another ethnic group"
+      },
+      {
+        "const": "EGRP_0002",
+        "description": "Asian or Asian British"
+      },
+      {
+        "const": "EGRP_0003",
+        "description": "Black"
+      },
+      {
+        "const": "EGRP_0004",
+        "description": "Mixed or multiple ethnic groups"
+      },
+      {
+        "const": "EGRP_0005",
+        "description": "Not Known"
+      },
+      {
+        "const": "EGRP_0006",
+        "description": "White"
+      },
+      {
+        "const": "EGRP_0007",
+        "description": "Prefer not to say"
+      }
+    ]
+  }
+}

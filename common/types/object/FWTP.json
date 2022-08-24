@@ -1,0 +1,19 @@
+{
+  "firearmWeaponType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "FWTP_0001",
+        "description": "CS Gas"
+      },
+      {
+        "const": "FWTP_0002",
+        "description": "Handgun"
+      },
+      {
+        "const": "FWTP_0003",
+        "description": "Shotgun"
+      }
+    ]
+  }
+}

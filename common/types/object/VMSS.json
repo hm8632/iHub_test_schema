@@ -1,0 +1,23 @@
+{
+  "vehicleMotStatus": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VMSS_0001",
+        "description": "No details held by DVLA"
+      },
+      {
+        "const": "VMSS_0002",
+        "description": "No results returned"
+      },
+      {
+        "const": "VMSS_0003",
+        "description": "Not valid"
+      },
+      {
+        "const": "VMSS_0004",
+        "description": "Valid"
+      }
+    ]
+  }
+}

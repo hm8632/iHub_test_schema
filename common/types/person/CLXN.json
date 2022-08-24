@@ -1,0 +1,47 @@
+{
+  "complexion": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "CLXN_0001",
+        "description": "Albino"
+      },
+      {
+        "const": "CLXN_0002",
+        "description": "Allow"
+      },
+      {
+        "const": "CLXN_0003",
+        "description": "Dark"
+      },
+      {
+        "const": "CLXN_0004",
+        "description": "Fair"
+      },
+      {
+        "const": "CLXN_0005",
+        "description": "Fresh"
+      },
+      {
+        "const": "CLXN_0006",
+        "description": "Not Known"
+      },
+      {
+        "const": "CLXN_0007",
+        "description": "Pale"
+      },
+      {
+        "const": "CLXN_0008",
+        "description": "Ruddy"
+      },
+      {
+        "const": "CLXN_0009",
+        "description": "Swarthy"
+      },
+      {
+        "const": "CLXN_0010",
+        "description": "Tanned"
+      }
+    ]
+  }
+}

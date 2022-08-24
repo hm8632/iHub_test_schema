@@ -1,0 +1,43 @@
+{
+  "ammunitionType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "ATYP_0001",
+        "description": "Ammunition"
+      },
+      {
+        "const": "ATYP_0002",
+        "description": "Explosive"
+      },
+      {
+        "const": "ATYP_0003",
+        "description": "Gun"
+      },
+      {
+        "const": "ATYP_0004",
+        "description": "Gun-Air Pistol"
+      },
+      {
+        "const": "ATYP_0005",
+        "description": "Gun-Air Rifle"
+      },
+      {
+        "const": "ATYP_0006",
+        "description": "Gun-Pistol"
+      },
+      {
+        "const": "ATYP_0007",
+        "description": "Gun-Revolver"
+      },
+      {
+        "const": "ATYP_0008",
+        "description": "Gun-Rifle"
+      },
+      {
+        "const": "ATYP_0009",
+        "description": "Gun-Shotgun"
+      }
+    ]
+  }
+}

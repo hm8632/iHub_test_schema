@@ -1,0 +1,15 @@
+{
+  "vehicleUsage": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VUSG_0001",
+        "description": "Business purposes"
+      },
+      {
+        "const": "VUSG_0002",
+        "description": "Social, domestic and pleasure purposes"
+      }
+    ]
+  }
+}

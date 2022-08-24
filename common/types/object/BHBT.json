@@ -1,0 +1,59 @@
+{
+  "bicycleHandleBarType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BHBT_0001",
+        "description": "Ape hangers"
+      },
+      {
+        "const": "BHBT_0002",
+        "description": "BMX"
+      },
+      {
+        "const": "BHBT_0003",
+        "description": "Cruiser"
+      },
+      {
+        "const": "BHBT_0004",
+        "description": "Drop"
+      },
+      {
+        "const": "BHBT_0005",
+        "description": "Flat or Riser"
+      },
+      {
+        "const": "BHBT_0006",
+        "description": "Moustache"
+      },
+      {
+        "const": "BHBT_0007",
+        "description": "Porteur"
+      },
+      {
+        "const": "BHBT_0008",
+        "description": "Pursuit"
+      },
+      {
+        "const": "BHBT_0009",
+        "description": "Recumbent"
+      },
+      {
+        "const": "BHBT_0010",
+        "description": "Touring or trekking"
+      },
+      {
+        "const": "BHBT_0011",
+        "description": "Triathlon or aero"
+      },
+      {
+        "const": "BHBT_0012",
+        "description": "Upright or North Road"
+      },
+      {
+        "const": "BHBT_0013",
+        "description": "Whatton"
+      }
+    ]
+  }
+}

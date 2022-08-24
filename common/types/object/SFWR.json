@@ -1,0 +1,27 @@
+{
+  "stolenFromWhere": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "SFWR_0001",
+        "description": "Building (inside)"
+      },
+      {
+        "const": "SFWR_0002",
+        "description": "Building (outside)"
+      },
+      {
+        "const": "SFWR_0003",
+        "description": "Other"
+      },
+      {
+        "const": "SFWR_0004",
+        "description": "Person"
+      },
+      {
+        "const": "SFWR_0005",
+        "description": "Vehicle"
+      }
+    ]
+  }
+}

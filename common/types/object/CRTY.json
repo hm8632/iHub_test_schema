@@ -1,0 +1,1007 @@
+{
+  "country": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "CRTY_AFG",
+        "description": "Afghanistan"
+      },
+      {
+        "const": "CRTY_ALA",
+        "description": "Åland Islands"
+      },
+      {
+        "const": "CRTY_ALB",
+        "description": "Albania"
+      },
+      {
+        "const": "CRTY_DZA",
+        "description": "Algeria"
+      },
+      {
+        "const": "CRTY_ASM",
+        "description": "American Samoa"
+      },
+      {
+        "const": "CRTY_AND",
+        "description": "Andorra"
+      },
+      {
+        "const": "CRTY_AGO",
+        "description": "Angola"
+      },
+      {
+        "const": "CRTY_AIA",
+        "description": "Anguilla"
+      },
+      {
+        "const": "CRTY_ATA",
+        "description": "Antarctica"
+      },
+      {
+        "const": "CRTY_ATG",
+        "description": "Antigua and Barbuda"
+      },
+      {
+        "const": "CRTY_ARG",
+        "description": "Argentina"
+      },
+      {
+        "const": "CRTY_ARM",
+        "description": "Armenia"
+      },
+      {
+        "const": "CRTY_ABW",
+        "description": "Aruba"
+      },
+      {
+        "const": "CRTY_AUS",
+        "description": "Australia"
+      },
+      {
+        "const": "CRTY_AUT",
+        "description": "Austria"
+      },
+      {
+        "const": "CRTY_AZE",
+        "description": "Azerbaijan"
+      },
+      {
+        "const": "CRTY_BHS",
+        "description": "Bahamas (the)"
+      },
+      {
+        "const": "CRTY_BHR",
+        "description": "Bahrain"
+      },
+      {
+        "const": "CRTY_BGD",
+        "description": "Bangladesh"
+      },
+      {
+        "const": "CRTY_BRB",
+        "description": "Barbados"
+      },
+      {
+        "const": "CRTY_BLR",
+        "description": "Belarus"
+      },
+      {
+        "const": "CRTY_BEL",
+        "description": "Belgium"
+      },
+      {
+        "const": "CRTY_BLZ",
+        "description": "Belize"
+      },
+      {
+        "const": "CRTY_BEN",
+        "description": "Benin"
+      },
+      {
+        "const": "CRTY_BMU",
+        "description": "Bermuda"
+      },
+      {
+        "const": "CRTY_BTN",
+        "description": "Bhutan"
+      },
+      {
+        "const": "CRTY_BOL",
+        "description": "Bolivia (Plurinational State of)"
+      },
+      {
+        "const": "CRTY_BES",
+        "description": "Bonaire, Sint Eustatius and Saba"
+      },
+      {
+        "const": "CRTY_BIH",
+        "description": "Bosnia and Herzegovina"
+      },
+      {
+        "const": "CRTY_BWA",
+        "description": "Botswana"
+      },
+      {
+        "const": "CRTY_BVT",
+        "description": "Bouvet Island"
+      },
+      {
+        "const": "CRTY_BRA",
+        "description": "Brazil"
+      },
+      {
+        "const": "CRTY_IOT",
+        "description": "British Indian Ocean Territory (the)"
+      },
+      {
+        "const": "CRTY_BRN",
+        "description": "Brunei Darussalam"
+      },
+      {
+        "const": "CRTY_BGR",
+        "description": "Bulgaria"
+      },
+      {
+        "const": "CRTY_BFA",
+        "description": "Burkina Faso"
+      },
+      {
+        "const": "CRTY_BDI",
+        "description": "Burundi"
+      },
+      {
+        "const": "CRTY_CPV",
+        "description": "Cabo Verde"
+      },
+      {
+        "const": "CRTY_KHM",
+        "description": "Cambodia"
+      },
+      {
+        "const": "CRTY_CMR",
+        "description": "Cameroon"
+      },
+      {
+        "const": "CRTY_CAN",
+        "description": "Canada"
+      },
+      {
+        "const": "CRTY_CYM",
+        "description": "Cayman Islands (the)"
+      },
+      {
+        "const": "CRTY_CAF",
+        "description": "Central African Republic (the)"
+      },
+      {
+        "const": "CRTY_TCD",
+        "description": "Chad"
+      },
+      {
+        "const": "CRTY_CHL",
+        "description": "Chile"
+      },
+      {
+        "const": "CRTY_CHN",
+        "description": "China"
+      },
+      {
+        "const": "CRTY_CXR",
+        "description": "Christmas Island"
+      },
+      {
+        "const": "CRTY_CCK",
+        "description": "Cocos (Keeling) Islands (the)"
+      },
+      {
+        "const": "CRTY_COL",
+        "description": "Colombia"
+      },
+      {
+        "const": "CRTY_COM",
+        "description": "Comoros (the)"
+      },
+      {
+        "const": "CRTY_COD",
+        "description": "Congo (the Democratic Republic of the)"
+      },
+      {
+        "const": "CRTY_COG",
+        "description": "Congo (the)"
+      },
+      {
+        "const": "CRTY_COK",
+        "description": "Cook Islands (the)"
+      },
+      {
+        "const": "CRTY_CRI",
+        "description": "Costa Rica"
+      },
+      {
+        "const": "CRTY_CIV",
+        "description": "Côte d'Ivoire"
+      },
+      {
+        "const": "CRTY_HRV",
+        "description": "Croatia"
+      },
+      {
+        "const": "CRTY_CUB",
+        "description": "Cuba"
+      },
+      {
+        "const": "CRTY_CUW",
+        "description": "Curaçao"
+      },
+      {
+        "const": "CRTY_CYP",
+        "description": "Cyprus"
+      },
+      {
+        "const": "CRTY_CZE",
+        "description": "Czechia"
+      },
+      {
+        "const": "CRTY_DNK",
+        "description": "Denmark"
+      },
+      {
+        "const": "CRTY_DJI",
+        "description": "Djibouti"
+      },
+      {
+        "const": "CRTY_DMA",
+        "description": "Dominica"
+      },
+      {
+        "const": "CRTY_DOM",
+        "description": "Dominican Republic (the)"
+      },
+      {
+        "const": "CRTY_ECU",
+        "description": "Ecuador"
+      },
+      {
+        "const": "CRTY_EGY",
+        "description": "Egypt"
+      },
+      {
+        "const": "CRTY_SLV",
+        "description": "El Salvador"
+      },
+      {
+        "const": "CRTY_GNQ",
+        "description": "Equatorial Guinea"
+      },
+      {
+        "const": "CRTY_ERI",
+        "description": "Eritrea"
+      },
+      {
+        "const": "CRTY_EST",
+        "description": "Estonia"
+      },
+      {
+        "const": "CRTY_SWZ",
+        "description": "Eswatini"
+      },
+      {
+        "const": "CRTY_ETH",
+        "description": "Ethiopia"
+      },
+      {
+        "const": "CRTY_FLK",
+        "description": "Falkland Islands (the) [Malvinas]"
+      },
+      {
+        "const": "CRTY_FRO",
+        "description": "Faroe Islands (the)"
+      },
+      {
+        "const": "CRTY_FJI",
+        "description": "Fiji"
+      },
+      {
+        "const": "CRTY_FIN",
+        "description": "Finland"
+      },
+      {
+        "const": "CRTY_FRA",
+        "description": "France"
+      },
+      {
+        "const": "CRTY_GUF",
+        "description": "French Guiana"
+      },
+      {
+        "const": "CRTY_PYF",
+        "description": "French Polynesia"
+      },
+      {
+        "const": "CRTY_ATF",
+        "description": "French Southern Territories (the)"
+      },
+      {
+        "const": "CRTY_GAB",
+        "description": "Gabon"
+      },
+      {
+        "const": "CRTY_GMB",
+        "description": "Gambia (the)"
+      },
+      {
+        "const": "CRTY_GEO",
+        "description": "Georgia"
+      },
+      {
+        "const": "CRTY_DEU",
+        "description": "Germany"
+      },
+      {
+        "const": "CRTY_GHA",
+        "description": "Ghana"
+      },
+      {
+        "const": "CRTY_GIB",
+        "description": "Gibraltar"
+      },
+      {
+        "const": "CRTY_GRC",
+        "description": "Greece"
+      },
+      {
+        "const": "CRTY_GRL",
+        "description": "Greenland"
+      },
+      {
+        "const": "CRTY_GRD",
+        "description": "Grenada"
+      },
+      {
+        "const": "CRTY_GLP",
+        "description": "Guadeloupe"
+      },
+      {
+        "const": "CRTY_GUM",
+        "description": "Guam"
+      },
+      {
+        "const": "CRTY_GTM",
+        "description": "Guatemala"
+      },
+      {
+        "const": "CRTY_GGY",
+        "description": "Guernsey"
+      },
+      {
+        "const": "CRTY_GIN",
+        "description": "Guinea"
+      },
+      {
+        "const": "CRTY_GNB",
+        "description": "Guinea-Bissau"
+      },
+      {
+        "const": "CRTY_GUY",
+        "description": "Guyana"
+      },
+      {
+        "const": "CRTY_HTI",
+        "description": "Haiti"
+      },
+      {
+        "const": "CRTY_HMD",
+        "description": "Heard Island and McDonald Islands"
+      },
+      {
+        "const": "CRTY_VAT",
+        "description": "Holy See (the)"
+      },
+      {
+        "const": "CRTY_HND",
+        "description": "Honduras"
+      },
+      {
+        "const": "CRTY_HKG",
+        "description": "Hong Kong"
+      },
+      {
+        "const": "CRTY_HUN",
+        "description": "Hungary"
+      },
+      {
+        "const": "CRTY_ISL",
+        "description": "Iceland"
+      },
+      {
+        "const": "CRTY_IND",
+        "description": "India"
+      },
+      {
+        "const": "CRTY_IDN",
+        "description": "Indonesia"
+      },
+      {
+        "const": "CRTY_IRN",
+        "description": "Iran (Islamic Republic of)"
+      },
+      {
+        "const": "CRTY_IRQ",
+        "description": "Iraq"
+      },
+      {
+        "const": "CRTY_IRL",
+        "description": "Ireland"
+      },
+      {
+        "const": "CRTY_IMN",
+        "description": "Isle of Man"
+      },
+      {
+        "const": "CRTY_ISR",
+        "description": "Israel"
+      },
+      {
+        "const": "CRTY_ITA",
+        "description": "Italy"
+      },
+      {
+        "const": "CRTY_JAM",
+        "description": "Jamaica"
+      },
+      {
+        "const": "CRTY_JPN",
+        "description": "Japan"
+      },
+      {
+        "const": "CRTY_JEY",
+        "description": "Jersey"
+      },
+      {
+        "const": "CRTY_JOR",
+        "description": "Jordan"
+      },
+      {
+        "const": "CRTY_KAZ",
+        "description": "Kazakhstan"
+      },
+      {
+        "const": "CRTY_KEN",
+        "description": "Kenya"
+      },
+      {
+        "const": "CRTY_KIR",
+        "description": "Kiribati"
+      },
+      {
+        "const": "CRTY_PRK",
+        "description": "Korea (the Democratic People's Republic of)"
+      },
+      {
+        "const": "CRTY_KOR",
+        "description": "Korea (the Republic of)"
+      },
+      {
+        "const": "CRTY_KWT",
+        "description": "Kuwait"
+      },
+      {
+        "const": "CRTY_KGZ",
+        "description": "Kyrgyzstan"
+      },
+      {
+        "const": "CRTY_LAO",
+        "description": "Lao People's Democratic Republic (the)"
+      },
+      {
+        "const": "CRTY_LVA",
+        "description": "Latvia"
+      },
+      {
+        "const": "CRTY_LBN",
+        "description": "Lebanon"
+      },
+      {
+        "const": "CRTY_LSO",
+        "description": "Lesotho"
+      },
+      {
+        "const": "CRTY_LBR",
+        "description": "Liberia"
+      },
+      {
+        "const": "CRTY_LBY",
+        "description": "Libya"
+      },
+      {
+        "const": "CRTY_LIE",
+        "description": "Liechtenstein"
+      },
+      {
+        "const": "CRTY_LTU",
+        "description": "Lithuania"
+      },
+      {
+        "const": "CRTY_LUX",
+        "description": "Luxembourg"
+      },
+      {
+        "const": "CRTY_MAC",
+        "description": "Macao"
+      },
+      {
+        "const": "CRTY_MKD",
+        "description": "North Macedonia"
+      },
+      {
+        "const": "CRTY_MDG",
+        "description": "Madagascar"
+      },
+      {
+        "const": "CRTY_MWI",
+        "description": "Malawi"
+      },
+      {
+        "const": "CRTY_MYS",
+        "description": "Malaysia"
+      },
+      {
+        "const": "CRTY_MDV",
+        "description": "Maldives"
+      },
+      {
+        "const": "CRTY_MLI",
+        "description": "Mali"
+      },
+      {
+        "const": "CRTY_MLT",
+        "description": "Malta"
+      },
+      {
+        "const": "CRTY_MHL",
+        "description": "Marshall Islands (the)"
+      },
+      {
+        "const": "CRTY_MTQ",
+        "description": "Martinique"
+      },
+      {
+        "const": "CRTY_MRT",
+        "description": "Mauritania"
+      },
+      {
+        "const": "CRTY_MUS",
+        "description": "Mauritius"
+      },
+      {
+        "const": "CRTY_MYT",
+        "description": "Mayotte"
+      },
+      {
+        "const": "CRTY_MEX",
+        "description": "Mexico"
+      },
+      {
+        "const": "CRTY_FSM",
+        "description": "Micronesia (Federated States of)"
+      },
+      {
+        "const": "CRTY_MDA",
+        "description": "Moldova (the Republic of)"
+      },
+      {
+        "const": "CRTY_MCO",
+        "description": "Monaco"
+      },
+      {
+        "const": "CRTY_MNG",
+        "description": "Mongolia"
+      },
+      {
+        "const": "CRTY_MNE",
+        "description": "Montenegro"
+      },
+      {
+        "const": "CRTY_MSR",
+        "description": "Montserrat"
+      },
+      {
+        "const": "CRTY_MAR",
+        "description": "Morocco"
+      },
+      {
+        "const": "CRTY_MOZ",
+        "description": "Mozambique"
+      },
+      {
+        "const": "CRTY_MMR",
+        "description": "Myanmar"
+      },
+      {
+        "const": "CRTY_NAM",
+        "description": "Namibia"
+      },
+      {
+        "const": "CRTY_NRU",
+        "description": "Nauru"
+      },
+      {
+        "const": "CRTY_NPL",
+        "description": "Nepal"
+      },
+      {
+        "const": "CRTY_NLD",
+        "description": "Netherlands (the)"
+      },
+      {
+        "const": "CRTY_NCL",
+        "description": "New Caledonia"
+      },
+      {
+        "const": "CRTY_NZL",
+        "description": "New Zealand"
+      },
+      {
+        "const": "CRTY_NIC",
+        "description": "Nicaragua"
+      },
+      {
+        "const": "CRTY_NER",
+        "description": "Niger (the)"
+      },
+      {
+        "const": "CRTY_NGA",
+        "description": "Nigeria"
+      },
+      {
+        "const": "CRTY_NIU",
+        "description": "Niue"
+      },
+      {
+        "const": "CRTY_NFK",
+        "description": "Norfolk Island"
+      },
+      {
+        "const": "CRTY_MNP",
+        "description": "Northern Mariana Islands (the)"
+      },
+      {
+        "const": "CRTY_NOR",
+        "description": "Norway"
+      },
+      {
+        "const": "CRTY_OMN",
+        "description": "Oman"
+      },
+      {
+        "const": "CRTY_PAK",
+        "description": "Pakistan"
+      },
+      {
+        "const": "CRTY_PLW",
+        "description": "Palau"
+      },
+      {
+        "const": "CRTY_PSE",
+        "description": "Palestine, State of"
+      },
+      {
+        "const": "CRTY_PAN",
+        "description": "Panama"
+      },
+      {
+        "const": "CRTY_PNG",
+        "description": "Papua New Guinea"
+      },
+      {
+        "const": "CRTY_PRY",
+        "description": "Paraguay"
+      },
+      {
+        "const": "CRTY_PER",
+        "description": "Peru"
+      },
+      {
+        "const": "CRTY_PHL",
+        "description": "Philippines (the)"
+      },
+      {
+        "const": "CRTY_PCN",
+        "description": "Pitcairn"
+      },
+      {
+        "const": "CRTY_POL",
+        "description": "Poland"
+      },
+      {
+        "const": "CRTY_PRT",
+        "description": "Portugal"
+      },
+      {
+        "const": "CRTY_PRI",
+        "description": "Puerto Rico"
+      },
+      {
+        "const": "CRTY_QAT",
+        "description": "Qatar"
+      },
+      {
+        "const": "CRTY_REU",
+        "description": "Réunion"
+      },
+      {
+        "const": "CRTY_ROU",
+        "description": "Romania"
+      },
+      {
+        "const": "CRTY_RUS",
+        "description": "Russian Federation (the)"
+      },
+      {
+        "const": "CRTY_RWA",
+        "description": "Rwanda"
+      },
+      {
+        "const": "CRTY_BLM",
+        "description": "Saint Barthélemy"
+      },
+      {
+        "const": "CRTY_SHN",
+        "description": "Saint Helena, Ascension and Tristan da Cunha"
+      },
+      {
+        "const": "CRTY_KNA",
+        "description": "Saint Kitts and Nevis"
+      },
+      {
+        "const": "CRTY_LCA",
+        "description": "Saint Lucia"
+      },
+      {
+        "const": "CRTY_MAF",
+        "description": "Saint Martin (French part)"
+      },
+      {
+        "const": "CRTY_SPM",
+        "description": "Saint Pierre and Miquelon"
+      },
+      {
+        "const": "CRTY_VCT",
+        "description": "Saint Vincent and the Grenadines"
+      },
+      {
+        "const": "CRTY_WSM",
+        "description": "Samoa"
+      },
+      {
+        "const": "CRTY_SMR",
+        "description": "San Marino"
+      },
+      {
+        "const": "CRTY_STP",
+        "description": "Sao Tome and Principe"
+      },
+      {
+        "const": "CRTY_SAU",
+        "description": "Saudi Arabia"
+      },
+      {
+        "const": "CRTY_SEN",
+        "description": "Senegal"
+      },
+      {
+        "const": "CRTY_SRB",
+        "description": "Serbia"
+      },
+      {
+        "const": "CRTY_SYC",
+        "description": "Seychelles"
+      },
+      {
+        "const": "CRTY_SLE",
+        "description": "Sierra Leone"
+      },
+      {
+        "const": "CRTY_SGP",
+        "description": "Singapore"
+      },
+      {
+        "const": "CRTY_SXM",
+        "description": "Sint Maarten (Dutch part)"
+      },
+      {
+        "const": "CRTY_SVK",
+        "description": "Slovakia"
+      },
+      {
+        "const": "CRTY_SVN",
+        "description": "Slovenia"
+      },
+      {
+        "const": "CRTY_SLB",
+        "description": "Solomon Islands"
+      },
+      {
+        "const": "CRTY_SOM",
+        "description": "Somalia"
+      },
+      {
+        "const": "CRTY_ZAF",
+        "description": "South Africa"
+      },
+      {
+        "const": "CRTY_SGS",
+        "description": "South Georgia and the South Sandwich Islands"
+      },
+      {
+        "const": "CRTY_SSD",
+        "description": "South Sudan"
+      },
+      {
+        "const": "CRTY_ESP",
+        "description": "Spain"
+      },
+      {
+        "const": "CRTY_LKA",
+        "description": "Sri Lanka"
+      },
+      {
+        "const": "CRTY_SDN",
+        "description": "Sudan (the)"
+      },
+      {
+        "const": "CRTY_SUR",
+        "description": "Suriname"
+      },
+      {
+        "const": "CRTY_SJM",
+        "description": "Svalbard and Jan Mayen"
+      },
+      {
+        "const": "CRTY_SWE",
+        "description": "Sweden"
+      },
+      {
+        "const": "CRTY_CHE",
+        "description": "Switzerland"
+      },
+      {
+        "const": "CRTY_SYR",
+        "description": "Syrian Arab Republic (the)"
+      },
+      {
+        "const": "CRTY_TWN",
+        "description": "Taiwan (Province of China)"
+      },
+      {
+        "const": "CRTY_TJK",
+        "description": "Tajikistan"
+      },
+      {
+        "const": "CRTY_TZA",
+        "description": "Tanzania, the United Republic of"
+      },
+      {
+        "const": "CRTY_THA",
+        "description": "Thailand"
+      },
+      {
+        "const": "CRTY_TLS",
+        "description": "Timor-Leste"
+      },
+      {
+        "const": "CRTY_TGO",
+        "description": "Togo"
+      },
+      {
+        "const": "CRTY_TKL",
+        "description": "Tokelau"
+      },
+      {
+        "const": "CRTY_TON",
+        "description": "Tonga"
+      },
+      {
+        "const": "CRTY_TTO",
+        "description": "Trinidad and Tobago"
+      },
+      {
+        "const": "CRTY_TUN",
+        "description": "Tunisia"
+      },
+      {
+        "const": "CRTY_TUR",
+        "description": "Turkey"
+      },
+      {
+        "const": "CRTY_TKM",
+        "description": "Turkmenistan"
+      },
+      {
+        "const": "CRTY_TCA",
+        "description": "Turks and Caicos Islands (the)"
+      },
+      {
+        "const": "CRTY_TUV",
+        "description": "Tuvalu"
+      },
+      {
+        "const": "CRTY_UGA",
+        "description": "Uganda"
+      },
+      {
+        "const": "CRTY_UKR",
+        "description": "Ukraine"
+      },
+      {
+        "const": "CRTY_ARE",
+        "description": "United Arab Emirates (the)"
+      },
+      {
+        "const": "CRTY_GBR",
+        "description": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      {
+        "const": "CRTY_UMI",
+        "description": "United States Minor Outlying Islands (the)"
+      },
+      {
+        "const": "CRTY_USA",
+        "description": "United States of America (the)"
+      },
+      {
+        "const": "CRTY_ZZZ",
+        "description": "Unknown"
+      },
+      {
+        "const": "CRTY_URY",
+        "description": "Uruguay"
+      },
+      {
+        "const": "CRTY_UZB",
+        "description": "Uzbekistan"
+      },
+      {
+        "const": "CRTY_VUT",
+        "description": "Vanuatu"
+      },
+      {
+        "const": "CRTY_VEN",
+        "description": "Venezuela (Bolivarian Republic of)"
+      },
+      {
+        "const": "CRTY_VNM",
+        "description": "Viet Nam"
+      },
+      {
+        "const": "CRTY_VGB",
+        "description": "Virgin Islands (British)"
+      },
+      {
+        "const": "CRTY_VIR",
+        "description": "Virgin Islands (U.S.)"
+      },
+      {
+        "const": "CRTY_WLF",
+        "description": "Wallis and Futuna"
+      },
+      {
+        "const": "CRTY_ESH",
+        "description": "Western Sahara"
+      },
+      {
+        "const": "CRTY_YEM",
+        "description": "Yemen"
+      },
+      {
+        "const": "CRTY_ZMB",
+        "description": "Zambia"
+      },
+      {
+        "const": "CRTY_ZWE",
+        "description": "Zimbabwe"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "bicycleMudGuards": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BMGS_0001",
+        "description": "Full"
+      },
+      {
+        "const": "BMGS_0002",
+        "description": "None"
+      },
+      {
+        "const": "BMGS_0003",
+        "description": "Other"
+      },
+      {
+        "const": "BMGS_0004",
+        "description": "Short"
+      },
+      {
+        "const": "BMGS_0005",
+        "description": "Splash Guards"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "accent": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "ACNT_0001",
+        "description": "American"
+      },
+      {
+        "const": "ACNT_0002",
+        "description": "Asian"
+      },
+      {
+        "const": "ACNT_0003",
+        "description": "Australian"
+      },
+      {
+        "const": "ACNT_0004",
+        "description": "Birmingham"
+      },
+      {
+        "const": "ACNT_0005",
+        "description": "Cultured"
+      },
+      {
+        "const": "ACNT_0006",
+        "description": "East Anglian"
+      },
+      {
+        "const": "ACNT_0007",
+        "description": "English"
+      },
+      {
+        "const": "ACNT_0008",
+        "description": "French"
+      },
+      {
+        "const": "ACNT_0009",
+        "description": "German"
+      },
+      {
+        "const": "ACNT_0010",
+        "description": "Glasgow"
+      },
+      {
+        "const": "ACNT_0011",
+        "description": "Irish"
+      },
+      {
+        "const": "ACNT_0012",
+        "description": "Italian"
+      },
+      {
+        "const": "ACNT_0013",
+        "description": "Liverpool"
+      },
+      {
+        "const": "ACNT_0014",
+        "description": "London"
+      },
+      {
+        "const": "ACNT_0015",
+        "description": "Manchester"
+      },
+      {
+        "const": "ACNT_0016",
+        "description": "Midland"
+      },
+      {
+        "const": "ACNT_0017",
+        "description": "North East"
+      },
+      {
+        "const": "ACNT_0018",
+        "description": "North West"
+      },
+      {
+        "const": "ACNT_0019",
+        "description": "Northern"
+      },
+      {
+        "const": "ACNT_0020",
+        "description": "Oriental"
+      },
+      {
+        "const": "ACNT_0021",
+        "description": "Other Foreign"
+      },
+      {
+        "const": "ACNT_0022",
+        "description": "Scottish"
+      },
+      {
+        "const": "ACNT_0023",
+        "description": "Southern"
+      },
+      {
+        "const": "ACNT_0024",
+        "description": "Spanish"
+      },
+      {
+        "const": "ACNT_0025",
+        "description": "Welsh"
+      },
+      {
+        "const": "ACNT_0026",
+        "description": "West Country"
+      },
+      {
+        "const": "ACNT_0027",
+        "description": "West Indian"
+      },
+      {
+        "const": "ACNT_0028",
+        "description": "Yorkshire"
+      }
+    ]
+  }
+}

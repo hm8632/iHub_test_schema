@@ -1,0 +1,15 @@
+{
+  "howToProvideYourMedia": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "HTPY_0001",
+        "description": "Describe evidence I have which will need to be collected later"
+      },
+      {
+        "const": "HTPY_0002",
+        "description": "Upload my evidence now"
+      }
+    ]
+  }
+}

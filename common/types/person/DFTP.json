@@ -1,0 +1,27 @@
+{
+  "distinguishingFeatureType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "DFTP_0001",
+        "description": "Lacking"
+      },
+      {
+        "const": "DFTP_0002",
+        "description": "Mark"
+      },
+      {
+        "const": "DFTP_0003",
+        "description": "Peculiar"
+      },
+      {
+        "const": "DFTP_0004",
+        "description": "Pierced"
+      },
+      {
+        "const": "DFTP_0005",
+        "description": "Tattoo"
+      }
+    ]
+  }
+}

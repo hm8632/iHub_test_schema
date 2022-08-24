@@ -1,0 +1,35 @@
+{
+  "ethnicityObserved": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "EOVD_IC1",
+        "description": "White - North European"
+      },
+      {
+        "const": "EOVD_IC2",
+        "description": "White - South European"
+      },
+      {
+        "const": "EOVD_IC3",
+        "description": "Black"
+      },
+      {
+        "const": "EOVD_IC4",
+        "description": "Asian (in the UK, Asian\" usually refers to South Asians)\""
+      },
+      {
+        "const": "EOVD_IC5",
+        "description": "Chinese, Japanese, or other Southeast Asian"
+      },
+      {
+        "const": "EOVD_IC6",
+        "description": "Arab or North African"
+      },
+      {
+        "const": "EOVD_IC7",
+        "description": "Not Known"
+      }
+    ]
+  }
+}

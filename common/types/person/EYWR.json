@@ -1,0 +1,23 @@
+{
+  "eyewear": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "EYWR_0001",
+        "description": "Contact lenses"
+      },
+      {
+        "const": "EYWR_0002",
+        "description": "Glasses / lenses not worn"
+      },
+      {
+        "const": "EYWR_0003",
+        "description": "Glasses worn"
+      },
+      {
+        "const": "EYWR_0004",
+        "description": "Not Known"
+      }
+    ]
+  }
+}

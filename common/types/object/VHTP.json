@@ -1,0 +1,75 @@
+{
+  "vehicleHitchType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VHTP_0001",
+        "description": "At35 coupling"
+      },
+      {
+        "const": "VHTP_0002",
+        "description": "Ball"
+      },
+      {
+        "const": "VHTP_0003",
+        "description": "Ball mount coupling"
+      },
+      {
+        "const": "VHTP_0004",
+        "description": "Draw Bar"
+      },
+      {
+        "const": "VHTP_0005",
+        "description": "Fifth Wheel"
+      },
+      {
+        "const": "VHTP_0006",
+        "description": "Hitchmaster do35 coupling"
+      },
+      {
+        "const": "VHTP_0007",
+        "description": "Hook"
+      },
+      {
+        "const": "VHTP_0008",
+        "description": "Hyland hitch"
+      },
+      {
+        "const": "VHTP_0009",
+        "description": "Lunette ring"
+      },
+      {
+        "const": "VHTP_0010",
+        "description": "Mchitch uniglide trailer coupling"
+      },
+      {
+        "const": "VHTP_0011",
+        "description": "Orac coupling"
+      },
+      {
+        "const": "VHTP_0012",
+        "description": "Other"
+      },
+      {
+        "const": "VHTP_0013",
+        "description": "Ozhitch coupling"
+      },
+      {
+        "const": "VHTP_0014",
+        "description": "Tow hook"
+      },
+      {
+        "const": "VHTP_0015",
+        "description": "Treg hitch"
+      },
+      {
+        "const": "VHTP_0016",
+        "description": "Trigg poly block coupling"
+      },
+      {
+        "const": "VHTP_0017",
+        "description": "Universal trailer hitch"
+      }
+    ]
+  }
+}

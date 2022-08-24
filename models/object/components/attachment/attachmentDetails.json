@@ -1,7 +1,7 @@
 {
   "title": "attachmentDetails",
   "x-stoplight": {
-    "id": "tgi118cqjytha"
+    "id": "0bs9z2zxbj24z"
   },
   "type": "object",
   "properties": {
@@ -16,17 +16,5 @@
       "type": "string",
       "description": "The name of the attachment"
     }
-  },
-  "examples": [
-    {
-      "locationArea": "string",
-      "locationEasting": "string",
-      "locationLatitude": "string",
-      "locationLongitude": "string",
-      "locationNorthing": "string",
-      "locationUPRN": "stringstring",
-      "mapLocationAdditionalDetails": "string",
-      "mapLocationCorrect": true
-    }
-  ]
+  }
 }

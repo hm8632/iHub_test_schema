@@ -1,0 +1,95 @@
+openapi: 3.1.0
+x-stoplight:
+  id: 5wv7z2g1f9u8b
+info:
+  title: Standard API
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /process:
+    post:
+      summary: Process Request
+      tags: []
+      responses:
+        '200':
+          description: OK
+        '400':
+          $ref: '#/components/responses/Error'
+        '503':
+          $ref: '#/components/responses/Error'
+      operationId: post-process
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ../models/request/Request.yaml
+        description: 'Standard API '
+      description: ''
+    parameters: []
+components:
+  schemas:
+    Request:
+      $ref: ../models/request/Request.yaml
+    Error:
+      title: Error
+      x-stoplight:
+        id: gcc9zhg4pqxr0
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+              links:
+                type: object
+                properties:
+                  about:
+                    type: string
+              status:
+                type: string
+              code:
+                type: string
+              title:
+                type: string
+              detail:
+                type: string
+              source:
+                type: string
+              meta:
+                type: object
+      description: JSON API Error Response
+      examples:
+        - errors:
+            - id: '400'
+              status: Bad Request
+              title: Invalid character
+              detail: Invalid character in property name
+              source: b6a03a9d-3056-41f5-97c1-c824c6542fab
+              meta:
+                submissionId: b5e5005d-c5ea-4ceb-8754-9b6187819c58
+        - errors:
+            - id: '400'
+              status: Bad Request
+              title: Invalid character
+              detail: Property name. Invalid character
+              source: b6a03a9d-3056-41f5-97c1-c824c6542fab
+              meta:
+                submissionId: b5e5005d-c5ea-4ceb-8754-9b6187819c58
+            - id: '400'
+              status: Bad Request
+              title: String too long
+              detail: 'Property City. Max Length: 40, Actual Length: 55'
+              source: 1e88df4b-4b05-492b-8f2e-ac1f59b4a967
+              meta:
+                submissionId: b5e5005d-c5ea-4ceb-8754-9b6187819c58
+  responses:
+    Error-Response:
+      description: Example response
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'

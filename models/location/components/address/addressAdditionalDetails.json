@@ -1,7 +1,7 @@
 {
   "title": "addressAdditionalDetails",
   "x-stoplight": {
-    "id": "5tv5zoivmcrls"
+    "id": "7dmyfqguv7kjo"
   },
   "type": "object",
   "properties": {
@@ -26,15 +26,5 @@
       "maxLength": 50,
       "description": "Date moved in for the address"
     }
-  },
-  "examples": [
-    {
-      "physicallyAssaulted": true,
-      "physicallyAssaultedDetails": "string",
-      "subjectedToThreatAbuseOrAssault": true,
-      "subjectedToThreatAbuseOrAssaultDetails": "string",
-      "targetedByOffender": true,
-      "targetedByOffenderDetails": "string"
-    }
-  ]
+  }
 }

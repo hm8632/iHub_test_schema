@@ -1,0 +1,39 @@
+{
+  "eyeColour": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "ECLR_0001",
+        "description": "Blue"
+      },
+      {
+        "const": "ECLR_0002",
+        "description": "Blue green"
+      },
+      {
+        "const": "ECLR_0003",
+        "description": "Brown"
+      },
+      {
+        "const": "ECLR_0004",
+        "description": "Green"
+      },
+      {
+        "const": "ECLR_0005",
+        "description": "Grey"
+      },
+      {
+        "const": "ECLR_0006",
+        "description": "Hazel"
+      },
+      {
+        "const": "ECLR_0007",
+        "description": "Not Known"
+      },
+      {
+        "const": "ECLR_0008",
+        "description": "Red-albino"
+      }
+    ]
+  }
+}

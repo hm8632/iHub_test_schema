@@ -1,0 +1,895 @@
+{
+  "nationality": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "NLTY_0001",
+        "description": "Afghan"
+      },
+      {
+        "const": "NLTY_0002",
+        "description": "Albanian"
+      },
+      {
+        "const": "NLTY_0003",
+        "description": "Algerian"
+      },
+      {
+        "const": "NLTY_0004",
+        "description": "American"
+      },
+      {
+        "const": "NLTY_0005",
+        "description": "Andorran"
+      },
+      {
+        "const": "NLTY_0006",
+        "description": "Angolan"
+      },
+      {
+        "const": "NLTY_0007",
+        "description": "Anguillan"
+      },
+      {
+        "const": "NLTY_0008",
+        "description": "Argentine"
+      },
+      {
+        "const": "NLTY_0009",
+        "description": "Armenian"
+      },
+      {
+        "const": "NLTY_0010",
+        "description": "Australian"
+      },
+      {
+        "const": "NLTY_0011",
+        "description": "Austrian"
+      },
+      {
+        "const": "NLTY_0012",
+        "description": "Azerbaijani"
+      },
+      {
+        "const": "NLTY_0013",
+        "description": "Bahamian"
+      },
+      {
+        "const": "NLTY_0014",
+        "description": "Bahraini"
+      },
+      {
+        "const": "NLTY_0015",
+        "description": "Bangladeshi"
+      },
+      {
+        "const": "NLTY_0016",
+        "description": "Barbadian"
+      },
+      {
+        "const": "NLTY_0017",
+        "description": "Belarusian"
+      },
+      {
+        "const": "NLTY_0018",
+        "description": "Belgian"
+      },
+      {
+        "const": "NLTY_0019",
+        "description": "Belizean"
+      },
+      {
+        "const": "NLTY_0020",
+        "description": "Beninese"
+      },
+      {
+        "const": "NLTY_0021",
+        "description": "Bermudian"
+      },
+      {
+        "const": "NLTY_0022",
+        "description": "Bhutanese"
+      },
+      {
+        "const": "NLTY_0023",
+        "description": "Bolivian"
+      },
+      {
+        "const": "NLTY_0024",
+        "description": "Botswanan"
+      },
+      {
+        "const": "NLTY_0025",
+        "description": "Brazilian"
+      },
+      {
+        "const": "NLTY_0026",
+        "description": "British"
+      },
+      {
+        "const": "NLTY_0027",
+        "description": "British Virgin Islander"
+      },
+      {
+        "const": "NLTY_0028",
+        "description": "Bruneian"
+      },
+      {
+        "const": "NLTY_0029",
+        "description": "Bulgarian"
+      },
+      {
+        "const": "NLTY_0030",
+        "description": "Burkinan"
+      },
+      {
+        "const": "NLTY_0031",
+        "description": "Burmese"
+      },
+      {
+        "const": "NLTY_0032",
+        "description": "Burundian"
+      },
+      {
+        "const": "NLTY_0033",
+        "description": "Cambodian"
+      },
+      {
+        "const": "NLTY_0034",
+        "description": "Cameroonian"
+      },
+      {
+        "const": "NLTY_0035",
+        "description": "Canadian"
+      },
+      {
+        "const": "NLTY_0036",
+        "description": "Cape Verdean"
+      },
+      {
+        "const": "NLTY_0037",
+        "description": "Cayman Islander"
+      },
+      {
+        "const": "NLTY_0038",
+        "description": "Central African"
+      },
+      {
+        "const": "NLTY_0039",
+        "description": "Chadian"
+      },
+      {
+        "const": "NLTY_0040",
+        "description": "Chilean"
+      },
+      {
+        "const": "NLTY_0041",
+        "description": "Chinese"
+      },
+      {
+        "const": "NLTY_0042",
+        "description": "Citizen of Antigua and Barbuda"
+      },
+      {
+        "const": "NLTY_0043",
+        "description": "Citizen of Bosnia and Herzegovina"
+      },
+      {
+        "const": "NLTY_0044",
+        "description": "Citizen of Guinea-Bissau"
+      },
+      {
+        "const": "NLTY_0045",
+        "description": "Citizen of Kiribati"
+      },
+      {
+        "const": "NLTY_0046",
+        "description": "Citizen of Seychelles"
+      },
+      {
+        "const": "NLTY_0047",
+        "description": "Citizen of Vanuatu"
+      },
+      {
+        "const": "NLTY_0048",
+        "description": "Citizen of the Dominican Republic"
+      },
+      {
+        "const": "NLTY_0049",
+        "description": "Colombian"
+      },
+      {
+        "const": "NLTY_0050",
+        "description": "Comoran"
+      },
+      {
+        "const": "NLTY_0051",
+        "description": "Congolese (Congo)"
+      },
+      {
+        "const": "NLTY_0052",
+        "description": "Congolese (DRC)"
+      },
+      {
+        "const": "NLTY_0053",
+        "description": "Cook Islander"
+      },
+      {
+        "const": "NLTY_0054",
+        "description": "Costa Rican"
+      },
+      {
+        "const": "NLTY_0055",
+        "description": "Croatian"
+      },
+      {
+        "const": "NLTY_0056",
+        "description": "Cuban"
+      },
+      {
+        "const": "NLTY_0057",
+        "description": "Cymraes"
+      },
+      {
+        "const": "NLTY_0058",
+        "description": "Cymro"
+      },
+      {
+        "const": "NLTY_0059",
+        "description": "Cypriot"
+      },
+      {
+        "const": "NLTY_0060",
+        "description": "Czech"
+      },
+      {
+        "const": "NLTY_0061",
+        "description": "Danish"
+      },
+      {
+        "const": "NLTY_0062",
+        "description": "Djiboutian"
+      },
+      {
+        "const": "NLTY_0063",
+        "description": "Dominican"
+      },
+      {
+        "const": "NLTY_0064",
+        "description": "Dutch"
+      },
+      {
+        "const": "NLTY_0065",
+        "description": "East Timorese"
+      },
+      {
+        "const": "NLTY_0066",
+        "description": "Ecuadorean"
+      },
+      {
+        "const": "NLTY_0067",
+        "description": "Egyptian"
+      },
+      {
+        "const": "NLTY_0068",
+        "description": "Emirati"
+      },
+      {
+        "const": "NLTY_0069",
+        "description": "Equatorial Guinean"
+      },
+      {
+        "const": "NLTY_0070",
+        "description": "Eritrean"
+      },
+      {
+        "const": "NLTY_0071",
+        "description": "Estonian"
+      },
+      {
+        "const": "NLTY_0072",
+        "description": "Ethiopian"
+      },
+      {
+        "const": "NLTY_0073",
+        "description": "Faroese"
+      },
+      {
+        "const": "NLTY_0074",
+        "description": "Fijian"
+      },
+      {
+        "const": "NLTY_0075",
+        "description": "Filipino"
+      },
+      {
+        "const": "NLTY_0076",
+        "description": "Finnish"
+      },
+      {
+        "const": "NLTY_0077",
+        "description": "French"
+      },
+      {
+        "const": "NLTY_0078",
+        "description": "Gabonese"
+      },
+      {
+        "const": "NLTY_0079",
+        "description": "Gambian"
+      },
+      {
+        "const": "NLTY_0080",
+        "description": "Georgian"
+      },
+      {
+        "const": "NLTY_0081",
+        "description": "German"
+      },
+      {
+        "const": "NLTY_0082",
+        "description": "Ghanaian"
+      },
+      {
+        "const": "NLTY_0083",
+        "description": "Gibraltarian"
+      },
+      {
+        "const": "NLTY_0084",
+        "description": "Greek"
+      },
+      {
+        "const": "NLTY_0085",
+        "description": "Greenlandic"
+      },
+      {
+        "const": "NLTY_0086",
+        "description": "Grenadian"
+      },
+      {
+        "const": "NLTY_0087",
+        "description": "Guamanian"
+      },
+      {
+        "const": "NLTY_0088",
+        "description": "Guatemalan"
+      },
+      {
+        "const": "NLTY_0089",
+        "description": "Guinean"
+      },
+      {
+        "const": "NLTY_0090",
+        "description": "Guyanese"
+      },
+      {
+        "const": "NLTY_0091",
+        "description": "Haitian"
+      },
+      {
+        "const": "NLTY_0092",
+        "description": "Honduran"
+      },
+      {
+        "const": "NLTY_0093",
+        "description": "Hong Konger"
+      },
+      {
+        "const": "NLTY_0094",
+        "description": "Hungarian"
+      },
+      {
+        "const": "NLTY_0095",
+        "description": "Icelandic"
+      },
+      {
+        "const": "NLTY_0096",
+        "description": "Indian"
+      },
+      {
+        "const": "NLTY_0097",
+        "description": "Indonesian"
+      },
+      {
+        "const": "NLTY_0098",
+        "description": "Iranian"
+      },
+      {
+        "const": "NLTY_0099",
+        "description": "Iraqi"
+      },
+      {
+        "const": "NLTY_0100",
+        "description": "Irish"
+      },
+      {
+        "const": "NLTY_0101",
+        "description": "Israeli"
+      },
+      {
+        "const": "NLTY_0102",
+        "description": "Italian"
+      },
+      {
+        "const": "NLTY_0103",
+        "description": "Ivorian"
+      },
+      {
+        "const": "NLTY_0104",
+        "description": "Jamaican"
+      },
+      {
+        "const": "NLTY_0105",
+        "description": "Japanese"
+      },
+      {
+        "const": "NLTY_0106",
+        "description": "Jordanian"
+      },
+      {
+        "const": "NLTY_0107",
+        "description": "Kazakh"
+      },
+      {
+        "const": "NLTY_0108",
+        "description": "Kenyan"
+      },
+      {
+        "const": "NLTY_0109",
+        "description": "Kittitian"
+      },
+      {
+        "const": "NLTY_0110",
+        "description": "Kosovan"
+      },
+      {
+        "const": "NLTY_0111",
+        "description": "Kuwaiti"
+      },
+      {
+        "const": "NLTY_0112",
+        "description": "Kyrgyz"
+      },
+      {
+        "const": "NLTY_0113",
+        "description": "Lao"
+      },
+      {
+        "const": "NLTY_0114",
+        "description": "Latvian"
+      },
+      {
+        "const": "NLTY_0115",
+        "description": "Lebanese"
+      },
+      {
+        "const": "NLTY_0116",
+        "description": "Liberian"
+      },
+      {
+        "const": "NLTY_0117",
+        "description": "Libyan"
+      },
+      {
+        "const": "NLTY_0118",
+        "description": "Liechtenstein citizen"
+      },
+      {
+        "const": "NLTY_0119",
+        "description": "Lithuanian"
+      },
+      {
+        "const": "NLTY_0120",
+        "description": "Luxembourger"
+      },
+      {
+        "const": "NLTY_0121",
+        "description": "Macanese"
+      },
+      {
+        "const": "NLTY_0122",
+        "description": "Macedonian"
+      },
+      {
+        "const": "NLTY_0123",
+        "description": "Malagasy"
+      },
+      {
+        "const": "NLTY_0124",
+        "description": "Malawian"
+      },
+      {
+        "const": "NLTY_0125",
+        "description": "Malaysian"
+      },
+      {
+        "const": "NLTY_0126",
+        "description": "Maldivian"
+      },
+      {
+        "const": "NLTY_0127",
+        "description": "Malian"
+      },
+      {
+        "const": "NLTY_0128",
+        "description": "Maltese"
+      },
+      {
+        "const": "NLTY_0129",
+        "description": "Marshallese"
+      },
+      {
+        "const": "NLTY_0130",
+        "description": "Martiniquais"
+      },
+      {
+        "const": "NLTY_0131",
+        "description": "Mauritanian"
+      },
+      {
+        "const": "NLTY_0132",
+        "description": "Mauritian"
+      },
+      {
+        "const": "NLTY_0133",
+        "description": "Mexican"
+      },
+      {
+        "const": "NLTY_0134",
+        "description": "Micronesian"
+      },
+      {
+        "const": "NLTY_0135",
+        "description": "Moldovan"
+      },
+      {
+        "const": "NLTY_0136",
+        "description": "Monegasque"
+      },
+      {
+        "const": "NLTY_0137",
+        "description": "Mongolian"
+      },
+      {
+        "const": "NLTY_0138",
+        "description": "Montenegrin"
+      },
+      {
+        "const": "NLTY_0139",
+        "description": "Montserratian"
+      },
+      {
+        "const": "NLTY_0140",
+        "description": "Moroccan"
+      },
+      {
+        "const": "NLTY_0141",
+        "description": "Mosotho"
+      },
+      {
+        "const": "NLTY_0142",
+        "description": "Mozambican"
+      },
+      {
+        "const": "NLTY_0143",
+        "description": "Namibian"
+      },
+      {
+        "const": "NLTY_0144",
+        "description": "Nauruan"
+      },
+      {
+        "const": "NLTY_0145",
+        "description": "Nepalese"
+      },
+      {
+        "const": "NLTY_0146",
+        "description": "New Zealander"
+      },
+      {
+        "const": "NLTY_0147",
+        "description": "Nicaraguan"
+      },
+      {
+        "const": "NLTY_0148",
+        "description": "Nigerian"
+      },
+      {
+        "const": "NLTY_0149",
+        "description": "Nigerien"
+      },
+      {
+        "const": "NLTY_0150",
+        "description": "Niuean"
+      },
+      {
+        "const": "NLTY_0151",
+        "description": "North Korean"
+      },
+      {
+        "const": "NLTY_0152",
+        "description": "Northern Irish"
+      },
+      {
+        "const": "NLTY_0153",
+        "description": "Norwegian"
+      },
+      {
+        "const": "NLTY_0154",
+        "description": "Omani"
+      },
+      {
+        "const": "NLTY_0155",
+        "description": "Pakistani"
+      },
+      {
+        "const": "NLTY_0156",
+        "description": "Palauan"
+      },
+      {
+        "const": "NLTY_0157",
+        "description": "Palestinian"
+      },
+      {
+        "const": "NLTY_0158",
+        "description": "Panamanian"
+      },
+      {
+        "const": "NLTY_0159",
+        "description": "Papua New Guinean"
+      },
+      {
+        "const": "NLTY_0160",
+        "description": "Paraguayan"
+      },
+      {
+        "const": "NLTY_0161",
+        "description": "Peruvian"
+      },
+      {
+        "const": "NLTY_0162",
+        "description": "Pitcairn Islander"
+      },
+      {
+        "const": "NLTY_0163",
+        "description": "Polish"
+      },
+      {
+        "const": "NLTY_0164",
+        "description": "Portuguese"
+      },
+      {
+        "const": "NLTY_0165",
+        "description": "Prydeinig"
+      },
+      {
+        "const": "NLTY_0166",
+        "description": "Puerto Rican"
+      },
+      {
+        "const": "NLTY_0167",
+        "description": "Qatari"
+      },
+      {
+        "const": "NLTY_0168",
+        "description": "Romanian"
+      },
+      {
+        "const": "NLTY_0169",
+        "description": "Russian"
+      },
+      {
+        "const": "NLTY_0170",
+        "description": "Rwandan"
+      },
+      {
+        "const": "NLTY_0171",
+        "description": "Salvadorean"
+      },
+      {
+        "const": "NLTY_0172",
+        "description": "Sammarinese"
+      },
+      {
+        "const": "NLTY_0173",
+        "description": "Samoan"
+      },
+      {
+        "const": "NLTY_0174",
+        "description": "Sao Tomean"
+      },
+      {
+        "const": "NLTY_0175",
+        "description": "Saudi Arabian"
+      },
+      {
+        "const": "NLTY_0176",
+        "description": "Senegalese"
+      },
+      {
+        "const": "NLTY_0177",
+        "description": "Serbian"
+      },
+      {
+        "const": "NLTY_0178",
+        "description": "Sierra Leonean"
+      },
+      {
+        "const": "NLTY_0179",
+        "description": "Singaporean"
+      },
+      {
+        "const": "NLTY_0180",
+        "description": "Slovak"
+      },
+      {
+        "const": "NLTY_0181",
+        "description": "Slovenian"
+      },
+      {
+        "const": "NLTY_0182",
+        "description": "Solomon Islander"
+      },
+      {
+        "const": "NLTY_0183",
+        "description": "Somali"
+      },
+      {
+        "const": "NLTY_0184",
+        "description": "South African"
+      },
+      {
+        "const": "NLTY_0185",
+        "description": "South Korean"
+      },
+      {
+        "const": "NLTY_0186",
+        "description": "South Sudanese"
+      },
+      {
+        "const": "NLTY_0187",
+        "description": "Spanish"
+      },
+      {
+        "const": "NLTY_0188",
+        "description": "Sri Lankan"
+      },
+      {
+        "const": "NLTY_0189",
+        "description": "St Helenian"
+      },
+      {
+        "const": "NLTY_0190",
+        "description": "St Lucian"
+      },
+      {
+        "const": "NLTY_0191",
+        "description": "Stateless"
+      },
+      {
+        "const": "NLTY_0192",
+        "description": "Sudanese"
+      },
+      {
+        "const": "NLTY_0193",
+        "description": "Surinamese"
+      },
+      {
+        "const": "NLTY_0194",
+        "description": "Swazi"
+      },
+      {
+        "const": "NLTY_0195",
+        "description": "Swedish"
+      },
+      {
+        "const": "NLTY_0196",
+        "description": "Swiss"
+      },
+      {
+        "const": "NLTY_0197",
+        "description": "Syrian"
+      },
+      {
+        "const": "NLTY_0198",
+        "description": "Taiwanese"
+      },
+      {
+        "const": "NLTY_0199",
+        "description": "Tajik"
+      },
+      {
+        "const": "NLTY_0200",
+        "description": "Tanzanian"
+      },
+      {
+        "const": "NLTY_0201",
+        "description": "Thai"
+      },
+      {
+        "const": "NLTY_0202",
+        "description": "Togolese"
+      },
+      {
+        "const": "NLTY_0203",
+        "description": "Tongan"
+      },
+      {
+        "const": "NLTY_0204",
+        "description": "Trinidadian"
+      },
+      {
+        "const": "NLTY_0205",
+        "description": "Tristanian"
+      },
+      {
+        "const": "NLTY_0206",
+        "description": "Tunisian"
+      },
+      {
+        "const": "NLTY_0207",
+        "description": "Turkish"
+      },
+      {
+        "const": "NLTY_0208",
+        "description": "Turkmen"
+      },
+      {
+        "const": "NLTY_0209",
+        "description": "Turks and Caicos Islander"
+      },
+      {
+        "const": "NLTY_0210",
+        "description": "Tuvaluan"
+      },
+      {
+        "const": "NLTY_0211",
+        "description": "Ugandan"
+      },
+      {
+        "const": "NLTY_0212",
+        "description": "Ukrainian"
+      },
+      {
+        "const": "NLTY_0213",
+        "description": "Uruguayan"
+      },
+      {
+        "const": "NLTY_0214",
+        "description": "Uzbek"
+      },
+      {
+        "const": "NLTY_0215",
+        "description": "Vatican citizen"
+      },
+      {
+        "const": "NLTY_0216",
+        "description": "Venezuelan"
+      },
+      {
+        "const": "NLTY_0217",
+        "description": "Vietnamese"
+      },
+      {
+        "const": "NLTY_0218",
+        "description": "Vincentian"
+      },
+      {
+        "const": "NLTY_0219",
+        "description": "Wallisian"
+      },
+      {
+        "const": "NLTY_0220",
+        "description": "Yemeni"
+      },
+      {
+        "const": "NLTY_0221",
+        "description": "Zambian"
+      },
+      {
+        "const": "NLTY_0222",
+        "description": "Zimbabwean"
+      }
+    ]
+  }
+}

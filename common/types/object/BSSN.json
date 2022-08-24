@@ -1,0 +1,23 @@
+{
+  "bicycleSuspension": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BSSN_0001",
+        "description": "Front Fork"
+      },
+      {
+        "const": "BSSN_0002",
+        "description": "Rear Suspension"
+      },
+      {
+        "const": "BSSN_0003",
+        "description": "Seatpost"
+      },
+      {
+        "const": "BSSN_0004",
+        "description": "Stem"
+      }
+    ]
+  }
+}

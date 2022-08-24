@@ -1,0 +1,87 @@
+{
+  "ethnicitySelfDefined": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "ESDD_W1",
+        "description": "British"
+      },
+      {
+        "const": "ESDD_W2",
+        "description": "Irish"
+      },
+      {
+        "const": "ESDD_W3",
+        "description": "Gypsy or Irish Traveller"
+      },
+      {
+        "const": "ESDD_W4",
+        "description": "Roma"
+      },
+      {
+        "const": "ESDD_W9",
+        "description": "Any other white background"
+      },
+      {
+        "const": "ESDD_M1",
+        "description": "White and Black Caribbean"
+      },
+      {
+        "const": "ESDD_M2",
+        "description": "White and Black African"
+      },
+      {
+        "const": "ESDD_M3",
+        "description": "White and Asian"
+      },
+      {
+        "const": "ESDD_M9",
+        "description": "Any other mixed"
+      },
+      {
+        "const": "ESDD_A1",
+        "description": "Indian"
+      },
+      {
+        "const": "ESDD_A2",
+        "description": "Pakistani"
+      },
+      {
+        "const": "ESDD_A3",
+        "description": "Bangladeshi"
+      },
+      {
+        "const": "ESDD_A4",
+        "description": "Chinese"
+      },
+      {
+        "const": "ESDD_A9",
+        "description": "Any other Asian background"
+      },
+      {
+        "const": "ESDD_B1",
+        "description": "Caribbean"
+      },
+      {
+        "const": "ESDD_B2",
+        "description": "African"
+      },
+      {
+        "const": "ESDD_B9",
+        "description": "Any other Black background"
+      },
+      {
+        "const": "ESDD_O2",
+        "description": "Arab"
+      },
+      {
+        "const": "ESDD_O9",
+        "description": "Any other"
+      },
+      {
+        "const": "ESDD_NS",
+        "description": "Not stated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "employmentStatus": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "ESTS_0001",
+        "description": "Employed"
+      },
+      {
+        "const": "ESTS_0002",
+        "description": "I&#39;d rather not say"
+      },
+      {
+        "const": "ESTS_0003",
+        "description": "Not Known"
+      },
+      {
+        "const": "ESTS_0004",
+        "description": "Retired"
+      },
+      {
+        "const": "ESTS_0005",
+        "description": "Self employed"
+      },
+      {
+        "const": "ESTS_0006",
+        "description": "Unemployed"
+      }
+    ]
+  }
+}

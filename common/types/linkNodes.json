@@ -1,0 +1,11 @@
+{
+  "linkNodes": {
+    "type": "string",
+    "enum": [
+      "Sister",
+      "Brother",
+      "Father",
+      "Mother"
+    ]
+  }
+}

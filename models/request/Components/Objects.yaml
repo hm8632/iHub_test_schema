@@ -16,4 +16,4 @@ anyOf:
   - $ref: ../../object/business.json
   - type: object
 x-stoplight:
-  id: dzamm794dz80o
+  id: ib6w51hanoxr9

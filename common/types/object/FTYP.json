@@ -1,0 +1,127 @@
+{
+  "firearmType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "FTYP_0001",
+        "description": "Air Weapon"
+      },
+      {
+        "const": "FTYP_0002",
+        "description": "Antique (Mustket Etc)"
+      },
+      {
+        "const": "FTYP_0003",
+        "description": "Ballbearing gun (BB Gun)"
+      },
+      {
+        "const": "FTYP_0004",
+        "description": "Blank firer"
+      },
+      {
+        "const": "FTYP_0005",
+        "description": "Blow Gun"
+      },
+      {
+        "const": "FTYP_0006",
+        "description": "CS Gas"
+      },
+      {
+        "const": "FTYP_0007",
+        "description": "Deactivated firearm"
+      },
+      {
+        "const": "FTYP_0008",
+        "description": "Disguised firearm"
+      },
+      {
+        "const": "FTYP_0009",
+        "description": "Flash Eliminator"
+      },
+      {
+        "const": "FTYP_0010",
+        "description": "Handgun"
+      },
+      {
+        "const": "FTYP_0011",
+        "description": "Handgun converted airpistol"
+      },
+      {
+        "const": "FTYP_0012",
+        "description": "Handgun converted imitation"
+      },
+      {
+        "const": "FTYP_0013",
+        "description": "Handgun other"
+      },
+      {
+        "const": "FTYP_0014",
+        "description": "Handgun reactivated"
+      },
+      {
+        "const": "FTYP_0015",
+        "description": "Imitation handgun"
+      },
+      {
+        "const": "FTYP_0016",
+        "description": "Machine gun"
+      },
+      {
+        "const": "FTYP_0017",
+        "description": "Other Accessory"
+      },
+      {
+        "const": "FTYP_0018",
+        "description": "Other airsoft weapon (not BB gun)"
+      },
+      {
+        "const": "FTYP_0019",
+        "description": "Other converted imitation weapon"
+      },
+      {
+        "const": "FTYP_0020",
+        "description": "Other imitation"
+      },
+      {
+        "const": "FTYP_0021",
+        "description": "Other reactivated firearm"
+      },
+      {
+        "const": "FTYP_0022",
+        "description": "Pepper spray"
+      },
+      {
+        "const": "FTYP_0023",
+        "description": "Rifle"
+      },
+      {
+        "const": "FTYP_0024",
+        "description": "Rocket Launcher"
+      },
+      {
+        "const": "FTYP_0025",
+        "description": "Shotgun (long barrelled)"
+      },
+      {
+        "const": "FTYP_0026",
+        "description": "Shotgun (sawn off)"
+      },
+      {
+        "const": "FTYP_0027",
+        "description": "Silencer"
+      },
+      {
+        "const": "FTYP_0028",
+        "description": "Stun gun"
+      },
+      {
+        "const": "FTYP_0029",
+        "description": "Tranquilizer Gun"
+      },
+      {
+        "const": "FTYP_0030",
+        "description": "Unconverted starting gun"
+      }
+    ]
+  }
+}

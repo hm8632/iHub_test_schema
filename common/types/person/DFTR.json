@@ -1,0 +1,35 @@
+{
+  "distinguishingFeature": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "DFTR_0001",
+        "description": "Lacking"
+      },
+      {
+        "const": "DFTR_0002",
+        "description": "Mark"
+      },
+      {
+        "const": "DFTR_0003",
+        "description": "Peculiar"
+      },
+      {
+        "const": "DFTR_0004",
+        "description": "Pierced"
+      },
+      {
+        "const": "DFTR_0005",
+        "description": "Scarred"
+      },
+      {
+        "const": "DFTR_0006",
+        "description": "Tattoo"
+      },
+      {
+        "const": "DFTR_0007",
+        "description": "Unmapped Local Code"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "beforeWebsite": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BWST_0001",
+        "description": "I called 101"
+      },
+      {
+        "const": "BWST_0002",
+        "description": "I spoke to an officer, in person"
+      },
+      {
+        "const": "BWST_0003",
+        "description": "I visited a police station"
+      },
+      {
+        "const": "BWST_0004",
+        "description": "None of the above; this is the first time I&#39;m contacting you about this"
+      },
+      {
+        "const": "BWST_0005",
+        "description": "Other"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "bicycleGearsType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BGTP_0001",
+        "description": "Alpine gearing"
+      },
+      {
+        "const": "BGTP_0002",
+        "description": "Continuously variable transmissions"
+      },
+      {
+        "const": "BGTP_0003",
+        "description": "Crossover gearing"
+      },
+      {
+        "const": "BGTP_0004",
+        "description": "External (derailleur)"
+      },
+      {
+        "const": "BGTP_0005",
+        "description": "Flip-flop hubs"
+      },
+      {
+        "const": "BGTP_0006",
+        "description": "Half-step gearing"
+      },
+      {
+        "const": "BGTP_0007",
+        "description": "Half-step plus granny gearing"
+      },
+      {
+        "const": "BGTP_0008",
+        "description": "Internal (bottom bracket)"
+      },
+      {
+        "const": "BGTP_0009",
+        "description": "Internal (hub)"
+      },
+      {
+        "const": "BGTP_0010",
+        "description": "Internal and external combined"
+      },
+      {
+        "const": "BGTP_0011",
+        "description": "Multi-range gearing"
+      },
+      {
+        "const": "BGTP_0012",
+        "description": "Retro-direct"
+      }
+    ]
+  }
+}

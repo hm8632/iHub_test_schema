@@ -1,0 +1,23 @@
+{
+  "bicycleGender": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BGDR_0001",
+        "description": "Female"
+      },
+      {
+        "const": "BGDR_0002",
+        "description": "Male"
+      },
+      {
+        "const": "BGDR_0003",
+        "description": "Not Known"
+      },
+      {
+        "const": "BGDR_0004",
+        "description": "Unisex"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "howProvidingMedicalEvidence": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "HPME_0001",
+        "description": "Describe evidence which will need to be collected later"
+      },
+      {
+        "const": "HPME_0002",
+        "description": "Upload evidence now"
+      }
+    ]
+  }
+}

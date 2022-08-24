@@ -1,7 +1,7 @@
 {
   "title": "incidentLocation",
   "x-stoplight": {
-    "id": "qystcut2sv0jc"
+    "id": "1dik43r0yth4v"
   },
   "type": "object",
   "properties": {
@@ -20,11 +20,5 @@
       "maxLength": 1000,
       "description": "Additional details of connections to the person reporting's location"
     }
-  },
-  "examples": [
-    {
-      "additionalPersonInvolvedInIncident": true,
-      "additionalPersonInvolvedInIncidentDetails": "string"
-    }
-  ]
+  }
 }

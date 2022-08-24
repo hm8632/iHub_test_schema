@@ -1,0 +1,91 @@
+{
+  "propertyColour": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "PCLR_0001",
+        "description": "Beige"
+      },
+      {
+        "const": "PCLR_0002",
+        "description": "Black"
+      },
+      {
+        "const": "PCLR_0003",
+        "description": "Blue"
+      },
+      {
+        "const": "PCLR_0004",
+        "description": "Bronze"
+      },
+      {
+        "const": "PCLR_0005",
+        "description": "Brown"
+      },
+      {
+        "const": "PCLR_0006",
+        "description": "Colourless"
+      },
+      {
+        "const": "PCLR_0007",
+        "description": "Cream"
+      },
+      {
+        "const": "PCLR_0008",
+        "description": "Gold"
+      },
+      {
+        "const": "PCLR_0009",
+        "description": "Green"
+      },
+      {
+        "const": "PCLR_0010",
+        "description": "Grey"
+      },
+      {
+        "const": "PCLR_0011",
+        "description": "Maroon"
+      },
+      {
+        "const": "PCLR_0012",
+        "description": "Multi"
+      },
+      {
+        "const": "PCLR_0013",
+        "description": "Orange"
+      },
+      {
+        "const": "PCLR_0014",
+        "description": "Pink"
+      },
+      {
+        "const": "PCLR_0015",
+        "description": "Purple"
+      },
+      {
+        "const": "PCLR_0016",
+        "description": "Red"
+      },
+      {
+        "const": "PCLR_0017",
+        "description": "Silver"
+      },
+      {
+        "const": "PCLR_0018",
+        "description": "Turquoise"
+      },
+      {
+        "const": "PCLR_0019",
+        "description": "Two Tone"
+      },
+      {
+        "const": "PCLR_0020",
+        "description": "White"
+      },
+      {
+        "const": "PCLR_0021",
+        "description": "Yellow"
+      }
+    ]
+  }
+}

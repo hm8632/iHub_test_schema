@@ -1,0 +1,31 @@
+{
+  "maritalStatus": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "MSTS_0001",
+        "description": "Divorced/Person whose Civil Partnership has been dissolved"
+      },
+      {
+        "const": "MSTS_0002",
+        "description": "Married/Civil Partner"
+      },
+      {
+        "const": "MSTS_0003",
+        "description": "Not Disclosed"
+      },
+      {
+        "const": "MSTS_0004",
+        "description": "Separated"
+      },
+      {
+        "const": "MSTS_0005",
+        "description": "Single"
+      },
+      {
+        "const": "MSTS_0006",
+        "description": "Widowed/Surviving Civil Partner"
+      }
+    ]
+  }
+}

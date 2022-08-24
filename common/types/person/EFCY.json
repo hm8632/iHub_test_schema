@@ -1,0 +1,27 @@
+{
+  "englishFluency": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "EFCY_0001",
+        "description": "Fluent"
+      },
+      {
+        "const": "EFCY_0002",
+        "description": "No English at all"
+      },
+      {
+        "const": "EFCY_0003",
+        "description": "Not Known"
+      },
+      {
+        "const": "EFCY_0004",
+        "description": "Not very much"
+      },
+      {
+        "const": "EFCY_0005",
+        "description": "They get by"
+      }
+    ]
+  }
+}

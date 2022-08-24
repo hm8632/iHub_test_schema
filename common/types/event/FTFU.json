@@ -1,0 +1,19 @@
+{
+  "firstTimeFollowUp": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "FTFU_0001",
+        "description": "Called 101"
+      },
+      {
+        "const": "FTFU_0002",
+        "description": "Gone into a police station"
+      },
+      {
+        "const": "FTFU_0003",
+        "description": "I wouldn&#39;t have done anything"
+      }
+    ]
+  }
+}

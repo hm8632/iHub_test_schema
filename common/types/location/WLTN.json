@@ -1,0 +1,15 @@
+{
+  "whosLocation": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "WLTN_0001",
+        "description": "Me"
+      },
+      {
+        "const": "WLTN_0002",
+        "description": "The suspect"
+      }
+    ]
+  }
+}

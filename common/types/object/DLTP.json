@@ -1,0 +1,23 @@
+{
+  "drivingLicenseType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "DLTP_0001",
+        "description": "Full"
+      },
+      {
+        "const": "DLTP_0002",
+        "description": "Not Known"
+      },
+      {
+        "const": "DLTP_0003",
+        "description": "Provisional"
+      },
+      {
+        "const": "DLTP_0004",
+        "description": "Unlicensed"
+      }
+    ]
+  }
+}

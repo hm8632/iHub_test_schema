@@ -1,0 +1,23 @@
+{
+  "vehicleTaxiType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VTTP_0001",
+        "description": "Licensed Taxi"
+      },
+      {
+        "const": "VTTP_0002",
+        "description": "Licensed private hire vehicle"
+      },
+      {
+        "const": "VTTP_0003",
+        "description": "Not Known"
+      },
+      {
+        "const": "VTTP_0004",
+        "description": "Unlicensed private hire vehicle"
+      }
+    ]
+  }
+}

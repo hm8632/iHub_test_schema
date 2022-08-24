@@ -1,0 +1,123 @@
+{
+  "hairStyleList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "HSLT_0001",
+        "description": "Afro"
+      },
+      {
+        "const": "HSLT_0002",
+        "description": "Beehive"
+      },
+      {
+        "const": "HSLT_0003",
+        "description": "Braided"
+      },
+      {
+        "const": "HSLT_0004",
+        "description": "Bushy"
+      },
+      {
+        "const": "HSLT_0005",
+        "description": "Cornrows"
+      },
+      {
+        "const": "HSLT_0006",
+        "description": "Curly"
+      },
+      {
+        "const": "HSLT_0007",
+        "description": "Curtains"
+      },
+      {
+        "const": "HSLT_0008",
+        "description": "Dreadlocks"
+      },
+      {
+        "const": "HSLT_0009",
+        "description": "Greasy"
+      },
+      {
+        "const": "HSLT_0010",
+        "description": "Mohawk"
+      },
+      {
+        "const": "HSLT_0011",
+        "description": "Mullet"
+      },
+      {
+        "const": "HSLT_0012",
+        "description": "Other"
+      },
+      {
+        "const": "HSLT_0013",
+        "description": "Permed"
+      },
+      {
+        "const": "HSLT_0014",
+        "description": "Plaited"
+      },
+      {
+        "const": "HSLT_0015",
+        "description": "Ponytail"
+      },
+      {
+        "const": "HSLT_0016",
+        "description": "Punk"
+      },
+      {
+        "const": "HSLT_0017",
+        "description": "Rastafarian"
+      },
+      {
+        "const": "HSLT_0018",
+        "description": "Shaven"
+      },
+      {
+        "const": "HSLT_0019",
+        "description": "Sikh top knot"
+      },
+      {
+        "const": "HSLT_0020",
+        "description": "Skinhead"
+      },
+      {
+        "const": "HSLT_0021",
+        "description": "Spiked"
+      },
+      {
+        "const": "HSLT_0022",
+        "description": "Straight"
+      },
+      {
+        "const": "HSLT_0023",
+        "description": "Teddy"
+      },
+      {
+        "const": "HSLT_0024",
+        "description": "Thinning"
+      },
+      {
+        "const": "HSLT_0025",
+        "description": "Untidy"
+      },
+      {
+        "const": "HSLT_0026",
+        "description": "Wavy"
+      },
+      {
+        "const": "HSLT_0027",
+        "description": "Waxed"
+      },
+      {
+        "const": "HSLT_0028",
+        "description": "Wedge"
+      },
+      {
+        "const": "HSLT_0029",
+        "description": "Wig"
+      }
+    ]
+  }
+}

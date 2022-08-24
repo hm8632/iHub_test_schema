@@ -1,0 +1,51 @@
+{
+  "speechDescriptionList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "SDLT_0001",
+        "description": "Affected (BRC)"
+      },
+      {
+        "const": "SDLT_0002",
+        "description": "Deep"
+      },
+      {
+        "const": "SDLT_0003",
+        "description": "Effeminate (BRC)"
+      },
+      {
+        "const": "SDLT_0004",
+        "description": "Gruff"
+      },
+      {
+        "const": "SDLT_0005",
+        "description": "High Pitched (BRC)"
+      },
+      {
+        "const": "SDLT_0006",
+        "description": "Husky"
+      },
+      {
+        "const": "SDLT_0007",
+        "description": "Lisp (BRC)"
+      },
+      {
+        "const": "SDLT_0008",
+        "description": "Loud"
+      },
+      {
+        "const": "SDLT_0009",
+        "description": "Quietly Spoken"
+      },
+      {
+        "const": "SDLT_0010",
+        "description": "Refined"
+      },
+      {
+        "const": "SDLT_0011",
+        "description": "Stammer (BRC)"
+      }
+    ]
+  }
+}

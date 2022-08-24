@@ -1,0 +1,23 @@
+{
+  "publicTransportType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "PTTP_0001",
+        "description": "Bus"
+      },
+      {
+        "const": "PTTP_0002",
+        "description": "Other"
+      },
+      {
+        "const": "PTTP_0003",
+        "description": "Train"
+      },
+      {
+        "const": "PTTP_0004",
+        "description": "Tram"
+      }
+    ]
+  }
+}

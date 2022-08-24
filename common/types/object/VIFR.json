@@ -1,0 +1,59 @@
+{
+  "vehicleIdentifyingFeature": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VIFR_0001",
+        "description": "Bonnet vents"
+      },
+      {
+        "const": "VIFR_0002",
+        "description": "Driving Position - Centre"
+      },
+      {
+        "const": "VIFR_0003",
+        "description": "Driving Position - Left"
+      },
+      {
+        "const": "VIFR_0004",
+        "description": "Driving Position - Right"
+      },
+      {
+        "const": "VIFR_0005",
+        "description": "Side skirts"
+      },
+      {
+        "const": "VIFR_0006",
+        "description": "Spoiler-boot mounted"
+      },
+      {
+        "const": "VIFR_0007",
+        "description": "Spoiler-front"
+      },
+      {
+        "const": "VIFR_0008",
+        "description": "Spoiler-roof level"
+      },
+      {
+        "const": "VIFR_0009",
+        "description": "Sunroof"
+      },
+      {
+        "const": "VIFR_0010",
+        "description": "Towbar"
+      },
+      {
+        "const": "VIFR_0011",
+        "description": "Transmission - Automatic"
+      },
+      {
+        "const": "VIFR_0012",
+        "description": "Transmission - Manual"
+      },
+      {
+        "const": "VIFR_0013",
+        "description": "Underbody lighting"
+      }
+    ]
+  }
+}

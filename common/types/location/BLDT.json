@@ -1,0 +1,27 @@
+{
+  "buildingType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BLDT_0001",
+        "description": "Business premises"
+      },
+      {
+        "const": "BLDT_0002",
+        "description": "Garage"
+      },
+      {
+        "const": "BLDT_0003",
+        "description": "House or flat"
+      },
+      {
+        "const": "BLDT_0004",
+        "description": "Other"
+      },
+      {
+        "const": "BLDT_0005",
+        "description": "Shed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "bicycleHandleBarGrip": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "BHBG_0001",
+        "description": "No Grip"
+      },
+      {
+        "const": "BHBG_0002",
+        "description": "Not Known"
+      },
+      {
+        "const": "BHBG_0003",
+        "description": "Slip-On Grip"
+      },
+      {
+        "const": "BHBG_0004",
+        "description": "Tape Grip"
+      },
+      {
+        "const": "BHBG_0005",
+        "description": "Twist Shifter Grip"
+      }
+    ]
+  }
+}

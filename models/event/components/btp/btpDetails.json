@@ -1,7 +1,7 @@
 {
   "title": "btpDetails",
   "x-stoplight": {
-    "id": "n3qi1rwtwx8zy"
+    "id": "cd7zak85bayny"
   },
   "type": "object",
   "properties": {
@@ -52,8 +52,5 @@
     "btptrainOrStation": {
       "$ref": "../../../../common/types/event/BOSN.json#/btptrainOrStation"
     }
-  },
-  "examples": [
-    {}
-  ]
+  }
 }

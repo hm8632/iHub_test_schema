@@ -1,7 +1,7 @@
 {
   "title": "incidentChannelShift",
   "x-stoplight": {
-    "id": "iazlpxlcuag19"
+    "id": "666dv7wq2bsxe"
   },
   "type": "object",
   "properties": {
@@ -29,12 +29,5 @@
       "maxLength": 1000,
       "description": "Additional details of the incident's first time follow up (BTP)"
     }
-  },
-  "examples": [
-    {
-      "asbClass": "string",
-      "asbQuestionnaire": true,
-      "asbType": "string"
-    }
-  ]
+  }
 }

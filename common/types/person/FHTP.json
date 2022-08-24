@@ -1,0 +1,27 @@
+{
+  "facialHairType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "FHTP_0001",
+        "description": "Beard"
+      },
+      {
+        "const": "FHTP_0002",
+        "description": "Clean shaven"
+      },
+      {
+        "const": "FHTP_0003",
+        "description": "Long sideburns"
+      },
+      {
+        "const": "FHTP_0004",
+        "description": "Moustache"
+      },
+      {
+        "const": "FHTP_0005",
+        "description": "Other"
+      }
+    ]
+  }
+}

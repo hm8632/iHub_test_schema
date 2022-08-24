@@ -1,0 +1,155 @@
+{
+  "propertyUniqueNumberTypeList": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "PUNT_0001",
+        "description": "Manufacturer Serial Number"
+      },
+      {
+        "const": "PUNT_0002",
+        "description": "VIN/Chassis Number"
+      },
+      {
+        "const": "PUNT_0003",
+        "description": "Ministry Number"
+      },
+      {
+        "const": "PUNT_0004",
+        "description": "Hull Number"
+      },
+      {
+        "const": "PUNT_0005",
+        "description": "Sail Number"
+      },
+      {
+        "const": "PUNT_0006",
+        "description": "Fleet Number"
+      },
+      {
+        "const": "PUNT_0007",
+        "description": "VRM"
+      },
+      {
+        "const": "PUNT_0008",
+        "description": "Document Serial Number"
+      },
+      {
+        "const": "PUNT_0009",
+        "description": "NABID Reference"
+      },
+      {
+        "const": "PUNT_0010",
+        "description": "Security Tag"
+      },
+      {
+        "const": "PUNT_0011",
+        "description": "CESAR Number"
+      },
+      {
+        "const": "PUNT_0012",
+        "description": "Animal Identity Number"
+      },
+      {
+        "const": "PUNT_0013",
+        "description": "Branded"
+      },
+      {
+        "const": "PUNT_0014",
+        "description": "Chip Implant"
+      },
+      {
+        "const": "PUNT_0015",
+        "description": "Lip Tattoo"
+      },
+      {
+        "const": "PUNT_0016",
+        "description": "Ear Tag"
+      },
+      {
+        "const": "PUNT_0017",
+        "description": "Freeze Marked"
+      },
+      {
+        "const": "PUNT_0018",
+        "description": "Hoof Branded"
+      },
+      {
+        "const": "PUNT_0019",
+        "description": "Other Mark"
+      },
+      {
+        "const": "PUNT_0020",
+        "description": "Other Tattoo"
+      },
+      {
+        "const": "PUNT_0021",
+        "description": "Telephone Number"
+      },
+      {
+        "const": "PUNT_0022",
+        "description": "Telephone International Code"
+      },
+      {
+        "const": "PUNT_0023",
+        "description": "Telephone Extension"
+      },
+      {
+        "const": "PUNT_0024",
+        "description": "IMEI Number"
+      },
+      {
+        "const": "PUNT_0025",
+        "description": "IMSI Number"
+      },
+      {
+        "const": "PUNT_0026",
+        "description": "Email Address"
+      },
+      {
+        "const": "PUNT_0027",
+        "description": "IP Address"
+      },
+      {
+        "const": "PUNT_0028",
+        "description": "Account Number"
+      },
+      {
+        "const": "PUNT_0029",
+        "description": "Sort Code"
+      },
+      {
+        "const": "PUNT_0030",
+        "description": "Card Number"
+      },
+      {
+        "const": "PUNT_0031",
+        "description": "Mortuary Reference Number"
+      },
+      {
+        "const": "PUNT_0032",
+        "description": "Engine Number"
+      },
+      {
+        "const": "PUNT_0033",
+        "description": "Asset Number"
+      },
+      {
+        "const": "PUNT_0034",
+        "description": "URL"
+      },
+      {
+        "const": "PUNT_0035",
+        "description": "Edition Number"
+      },
+      {
+        "const": "PUNT_0036",
+        "description": "Civil Aviation Registration Number"
+      },
+      {
+        "const": "PUNT_0037",
+        "description": "Boat Registration Number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "vehicleTaxStatus": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "VTSS_0001",
+        "description": "Not Taxed for on Road Use"
+      },
+      {
+        "const": "VTSS_0002",
+        "description": "SORN"
+      },
+      {
+        "const": "VTSS_0003",
+        "description": "Taxed"
+      },
+      {
+        "const": "VTSS_0004",
+        "description": "Untaxed"
+      }
+    ]
+  }
+}

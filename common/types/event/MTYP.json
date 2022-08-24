@@ -1,0 +1,27 @@
+{
+  "mediaType": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "MTYP_0001",
+        "description": "Audio"
+      },
+      {
+        "const": "MTYP_0002",
+        "description": "CCTV"
+      },
+      {
+        "const": "MTYP_0003",
+        "description": "Other"
+      },
+      {
+        "const": "MTYP_0004",
+        "description": "Photograph"
+      },
+      {
+        "const": "MTYP_0005",
+        "description": "Video"
+      }
+    ]
+  }
+}

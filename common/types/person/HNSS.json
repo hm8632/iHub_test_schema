@@ -1,0 +1,23 @@
+{
+  "handedness": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "HNSS_0001",
+        "description": "Ambidextrous"
+      },
+      {
+        "const": "HNSS_0002",
+        "description": "Left handed"
+      },
+      {
+        "const": "HNSS_0003",
+        "description": "Not Known"
+      },
+      {
+        "const": "HNSS_0004",
+        "description": "Right handed"
+      }
+    ]
+  }
+}

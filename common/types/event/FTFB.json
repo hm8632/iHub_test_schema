@@ -1,0 +1,19 @@
+{
+  "firstTimeFollowUpBtp": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "FTFB_0001",
+        "description": "Called 0800 40 50 40"
+      },
+      {
+        "const": "FTFB_0002",
+        "description": "Gone into a police station"
+      },
+      {
+        "const": "FTFB_0003",
+        "description": "I wouldn&#39;t have done anything"
+      }
+    ]
+  }
+}
