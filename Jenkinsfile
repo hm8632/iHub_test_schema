@@ -6,11 +6,7 @@ pipeline {
             steps {
                 echo 'Initializing..'
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
-                int a=0
-                for (a=1; a<10; a++)
-                {
-                  echo a;
-                }
+
             }
         }
         stage('Test') {
