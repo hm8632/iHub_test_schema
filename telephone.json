@@ -1,9 +1,31 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "telephone",
-  "type": "object", 
+  "type": "object",
   "properties": {
     "type": "string",
     "pattern": "^([0-9]{5})?-[0-9]{6}$"
-  }
+  },
+  "examples": [
+    {
+      "given_name": [
+        "Fred",
+        "John"
+      ],
+      "surname": "Bl;oggs",
+      "age": 45,
+      "date_of_birth": "1976-03-07",
+      "place_of_birth": "Edinburgh",
+      "gender": "Male",
+      "address": {
+        "street_address": "1 High Street",
+        "city": "Edniburgh",
+        "county": "Lothian",
+        "postcode": "EH1 2TH",
+        "country": "string",
+        "locationUPRN": "123456123456"
+      },
+      "address_type": "home"
+    }
+  ]
 }
