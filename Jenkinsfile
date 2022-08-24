@@ -2,21 +2,35 @@ pipeline {
     agent any
 
     stages {
+        stage('Init') {
+            steps {
+                echo 'Initializing..'
+                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+                echo 'Running pytest..'
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Building..'
+                echo 'Running docker build -t sntshk/cotu .'
             }
         }
-     stage('Test') {
+        stage('Publish') {
             steps {
-                echo 'Testing..'
+                echo 'Publishing..'
+                echo 'Running docker push..'
             }
         }
-     stage('Deploy') {
+        stage('Cleanup') {
             steps {
-                echo 'Deploying..'
+                echo 'Cleaning..'
+                echo 'Running docker rmi..'
             }
-        }   
-        
-     }
+        }
+    }
 }
