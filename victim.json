@@ -18,5 +18,31 @@
       "$ref": "./telephone.json"
     }
   },
-  "type": "object"
+  "type": "object",
+  "examples": [
+    {
+      "date_of_birth": "1976-03-07",
+      "place_of_birth": "Edinburgh",
+      "home_telephone": {
+        "type": null,
+        "pattern": null
+      },
+      "given_name": [
+        "Fred",
+        "John"
+      ],
+      "surname": "Bl;oggs",
+      "age": 45,
+      "gender": "Male",
+      "address": {
+        "street_address": "1 High Street",
+        "city": "Edniburgh",
+        "county": "Lothian",
+        "postcode": "EH1 2TH",
+        "country": "string",
+        "locationUPRN": "123456123456"
+      },
+      "address_type": "home"
+    }
+  ]
 }
