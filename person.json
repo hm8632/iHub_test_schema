@@ -47,7 +47,7 @@
       "type": "string",
       "enum": [
         "home",
-        "business",
+        "business"
         "contact",
         "c/o",
         "no fixed abode"
