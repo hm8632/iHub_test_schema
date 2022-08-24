@@ -1,0 +1,32 @@
+{
+  "title": "incidentAsb",
+  "x-stoplight": {
+    "id": "b7c0n26awr0eq"
+  },
+  "type": "object",
+  "properties": {
+    "asbClass": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Anti-Social Behaviour class"
+    },
+    "asbQuestionnaire": {
+      "type": "boolean",
+      "description": "Whether an ASB questionnaire was completed"
+    },
+    "asbType": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Anti-Social Behaviour type"
+    }
+  },
+  "examples": [
+    {
+      "btpsuspectBoardingStation": "string",
+      "btpsuspectDisembarkStation": "string",
+      "btpsuspectGotOnOrOff": "string"
+    }
+  ]
+}

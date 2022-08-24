@@ -1,0 +1,178 @@
+{
+  "title": "person",
+  "x-stoplight": {
+    "id": "x8hcnm144140x"
+  },
+  "description": "",
+  "allOf": [
+    {
+      "$ref": "./components/person/personAge.json"
+    },
+    {
+      "$ref": "./components/person/personBirth.json"
+    },
+    {
+      "$ref": "./components/person/personChild.json"
+    },
+    {
+      "$ref": "./components/person/personClothing.json"
+    },
+    {
+      "$ref": "./components/person/personComms.json"
+    },
+    {
+      "$ref": "./components/person/personCourt.json"
+    },
+    {
+      "$ref": "./components/person/personDescription.json"
+    },
+    {
+      "$ref": "./components/person/personDistinguishingFeature.json"
+    },
+    {
+      "$ref": "./components/person/personEducation.json"
+    },
+    {
+      "$ref": "./components/person/personEthnicity.json"
+    },
+    {
+      "$ref": "./components/person/personFacialHair.json"
+    },
+    {
+      "$ref": "./components/person/personGender.json"
+    },
+    {
+      "$ref": "./components/person/personHair.json"
+    },
+    {
+      "$ref": "./components/person/personIdentification.json"
+    },
+    {
+      "$ref": "./components/person/personInsurance.json"
+    },
+    {
+      "$ref": "./components/person/personLanguage.json"
+    },
+    {
+      "$ref": "./components/person/personMedical.json"
+    },
+    {
+      "$ref": "./components/person/personName.json"
+    },
+    {
+      "$ref": "./components/person/personNationality.json"
+    },
+    {
+      "$ref": "./components/person/personOccupation.json"
+    },
+    {
+      "$ref": "./components/person/personReligion.json"
+    }
+  ],
+  "examples": [
+    {
+      "age": 30,
+      "ageAtTimeOfIncident": 30,
+      "ageKnown": true,
+      "ageRange": "ARNG0004",
+      "approximateAgeFrom": 25,
+      "approximateAgeTo": 35,
+      "dateOfBirth": "1992-08-24",
+      "dateOfBirthKnown": true,
+      "placeOfBirth": "GBR",
+      "expectedDueDate": "2023-08-24",
+      "nextOfKinKnown": true,
+      "clothingAtTimeOfIncident": "Blue jeans, white trainers, black coat.",
+      "eyewear": "EYWR0002",
+      "usualClothing": "Casual, jeans and trainers.",
+      "communicationNeeds": true,
+      "communicationNeedsDetails": "Requires a translator",
+      "contactPreference": [
+        "CPNC0002"
+      ],
+      "preferredLanguageSpoken": "LNGG0004",
+      "preferredLanguageWritten": "LNGG0004",
+      "willingToAttendCourt": true,
+      "approximateHeight": "5 foot 10 inches",
+      "heightFromCm": 170,
+      "heightToCm": 180,
+      "build": "BLST0003",
+      "buildDetails": "Average height and weight.",
+      "complexion": "CLXN0003",
+      "complexionDetails": "Some acne scarring visible.",
+      "eyeColourDetails": "Blue",
+      "eyeColourLeft": "ECLR0001",
+      "eyeColourRight": "ECLR0001",
+      "habitsMannersismsDetails": "string",
+      "handedness": "HNSS0001",
+      "inVehicle": false,
+      "maritalStatus": "MSTS0001",
+      "personDescription": "Known to be aggressive when approached.",
+      "personNotes": "Walks with a distinctive gait.",
+      "physicalCharacteristics": "",
+      "speechDescription": "SDLT0001",
+      "distinguishingFeature": "DFTR0006",
+      "distinguishingFeatureDetails": "Black tattoo of celtic symbol.",
+      "distinguishingFeatureLocation": "DFLN0003",
+      "distinguishingFeatureType": "DFTP0005",
+      "educationLocation": "London",
+      "educationStatus": false,
+      "ethnicityGroup": "EGRP0001",
+      "ethnicityObserved": "EOVDIC1",
+      "ethnicitySelfDefined": "W1",
+      "ethnicitySelfDefinedDetails": "Looks white European",
+      "facialHair": true,
+      "facialHairDetails": "Stubble and mustache.",
+      "facialHairType": "FHTP0004",
+      "gender": "GNDR0003",
+      "genderSameAsBirth": true,
+      "genderSelfDescribe": "GNDR0003",
+      "hairColourDetails": "Brown",
+      "hairColourList": "HCLT0005",
+      "hairDescription": "string",
+      "hairLength": "string",
+      "hairStyle": "HSLT0006",
+      "hairStyleDetails": "Long with curls.",
+      "asnNumber": "123456789",
+      "croNumber": "123456789",
+      "nationalInsuranceNumber": "12345678H",
+      "pncID": "s123456789",
+      "insuranceCompany": "High Street Insurer",
+      "insurancePolicyNumber": "12349876",
+      "accent": "ACNT0001",
+      "englishFirstLanguage": true,
+      "englishFluency": "EFCY0001",
+      "englishSpeaking": true,
+      "languagesSpoken": [
+        "LNGG00014"
+      ],
+      "languagesSpokenDetails": "English",
+      "registeredGp": "Dr Jo Smith",
+      "alias": "Smithy",
+      "givenName": [
+        "John"
+      ],
+      "middleName": [
+        "Adam"
+      ],
+      "surname": "Smith",
+      "surnameUnknown": false,
+      "title": "TLST0001",
+      "titleOther": "Lord",
+      "additionalCitizenship": "NLTY000100",
+      "hasAdditionalCitizenship": true,
+      "nationality": "NLTY00026",
+      "nationalityAcquisitionMethod": "NAMD0001",
+      "nationalityDetails": "string",
+      "previousNationality": "NLTY0001",
+      "employmentStatus": "ESTS0001",
+      "occupation": "Casual laborour",
+      "workEndTime": "17:00:00Z",
+      "workEndTimeDetails": "Usually around 5pm",
+      "workStartTime": "09:00:00Z",
+      "workStartTimeDetails": "Usually around 8am",
+      "religion": "RLST00041",
+      "religionOther": "Jedi"
+    }
+  ]
+}

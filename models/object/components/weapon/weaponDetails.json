@@ -1,0 +1,52 @@
+{
+  "title": "weaponDetails",
+  "x-stoplight": {
+    "id": "pv9gb2adoxwz0"
+  },
+  "type": "object",
+  "properties": {
+    "weaponCalibre": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Calibre of the weapon"
+    },
+    "weaponDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the weapon"
+    },
+    "weaponImitation": {
+      "type": "boolean",
+      "description": "Whether the weapon was an imitation weapon"
+    },
+    "weaponInsuranceCompany": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "The insurance company of said weapon"
+    },
+    "weaponInsurancePolicyNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "The insurance policy number of said weapon"
+    },
+    "weaponIssuingOrganisation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "The organisation issuing said weapon"
+    },
+    "weaponNabisReference": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "The National Ballistics Intelligence Service (NABIS) reference of the weapon"
+    },
+    "weaponType": {
+      "$ref": "../../../../common/types/object/WTLT.json#/weaponType"
+    }
+  }
+}

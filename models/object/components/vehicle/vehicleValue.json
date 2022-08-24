@@ -1,0 +1,38 @@
+{
+  "title": "vehicleValue",
+  "x-stoplight": {
+    "id": "uq7byw9y13gcq"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleAdditionalRateOfTaxEndDate": {
+      "type": "string",
+      "format": "date",
+      "description": "End date for the vehicle's additional rate of tax"
+    },
+    "vehicleApproxValue": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "Approximate value of the vehicle"
+    },
+    "vehicleRevenueWeightKg": {
+      "type": "integer",
+      "description": "Confirmed maximum gross weight of vehicle in kilograms"
+    },
+    "vehicleTaxDueDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Due date for vehicle's tax"
+    },
+    "vehicleTaxNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Tax number of vehicle"
+    },
+    "vehicleTaxStatus": {
+      "$ref": "../../../../common/types/object/VTSS.json#/vehicleTaxStatus"
+    }
+  }
+}

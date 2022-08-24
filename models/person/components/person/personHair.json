@@ -1,0 +1,39 @@
+{
+  "title": "personHair",
+  "x-stoplight": {
+    "id": "wx9u69k7vyglj"
+  },
+  "type": "object",
+  "properties": {
+    "hairColourDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Additional details of the person's hair colour"
+    },
+    "hairColourList": {
+      "$ref": "../../../../common/types/person/HCLT.json#/hairColourList"
+    },
+    "hairDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Description of the person's hair"
+    },
+    "hairLength": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Description of the person's hair length"
+    },
+    "hairStyle": {
+      "$ref": "../../../../common/types/person/HSLT.json#/hairStyleList"
+    },
+    "hairStyleDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Additional details of the person's hair style"
+    }
+  }
+}

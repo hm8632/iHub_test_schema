@@ -1,0 +1,17 @@
+{
+  "title": "email",
+  "x-stoplight": {
+    "id": "ehy98vhqs5ffk"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/comms/emailDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "emailAddress": "user@example.com",
+      "emailType": "Personal"
+    }
+  ]
+}

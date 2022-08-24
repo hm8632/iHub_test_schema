@@ -1,0 +1,15 @@
+{
+  "title": "officer",
+  "x-stoplight": {
+    "id": "1ss2wyn3kq0qc"
+  },
+  "allOf": [
+    {
+      "$ref": "./person.json"
+    },
+    {
+      "$ref": "./components/officer/officerIdentification.json"
+    }
+  ],
+  "description": "Basic person extended with Officer specific fields"
+}

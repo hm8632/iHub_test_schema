@@ -1,0 +1,13 @@
+{
+  "title": "personCourt",
+  "x-stoplight": {
+    "id": "flvtrsbhhfmk7"
+  },
+  "type": "object",
+  "properties": {
+    "willingToAttendCourt": {
+      "type": "boolean",
+      "description": "whether the person is willing to attend court"
+    }
+  }
+}

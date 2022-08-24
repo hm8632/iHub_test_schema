@@ -1,0 +1,32 @@
+{
+  "title": "attachmentDetails",
+  "x-stoplight": {
+    "id": "tgi118cqjytha"
+  },
+  "type": "object",
+  "properties": {
+    "attachmentContent": {
+      "type": "string",
+      "description": "The content of the attachment"
+    },
+    "attachmentMimeType": {
+      "$ref": null
+    },
+    "attachmentName": {
+      "type": "string",
+      "description": "The name of the attachment"
+    }
+  },
+  "examples": [
+    {
+      "locationArea": "string",
+      "locationEasting": "string",
+      "locationLatitude": "string",
+      "locationLongitude": "string",
+      "locationNorthing": "string",
+      "locationUPRN": "stringstring",
+      "mapLocationAdditionalDetails": "string",
+      "mapLocationCorrect": true
+    }
+  ]
+}

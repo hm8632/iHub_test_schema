@@ -1,0 +1,59 @@
+{
+  "title": "btpDetails",
+  "x-stoplight": {
+    "id": "n3qi1rwtwx8zy"
+  },
+  "type": "object",
+  "properties": {
+    "btpincidentStation": {
+      "type": "string",
+      "description": "BTP station where the incident took place"
+    },
+    "btpincidentStationLocation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Location of BTP station where the incident took place"
+    },
+    "btplocationOnTrain": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Location if incident took place on train"
+    },
+    "btptrainBoardingStation": {
+      "type": "string",
+      "description": "Boarding station if incident took place on train"
+    },
+    "btptrainBoardingTime": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Boarding time if incident took place on train"
+    },
+    "btptrainDestinationFrom": {
+      "type": "string",
+      "description": "Destination from station if incident took place on train"
+    },
+    "btptrainDestinationTo": {
+      "type": "string",
+      "description": "Destination to station if incident took place on train"
+    },
+    "btptrainDisembarkStation": {
+      "type": "string",
+      "description": "Disembarking station if incident took place on train"
+    },
+    "btptrainLocationJourney": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Location journey of the train"
+    },
+    "btptrainOrStation": {
+      "$ref": "../../../../common/types/event/BOSN.json#/btptrainOrStation"
+    }
+  },
+  "examples": [
+    {}
+  ]
+}

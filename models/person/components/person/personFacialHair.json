@@ -1,0 +1,22 @@
+{
+  "title": "personFacialHair",
+  "x-stoplight": {
+    "id": "vze5cpa6ilowf"
+  },
+  "type": "object",
+  "properties": {
+    "facialHair": {
+      "type": "boolean",
+      "description": "Whether the person has facial hair"
+    },
+    "facialHairDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Additional details of the person's facial hair"
+    },
+    "facialHairType": {
+      "$ref": "../../../../common/types/person/FHTP.json#/facialHairType"
+    }
+  }
+}

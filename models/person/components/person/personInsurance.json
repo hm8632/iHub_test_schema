@@ -1,0 +1,19 @@
+{
+  "title": "personInsurance",
+  "x-stoplight": {
+    "id": "662czb8xwxqor"
+  },
+  "type": "object",
+  "properties": {
+    "insuranceCompany": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "The person's insurance company"
+    },
+    "insurancePolicyNumber": {
+      "type": "string",
+      "description": "The person's policy number"
+    }
+  }
+}

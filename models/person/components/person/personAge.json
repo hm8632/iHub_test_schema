@@ -1,0 +1,40 @@
+{
+  "title": "personAge",
+  "x-stoplight": {
+    "id": "v75m3wukeqj36"
+  },
+  "type": "object",
+  "properties": {
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200,
+      "description": "The age of the person"
+    },
+    "ageAtTimeOfIncident": {
+      "type": "number",
+      "description": "The age of the person at time of incident",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "ageKnown": {
+      "type": "boolean",
+      "description": "Whether the person's exact age is known"
+    },
+    "ageRange": {
+      "$ref": "../../../../common/types/person/ARNG.json#/ageRange"
+    },
+    "approximateAgeFrom": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200,
+      "description": "If the person's exact age is unknown, approximately the lower bound of the person's age"
+    },
+    "approximateAgeTo": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200,
+      "description": "If the person's exact age is unknown, approximately the upper bound of the person's age"
+    }
+  }
+}

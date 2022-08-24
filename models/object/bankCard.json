@@ -1,0 +1,21 @@
+{
+  "title": "bankCard",
+  "x-stoplight": {
+    "id": "1kq5ryzm6phd8"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/bankCard/bankCardDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "bankAccountNumber": "12345678",
+      "bankCardExpiryDate": "2035-08-24",
+      "bankCardIssuingBank": "High Street Bank",
+      "bankCardLongNumber": "1234567812345678",
+      "bankCardNameOnCard": "John Smith",
+      "bankCardSortcode": "12-34-56"
+    }
+  ]
+}

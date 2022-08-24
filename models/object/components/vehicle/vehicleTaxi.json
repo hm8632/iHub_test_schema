@@ -1,0 +1,12 @@
+{
+  "title": "vehicleTaxi",
+  "x-stoplight": {
+    "id": "zyrqz5z070tkc"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleTaxiType": {
+      "$ref": "../../../../common/types/object/VTTP.json#/vehicleTaxiType"
+    }
+  }
+}

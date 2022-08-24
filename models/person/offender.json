@@ -1,0 +1,12 @@
+{
+  "title": "offender",
+  "x-stoplight": {
+    "id": "21out9kwdqx8m"
+  },
+  "allOf": [
+    {
+      "$ref": "./person.json"
+    }
+  ],
+  "examples": []
+}

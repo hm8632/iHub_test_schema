@@ -1,0 +1,16 @@
+{
+  "title": "suspectDetails",
+  "x-stoplight": {
+    "id": "vjuwhydow07g1"
+  },
+  "type": "object",
+  "properties": {
+    "repeatOffender": {
+      "type": "boolean",
+      "description": "Whether the person is a repeat offender"
+    },
+    "suspectKnown": {
+      "$ref": "../../../../common/types/person/SKWN.json#/suspectKnown"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "bicycle",
+  "x-stoplight": {
+    "id": "4d8mrog46j18z"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/bicycle/bicycleComponents.json"
+    },
+    {
+      "$ref": "./components/bicycle/bicycleDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "bicycleBrakes": "BBKS0003",
+      "bicycleFrameNumber": "76789098643",
+      "bicycleFrameType": "BFTP0002",
+      "bicycleGearsNumber": "BGNR0003",
+      "bicycleGearsType": "BGTP0001",
+      "bicycleHandleBarGrip": "BHBG0003",
+      "bicycleHandleBarType": "BHBT0003",
+      "bicycleMudGuards": "BMGS0002",
+      "bicycleMudGuardsColour": "PCLR0001",
+      "bicycleSaddle": "BSDL0001",
+      "bicycleSaddleColour": "PCLR0003",
+      "bicycleSuspension": "BSSN0005",
+      "bicycleWheelDiameter": "28 inches",
+      "bicycleColour": "PCLR0002",
+      "bicycleDescription": "Mountain Bike",
+      "bicycleGender": "BGDR0001",
+      "bicycleInsuranceCompany": "High street insurance",
+      "bicycleInsurancePolicyNumber": "7776658643",
+      "bicycleType": "BICT0001"
+    }
+  ],
+  "description": ""
+}

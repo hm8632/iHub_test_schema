@@ -1,0 +1,13 @@
+{
+  "title": "personMedical",
+  "x-stoplight": {
+    "id": "hgu2vafshqvak"
+  },
+  "type": "object",
+  "properties": {
+    "registeredGp": {
+      "type": "string",
+      "description": "The registered GP of the person"
+    }
+  }
+}

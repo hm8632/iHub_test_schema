@@ -1,0 +1,17 @@
+{
+  "title": "vehicleMOT",
+  "x-stoplight": {
+    "id": "eyfz37ddaznio"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleMotExpiryDate": {
+      "type": "string",
+      "format": "date",
+      "description": "MOT expiry date of the vehicle"
+    },
+    "vehicleMotStatus": {
+      "$ref": "../../../../common/types/object/VMSS.json#/vehicleMotStatus"
+    }
+  }
+}

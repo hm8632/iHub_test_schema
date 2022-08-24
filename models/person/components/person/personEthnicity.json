@@ -1,0 +1,24 @@
+{
+  "title": "personEthnicity",
+  "x-stoplight": {
+    "id": "oox7jksyw45t7"
+  },
+  "type": "object",
+  "properties": {
+    "ethnicityGroup": {
+      "$ref": "../../../../common/types/person/EGRP.json#/ethnicityGroup"
+    },
+    "ethnicityObserved": {
+      "$ref": "../../../../common/types/person/EOVD.json#/ethnicityObserved"
+    },
+    "ethnicitySelfDefined": {
+      "$ref": "../../../../common/types/person/ESDD.json#/ethnicitySelfDefined"
+    },
+    "ethnicitySelfDefinedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Additional details of the person's ethnicity, if applicable"
+    }
+  }
+}

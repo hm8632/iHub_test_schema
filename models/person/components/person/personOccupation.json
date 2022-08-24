@@ -1,0 +1,44 @@
+{
+  "title": "personOccupation",
+  "x-stoplight": {
+    "id": "t15gph8s9i864"
+  },
+  "type": "object",
+  "properties": {
+    "employmentStatus": {
+      "$ref": "../../../../common/types/person/ESTS.json#/employmentStatus"
+    },
+    "occupation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Occupation of the person"
+    },
+    "workEndTime": {
+      "type": "string",
+      "format": "time",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "The usual time of when the person finishes work on workdays"
+    },
+    "workEndTimeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Additional details of the usual time of when the person finishes work on workdays"
+    },
+    "workStartTime": {
+      "type": "string",
+      "format": "time",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "The usual time of when the person starts work on workdays"
+    },
+    "workStartTimeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Additional details of the usual time of when the person finishes work on workdays"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "evidenceDetails",
+  "x-stoplight": {
+    "id": "z2t4v9lzlfsb4"
+  },
+  "type": "object",
+  "properties": {
+    "evidenceAtScene": {
+      "type": "boolean",
+      "description": "Whether the evidence was found at scene"
+    },
+    "evidenceAtSceneDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of how the evidence was found at scene"
+    }
+  }
+}

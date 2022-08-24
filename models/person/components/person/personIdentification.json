@@ -1,0 +1,33 @@
+{
+  "title": "personIdentification",
+  "x-stoplight": {
+    "id": "hpdj2tvygdl43"
+  },
+  "type": "object",
+  "properties": {
+    "asnNumber": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 21,
+      "description": "The person's Arrest Summons Reference Number (ASN)"
+    },
+    "croNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12,
+      "description": "The person's Criminal Records Office Number (CRO)"
+    },
+    "nationalInsuranceNumber": {
+      "type": "string",
+      "minLength": 9,
+      "maxLength": 9,
+      "description": "The person's National Insurance Number"
+    },
+    "pncID": {
+      "type": "string",
+      "minLength": 13,
+      "maxLength": 13,
+      "description": "The person's Police National Computer Id (PNCID)"
+    }
+  }
+}

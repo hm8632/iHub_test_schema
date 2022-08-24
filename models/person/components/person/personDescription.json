@@ -1,0 +1,88 @@
+{
+  "title": "personDescription",
+  "x-stoplight": {
+    "id": "p2q2sp5mwcvi5"
+  },
+  "type": "object",
+  "properties": {
+    "approximateHeight": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "approximate height of the person"
+    },
+    "build": {
+      "$ref": "../../../../common/types/person/BLST.json#/buildList"
+    },
+    "buildDetails": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 35,
+      "description": "Additional details of the person's build"
+    },
+    "complexion": {
+      "$ref": "../../../../common/types/person/CLXN.json#/complexion"
+    },
+    "complexionDetails": {
+      "type": "string",
+      "description": "Additional details of the person's complexion"
+    },
+    "eyeColourDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Additional details of the person's eye colour"
+    },
+    "eyeColourLeft": {
+      "$ref": "../../../../common/types/person/ECLR.json#/eyeColour"
+    },
+    "eyeColourRight": {
+      "$ref": "../../../../common/types/person/ECLR.json#/eyeColour"
+    },
+    "habitsMannersismsDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's habits or mannersisms"
+    },
+    "handedness": {
+      "$ref": "../../../../common/types/person/HNSS.json#/handedness"
+    },
+    "heightFromCm": {
+      "type": "integer",
+      "description": "Lower bound of the person's approximate height"
+    },
+    "heightToCm": {
+      "type": "integer",
+      "description": "Upper bound of the person's approximate height"
+    },
+    "inVehicle": {
+      "type": "boolean",
+      "description": "Whether the person was in a vehicle at time of incident"
+    },
+    "maritalStatus": {
+      "$ref": "../../../../common/types/person/MSTS.json#/maritalStatus"
+    },
+    "personDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Additional descriptions of the person's appearance, if applicable"
+    },
+    "personNotes": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Additional notable information of the person, if applicable"
+    },
+    "physicalCharacteristics": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Additional details of the person's physical characteristics"
+    },
+    "speechDescription": {
+      "$ref": "../../../../common/types/person/SDLT.json#/speechDescriptionList"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "business",
+  "x-stoplight": {
+    "id": "tkas7gixe51cb"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/business/businessDetails.json"
+    },
+    {
+      "$ref": "./components/business/businessConnection.json"
+    }
+  ],
+  "examples": [
+    {
+      "businessDescription": "A hardware store selling homewares.",
+      "businessLocationDescription": "On the corner of Smith Street",
+      "businessName": "Bits and pieces incorporated",
+      "connectionToBusiness": "CTBS0001",
+      "connectionToBusinessDetails": "I am an employee"
+    }
+  ],
+  "description": ""
+}

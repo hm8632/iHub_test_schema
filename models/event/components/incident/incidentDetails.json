@@ -1,0 +1,144 @@
+{
+  "title": "incidentDetails",
+  "x-stoplight": {
+    "id": "2ig3k5yps89fh"
+  },
+  "type": "object",
+  "properties": {
+    "arrestReason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "The arrest reason, if applicable"
+    },
+    "childPresent": {
+      "type": "boolean",
+      "description": "Whed is present at the incident"
+    },
+    "correctChecks": {
+      "type": "boolean",
+      "description": "Whether correct checks have been undertaken in the case of a Hate Crime"
+    },
+    "correctChecksDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Details of correct checks undertaken in the case of a Hate Crime"
+    },
+    "crimeOffenceCode": {
+      "type": "string",
+      "minLength": 7,
+      "maxLength": 8,
+      "description": "The offence code of the incident"
+    },
+    "crimeOutcome": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "The outcome of the incident, range of resolved and unresolved outcomes based on CJS evidential data"
+    },
+    "crimeStatus": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Outcome of Incident / Clear up method"
+    },
+    "crimeType": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Categorisation of crime type"
+    },
+    "hadWeapon": {
+      "type": "boolean",
+      "description": "Whether the suspect had a weapon equipped"
+    },
+    "hateCrime": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 25,
+      "description": "Type of Hate Crime, if applicable"
+    },
+    "homeOfficeClassification": {
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 6,
+      "description": "The Home Office Stats Code to which the offence belongs. The Home Office Stats Code to which the offence belongs. This consists of two \nelements separated by a Ã¢â‚¬Ëœ/Ã¢â‚¬â„¢. This is required for Home Office Management Information reporting"
+    },
+    "incidentAnyWitnesses": {
+      "type": "boolean",
+      "description": "Whether there are any witnesses involved in the incident"
+    },
+    "incidentDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Description of the incident"
+    },
+    "incidentEventsPreceeding": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Events preceding the incident, if applicable"
+    },
+    "incidentInfluencedByDrugsOrAlcohol": {
+      "type": "boolean",
+      "description": "Whether the incident is influenced by drugs or alcohol"
+    },
+    "incidentInfluencedByDrugsOrAlcoholDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details about the the influence by drugs or alcohol in the incident"
+    },
+    "incidentInvolvement": {
+      "$ref": "../../../../common/types/event/IVLD.json#/howInvolvedInCrime"
+    },
+    "incidentOnPublicTransport": {
+      "type": "boolean",
+      "description": "Whether the incident occurred on public transport"
+    },
+    "incidentReportedAlready": {
+      "type": "boolean",
+      "description": "Whether the incident has already been reported"
+    },
+    "incidentReportedAlreadyReference": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Reference number of the incident if previously reported"
+    },
+    "incidentStillHappening": {
+      "type": "boolean",
+      "description": "Whether the incident is still ongoing"
+    },
+    "modusOperandi": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 300,
+      "description": "The modus operandi of the incident"
+    },
+    "stopNature": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "The Stop nature of the incident, Code A of PACE Act 1984 classification"
+    },
+    "subjectedToHateCrime": {
+      "type": "boolean",
+      "description": "Whether the incident is subjected to hate crime"
+    },
+    "subjectedToHateCrimeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Subject to hate crime details"
+    }
+  },
+  "examples": [
+    {
+      "additionalPersonInvolvedInIncident": true,
+      "additionalPersonInvolvedInIncidentDetails": "string"
+    }
+  ]
+}

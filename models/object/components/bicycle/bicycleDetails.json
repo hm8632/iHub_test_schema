@@ -1,0 +1,36 @@
+{
+  "title": "bicycleDetails",
+  "x-stoplight": {
+    "id": "c1udqt13u8fid"
+  },
+  "type": "object",
+  "properties": {
+    "bicycleColour": {
+      "$ref": "../../../../common/types/object/PCLR.json#/propertyColour"
+    },
+    "bicycleDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Description of the bicycle"
+    },
+    "bicycleGender": {
+      "$ref": "../../../../common/types/object/BGDR.json#/bicycleGender"
+    },
+    "bicycleInsuranceCompany": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "The insurance company of the bicycle"
+    },
+    "bicycleInsurancePolicyNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "The policy number of the bicycle's insurance"
+    },
+    "bicycleType": {
+      "$ref": "../../../../common/types/object/BICT.json#/bicycleType"
+    }
+  }
+}

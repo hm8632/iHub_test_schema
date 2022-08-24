@@ -1,0 +1,18 @@
+{
+  "title": "propertyIdentification",
+  "x-stoplight": {
+    "id": "yak1rnkzsh3bz"
+  },
+  "type": "object",
+  "properties": {
+    "propertyUniqueNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Unique reference number that can be used to identify the property"
+    },
+    "propertyUniqueNumberType": {
+      "$ref": "../../../../common/types/object/PUNT.json#/propertyUniqueNumberTypeList"
+    }
+  }
+}

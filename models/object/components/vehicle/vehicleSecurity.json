@@ -1,0 +1,23 @@
+{
+  "title": "vehicleSecurity",
+  "x-stoplight": {
+    "id": "krkklq981yn0j"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleAlarmFitted": {
+      "type": "boolean",
+      "description": "Whether the vehicle has alarms fitted"
+    },
+    "vehicleTracking": {
+      "type": "boolean",
+      "description": "Whether the vehicle is tracked"
+    },
+    "vehicleTrackingDetail": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Tracking details of the vehicle"
+    }
+  }
+}

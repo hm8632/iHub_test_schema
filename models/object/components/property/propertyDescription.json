@@ -1,0 +1,43 @@
+{
+  "title": "propertyDescription",
+  "x-stoplight": {
+    "id": "vpuzbfjc7jp7o"
+  },
+  "type": "object",
+  "properties": {
+    "propertyAge": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Age of the property"
+    },
+    "propertyCategory": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Category of the property"
+    },
+    "propertyColour": {
+      "$ref": "../../../../common/types/object/PCLR.json#/propertyColour"
+    },
+    "propertyDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Additional descriptions of the property's appearance"
+    },
+    "propertyQuantity": {
+      "type": "integer",
+      "description": "Quantity of the property"
+    },
+    "propertySize": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Description of the size of the property"
+    },
+    "propertyUnits": {
+      "$ref": "../../../../common/types/object/DPUS.json#/damagedPropertyUnits"
+    }
+  }
+}

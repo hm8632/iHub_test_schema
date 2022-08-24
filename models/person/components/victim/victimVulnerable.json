@@ -1,0 +1,227 @@
+{
+  "title": "victimVulnerable",
+  "x-stoplight": {
+    "id": "ordob2411d499"
+  },
+  "type": "object",
+  "properties": {
+    "alcoholDependency": {
+      "type": "boolean",
+      "description": "Whether the person has alchohol dependency"
+    },
+    "alcoholDependencyDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details of the person's alchohol dependency"
+    },
+    "contactGuardian": {
+      "type": "boolean",
+      "description": "Whether the person requires their guardian to be contacted"
+    },
+    "disability": {
+      "type": "boolean",
+      "description": "Whether the person has any disabilities"
+    },
+    "disabilityCategory": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../../common/types/person/DCRY.json#/disabilityCategory"
+      }
+    },
+    "disabilityDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Additional details of the person's disability"
+    },
+    "drugOrSubstanceDependency": {
+      "type": "boolean",
+      "description": "Whether the person has non-alcoholic substance dependency"
+    },
+    "drugOrSubstanceDependencyDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details of the person's non-alcoholic substance dependency"
+    },
+    "knownAllergies": {
+      "type": "boolean",
+      "description": "Whether the person has known allergies"
+    },
+    "knownAllergiesDetail": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the person's allergies"
+    },
+    "knownMentalDisability": {
+      "type": "boolean",
+      "description": "Whether the person has known mental disabilities"
+    },
+    "knownMentalHealthIssues": {
+      "type": "boolean",
+      "description": "Whether the person has known mental health issues"
+    },
+    "knownMentalHealthIssuesDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the person's mental health issues"
+    },
+    "mentalDisabilityDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the person's mental disabilities"
+    },
+    "onMedication": {
+      "type": "boolean",
+      "description": "Whether the person is on any medication"
+    },
+    "onMedicationDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details of the person's ongoing medication"
+    },
+    "outcomeOfMissedMedication": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the outcome of missed medication"
+    },
+    "previousCrimeExperienced": {
+      "type": "boolean",
+      "description": "Whether the person has experienced crime previously"
+    },
+    "previousCrimeExperiencedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the person's previous experience with crime"
+    },
+    "restrainingOrder": {
+      "type": "boolean",
+      "description": "Whether the person is under or protected by a restraining order"
+    },
+    "restrainingOrderDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the restraining order involving the person"
+    },
+    "riskDueToUnsuitableAttire": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk due to unsuitable attire"
+    },
+    "riskDueToUnsuitableAttireDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the risks involving the person's unsuitable attire"
+    },
+    "riskOfAllegedSexualOffending": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of alleged sexual offending"
+    },
+    "riskOfAllegedSexualOffendingDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of victim of alleged sexual offence"
+    },
+    "riskOfBeingBullied": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of being bullied"
+    },
+    "riskOfBeingBulliedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of being bullied"
+    },
+    "riskOfBeingPhysicallyHarmed": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of being physically harmed"
+    },
+    "riskOfBeingPhysicallyHarmedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of being physically harmed"
+    },
+    "riskOfBeingUnableToLookAfterThemselves": {
+      "type": "boolean",
+      "description": "Whether the person is in risk of being unable to look after themselves"
+    },
+    "riskOfBeingUnableToLookAfterThemselvesDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of not being able to look after themselves"
+    },
+    "riskOfBeingVictimOfDomesticAbuse": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of being victim of domestic abuse"
+    },
+    "riskOfBeingVictimOfDomesticAbuseDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of being victim of domestic abuse"
+    },
+    "riskOfBeingVictimOfSexualExploitation": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of sexual exploitation"
+    },
+    "riskOfBeingVictimOfSexualExploitationDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of being victim of sexual exploitation"
+    },
+    "riskOfCommittingDomesticAbuse": {
+      "type": "boolean",
+      "description": "Whether the person is in risk of committing domestic abuse"
+    },
+    "riskOfCommittingDomesticAbuseDetails": {
+      "type": "string",
+      "description": "Details of the person's risk of committing domestic abuse"
+    },
+    "riskOfSelfHarm": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of self harm"
+    },
+    "riskOfSelfHarmDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of self harm"
+    },
+    "riskOfViolentBehaviour": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to risk of violent behaviour"
+    },
+    "riskOfViolentBehaviourDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's risk of being victim of violent behaviour"
+    },
+    "under18": {
+      "type": "boolean",
+      "description": "Whether the person is a minor / under 18"
+    },
+    "welfareRisk": {
+      "type": "boolean",
+      "description": "Whether the person is exposed to welfare risk"
+    },
+    "welfareRiskDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the person's welfare risk"
+    }
+  }
+}

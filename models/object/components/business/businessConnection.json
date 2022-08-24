@@ -1,0 +1,16 @@
+{
+  "title": "businessConnection",
+  "x-stoplight": {
+    "id": "lw42h7akaqapb"
+  },
+  "type": "object",
+  "properties": {
+    "connectionToBusiness": {
+      "$ref": "../../../../common/types/object/CTBS.json#/connectionToBusiness"
+    },
+    "connectionToBusinessDetails": {
+      "type": "string",
+      "description": "Additional details of the person reporting's connection to the business. This field is used when details of the person reporting is unknown, or does not contain enough information to be created as a POLE object."
+    }
+  }
+}

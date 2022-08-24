@@ -1,0 +1,23 @@
+{
+  "title": "vehicleDamage",
+  "x-stoplight": {
+    "id": "vv62318dt7drf"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleDamageDescription": {
+      "type": "string",
+      "description": "Description of the vehicle's damage, if applicable"
+    },
+    "vehicleDamageRepairValue": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "The repair value of the damage to the vehicle"
+    },
+    "vehicleDamaged": {
+      "type": "boolean",
+      "description": "Whether the vehicle is damaged"
+    }
+  }
+}

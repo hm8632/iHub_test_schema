@@ -1,0 +1,28 @@
+{
+  "title": "btpSuspect",
+  "x-stoplight": {
+    "id": "f527nofd3es25"
+  },
+  "type": "object",
+  "properties": {
+    "btpsuspectBoardingStation": {
+      "type": "string",
+      "description": "The boarding station of the suspect"
+    },
+    "btpsuspectDisembarkStation": {
+      "type": "string",
+      "description": "The disembarking station of the suspect"
+    },
+    "btpsuspectGotOnOrOff": {
+      "type": "string",
+      "description": "Whether the suspect got on or off the train"
+    }
+  },
+  "examples": [
+    {
+      "btpsuspectBoardingStation": "string",
+      "btpsuspectDisembarkStation": "string",
+      "btpsuspectGotOnOrOff": "string"
+    }
+  ]
+}

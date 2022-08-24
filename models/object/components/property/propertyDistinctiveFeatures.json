@@ -1,0 +1,16 @@
+{
+  "title": "propertyDistinctiveFeatures",
+  "x-stoplight": {
+    "id": "j8n46dxp1urpj"
+  },
+  "type": "object",
+  "description": "",
+  "properties": {
+    "propertyDistinctiveFeaturesDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Description of the property's distinctive features"
+    }
+  }
+}

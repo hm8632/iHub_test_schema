@@ -1,0 +1,21 @@
+{
+  "title": "vehicleIdentifyingFeatures",
+  "x-stoplight": {
+    "id": "kr4m3l1h10max"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleIdentifyingFeature": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../../common/types/object/VIFR.json#/vehicleIdentifyingFeature"
+      }
+    },
+    "vehicleIdentifyingFeatureDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 700,
+      "description": "Additional details of the identifying feature of the vehicle"
+    }
+  }
+}

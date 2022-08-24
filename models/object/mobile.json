@@ -1,0 +1,43 @@
+{
+  "title": "mobile",
+  "x-stoplight": {
+    "id": "zk8vacy6nm4s9"
+  },
+  "allOf": [
+    {
+      "$ref": "./property.json"
+    },
+    {
+      "$ref": "./telephone.json"
+    }
+  ],
+  "examples": [
+    {
+      "propertyDamageDescription": "The phone screen has been smashed.",
+      "propertyDamaged": true,
+      "propertyAge": "6 months",
+      "propertyCategory": "Electronic goods",
+      "propertyColour": "PCLR0001",
+      "propertyDescription": "Apple iphone version 10",
+      "propertyQuantity": 1,
+      "propertySize": "7.5 in",
+      "propertyUnits": "DPUS0001",
+      "propertyDistinctiveFeaturesDetails": "Sticker of Apple on the back.",
+      "propertyUniqueNumber": "IMEI-123-222-432-543",
+      "propertyUniqueNumberType": "IMEI Number",
+      "propertyMake": "Apple",
+      "propertyMakeDetails": "Apple",
+      "propertyModel": "iPhone 10",
+      "propertyModelDetails": "Blaxk with 5.8 inch screen",
+      "propertyTracking": "yes",
+      "propertyTrackingDetails": "Find my phone enabled",
+      "propertyApproxValue": "£600",
+      "telephoneCountry": "GBR",
+      "telephoneCountryCode": "44",
+      "telephoneExtension": "112",
+      "telephoneNumber": 11334433,
+      "telephoneNumberFull": "+44 11334433 extn 112",
+      "telephoneType": "Home"
+    }
+  ]
+}

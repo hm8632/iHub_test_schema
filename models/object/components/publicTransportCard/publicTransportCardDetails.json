@@ -1,0 +1,27 @@
+{
+  "title": "publicTransportCardDetails",
+  "x-stoplight": {
+    "id": "j4e4bz43eq4wv"
+  },
+  "type": "object",
+  "properties": {
+    "publicTransportCardNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 25,
+      "description": "Public transport card number"
+    },
+    "publicTransportCardType": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Public transport card type"
+    },
+    "publicTransportContactlessPaymentCard": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 25,
+      "description": "Details of the contactless payment method used for public transport"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "witness",
+  "x-stoplight": {
+    "id": "ijq9d1gxpy1su"
+  },
+  "allOf": [
+    {
+      "$ref": "./person.json"
+    },
+    {
+      "$ref": "./components/witness/witnessAttendance.json"
+    },
+    {
+      "$ref": "./components/witness/witnessDetails.json"
+    },
+    {
+      "$ref": "./components/witness/witnessVulnerable.json"
+    }
+  ]
+}

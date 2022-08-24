@@ -1,0 +1,18 @@
+{
+  "title": "publicTransportCard",
+  "x-stoplight": {
+    "id": "mju99056dsz0s"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/publicTransportCard/publicTransportCardDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "publicTransportCardNumber": "2323453462345",
+      "publicTransportCardType": "Oyster card",
+      "publicTransportContactlessPaymentCard": "Oyster Card"
+    }
+  ]
+}

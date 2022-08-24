@@ -1,0 +1,31 @@
+{
+  "title": "personNationality",
+  "x-stoplight": {
+    "id": "5q8yojrmnlffm"
+  },
+  "type": "object",
+  "properties": {
+    "additionalCitizenship": {
+      "$ref": "../../../../common/types/person/NLTY.json#/nationality"
+    },
+    "hasAdditionalCitizenship": {
+      "type": "boolean",
+      "description": "Whether the person has additional citizenships"
+    },
+    "nationality": {
+      "$ref": "../../../../common/types/person/NLTY.json#/nationality"
+    },
+    "nationalityAcquisitionMethod": {
+      "$ref": "../../../../common/types/person/NAMD.json#/nationalityAcquisitionMethod"
+    },
+    "nationalityDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Additional details of the person's nationality"
+    },
+    "previousNationality": {
+      "$ref": "../../../../common/types/person/NLTY.json#/nationality"
+    }
+  }
+}

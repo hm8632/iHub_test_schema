@@ -1,0 +1,21 @@
+{
+  "title": "drivingLicense",
+  "x-stoplight": {
+    "id": "1rf11kval3l1u"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/identification/drivingLicence.json"
+    }
+  ],
+  "examples": [
+    {
+      "drivingLicenceCountry": "GBR",
+      "drivingLicenceExpiryDate": "2025-08-24",
+      "drivingLicenceIssueDate": "2020-08-24",
+      "drivingLicenceNumber": "ABCD-111-222-333",
+      "drivingLicenceNumberForeign": "ABCD-111-222-333",
+      "drivingLicenceType": "DLTP0001"
+    }
+  ]
+}

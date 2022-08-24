@@ -1,0 +1,22 @@
+{
+  "title": "personDeath",
+  "x-stoplight": {
+    "id": "c41x7tc4ul5m1"
+  },
+  "type": "object",
+  "properties": {
+    "dateOfDeath": {
+      "type": "string",
+      "format": "date",
+      "minLength": 1,
+      "maxLength": 1035,
+      "description": "Date of person's death"
+    },
+    "verificationOfDeath": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "details about the person's death verification(s)"
+    }
+  }
+}

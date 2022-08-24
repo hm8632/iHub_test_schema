@@ -1,0 +1,13 @@
+{
+  "title": "victimSupport",
+  "x-stoplight": {
+    "id": "cscl96d8o0wie"
+  },
+  "type": "object",
+  "properties": {
+    "victimSupport": {
+      "type": "boolean",
+      "description": "Whether the victim requires victim support"
+    }
+  }
+}

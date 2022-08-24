@@ -1,0 +1,19 @@
+{
+  "title": "socialMedia",
+  "x-stoplight": {
+    "id": "ro4nf2n2mjx1c"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/comms/socialMediaDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "socialMediaDetails": "Facebook account",
+      "socialMediaTag": "John.Doe",
+      "socialMediaType": "Facebook",
+      "socialMediaTypeOther": "Telegram"
+    }
+  ]
+}

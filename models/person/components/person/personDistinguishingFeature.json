@@ -1,0 +1,24 @@
+{
+  "title": "personDistinguishingFeature",
+  "x-stoplight": {
+    "id": "o975uabhz063p"
+  },
+  "type": "object",
+  "properties": {
+    "distinguishingFeature": {
+      "$ref": "../../../../common/types/person/DFTR.json#/distinguishingFeature"
+    },
+    "distinguishingFeatureDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Additional details of the distinguishing feature"
+    },
+    "distinguishingFeatureLocation": {
+      "$ref": "../../../../common/types/person/DFLN.json#/distinguishingFeatureLocation"
+    },
+    "distinguishingFeatureType": {
+      "$ref": "../../../../common/types/person/DFTP.json#/distinguishingFeatureType"
+    }
+  }
+}

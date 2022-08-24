@@ -1,0 +1,63 @@
+{
+  "title": "locationDetails",
+  "x-stoplight": {
+    "id": "4luzs9bied7as"
+  },
+  "type": "object",
+  "properties": {
+    "locationArea": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Area of the location"
+    },
+    "locationEasting": {
+      "type": "string",
+      "description": "Easting of the location"
+    },
+    "locationLatitude": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 25,
+      "description": "Latitude of the location"
+    },
+    "locationLongitude": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 25,
+      "description": "Longitude of the location"
+    },
+    "locationNorthing": {
+      "type": "string",
+      "description": "Northing of the location"
+    },
+    "locationUPRN": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 12,
+      "description": "UPRN of the location. A Unique Property Reference Number (UPRN) is a unique numeric identifier for every addressable location in Great Britain, found in OS's Address Base products."
+    },
+    "mapLocationAdditionalDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400,
+      "description": "Additional details of the map location"
+    },
+    "mapLocationCorrect": {
+      "type": "boolean",
+      "description": "Whether the map location is correct"
+    }
+  },
+  "examples": [
+    {
+      "locationArea": "string",
+      "locationEasting": "string",
+      "locationLatitude": "string",
+      "locationLongitude": "string",
+      "locationNorthing": "string",
+      "locationUPRN": "stringstring",
+      "mapLocationAdditionalDetails": "string",
+      "mapLocationCorrect": true
+    }
+  ]
+}

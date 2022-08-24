@@ -1,0 +1,19 @@
+{
+  "title": "personEducation",
+  "x-stoplight": {
+    "id": "q0kfs9080m5lu"
+  },
+  "type": "object",
+  "properties": {
+    "educationLocation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Location where the person received education"
+    },
+    "educationStatus": {
+      "type": "boolean",
+      "description": "Whether the person is in school"
+    }
+  }
+}

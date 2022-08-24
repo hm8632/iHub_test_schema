@@ -1,0 +1,37 @@
+{
+  "title": "drivingLicence",
+  "x-stoplight": {
+    "id": "qlnl6sjnu0q4t"
+  },
+  "type": "object",
+  "properties": {
+    "drivingLicenceCountry": {
+      "$ref": "../../../../common/types/object/CRTY.json#/country"
+    },
+    "drivingLicenceExpiryDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Expiry date of the driving licence"
+    },
+    "drivingLicenceIssueDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Issue date of the driving licence"
+    },
+    "drivingLicenceNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Driving licence number (UK)"
+    },
+    "drivingLicenceNumberForeign": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Driving licence number (non-UK)"
+    },
+    "drivingLicenceType": {
+      "$ref": "../../../../common/types/object/DLTP.json#/drivingLicenseType"
+    }
+  }
+}

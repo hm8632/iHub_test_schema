@@ -1,0 +1,44 @@
+{
+  "title": "bankCardDetails",
+  "x-stoplight": {
+    "id": "5dg0eiep7gv1x"
+  },
+  "type": "object",
+  "properties": {
+    "bankAccountNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "The account number on the bank card"
+    },
+    "bankCardExpiryDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The expiry date of the bank card"
+    },
+    "bankCardIssuingBank": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "The bank issuing the bank card"
+    },
+    "bankCardLongNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 25,
+      "description": "The long number of the bank card"
+    },
+    "bankCardNameOnCard": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 26,
+      "description": "The card holder's name on the bank card"
+    },
+    "bankCardSortcode": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10,
+      "description": "The sort code on the bank card"
+    }
+  }
+}

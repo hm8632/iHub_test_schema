@@ -1,0 +1,19 @@
+anyOf:
+  - $ref: ../../object/bankCard.json
+  - $ref: ../../object/bicycle.json
+  - $ref: ../../object/comms.json
+  - $ref: ../../object/drivingLicence.json
+  - $ref: ../../object/email.json
+  - $ref: ../../object/evidence.json
+  - $ref: ../../object/identification.json
+  - $ref: ../../object/media.json
+  - $ref: ../../object/mobile.json
+  - $ref: ../../object/property.json
+  - $ref: ../../object/publicTransportCard.json
+  - $ref: ../../object/socialMedia.json
+  - $ref: ../../object/telephone.json
+  - $ref: ../../object/vehicle.json
+  - $ref: ../../object/business.json
+  - type: object
+x-stoplight:
+  id: dzamm794dz80o

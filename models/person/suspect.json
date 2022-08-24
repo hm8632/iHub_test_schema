@@ -1,0 +1,15 @@
+{
+  "title": "suspect",
+  "x-stoplight": {
+    "id": "3hqkm1ccaq84i"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/suspect/suspectDetails.json"
+    },
+    {
+      "$ref": "./person.json"
+    }
+  ],
+  "examples": []
+}

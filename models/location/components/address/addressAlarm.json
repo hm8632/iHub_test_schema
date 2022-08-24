@@ -1,0 +1,29 @@
+{
+  "title": "addressAlarm",
+  "x-stoplight": {
+    "id": "eq9brhauldli8"
+  },
+  "type": "object",
+  "properties": {
+    "alarmFitted": {
+      "type": "boolean",
+      "description": "Whether the location/address has alarms fitted"
+    },
+    "alarmFittedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details of the alarms fitted at the location/address"
+    }
+  },
+  "examples": [
+    {
+      "physicallyAssaulted": true,
+      "physicallyAssaultedDetails": "string",
+      "subjectedToThreatAbuseOrAssault": true,
+      "subjectedToThreatAbuseOrAssaultDetails": "string",
+      "targetedByOffender": true,
+      "targetedByOffenderDetails": "string"
+    }
+  ]
+}

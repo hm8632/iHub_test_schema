@@ -1,0 +1,36 @@
+{
+  "title": "incidentPublicTransport",
+  "x-stoplight": {
+    "id": "90jkyof1f1545"
+  },
+  "type": "object",
+  "properties": {
+    "publicTransportCompany": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 250,
+      "description": "Company of the public transport"
+    },
+    "publicTransportOther": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Additional details of the public transport"
+    },
+    "publicTransportRouteDestination": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Route destination fo the public transport"
+    },
+    "publicTransportType": {
+      "$ref": "../../../../common/types/event/PTTP.json#/publicTransportType"
+    }
+  },
+  "examples": [
+    {
+      "nsirClosingCode": "str",
+      "nsirOpeningCode": "str"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "identification",
+  "x-stoplight": {
+    "id": "7jan0drwaknlr"
+  },
+  "oneOf": [
+    {
+      "$ref": "./drivingLicence.json"
+    },
+    {
+      "$ref": "./passport.json"
+    }
+  ],
+  "examples": [
+    {
+      "drivingLicenceCountry": "GBR",
+      "drivingLicenceExpiryDate": "2019-08-24",
+      "drivingLicenceIssueDate": "2019-08-24",
+      "drivingLicenceNumber": "ABC-DEF-123-456",
+      "drivingLicenceNumberForeign": "ABC-DEF-123-456",
+      "drivingLicenceType": "DLTP0001"
+    }
+  ]
+}

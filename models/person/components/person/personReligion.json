@@ -1,0 +1,18 @@
+{
+  "title": "personReligion",
+  "x-stoplight": {
+    "id": "od8zk6imvk9qp"
+  },
+  "type": "object",
+  "properties": {
+    "religion": {
+      "$ref": "../../../../common/types/person/RLST.json#/religionList"
+    },
+    "religionOther": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Additional details of the person's religion"
+    }
+  }
+}

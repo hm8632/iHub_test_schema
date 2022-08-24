@@ -1,0 +1,29 @@
+{
+  "title": "socialMediaDetails",
+  "x-stoplight": {
+    "id": "nub6qzo1g9j32"
+  },
+  "type": "object",
+  "properties": {
+    "socialMediaDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Additional details of the social media account, if applicable"
+    },
+    "socialMediaTag": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Username / tag / account name of the social media account"
+    },
+    "socialMediaType": {
+      "type": "string",
+      "description": "Platform of which the social media account belongs to"
+    },
+    "socialMediaTypeOther": {
+      "type": "string",
+      "description": "Additional details of the platform where the social media account belongs to"
+    }
+  }
+}

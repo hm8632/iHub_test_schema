@@ -1,0 +1,27 @@
+{
+  "title": "incidentNsir",
+  "x-stoplight": {
+    "id": "ocuikrtr51k0i"
+  },
+  "type": "object",
+  "properties": {
+    "nsirClosingCode": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3,
+      "description": "NSIR closing code"
+    },
+    "nsirOpeningCode": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3,
+      "description": "NSIR opening code"
+    }
+  },
+  "examples": [
+    {
+      "additionalPersonInvolvedInIncident": true,
+      "additionalPersonInvolvedInIncidentDetails": "string"
+    }
+  ]
+}

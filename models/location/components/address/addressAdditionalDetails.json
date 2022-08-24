@@ -1,0 +1,40 @@
+{
+  "title": "addressAdditionalDetails",
+  "x-stoplight": {
+    "id": "5tv5zoivmcrls"
+  },
+  "type": "object",
+  "properties": {
+    "addressDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Description of the location"
+    },
+    "buildingType": {
+      "$ref": "../../../../common/types/location/BLDT.json#/buildingType"
+    },
+    "buildingTypeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Additional details of the building type"
+    },
+    "dateMovedIn": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Date moved in for the address"
+    }
+  },
+  "examples": [
+    {
+      "physicallyAssaulted": true,
+      "physicallyAssaultedDetails": "string",
+      "subjectedToThreatAbuseOrAssault": true,
+      "subjectedToThreatAbuseOrAssaultDetails": "string",
+      "targetedByOffender": true,
+      "targetedByOffenderDetails": "string"
+    }
+  ]
+}

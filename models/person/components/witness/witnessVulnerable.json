@@ -1,0 +1,19 @@
+{
+  "title": "witnessVulnerable",
+  "x-stoplight": {
+    "id": "04e7w3tbxwsjm"
+  },
+  "type": "object",
+  "properties": {
+    "vulnerableWitness": {
+      "type": "boolean",
+      "description": "Whether the witness is vulnerable"
+    },
+    "vulnerableWitnessDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the witness' vulnerability"
+    }
+  }
+}

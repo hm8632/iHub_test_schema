@@ -1,0 +1,46 @@
+type: object
+x-stoplight:
+  id: b9d2ky418r4kc
+x-examples:
+  example-1:
+    id: person.witness.713148239
+    type: person
+    attributes:
+      age: '23'
+      ageKnown: 'true'
+      personDescription: witnessPersonDescription
+      gender: Male
+      dateofBirthKnown: 'false'
+    relationships:
+      address:
+        data:
+          - id: location.currentAddress.1248512082
+            type: address
+      emailAddress:
+        data:
+          - id: object.emailAddress.806131804
+            type: emailAddress
+      phoneNumber:
+        data:
+          - id: object.phoneNumber.1203668596
+            type: phoneNumber
+properties:
+  id:
+    type: string
+  type:
+    type: string
+  attributes:
+    anyOf:
+      - $ref: ./People.yaml
+      - $ref: ./Objects.yaml
+      - $ref: ./Locations.yaml
+      - $ref: ./Events.yaml
+  relationships:
+    type: object
+    properties:
+      '/^[a-zA-Z]$/':
+        $ref: ./relationship.yaml
+required:
+  - id
+  - type
+  - attributes

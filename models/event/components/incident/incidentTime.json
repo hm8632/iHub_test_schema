@@ -1,0 +1,50 @@
+{
+  "title": "incidentTime",
+  "x-stoplight": {
+    "id": "efn5rlhbnopao"
+  },
+  "type": "object",
+  "properties": {
+    "incidentApproximateDate": {
+      "type": "string",
+      "format": "date",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "Approximate date of which the incident took place"
+    },
+    "incidentApproximateTime": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "Approximate time of which the incident took place"
+    },
+    "incidentDateTimeDescription": {
+      "type": "string",
+      "description": "Additional details of the date/time of which the incident took place"
+    },
+    "incidentEndDateTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Exact end time of which the incident took place"
+    },
+    "incidentExactTimeKnown": {
+      "type": "boolean",
+      "description": "Whether the exact times of the incident is known"
+    },
+    "incidentStartDateTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Exact start time of which the incident took place"
+    }
+  },
+  "examples": [
+    {
+      "physicallyAssaulted": true,
+      "physicallyAssaultedDetails": "string",
+      "subjectedToThreatAbuseOrAssault": true,
+      "subjectedToThreatAbuseOrAssaultDetails": "string",
+      "targetedByOffender": true,
+      "targetedByOffenderDetails": "string"
+    }
+  ]
+}

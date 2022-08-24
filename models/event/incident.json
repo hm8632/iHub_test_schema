@@ -1,0 +1,91 @@
+{
+  "title": "incident",
+  "x-stoplight": {
+    "id": "6bx500gmuqwld"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/incident/incidentAsb.json"
+    },
+    {
+      "$ref": "./components/incident/incidentChannelShift.json"
+    },
+    {
+      "$ref": "./components/incident/incidentDetails.json"
+    },
+    {
+      "$ref": "./components/incident/incidentNsir.json"
+    },
+    {
+      "$ref": "./components/incident/incidentPublicTransport.json"
+    },
+    {
+      "$ref": "./components/incident/incidentTheft.json"
+    },
+    {
+      "$ref": "./components/incident/incidentThreatAbuseAssault.json"
+    },
+    {
+      "$ref": "./components/incident/incidentTime.json"
+    }
+  ],
+  "examples": [
+    {
+      "asbClass": "string",
+      "asbQuestionnaire": true,
+      "asbType": "string",
+      "beforeWebsite": "BWST0001",
+      "beforeWebsiteBtp": "BWBP0001",
+      "firstTimeFollowUp": "FTFU0001",
+      "firstTimeFollowUpBtp": "FTFB0001",
+      "firstTimeFollowUpOther": "Went into a police station.",
+      "firstTimeFollowUpOtherBtp": "Went to a train station.",
+      "arrestReason": "Drunk and disorderly",
+      "childPresent": true,
+      "correctChecks": true,
+      "crimeOffenceCode": "ABC123",
+      "crimeOutcome": "Caution",
+      "crimeStatus": "Closed",
+      "crimeType": "Anti social behavior",
+      "hadWeapon": true,
+      "hateCrime": "No",
+      "homeOfficeClassification": "AB/AB1234",
+      "howInvolvedInCrime": "I'm a victim",
+      "incidentDescription": "A detailed description of the incident.",
+      "incidentEventsPreceeding": "Witnessed the offender acting in an aggreeive manner.",
+      "incidentInfluencedByDrugsOrAlcohol": true,
+      "incidentInfluencedByDrugsOrAlcoholDetails": "Offender was inebriated and holding a bottle of alcohol.",
+      "incidentOnPublicTransport": true,
+      "incidentReportedAlready": true,
+      "incidentReportedAlreadyReference": "12/23345/23",
+      "incidentStillHappening": true,
+      "modusOperandi": "Aggressive language follwed by assault",
+      "stopNature": "ABC/123",
+      "subjectedToHateCrime": true,
+      "subjectedToHateCrimeDetails": "Abusive language used",
+      "incidentAnyWitnesses": true,
+      "nsirClosingCode": "ABC/123",
+      "nsirOpeningCode": "ABC/123",
+      "publicTransportCompany": "High Street Bus Company",
+      "publicTransportOther": "High Treet TukTuk",
+      "publicTransportRouteDestination": "London",
+      "publicTransportType": "PTTP0001",
+      "forcedEntry": true,
+      "forcedEntryDetails": "Window smashed.",
+      "stolenFromWhere": "SFWR0001",
+      "stolenFromWhereDetails": "Living room.",
+      "physicallyAssaulted": true,
+      "physicallyAssaultedDetails": "Person was hit in the face",
+      "subjectedToThreatAbuseOrAssault": true,
+      "subjectedToThreatAbuseOrAssaultDetails": "Threatening language used",
+      "targetedByOffender": true,
+      "targetedByOffenderDetails": "The incident appeared to be unprovoked.",
+      "incidentApproximateDate": "2022-08-24",
+      "incidentApproximateTime": "2pm",
+      "incidentDateTimeDescription": "around 2pm on 24th August 2022",
+      "incidentEndDateTime": "2022-08-24T15:15:22Z",
+      "incidentExactTimeKnown": true,
+      "incidentStartDateTime": "2022-08-24T14:15:22Z"
+    }
+  ]
+}

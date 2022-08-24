@@ -1,0 +1,29 @@
+{
+  "title": "evidenceMedical",
+  "x-stoplight": {
+    "id": "p9w8o497hvz4t"
+  },
+  "type": "object",
+  "properties": {
+    "howProvidingMedicalEvidence": {
+      "$ref": "../../../../common/types/event/HPME.json#/howProvidingMedicalEvidence",
+      "description": "Method of which the medical evidence is provided"
+    },
+    "medicalEvidenceAvailable": {
+      "type": "boolean",
+      "description": "Whether there is medical evidence available"
+    },
+    "medicalEvidenceContentDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Content / details of the medical evidence"
+    },
+    "medicalEvidenceTypeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the medical evidence type"
+    }
+  }
+}

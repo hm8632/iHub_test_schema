@@ -1,0 +1,27 @@
+{
+  "title": "incidentConnections",
+  "x-stoplight": {
+    "id": "0rcqu9t8vywyl"
+  },
+  "type": "object",
+  "description": "",
+  "properties": {
+    "additionalPersonInvolvedInIncident": {
+      "type": "boolean",
+      "description": "Whether additional persons are involved in the incident"
+    },
+    "additionalPersonInvolvedInIncidentDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Details of additional persons involved in the incident"
+    }
+  },
+  "examples": [
+    {
+      "asbClass": "string",
+      "asbQuestionnaire": true,
+      "asbType": "string"
+    }
+  ]
+}

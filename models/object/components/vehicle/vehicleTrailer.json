@@ -1,0 +1,27 @@
+{
+  "title": "vehicleTrailer",
+  "x-stoplight": {
+    "id": "1ebvc4uhxj0vn"
+  },
+  "type": "object",
+  "properties": {
+    "vehicleTrailerContainerContents": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Contents of the vehicle's trailer/container"
+    },
+    "vehicleTrailerContainerNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Number of the vehicle's trailer/container"
+    },
+    "vehicleTrailerWeightKg": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Weight of the vehicle's trailer/container"
+    }
+  }
+}

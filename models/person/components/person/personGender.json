@@ -1,0 +1,19 @@
+{
+  "title": "personGender",
+  "x-stoplight": {
+    "id": "eeuzz46gij84o"
+  },
+  "type": "object",
+  "properties": {
+    "gender": {
+      "$ref": "../../../../common/types/person/GNDR.json#/gender"
+    },
+    "genderSameAsBirth": {
+      "type": "boolean",
+      "description": "Whether the person's gender identity is the same as the sex they were assigned at birth"
+    },
+    "genderSelfDescribe": {
+      "$ref": "../../../../common/types/person/GNDR.json#/gender"
+    }
+  }
+}

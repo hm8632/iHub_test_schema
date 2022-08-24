@@ -1,0 +1,33 @@
+{
+  "title": "witnessDetails",
+  "x-stoplight": {
+    "id": "pi7k7cif05mvl"
+  },
+  "type": "object",
+  "properties": {
+    "independentWitness": {
+      "type": "boolean",
+      "description": "Whether the person is an independant witness"
+    },
+    "independentWitnessDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details of the independant witness"
+    },
+    "witnessConsent": {
+      "type": "boolean",
+      "description": "Whether the person consents to be a witness"
+    },
+    "witnessNeeds": {
+      "type": "boolean",
+      "description": "Whether the person has witness needs"
+    },
+    "witnessNeedsDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's witness needs"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "title": "passport",
+  "x-stoplight": {
+    "id": "6wj1pse58lf8h"
+  },
+  "type": "object",
+  "properties": {
+    "passportCountry": {
+      "$ref": "../../../../common/types/object/CRTY.json#/country"
+    },
+    "passportExpiryDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Expiry date of the passport"
+    },
+    "passportIssueDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Issue date of the passport"
+    },
+    "passportIssueNumber": {
+      "type": "string",
+      "description": "Issue number of the passport"
+    },
+    "passportIssuingOffice": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Issuing office of the passport"
+    },
+    "passportNumber": {
+      "type": "string",
+      "minLength": 7,
+      "maxLength": 9,
+      "description": "The passport number (UK)"
+    },
+    "passportNumberForeign": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "The passport number (non-UK)"
+    },
+    "passportType": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Type of the passport"
+    },
+    "passportValidity": {
+      "type": "boolean",
+      "minLength": 2,
+      "maxLength": 3,
+      "description": "Whether the passport is valid"
+    },
+    "passportVisaNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "UK visa number"
+    }
+  },
+  "required": [
+    "passportCountry"
+  ]
+}

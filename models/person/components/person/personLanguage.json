@@ -1,0 +1,36 @@
+{
+  "title": "personLanguage",
+  "x-stoplight": {
+    "id": "79312ffwyqb34"
+  },
+  "type": "object",
+  "description": "",
+  "properties": {
+    "accent": {
+      "$ref": "../../../../common/types/person/ACNT.json#/accent"
+    },
+    "englishFirstLanguage": {
+      "type": "boolean",
+      "description": "Whether English is the person's first language"
+    },
+    "englishFluency": {
+      "$ref": "../../../../common/types/person/EFCY.json#/englishFluency"
+    },
+    "englishSpeaking": {
+      "type": "boolean",
+      "description": "Whether the person speaks English"
+    },
+    "languagesSpoken": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../../common/types/person/LNGG.json#/language"
+      }
+    },
+    "languagesSpokenDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Additional languages or additional details the person speaks"
+    }
+  }
+}

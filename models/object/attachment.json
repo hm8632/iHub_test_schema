@@ -1,0 +1,18 @@
+{
+  "title": "attachment",
+  "x-stoplight": {
+    "id": "p2ole0a7yvftk"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/attachment/attachmentDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "attachmentContent": "base64EncodedString",
+      "attachmentMimeType": "application/pdf",
+      "attachmentName": "File-Name.pdf"
+    }
+  ]
+}

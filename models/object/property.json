@@ -1,0 +1,52 @@
+{
+  "title": "property",
+  "x-stoplight": {
+    "id": "8ml6hxvxowy0l"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/property/propertyDamage.json"
+    },
+    {
+      "$ref": "./components/property/propertyDescription.json"
+    },
+    {
+      "$ref": "./components/property/propertyDistinctiveFeatures.json"
+    },
+    {
+      "$ref": "./components/property/propertyIdentification.json"
+    },
+    {
+      "$ref": "./components/property/propertyMakeModel.json"
+    },
+    {
+      "$ref": "./components/property/propertyTracking.json"
+    },
+    {
+      "$ref": "./components/property/propertyValue.json"
+    }
+  ],
+  "examples": [
+    {
+      "propertyDamageDescription": "Motorcycle fairing smashed, wing mirrors broken off",
+      "propertyDamaged": true,
+      "propertyAge": "5 years",
+      "propertyCategory": "Vehicle",
+      "propertyColour": "PCLR0002",
+      "propertyDescription": "Sports tourer motorcycle",
+      "propertyQuantity": "1",
+      "propertySize": "Average size motorcycle",
+      "propertyUnits": "1",
+      "propertyDistinctiveFeaturesDetails": "Scratched fairings",
+      "propertyUniqueNumber": "004209",
+      "propertyUniqueNumberType": "ABC123",
+      "propertyMake": "Honda",
+      "propertyMakeDetails": "650 cc black motorcycle",
+      "propertyModel": "Hornet",
+      "propertyModelDetails": "2015 model",
+      "propertyTracking": "yes",
+      "propertyTrackingDetails": "Road angel tracker fitted.",
+      "propertyApproxValue": "£5000"
+    }
+  ]
+}

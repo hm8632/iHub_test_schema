@@ -1,0 +1,155 @@
+{
+  "title": "vehicleDetails",
+  "x-stoplight": {
+    "id": "out2244uvkqdo"
+  },
+  "type": "object",
+  "examples": [],
+  "properties": {
+    "vehicleChassisNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "Chassis number of the vehicle"
+    },
+    "vehicleCo2Emissions": {
+      "type": "string",
+      "description": "CO2 emissions of the vehicle"
+    },
+    "vehicleColour": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Colour of the vehicle"
+    },
+    "vehicleDateOfLastV5Cissued": {
+      "type": "string",
+      "format": "date",
+      "description": "Last issue date of vehicle V5C "
+    },
+    "vehicleDefectAlleged": {
+      "type": "boolean",
+      "description": "Whether the vehicle is alleged of defect"
+    },
+    "vehicleDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Additional description of the vehicle"
+    },
+    "vehicleEngineCapacityCc": {
+      "type": "integer",
+      "description": "Capacity of the vehicle's engine in CC"
+    },
+    "vehicleEngineNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20,
+      "description": "Engine number of vehicle"
+    },
+    "vehicleEuroStatus": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Euro status of vehicle"
+    },
+    "vehicleFuelType": {
+      "$ref": "../../../../common/types/object/VFTL.json#/vehicleFuelTypeList"
+    },
+    "vehicleFuelTypeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Additional details of the vehicle's fuel type"
+    },
+    "vehicleHitchType": {
+      "$ref": "../../../../common/types/object/VHTP.json#/vehicleHitchType"
+    },
+    "vehicleLeftHandDrive": {
+      "type": "boolean",
+      "description": "Whether the vehicle is left hand drive"
+    },
+    "vehicleLplateDisplayed": {
+      "type": "boolean",
+      "description": "Whether the vehicle has its plate displayed"
+    },
+    "vehicleMake": {
+      "$ref": "../../../../common/types/object/VMLT.json#/vehicleMakeList"
+    },
+    "vehicleMakeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Additional details of the vehicle's make"
+    },
+    "vehicleManualTransmission": {
+      "type": "boolean",
+      "description": "Whether the vehicle is manual transmission"
+    },
+    "vehicleMarkedForExport": {
+      "type": "boolean",
+      "description": "Whether the vehicle is marked for export"
+    },
+    "vehicleModel": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35
+    },
+    "vehicleNumberOfAxles": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Number of axles on the vehicle"
+    },
+    "vehicleNumberOfDoors": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Number of doors on the vehicle"
+    },
+    "vehiclePowerOutput": {
+      "type": "integer",
+      "description": "Power output of the vehicle"
+    },
+    "vehicleRealDrivingEmissions": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Real driving emissions of the vehicle"
+    },
+    "vehicleShape": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Shape of the vehicle"
+    },
+    "vehicleTypeApproval": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Type appro"
+    },
+    "vehicleUsage": {
+      "$ref": "../../../../common/types/object/VUSG.json#/vehicleUsage"
+    },
+    "vehicleWheelDiameter": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Wheel diameter of the vehicle"
+    },
+    "vehicleWheelType": {
+      "$ref": "../../../../common/types/object/VWTP.json#/vehicleWheelType"
+    },
+    "vehicleWheelplan": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Wheelplan of the vehicle"
+    },
+    "vehicleYearOfManufacture": {
+      "type": "integer",
+      "description": "Year of manufacture of the vehicle"
+    }
+  }
+}

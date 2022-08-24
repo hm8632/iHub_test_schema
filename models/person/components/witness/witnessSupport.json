@@ -1,0 +1,13 @@
+{
+  "title": "witnessSupport",
+  "x-stoplight": {
+    "id": "jzxtl1g1ubyip"
+  },
+  "type": "object",
+  "properties": {
+    "victimSupportWitness": {
+      "type": "boolean",
+      "description": "Whether the witness requires victim support"
+    }
+  }
+}

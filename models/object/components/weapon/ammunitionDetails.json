@@ -1,0 +1,12 @@
+{
+  "title": "ammunitionDetails",
+  "x-stoplight": {
+    "id": "hyd5mqz67dlma"
+  },
+  "type": "object",
+  "properties": {
+    "ammunitionType": {
+      "$ref": "../../../../common/types/object/ATYP.json#/ammunitionType"
+    }
+  }
+}

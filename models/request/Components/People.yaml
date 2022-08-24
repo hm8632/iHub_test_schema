@@ -1,0 +1,11 @@
+title: People
+x-stoplight:
+  id: aub9457xmwsod
+anyOf:
+  - $ref: ../../person/officer.json
+  - $ref: ../../person/offender.json
+  - $ref: ../../person/person.json
+  - $ref: ../../person/suspect.json
+  - $ref: ../../person/victim.json
+  - $ref: ../../person/witness.json
+description: ''

@@ -1,0 +1,34 @@
+{
+  "title": "mediaDetails",
+  "x-stoplight": {
+    "id": "sdiokz72ggp0c"
+  },
+  "type": "object",
+  "properties": {
+    "mediaEdited": {
+      "type": "boolean",
+      "description": "Whether the media is edited"
+    },
+    "mediaEditedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details about the media's edits"
+    },
+    "mediaType": {
+      "$ref": "../../../../common/types/event/MTYP.json#/mediaType"
+    },
+    "mediaTypeOtherDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Additional details of the media type"
+    },
+    "mediaUploadDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Description of the media upload"
+    }
+  }
+}

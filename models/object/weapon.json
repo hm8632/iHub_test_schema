@@ -1,0 +1,19 @@
+{
+  "title": "weapon",
+  "x-stoplight": {
+    "id": "wla3mzw5a4cif"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/weapon/weaponDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "weaponCalibre": "9mm",
+      "weaponDetails": "Pistol",
+      "weaponNabisReference": "193-343-376-983",
+      "weaponType": "WTLT0008"
+    }
+  ]
+}

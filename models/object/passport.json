@@ -1,0 +1,25 @@
+{
+  "title": "passport",
+  "x-stoplight": {
+    "id": "2hz2j0f15270u"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/identification/passport.json"
+    }
+  ],
+  "examples": [
+    {
+      "passportCountry": "GBR",
+      "passportExpiryDate": "2024-08-24",
+      "passportIssueDate": "2019-08-24",
+      "passportIssueNumber": "34",
+      "passportIssuingOffice": "Liverpool",
+      "passportNumber": "5653489086435",
+      "passportNumberForeign": "33344435422",
+      "passportType": "British",
+      "passportValidity": true,
+      "passportVisaNumber": "234789529348"
+    }
+  ]
+}

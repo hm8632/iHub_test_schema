@@ -1,0 +1,19 @@
+title: relationship
+x-stoplight:
+  id: ltaamtsdr6nc5
+type: object
+properties:
+  data:
+    type: array
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+      required:
+        - id
+        - type
+required:
+  - data

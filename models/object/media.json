@@ -1,0 +1,20 @@
+{
+  "title": "media",
+  "x-stoplight": {
+    "id": "ejarz4gz9whyh"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/media/mediaDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "mediaEdited": true,
+      "mediaEditedDetails": "Footage not relevant to the incident has been edited out.",
+      "mediaType": "MTYP0001",
+      "mediaTypeOtherDetails": "string",
+      "mediaUploadDescription": "The media is from a dashcam which captures the entire incident from start to end. The incident starts 10 seconds into the video."
+    }
+  ]
+}

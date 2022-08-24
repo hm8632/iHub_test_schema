@@ -1,0 +1,25 @@
+{
+  "title": "businessDetails",
+  "x-stoplight": {
+    "id": "2gs1745m9i9gn"
+  },
+  "type": "object",
+  "properties": {
+    "businessDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400,
+      "description": "Description of the business"
+    },
+    "businessLocationDescription": {
+      "type": "string",
+      "description": "Description of the business' location"
+    },
+    "businessName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Name of the business"
+    }
+  }
+}

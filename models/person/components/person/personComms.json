@@ -1,0 +1,31 @@
+{
+  "title": "personComms",
+  "x-stoplight": {
+    "id": "yz4e77xiz61ns"
+  },
+  "type": "object",
+  "properties": {
+    "communicationNeeds": {
+      "type": "boolean",
+      "description": "Whether the person has communication needs"
+    },
+    "communicationNeedsDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of the person's communication needs"
+    },
+    "contactPreference": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../../common/types/person/CPNC.json#/contactPreference"
+      }
+    },
+    "preferredLanguageSpoken": {
+      "$ref": "../../../../common/types/person/LNGG.json#/language"
+    },
+    "preferredLanguageWritten": {
+      "$ref": "../../../../common/types/person/LNGG.json#/language"
+    }
+  }
+}

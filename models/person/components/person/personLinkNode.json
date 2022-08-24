@@ -1,0 +1,17 @@
+{
+  "title": "personLinkNode",
+  "x-stoplight": {
+    "id": "hr3f8ci0czspp"
+  },
+  "type": "object",
+  "properties": {
+    "linkNode": {
+      "$ref": "../../../../common/types/linkNodes.json#/linkNodes"
+    }
+  },
+  "examples": [
+    {
+      "linkNode": "Sister"
+    }
+  ]
+}

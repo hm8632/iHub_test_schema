@@ -1,0 +1,34 @@
+{
+  "title": "incidentTheft",
+  "x-stoplight": {
+    "id": "5amt1clqpk5o7"
+  },
+  "type": "object",
+  "properties": {
+    "forcedEntry": {
+      "type": "boolean",
+      "description": "Whether unlawful entry into property by force or threats of force."
+    },
+    "forcedEntryDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of forced entry"
+    },
+    "stolenFromWhere": {
+      "$ref": "../../../../common/types/object/SFWR.json#/stolenFromWhere"
+    },
+    "stolenFromWhereDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Additional details of where the item was stolen from"
+    }
+  },
+  "examples": [
+    {
+      "nsirClosingCode": "str",
+      "nsirOpeningCode": "str"
+    }
+  ]
+}

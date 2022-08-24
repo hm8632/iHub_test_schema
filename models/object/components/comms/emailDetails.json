@@ -1,0 +1,17 @@
+{
+  "title": "emailDetails",
+  "x-stoplight": {
+    "id": "ujl2aoxtfro4r"
+  },
+  "type": "object",
+  "description": "",
+  "properties": {
+    "emailAddress": {
+      "type": "string",
+      "format": "email",
+      "minLength": 5,
+      "maxLength": 120,
+      "description": "Email address"
+    }
+  }
+}

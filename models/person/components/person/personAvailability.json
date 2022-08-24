@@ -1,0 +1,15 @@
+{
+  "title": "personAvailability",
+  "x-stoplight": {
+    "id": "ik26liahubp1z"
+  },
+  "type": "object",
+  "properties": {
+    "unavailabilityDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the person's unavailability"
+    }
+  }
+}

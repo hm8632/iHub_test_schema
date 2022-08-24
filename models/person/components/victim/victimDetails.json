@@ -1,0 +1,33 @@
+{
+  "title": "victimDetails",
+  "x-stoplight": {
+    "id": "bxp2hpycze28l"
+  },
+  "type": "object",
+  "properties": {
+    "repeatVictim": {
+      "type": "boolean",
+      "description": "Whether the person is a repeat victim"
+    },
+    "victimAwareReported": {
+      "type": "boolean",
+      "description": "Whether the victim is aware that the incident has been reported"
+    },
+    "victimIsBusiness": {
+      "type": "boolean",
+      "description": "Whether the victim is a business"
+    },
+    "victimKnown": {
+      "type": "boolean",
+      "description": "Whether the victim is known"
+    },
+    "victimSupport": {
+      "type": "boolean",
+      "description": "Whether the victim requires victim support"
+    },
+    "victimSupportWitness": {
+      "type": "boolean",
+      "description": "Whether the witness requires victim support"
+    }
+  }
+}

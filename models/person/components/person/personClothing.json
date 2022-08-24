@@ -1,0 +1,24 @@
+{
+  "title": "personClothing",
+  "x-stoplight": {
+    "id": "0nz22xlzcjcc4"
+  },
+  "type": "object",
+  "properties": {
+    "clothingAtTimeOfIncident": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Description of the clothing of the person at time of incident"
+    },
+    "eyewear": {
+      "$ref": "../../../../common/types/person/EYWR.json#/eyewear"
+    },
+    "usualClothing": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Description of the usual clothing of the person"
+    }
+  }
+}

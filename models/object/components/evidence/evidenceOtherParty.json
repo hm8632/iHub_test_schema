@@ -1,0 +1,44 @@
+{
+  "title": "evidenceOtherParty",
+  "x-stoplight": {
+    "id": "b31xwxdys8pg0"
+  },
+  "type": "object",
+  "properties": {
+    "descriptionOfYourAppearanceInFootage": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Description of the person reporting's appearance in other party's footage"
+    },
+    "detailsOfOtherParty": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Details of the other party"
+    },
+    "howToProvideTheirMedia": {
+      "$ref": "../../../../common/types/event/HTPT.json#/howToProvideTheirMedia"
+    },
+    "mediaSharePermission": {
+      "type": "boolean",
+      "description": "Whether the uploader consents for further sharing of the media"
+    },
+    "otherPartyVideoAudioPhotoEvidenceAvailable": {
+      "type": "boolean",
+      "description": "Whether there are other party video/audio/photo evidence available"
+    },
+    "otherPartyVideoAudioPhotoEvidenceContentDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of other party video/audio/photo evidence"
+    },
+    "otherPartyVideoUrl": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Video URL of other party's evidence"
+    }
+  }
+}

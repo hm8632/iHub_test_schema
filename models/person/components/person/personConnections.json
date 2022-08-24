@@ -1,0 +1,41 @@
+{
+  "title": "personConnections",
+  "x-stoplight": {
+    "id": "517sr6jajvpev"
+  },
+  "type": "object",
+  "properties": {
+    "connectedToAnyOneElse": {
+      "type": "boolean",
+      "description": "whether the person is connected to anyone else"
+    },
+    "fatherForename": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 35
+      }
+    },
+    "fatherSurname": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "The person's father's surname if applicable"
+    },
+    "motherForename": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 35
+      }
+    },
+    "motherSurname": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "The person's mother's surname if applicable"
+    }
+  }
+}

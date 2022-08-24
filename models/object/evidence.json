@@ -1,0 +1,42 @@
+{
+  "title": "evidence",
+  "x-stoplight": {
+    "id": "8pw7a8qeuwluy"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/evidence/evidenceDetails.json"
+    },
+    {
+      "$ref": "./components/evidence/evidenceMedical.json"
+    },
+    {
+      "$ref": "./components/evidence/evidenceOtherParty.json"
+    },
+    {
+      "$ref": "./components/evidence/evidenceVideoAudio.json"
+    }
+  ],
+  "examples": [
+    {
+      "evidenceAtScene": true,
+      "evidenceAtSceneDetails": "Footprints on floor, and an item of clothing left.",
+      "howProvidingMedicalEvidence": "HPME0001",
+      "medicalEvidenceAvailable": true,
+      "medicalEvidenceContentDetails": "string",
+      "medicalEvidenceTypeDetails": "string",
+      "descriptionOfYourAppearanceInFootage": "I can be seen walking past a bus stop wearing a blue coat.",
+      "detailsOfOtherParty": "The other person in the footage is wearning white trainers and has a grey hoodie.",
+      "howToProvideTheirMedia": "HTPT0001",
+      "mediaSharePermission": true,
+      "otherPartyVideoAudioPhotoEvidenceAvailable": true,
+      "otherPartyVideoAudioPhotoEvidenceContentDetails": "Mobile phone video footage from a passer by who viewed the incident.",
+      "otherPartyVideoUrl": "https://some-url-of-video",
+      "howToProvideYourMedia": "HTPY0001",
+      "yourVideoAudioPhotoEvidenceAvailable": true,
+      "yourVideoAudioPhotoEvidenceContentDetails": "Mobile phone footage I recorded during the incident.",
+      "yourVideoAudioPhotoEvidenceTypeDetails": "Video footage",
+      "yourVideoUrl": "https://some-url-of-video"
+    }
+  ]
+}

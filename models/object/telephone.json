@@ -1,0 +1,21 @@
+{
+  "title": "telephone",
+  "x-stoplight": {
+    "id": "kq3kvv9l955aa"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/comms/telephoneDetails.json"
+    }
+  ],
+  "examples": [
+    {
+      "telephoneCountry": "GB",
+      "telephoneCountryCode": "44",
+      "telephoneExtension": "34",
+      "telephoneNumber": 76548765,
+      "telephoneNumberFull": "+44 76548765 ext 34",
+      "telephoneType": "Work"
+    }
+  ]
+}

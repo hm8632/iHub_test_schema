@@ -1,0 +1,43 @@
+{
+  "title": "incidentThreatAbuseAssault",
+  "x-stoplight": {
+    "id": "m5rvuahp86qbr"
+  },
+  "type": "object",
+  "properties": {
+    "physicallyAssaulted": {
+      "type": "boolean",
+      "description": "Whether the victim is physically assaulted"
+    },
+    "physicallyAssaultedDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of the physical assult"
+    },
+    "subjectedToThreatAbuseOrAssault": {
+      "type": "boolean",
+      "description": "Whether the victim is subjected to threat, abuse or assault"
+    },
+    "subjectedToThreatAbuseOrAssaultDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Details of threat, abuse or assault"
+    },
+    "targetedByOffender": {
+      "type": "boolean",
+      "description": "Whether the victim is targeted by the offender"
+    },
+    "targetedByOffenderDetails": {
+      "type": "string",
+      "description": "Details of the victim being targeted by the offender"
+    }
+  },
+  "examples": [
+    {
+      "nsirClosingCode": "str",
+      "nsirOpeningCode": "str"
+    }
+  ]
+}

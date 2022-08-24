@@ -1,0 +1,23 @@
+{
+  "title": "personBirth",
+  "x-stoplight": {
+    "id": "ur6kpqc5j9vf5"
+  },
+  "type": "object",
+  "properties": {
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "minLength": 10,
+      "maxLength": 10,
+      "description": "The person's date of birth"
+    },
+    "dateOfBirthKnown": {
+      "type": "boolean",
+      "description": "Whether the person's exact date of birth is known"
+    },
+    "placeOfBirth": {
+      "$ref": "../../../../common/types/object/CRTY.json#/country"
+    }
+  }
+}

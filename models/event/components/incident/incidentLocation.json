@@ -1,0 +1,30 @@
+{
+  "title": "incidentLocation",
+  "x-stoplight": {
+    "id": "qystcut2sv0jc"
+  },
+  "type": "object",
+  "properties": {
+    "theirLocationConnectionDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Additional details of connections to the suspect's location"
+    },
+    "whosLocation": {
+      "$ref": "../../../../common/types/location/WLTN.json#/whosLocation"
+    },
+    "yourLocationConnectionDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "description": "Additional details of connections to the person reporting's location"
+    }
+  },
+  "examples": [
+    {
+      "additionalPersonInvolvedInIncident": true,
+      "additionalPersonInvolvedInIncidentDetails": "string"
+    }
+  ]
+}

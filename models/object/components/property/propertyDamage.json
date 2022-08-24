@@ -1,0 +1,19 @@
+{
+  "title": "propertyDamage",
+  "x-stoplight": {
+    "id": "eatj6cm3y5u8j"
+  },
+  "type": "object",
+  "properties": {
+    "propertyDamageDescription": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Description of the damage to the property, if applicable"
+    },
+    "propertyDamaged": {
+      "type": "boolean",
+      "description": "Whether the property is damaged"
+    }
+  }
+}

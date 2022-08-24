@@ -1,0 +1,68 @@
+{
+  "title": "submissionDetails",
+  "x-stoplight": {
+    "id": "hb438rf7rq435"
+  },
+  "type": "object",
+  "examples": [
+    {
+      "forceIdentifier": 0,
+      "category": "string",
+      "categorySubcode": "string",
+      "externalReferenceId": "string",
+      "highHarmFlag": "string",
+      "howInvolvedInCrime": "IVLD_0001",
+      "ipAddress": "string",
+      "customerReferenceNumber": "string",
+      "submitTime": null,
+      "submissionId": "string",
+      "UserAgent": "string"
+    }
+  ],
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "The main category of the submission"
+    },
+    "categorySubcode": {
+      "type": "string",
+      "description": "Sub category of the submission"
+    },
+    "customerReferenceNumber": {
+      "type": "string",
+      "description": "A unique reference number for the submission."
+    },
+    "externalReferenceId": {
+      "type": "string",
+      "description": "A reference number used by the system creating the submission"
+    },
+    "forceIdentifier": {
+      "type": "number",
+      "description": "The jurisdiction or brand ID of the force"
+    },
+    "highHarmFlag": {
+      "type": "string",
+      "description": "Is a person in the submission vulnerable to harm."
+    },
+    "howInvolvedInCrime": {
+      "$ref": "../../../../common/types/event/IVLD.json#/howInvolvedInCrime"
+    },
+    "ipAddress": {
+      "type": "string",
+      "description": "The originating IP address of the submission, if known."
+    },
+    "submissionId": {
+      "type": "string",
+      "description": "A unique submission ID"
+    },
+    "submitTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date / time of the submission"
+    },
+    "userAgent": {
+      "type": "string",
+      "description": "The user agent (browser) used to report the incident."
+    }
+  }
+}

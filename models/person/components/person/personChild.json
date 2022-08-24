@@ -1,0 +1,20 @@
+{
+  "title": "personChild",
+  "x-stoplight": {
+    "id": "ns3arb3dm5nbq"
+  },
+  "type": "object",
+  "properties": {
+    "expectedDueDate": {
+      "type": "string",
+      "format": "date",
+      "minLength": 10,
+      "maxLength": 10,
+      "description": "Expected due date of person if applicable"
+    },
+    "nextOfKinKnown": {
+      "type": "boolean",
+      "description": "Whether the person has a known next of kin"
+    }
+  }
+}

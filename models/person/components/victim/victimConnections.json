@@ -1,0 +1,18 @@
+{
+  "title": "victimConnections",
+  "x-stoplight": {
+    "id": "m00hig2htb8o9"
+  },
+  "type": "object",
+  "properties": {
+    "victimRelationshipToSuspect": {
+      "$ref": "../../../../common/types/person/PTPR.json#/personToPersonRelationships"
+    },
+    "victimRelationshipToSuspectDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Additional details of the relationship between the victim and the suspect"
+    }
+  }
+}

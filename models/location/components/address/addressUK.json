@@ -1,0 +1,61 @@
+{
+  "title": "addressUK",
+  "x-stoplight": {
+    "id": "se9c8v8g7v4o9"
+  },
+  "type": "object",
+  "description": "",
+  "properties": {
+    "buildingName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Building name"
+    },
+    "buildingNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Building number"
+    },
+    "cityOrTown": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "City or town of the address"
+    },
+    "country": {
+      "$ref": "../../../../common/types/object/CRTY.json#/country"
+    },
+    "county": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "County of the address"
+    },
+    "street": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Street name"
+    },
+    "unitNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 35,
+      "description": "Unit number"
+    },
+    "postcode": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 25,
+      "description": "Postcode of the location"
+    }
+  },
+  "examples": [
+    {
+      "alarmFitted": true,
+      "alarmFittedDetails": "string"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+title: Events
+x-stoplight:
+  id: 4acssbwa244r3
+anyOf:
+  - $ref: ../../event/incident.json

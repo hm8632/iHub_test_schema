@@ -1,0 +1,29 @@
+{
+  "title": "propertyMakeModel",
+  "x-stoplight": {
+    "id": "arvu56wymmudi"
+  },
+  "type": "object",
+  "properties": {
+    "propertyMake": {
+      "type": "string",
+      "description": "Make of the property"
+    },
+    "propertyMakeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Additional details of the make of the property"
+    },
+    "propertyModel": {
+      "type": "string",
+      "description": "Model of the property"
+    },
+    "propertyModelDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Additional details of the model of the property"
+    }
+  }
+}

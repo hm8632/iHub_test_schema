@@ -1,0 +1,15 @@
+{
+  "title": "officerIdentification",
+  "x-stoplight": {
+    "id": "o6qzbkmafg1ln"
+  },
+  "type": "object",
+  "properties": {
+    "collarNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10,
+      "description": "The collar number of an officer"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "bicycleComponents",
+  "x-stoplight": {
+    "id": "tfpxqq1r8x3s0"
+  },
+  "type": "object",
+  "properties": {
+    "bicycleBrakes": {
+      "$ref": "../../../../common/types/object/BBKS.json#/bicycleBrakes"
+    },
+    "bicycleFrameNumber": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "The frame number of the bicycle"
+    },
+    "bicycleFrameType": {
+      "$ref": "../../../../common/types/object/BFTP.json#/bicycleFrameType"
+    },
+    "bicycleGearsNumber": {
+      "$ref": "../../../../common/types/object/BGNR.json#/bicycleGearsNumber"
+    },
+    "bicycleGearsType": {
+      "$ref": "../../../../common/types/object/BGTP.json#/bicycleGearsType"
+    },
+    "bicycleHandleBarGrip": {
+      "$ref": "../../../../common/types/object/BHBG.json#/bicycleHandleBarGrip"
+    },
+    "bicycleHandleBarType": {
+      "$ref": "../../../../common/types/object/BHBT.json#/bicycleHandleBarType"
+    },
+    "bicycleMudGuards": {
+      "$ref": "../../../../common/types/object/BMGS.json#/bicycleMudGuards"
+    },
+    "bicycleMudGuardsColour": {
+      "$ref": "../../../../common/types/object/PCLR.json#/propertyColour"
+    },
+    "bicycleSaddle": {
+      "$ref": "../../../../common/types/object/BSDL.json#/bicycleSaddle"
+    },
+    "bicycleSaddleColour": {
+      "$ref": "../../../../common/types/object/PCLR.json#/propertyColour"
+    },
+    "bicycleSuspension": {
+      "$ref": "../../../../common/types/object/BSSN.json#/bicycleSuspension"
+    },
+    "bicycleWheelDiameter": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "The diameter of the bicycle's wheel"
+    }
+  }
+}

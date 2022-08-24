@@ -1,0 +1,19 @@
+{
+  "title": "propertyTracking",
+  "x-stoplight": {
+    "id": "gzrwwygu00a43"
+  },
+  "type": "object",
+  "properties": {
+    "propertyTracking": {
+      "type": "string",
+      "description": "Whether the property is being tracked"
+    },
+    "propertyTrackingDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "The property's tracking details"
+    }
+  }
+}

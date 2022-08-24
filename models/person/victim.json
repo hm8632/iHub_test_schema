@@ -1,0 +1,18 @@
+{
+  "title": "victim",
+  "x-stoplight": {
+    "id": "mtlswkcow6jl5"
+  },
+  "allOf": [
+    {
+      "$ref": "./person.json"
+    },
+    {
+      "$ref": "./components/victim/victimVulnerable.json"
+    },
+    {
+      "$ref": "./components/victim/victimDetails.json"
+    }
+  ],
+  "examples": []
+}

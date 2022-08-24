@@ -1,0 +1,97 @@
+{
+  "title": "vehicle",
+  "x-stoplight": {
+    "id": "c6jude3c1qxcf"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/vehicle/vehicleDamage.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleDetails.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleIdentifyingFeatures.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleMOT.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleRegistration.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleSecurity.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleTaxi.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleTrailer.json"
+    },
+    {
+      "$ref": "./components/vehicle/vehicleValue.json"
+    }
+  ],
+  "examples": [
+    {
+      "vehicleDamageDescription": "Front window cracked",
+      "vehicleDamageRepairValue": "£1000-1500",
+      "vehicleDamaged": true,
+      "vehicleChassisNumber": "510451270",
+      "vehicleCo2Emissions": "62",
+      "vehicleColour": "Aquamarine",
+      "vehicleDateOfLastV5Cissued": "2019-08-24",
+      "vehicleDefectAlleged": true,
+      "vehicleDescription": "large pick up truck",
+      "vehicleEngineCapacityCc": 1000,
+      "vehicleEngineNumber": "1154",
+      "vehicleEuroStatus": "string",
+      "vehicleFuelType": "VFTL0001",
+      "vehicleFuelTypeDetails": "Deisel",
+      "vehicleHitchType": "VHTP0001",
+      "vehicleLeftHandDrive": true,
+      "vehicleLplateDisplayed": false,
+      "vehicleMake": "VMLT0001",
+      "vehicleMakeDetails": "Nissan",
+      "vehicleManualTransmission": true,
+      "vehicleMarkedForExport": false,
+      "vehicleModel": "Nivara",
+      "vehicleNumberOfAxles": "1",
+      "vehicleNumberOfDoors": "4",
+      "vehiclePowerOutput": 200,
+      "vehicleRealDrivingEmissions": "120g",
+      "vehicleShape": "Pickup",
+      "vehicleTypeApproval": "string",
+      "vehicleUsage": "VUSG0001",
+      "vehicleWheelDiameter": "30 inch",
+      "vehicleWheelType": "VWTP0001",
+      "vehicleWheelplan": "string",
+      "vehicleYearOfManufacture": 2019,
+      "vehicleIdentifyingFeature": [
+        "VIFR0001"
+      ],
+      "vehicleIdentifyingFeatureDetails": "Cracked front bumper",
+      "vehicleMotExpiryDate": "2023-08-24",
+      "vehicleMotStatus": "VMSS0001",
+      "vehicleForeignVRM": "HG65 F78",
+      "vehicleMonthOfFirstDvlaRegistration": "2019-08-24",
+      "vehicleMonthOfFirstRegistration": "2019-08-24",
+      "vehicleRegistrationCountry": "GBR",
+      "vehicleVRM": "NX77 ABC",
+      "vehicleVin": "7787-2434-2342-3432",
+      "vehicleAlarmFitted": true,
+      "vehicleTracking": true,
+      "vehicleTrackingDetail": "Road angel tracker fitted",
+      "vehicleTaxiType": "VTTP0001",
+      "vehicleTrailerContainerContents": "Garden furnature",
+      "vehicleTrailerContainerNumber": "7787-2434",
+      "vehicleTrailerWeightKg": "2000kg",
+      "vehicleAdditionalRateOfTaxEndDate": "2023-08-24",
+      "vehicleApproxValue": "£2500",
+      "vehicleRevenueWeightKg": 3500,
+      "vehicleTaxDueDate": "2023-08-24",
+      "vehicleTaxNumber": "89734323",
+      "vehicleTaxStatus": "VTSS0001"
+    }
+  ]
+}
