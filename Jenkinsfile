@@ -23,12 +23,12 @@ pipeline {
         stage('Publish ') {
             steps {
                 echo 'Publishing..'
-                echo 'Publishing to web location ..'
+                echo 'Publishing files to web location ..'
             }
         }
         stage('Cleanup') {
             steps {
-                echo 'Cleaning..'
+                echo 'Cleaning up ..'
                 echo 'Cleaning old builds'
             }
         }
