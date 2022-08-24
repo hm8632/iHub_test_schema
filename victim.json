@@ -21,7 +21,7 @@
   "type": "object",
   "examples": [
     {
-      "date_of_birth": "1976-04-67",
+      "date_of_birth": "1976-04-57",
       "place_of_birth": "Edinburgh",
       "home_telephone": {
         "type": null,
