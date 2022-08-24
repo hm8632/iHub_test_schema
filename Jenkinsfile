@@ -20,7 +20,7 @@ pipeline {
                 echo 'Adding $id tags to files.'
             }
         }
-        stage('Publish') {
+        stage('Publish ') {
             steps {
                 echo 'Publishing..'
                 echo 'Publishing to web location ..'
