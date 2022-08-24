@@ -11,7 +11,7 @@ node {
     stage('Test') {  
          
     }
-    stage('Deploy') {  
+    stage('Deploy') { 
         
     }
 }
