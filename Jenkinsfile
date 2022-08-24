@@ -23,7 +23,7 @@ pipeline {
         stage('Publish') {
             steps {
                 echo 'Publishing..'
-                echo 'Publiching to web location ..'
+                echo 'Publishing to web location ..'
             }
         }
         stage('Cleanup') {
