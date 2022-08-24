@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-stoplight": {
+    "id": "bc2174ac26f48"
+  },
   "$id": "new idea need to go here!",
   "title": "address",
   "type": "object",

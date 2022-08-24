@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-stoplight": {
+    "id": "d109e81cbd7fa"
+  },
   "title": "telephone",
   "type": "object",
   "properties": {

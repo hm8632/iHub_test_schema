@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-stoplight": {
+    "id": "4d55ed01f4f33"
+  },
   "title": "person",
   "type": "object",
   "x-internal": false,

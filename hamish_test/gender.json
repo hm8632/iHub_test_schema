@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-stoplight": {
+    "id": "0d74b0ab30fdc"
+  },
   "$id": "https://psanalytics.co.uk/schemas/enum/gender.JSON",
   "title": "gender",
   "type": "string",

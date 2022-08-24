@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-stoplight": {
+    "id": "8793822667287"
+  },
   "title": "victim",
   "allOf": [
     {
