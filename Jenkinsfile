@@ -1,23 +1,10 @@
-node {  
-    stage('Build') { 
-        echo "$env.WORKSPACE"
-        def branches = [:]
-        def names = nodeNames()
-        for (int i=0; i<names.size(); ++i) {
-            def nodeName = names[i];  
-            echo "Triggered a new build on " + nodeName
+pipeline {
+    agent { docker { image 'node:16.13.1-alpine' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'node --version'
             }
-    }
-    stage('Test') {  
-         
-    }
-    stage('Deploy') { 
-        
+        }
     }
 }
-
-
-@NonCPS
-def nodeNames() {
-                return jenkins.model.Jenkins.instance.nodes.collect { node -> node.name }
-                }
