@@ -1,6 +1,6 @@
 node {  
     stage('Build') { 
-       echo BRANCH_NAME
+       echo ${env.BRANCH_NAME}
         def branches = [:]
         def names = nodeNames()
         for (int i=0; i<names.size(); ++i) {
