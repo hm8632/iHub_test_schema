@@ -5,7 +5,7 @@ node {
         def names = nodeNames()
         for (int i=0; i<names.size(); ++i) {
             def nodeName = names[i];  
-            echo "Triggering build on " + nodeName
+            echo "Triggering a new build on " + nodeName
             }
     }
     stage('Test') {  
