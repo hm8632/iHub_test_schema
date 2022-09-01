@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 sh '/usr/local/bin/jenkins_scripts/validate_and_reference_schema.php'
-'
             }
         }
          stage('test') {
