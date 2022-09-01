@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh '/usr/local/bin/jenkins_scripts/validate_and_reference_schema.php
+                sh '/usr/local/bin/jenkins_scripts/validate_and_reference_schema.php'
 '
             }
         }
