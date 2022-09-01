@@ -8,7 +8,7 @@ pipeline {
         }
          stage('test') {
             steps {
-                sh 'node --version'
+                sh '/usr/local/bin/jenkins_scripts/ihub.php'
             }
         }
          stage('deploy') {
