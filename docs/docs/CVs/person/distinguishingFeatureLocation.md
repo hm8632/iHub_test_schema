@@ -1,0 +1,38 @@
+---
+stoplight-id: 35eamsfcu8ari
+---
+
+Identifier  |  Display Value
+------------|---------------
+DFLN_0001   |  Abdomen
+DFLN_0002   |  Ankle
+DFLN_0003   |  Arms
+DFLN_0004   |  Back
+DFLN_0005   |  Breast
+DFLN_0006   |  Brow
+DFLN_0007   |  Buttocks
+DFLN_0008   |  Chest
+DFLN_0009   |  Chin
+DFLN_0010   |  Ears
+DFLN_0011   |  Elbow
+DFLN_0012   |  Eyebrow
+DFLN_0013   |  Eyes
+DFLN_0014   |  Face
+DFLN_0015   |  Feet
+DFLN_0016   |  Fingers
+DFLN_0017   |  Gait
+DFLN_0018   |  Genitals
+DFLN_0019   |  Hand
+DFLN_0020   |  Hips
+DFLN_0021   |  Knee
+DFLN_0022   |  Legs
+DFLN_0023   |  Lips
+DFLN_0024   |  Neck
+DFLN_0025   |  Nipple
+DFLN_0026   |  Nose
+DFLN_0027   |  Penis
+DFLN_0028   |  Scalp
+DFLN_0029   |  Speech
+DFLN_0030   |  Teeth
+DFLN_0031   |  Toes
+DFLN_0032   |  Tongue

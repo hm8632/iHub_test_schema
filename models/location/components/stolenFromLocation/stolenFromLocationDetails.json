@@ -1,0 +1,39 @@
+{
+  "title": "stolenFromLocationDetails",
+  "x-stoplight": {
+    "id": "vn80c9nsdzlm7"
+  },
+  "type": "object",
+  "description": "",
+  "properties": {
+    "buildingType": {
+      "$ref": "../../../../common/types/location/BLDT.json#/buildingType"
+    },
+    "buildingTypeDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Additional details of the building type"
+    },
+    "forcedEntry": {
+      "type": "boolean",
+      "description": "Whether unlawful entry into property by force or threats of force."
+    },
+    "forcedEntryDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "Details of forced entry"
+    },
+    "locationDetails": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Additional details of where the item was stolen from"
+    },
+    "locationType": {
+      "$ref": "../../../../common/types/location/SFLN.json#/stolenFromLocation",
+      "description": "Depicts where the item is stolen from"
+    }
+  }
+}

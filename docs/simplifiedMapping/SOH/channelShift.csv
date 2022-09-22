@@ -1,0 +1,7 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+beforeWebsite,Event,beforeWebsite,Direct Mapping,4
+firstTimeFollowUp,Event,firstTimeFollowUp,Direct Mapping,4
+firstTimeFollowUpOther,Event,firstTimeFollowUpOther,Direct Mapping,4
+beforeWebsiteBtp,Event,beforeWebsiteBtp,Direct Mapping,4
+firstTimeFollowUpBtp,Event,firstTimeFollowUpBtp,Direct Mapping,4
+firstTimeFollowUpOtherBtp,Event,firstTimeFollowUpOtherBtp,Direct Mapping,4

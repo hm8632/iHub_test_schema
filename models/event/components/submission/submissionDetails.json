@@ -1,7 +1,7 @@
 {
   "title": "submissionDetails",
   "x-stoplight": {
-    "id": "y1fsy95xemo2n"
+    "id": "6xz27yzw54pza"
   },
   "type": "object",
   "examples": [
@@ -50,6 +50,10 @@
     "ipAddress": {
       "type": "string",
       "description": "The originating IP address of the submission, if known."
+    },
+    "submissionContent": {
+      "type": "string",
+      "description": "The content of the submission."
     },
     "submissionId": {
       "type": "string",

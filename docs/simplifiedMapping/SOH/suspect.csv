@@ -1,0 +1,4 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+suspectKnown,Person,suspectKnown,Direct Mapping,4
+known,Person,_PersonFields,"New POLE entity created, value remains the same",3
+unknown,Person,_PersonFields,"New POLE entity created, value remains the same",3

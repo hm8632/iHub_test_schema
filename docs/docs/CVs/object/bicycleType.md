@@ -1,0 +1,28 @@
+---
+stoplight-id: vwo0sf3vwvesl
+---
+
+Identifier  |  Display Value
+------------|-------------------
+BICT_0001   |  ATB
+BICT_0002   |  Antique
+BICT_0003   |  BMX
+BICT_0004   |  Chopper
+BICT_0005   |  Cross country
+BICT_0006   |  Downhill
+BICT_0007   |  Dual slalom
+BICT_0008   |  Electric
+BICT_0009   |  Folding
+BICT_0010   |  Freestyle
+BICT_0011   |  Mountain
+BICT_0012   |  Other
+BICT_0013   |  Police - marked
+BICT_0014   |  Police - unmarked
+BICT_0015   |  Racing
+BICT_0016   |  Recumbent
+BICT_0017   |  Regular
+BICT_0018   |  Tandem
+BICT_0019   |  Touring
+BICT_0020   |  Tricycle - adult
+BICT_0021   |  Tricycle - child
+BICT_0022   |  Unicycle

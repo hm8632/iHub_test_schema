@@ -1,28 +1,40 @@
 {
   "title": "addressUK",
   "x-stoplight": {
-    "id": "53qlq997mhkki"
+    "id": "gyri8dktguvgj"
   },
   "type": "object",
   "description": "",
   "properties": {
+    "UDPRN": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 12,
+      "description": "Royal Mail's Unique Delivery Point Reference Number."
+    },
+    "UPRN": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 12,
+      "description": "UPRN of the location. A Unique Property Reference Number (UPRN) is a unique numeric identifier for every addressable location in Great Britain."
+    },
     "buildingName": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 35,
-      "description": "Building name"
+      "maxLength": 50,
+      "description": "The building name is a description applied to a single building or a small group of buildings."
     },
     "buildingNumber": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 35,
-      "description": "Building number"
+      "maxLength": 4,
+      "description": "The building number, or postal number, is a number given to a single building or a small group of buildings."
     },
     "cityOrTown": {
       "type": "string",
       "minLength": 1,
       "maxLength": 35,
-      "description": "City or town of the address"
+      "description": "City or town in which the address is located"
     },
     "country": {
       "$ref": "../../../../common/types/object/CRTY.json#/country"
@@ -31,25 +43,46 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 35,
-      "description": "County of the address"
+      "description": "County in which the address is located"
     },
-    "street": {
+    "dependentLocality": {
       "type": "string",
       "minLength": 1,
       "maxLength": 35,
-      "description": "Street name"
+      "description": "Dependent locality areas may define an area within a town or city."
     },
-    "unitNumber": {
+    "doubleDependentLocality": {
       "type": "string",
       "minLength": 1,
       "maxLength": 35,
-      "description": "Unit number"
+      "description": "To distinguish between similar or same streets within a dependent locality."
+    },
+    "fullAddress": {
+      "type": "string"
+    },
+    "organisationName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 60,
+      "description": "The organisation name is the business name given to a delivery point within a building or small group of buildings. This field could also include entries for churches, public houses and libraries."
     },
     "postcode": {
       "type": "string",
       "minLength": 1,
       "maxLength": 25,
       "description": "Postcode of the location"
+    },
+    "street": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160,
+      "description": "A road, track or named access route on which the address is located."
+    },
+    "subBuildingName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30,
+      "description": "The sub-building name and/or number are identifiers for subdivision of properties."
     }
   }
 }

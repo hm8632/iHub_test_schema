@@ -1,0 +1,12 @@
+---
+stoplight-id: foghsflcim0b1
+---
+
+Identifier  |  Display Value
+------------|------------------------------------------------------------
+MSTS_0001   |  Divorced/Person whose Civil Partnership has been dissolved
+MSTS_0002   |  Married/Civil Partner
+MSTS_0003   |  Not Disclosed
+MSTS_0004   |  Separated
+MSTS_0005   |  Single
+MSTS_0006   |  Widowed/Surviving Civil Partner

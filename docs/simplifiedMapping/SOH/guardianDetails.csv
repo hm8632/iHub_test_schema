@@ -1,0 +1,153 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+insuranceCompany,Person,insuranceCompany,Direct Mapping,4
+insurancePolicyNumber,Person,insurancePolicyNumber,Direct Mapping,4
+nextOfKinKnown,Person,nextOfKinKnown,Direct Mapping,4
+nextOfKinPhoneNumber,Object (Telephone),telephoneNumber,"New POLE entity created, value remains the same",3
+nextOfKinRelationship,Person,,information preserved in linking,2
+nextOfKinFirstName,Person,givenName,"New POLE entity created, value remains the same",3
+nextOfKinSurname,Person,surname,"New POLE entity created, value remains the same",3
+nextOfKinAddress,Location,_AddressFields,"New POLE entity created, value remains the same",3
+nextOfKinEmailAddress,Object (Email),emailAddress,"New POLE entity created, value remains the same",3
+nonGbdrivingLicenseNumber,Object (DrivingLicence),drivingLicenceNumberForeign,"New POLE entity created, value remains the same",3
+nonGbdrivingLicenseIssueDate,Object (DrivingLicence),drivingLicenceIssueDate,"New POLE entity created, value remains the same",3
+nonGbdrivingLicenseExpiryDate,Object (DrivingLicence),drivingLicenceExpiryDate,"New POLE entity created, value remains the same",3
+passportNumber,Object (Passport),passportNumber,"New POLE entity created, value remains the same",3
+passportCountryOfIssue,Object (Passport),passportCountry,"New POLE entity created, value remains the same",3
+passportIssueNumber,Object (Passport),passportIssueNumber,"New POLE entity created, value remains the same",3
+passportIssueDate,Object (Passport),passportIssueDate,"New POLE entity created, value remains the same",3
+passportExpiryDate,Object (Passport),passportExpiryDate,"New POLE entity created, value remains the same",3
+passportIssuingOffice,Object (Passport),passportIssuingOffice,"New POLE entity created, value remains the same",3
+passportType,Object (Passport),passportType,"New POLE entity created, value remains the same",3
+passportVisaNumber,Object (Passport),passportVisaNumber,"New POLE entity created, value remains the same",3
+registeredGp,Person,registeredGp,Direct Mapping,4
+registeredGpaddress,Location,_AddressFields,"New POLE entity created, value remains the same",3
+drivingLicenseCountryOfIssue,Object (DrivingLicence),drivingLicenceCountry,"New POLE entity created, value remains the same",3
+drivingLicenseIssueDate,Object (DrivingLicence),drivingLicenceIssueDate,"New POLE entity created, value remains the same",3
+drivingLicenseExpiryDate,Object (DrivingLicence),drivingLicenceExpiryDate,"New POLE entity created, value remains the same",3
+drivingLicenseNumber,Object (DrivingLicence),drivingLicenceNumber,"New POLE entity created, value remains the same",3
+drivingLicenseType,Object (DrivingLicence),drivingLicenceType,"New POLE entity created, value remains the same",3
+title,Person,titleOther,Concat with titleListOther,1
+firstName,Person,givenName,Direct Mapping,4
+middleName1,Person,middleName,Concat with middleName2,1
+middleName2,Person,middleName,Concat with middleName1,1
+surname,Person,surname,Direct Mapping,4
+dateOfBirth,Person,dateOfBirth,Direct Mapping,4
+dateOfBirthKnown,Person,dateofBirthKnown,Direct Mapping,4
+gender,Person,gender,Direct Mapping,4
+genderSelfDescribe,Person,genderSelfDescribe,Direct Mapping,4
+emailAddress,Object (Email),emailAddress,"New POLE entity created, value remains the same",3
+phoneNumber,Object (Telephone),telephoneNumber,"New POLE entity created, value remains the same",3
+personDescription,Person,personDescription,Direct Mapping,4
+ageKnown,Person,ageKnown,Direct Mapping,4
+ageDetails,Person,age,Direct Mapping,4
+ageRangeOcr,Person,ageRange,Merge into single field ageRange,1
+ageRangeChild,Person,ageRange,Merge into single field ageRange,1
+ageRangeAdult,Person,ageRange,Merge into single field ageRange,1
+ageRangeMispers,Person,ageRange,Merge into single field ageRange,1
+approximateAgeString,Person,approximateAgeFrom,Populate approximateAgeFrom and approximateAgeTo with approximateAgeString,1
+inVehicle,Person,inVehicle,Direct Mapping,4
+approximateHeight,Person,approximateHeight,Direct Mapping,4
+communicationNeeds,Person,communicationNeeds,Direct Mapping,4
+communicationNeedsDescription,Person,communicationNeedsDetails,Direct Mapping,4
+connectedToAnyOneElse,Person,connectedToAnyOneElse,Direct Mapping,4
+contactPreference,Person,contactPreference,Direct Mapping,4
+accent,Person,accent,Direct Mapping,4
+additionalCitizenship,Person,hasAdditionalCitizenship,Direct Mapping,4
+additionalCitizenshipList,Person,additionalCitizenship,Direct Mapping,4
+additionalPersonInvolvedInIncident,Event,additionalPersonInvolvedInIncident,Direct Mapping,4
+additionalPersonInvolvedInIncidentDetails,Event,additionalPersonInvolvedInIncidentDetails,Direct Mapping,4
+ageAtTimeOfIncident,Person,ageAtTimeOfIncident,Direct Mapping,4
+alias,Person,alias,Direct Mapping,4
+build,Person,buildDetails,Direct Mapping,4
+buildList,Person,build,Direct Mapping,4
+clothingAtTimeOfIncident,Person,clothingAtTimeOfIncident,Direct Mapping,4
+complexion,Person,complexion,Direct Mapping,4
+countryOfBirth,Person,placeOfBirth,Direct Mapping,4
+daytimeTelephone,Object (Telephone),telephoneNumber,"New POLE entity created, value remains the same",3
+educationLocation,Person,educationLocation,Direct Mapping,4
+employmentStatus,Person,employmentStatus,Direct Mapping,4
+englishFirstLanguage,Person,englishFirstLanguage,Direct Mapping,4
+englishFluency,Person,englishFluency,Direct Mapping,4
+englishSpeaking,Person,englishSpeaking,Direct Mapping,4
+eveningTelephone,Object (Telephone),telephoneNumber,"New POLE entity created, value remains the same",3
+eyeColour,Person,eyeColourDetails,Direct Mapping,4
+eyeColourList,Person,eyeColourLeft,Maps into eyeColourLeft & eyeColourRight based on value,1
+eyeColourListLeft,Person,eyeColourLeft,Direct Mapping,4
+eyeColourListRight,Person,eyeColourRight,Direct Mapping,4
+eyewear,Person,eyewear,Direct Mapping,4
+facebookUserName,Object (SocialMedia),socialMediaTag,"SocialMedia POLE entity created with socialMediaType Facebook, socialMediaTag remains the same",1
+facialHair,Person,facialHair,Direct Mapping,4
+facialHairType,Person,facialHairType,Direct Mapping,4
+facialHairTypeOtherDetails,Person,facialHairDetails,Direct Mapping,4
+fatherForename1,Person,fatherForename,Concat with fatherForename2,1
+fatherForename2,Person,fatherForename,Concat with fatherForename1,1
+fatherSurname,Person,fatherSurname,Direct Mapping,4
+genderSameAsBirth,Person,genderSameAsBirth,Direct Mapping,4
+habitsMannersismsDetails,Person,habitsMannersismsDetails,Direct Mapping,4
+hairColour,Person,hairColourDetails,Concat with hairColourListOtherDetails,1
+hairColourList,Person,hairColourList,Direct Mapping,4
+hairColourListOtherDetails,Person,hairColourDetails,Concat with hairColour,1
+hairDescription,Person,hairDescription,Direct Mapping,4
+hairLength,Person,hairLength,Direct Mapping,4
+hairStyleDetails,Person,hairStyleDetails,Direct Mapping,4
+hairStyleList,Person,hairStyle,Direct Mapping,4
+handedness,Person,handedness,Direct Mapping,4
+heightFromCm,Person,heightFromCm,Direct Mapping,4
+heightToCm,Person,heightToCm,Direct Mapping,4
+identifyingMarks,Person,distinguishingFeatureDetails,Pass information as distinguishingFeatureDetails in distinguishingFeature group,1
+inEducation,Person,educationStatus,Direct Mapping,4
+instragramUsername,Object (SocialMedia),socialMediaTag,SocialMedia POLE entity created with socialMediaType Instagram socialMediaTag remains the same,1
+languagesSpoken,Person,languagesSpokenDetails,Direct Mapping,4
+languagesSpokenList,Person,languagesSpoken,Direct Mapping,4
+maritalStatus,Person,maritalStatus,Direct Mapping,4
+motherForename1,Person,motherForename,Concat with motherForename2,1
+motherForename2,Person,motherForename,Concat with motherForename1,1
+motherSurname,Person,motherSurname,Direct Mapping,4
+nationalInsuranceNumber,Person,nationalInsuranceNumber,Direct Mapping,4
+nationality,Person,nationalityDetails,Direct Mapping,4
+nationalityAcquisitionMethod,Person,nationalityAcquisitionMethod,Direct Mapping,4
+nationalityList,Person,nationality,Direct Mapping,4
+occupation,Person,occupation,Direct Mapping,4
+otherSocialMediaAccountsDetail,Object (SocialMedia),socialMediaDetails,"SocialMedia POLE entity created with socialMediaType Other, socialMediaDetails remains the same",1
+personNotes,Person,personNotes,Direct Mapping,4
+physicalCharacteristics,Person,physicalCharacteristics,Direct Mapping,4
+preferredPhoneNumber,Object (Telephone),telephoneNumber,"New POLE entity created, value remains the same",3
+preferredLanguageSpokenList,Person,preferredLanguageSpoken,Direct Mapping,4
+preferredLanguageWrittenList,Person,preferredLanguageWritten,Direct Mapping,4
+previousNationalityList,Person,previousNationality,Direct Mapping,4
+personRecentPhoto,Person,,Direct Mapping,4
+personRecentPhotoUpload,Person,,Direct Mapping,4
+personRecentPhotoUploadDetails,Person,,Direct Mapping,4
+religion,Person,religionOther,Concat with religionListOther,1
+religionList,Person,religion,Direct Mapping,4
+religionListOther,Person,religionOther,Concat with religion,1
+snapchatUsername,Object (SocialMedia),socialMediaTag,"SocialMedia POLE entity created with socialMediaType Snapchat, socialMediaTag remains the same",1
+speechDescriptionList,Person,speechDescription,Direct Mapping,4
+surnameUnknown,Person,surnameUnknown,Direct Mapping,4
+telephoneCountryCode,Object (Telephone),telephoneCountryCode,"New POLE entity created, value remains the same",3
+tikTokUsername,Object (SocialMedia),socialMediaTag,"SocialMedia POLE entity created with socialMediaType Tiktok, socialMediaTag remains the same",1
+titleList,Person,title,Direct Mapping,4
+titleListOther,Person,titleOther,Concat with title,1
+twitterUserName,Object (SocialMedia),socialMediaTag,"SocialMedia POLE entity created with socialMediaType Twitter, socialMediaTag remains the same",1
+unavailabilityDetail,Person,unavailabilityDetails,Direct Mapping,4
+usualClothing,Person,usualClothing,Direct Mapping,4
+victimSuspectRelationship,Person,victimRelationshipToSuspectDetails,Direct Mapping,4
+victimSuspectRelationshipList,Person,victimRelationshipToSuspect,Direct Mapping,4
+willingToAttendCourt,Person,willingToAttendCourt,Direct Mapping,4
+workEmailAddress,Object (Email),emailAddress,"New POLE entity created, value remains the same",3
+workExtensionNumber,Object (Telephone),telephoneCountryCode,"New POLE entity created, value remains the same",3
+workPhoneNumber,Object (Telephone),telephoneNumber,"New POLE entity created, value remains the same",3
+workStartTime,Person,workStartTimeDetails,Direct Mapping,4
+workStartTimeClock,Person,workStartTime,Direct Mapping,4
+workEndTime,Person,workEndTimeDetails,Direct Mapping,4
+workEndTimeClock,Person,workEndTime,Direct Mapping,4
+youtubeUserName,Object (SocialMedia),socialMediaTag,"SocialMedia POLE entity created with socialMediaType Youtube, socialMediaTag remains the same",1
+distinguishingFeature,Person,distinguishingFeature,Direct Mapping,4
+currentAddress,Location,_AddressFields,"New POLE entity created, value remains the same",3
+permanentResidence,Location,,information preserved in linking,2
+permanentAddress,Location,_AddressFields,"New POLE entity created, value remains the same",3
+dateMovedIn,Location,dateMovedIn,"New POLE entity created, value remains the same",3
+addressAlarmFitted,Location,alarmFitted,"New POLE entity created, value remains the same",3
+addressAlarmFittedDetails,Location,alarmFittedDetails,"New POLE entity created, value remains the same",3
+addressDescription,Location,addressDescription,"New POLE entity created, value remains the same",3
+sameAddressAsPersonReporting,Location,,"New POLE entity created, value remains the same",3

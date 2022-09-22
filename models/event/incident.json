@@ -1,14 +1,11 @@
 {
   "title": "incident",
   "x-stoplight": {
-    "id": "m3g4kbyn43dos"
+    "id": "bdvfophmvxn0x"
   },
   "allOf": [
     {
       "$ref": "./components/incident/incidentAsb.json"
-    },
-    {
-      "$ref": "./components/incident/incidentChannelShift.json"
     },
     {
       "$ref": "./components/incident/incidentDetails.json"
@@ -18,9 +15,6 @@
     },
     {
       "$ref": "./components/incident/incidentPublicTransport.json"
-    },
-    {
-      "$ref": "./components/incident/incidentTheft.json"
     },
     {
       "$ref": "./components/incident/incidentThreatAbuseAssault.json"
@@ -34,12 +28,6 @@
       "asbClass": "string",
       "asbQuestionnaire": true,
       "asbType": "string",
-      "beforeWebsite": "BWST0001",
-      "beforeWebsiteBtp": "BWBP0001",
-      "firstTimeFollowUp": "FTFU0001",
-      "firstTimeFollowUpBtp": "FTFB0001",
-      "firstTimeFollowUpOther": "Went into a police station.",
-      "firstTimeFollowUpOtherBtp": "Went to a train station.",
       "arrestReason": "Drunk and disorderly",
       "childPresent": true,
       "correctChecks": true,
@@ -70,10 +58,6 @@
       "publicTransportOther": "High Treet TukTuk",
       "publicTransportRouteDestination": "London",
       "publicTransportType": "PTTP0001",
-      "forcedEntry": true,
-      "forcedEntryDetails": "Window smashed.",
-      "stolenFromWhere": "SFWR0001",
-      "stolenFromWhereDetails": "Living room.",
       "physicallyAssaulted": true,
       "physicallyAssaultedDetails": "Person was hit in the face",
       "subjectedToThreatAbuseOrAssault": true,

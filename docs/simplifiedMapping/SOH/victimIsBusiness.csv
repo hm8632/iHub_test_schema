@@ -1,0 +1,9 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+businessName,Object (Business),businessName,Direct Mapping,4
+businessEmailAddress,Object (Email),emailAddress,Direct Mapping,4
+businessPhoneNumber,Object (Telephone),telephoneNumber,Direct Mapping,4
+businessAddress,Location,_AddressFields,Direct Mapping,4
+businessLocationDescription,Object (Business),businessLocationDescription,Direct Mapping,4
+businessDescription,Object (Business),businessDescription,Direct Mapping,4
+connectionToBusiness,Object (Business),connectionToBusiness,Direct Mapping,4
+connectionToBusinessOther,Object (Business),connectionToBusinessDetails,Direct Mapping,4

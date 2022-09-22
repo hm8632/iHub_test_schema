@@ -1,12 +1,12 @@
 {
   "title": "propertyTracking",
   "x-stoplight": {
-    "id": "jo8qztiavustn"
+    "id": "fi3ulh7jvjgnt"
   },
   "type": "object",
   "properties": {
     "propertyTracking": {
-      "type": "string",
+      "type": "boolean",
       "description": "Whether the property is being tracked"
     },
     "propertyTrackingDetails": {

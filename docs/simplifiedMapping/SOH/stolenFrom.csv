@@ -1,0 +1,7 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+stolenFromWhere,Event,stolenFromWhere,Direct Mapping,4
+stolenFromWhereOtherDetails,Event,stolenFromWhereDetails,Direct Mapping,4
+buildingType,Location,buildingType,Direct Mapping,4
+buildingTypeOtherDetail,Location,buildingTypeDetails,Direct Mapping,4
+forcedEntry,Event,forcedEntry,Direct Mapping,4
+forcedEntryDetail,Event,forcedEntryDetails,Direct Mapping,4

@@ -1,0 +1,14 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+btptrainOrStation,Event,btptrainOrStation,Direct Mapping,4
+btptrainDestinationFrom,Event,btptrainDestinationFrom,Direct Mapping,4
+btptrainDestinationTo,Event,btptrainDestinationTo,Direct Mapping,4
+btptrainBoardingTime,Event,btptrainBoardingTime,Direct Mapping,4
+btptrainBoardingStation,Event,btptrainBoardingStation,Direct Mapping,4
+btptrainDisembarkStation,Event,btptrainDisembarkStation,Direct Mapping,4
+btplocationOnTrain,Event,btplocationOnTrain,Direct Mapping,4
+btptrainLocationJourney,Event,btptrainLocationJourney,Direct Mapping,4
+btpsuspectGotOnOrOff,Event,btpsuspectGotOnOrOff,Direct Mapping,4
+btpsuspectBoardingStation,Event,btpsuspectBoardingStation,Direct Mapping,4
+btpsuspectDisembarkStation,Event,btpsuspectDisembarkStation,Direct Mapping,4
+btpincidentStation,Event,btpincidentStation,Direct Mapping,4
+btpincidentStationLocation,Event,btpincidentStationLocation,Direct Mapping,4

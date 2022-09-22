@@ -1,7 +1,7 @@
 {
   "title": "location",
   "x-stoplight": {
-    "id": "6n6vvgq8z0z60"
+    "id": "nkm46khi0gfa8"
   },
   "allOf": [
     {
@@ -13,24 +13,20 @@
   ],
   "examples": [
     {
+      "subBuildingName": "87",
       "buildingName": "Cube House",
       "buildingNumber": "12",
-      "cityOrTown": "Croydon",
-      "country": "United Kingdom",
-      "county": "Greater London",
       "street": "Smith Street",
-      "unitNumber": "87",
-      "locationArea": "string",
-      "locationEasting": "568046",
-      "locationLatitude": "51.7305248",
-      "locationLongitude": "0.4319606",
-      "locationNorthing": "206333",
-      "locationUPRN": "000000199356",
-      "mapLocation": "string",
-      "mapLocationAdditionalDetails": "string",
-      "mapLocationCorrect": true,
+      "cityOrTown": "Croydon",
+      "county": "Greater London",
       "postcode": "CR1 ABC",
-      "siteLocation": "string"
+      "country": "CTRY_GBR",
+      "UPRN": "000000199356",
+      "easting": "568046",
+      "northing": "206333",
+      "longitude": "0.4319606",
+      "latitude": "51.7305248",
+      "mapLocationCorrect": true
     }
   ]
 }

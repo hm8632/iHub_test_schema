@@ -1,0 +1,3 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+incidentAnyWitnesses,Person,,"New POLE entity created, value remains the same",3
+witness,Person,_PersonFields,"New POLE entity created, value remains the same",3

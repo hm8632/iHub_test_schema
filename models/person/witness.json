@@ -1,11 +1,11 @@
 {
   "title": "witness",
   "x-stoplight": {
-    "id": "gc80m793e0e6u"
+    "id": "fl16m5uzq53n7"
   },
   "allOf": [
     {
-      "$ref": "./person.json"
+      "$ref": "./personBase.json"
     },
     {
       "$ref": "./components/witness/witnessAttendance.json"

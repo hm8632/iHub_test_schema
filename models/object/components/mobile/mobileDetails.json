@@ -1,12 +1,13 @@
 {
   "title": "mobileDetails",
   "x-stoplight": {
-    "id": "uwmo10t84g1ua"
+    "id": "0rpr582qpqam2"
   },
   "type": "object",
   "properties": {
     "mobileNetwork": {
       "type": "string",
+      "minLength": 1,
       "maxLength": 50,
       "description": "Network the mobile belongs to"
     }

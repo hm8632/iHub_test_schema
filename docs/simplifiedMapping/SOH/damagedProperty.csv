@@ -1,0 +1,9 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+damagedPropertyDescription,Object (Property),propertyDescription,Direct Mapping,4
+damagedPropertyDamageDescription,Object (Property),propertyDamageDescription,Direct Mapping,4
+damagedPropertyColour,Object (Property),propertyColour,Direct Mapping,4
+damagedPropertyQuantity,Object (Property),propertyQuantity,Direct Mapping,4
+damagedPropertyUnits,Object (Property),propertyUnits,Direct Mapping,4
+damagedPropertyAge,Object (Property),propertyAge,Direct Mapping,4
+damagedPropertySize,Object (Property),propertySize,Direct Mapping,4
+damagedPropertyApproxValue,Object (Property),propertyApproxValue,Direct Mapping,4

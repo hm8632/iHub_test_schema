@@ -1,0 +1,4 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+distinguishingFeatureType,Person,distinguishingFeatureType,Direct Mapping,4
+distinguishingFeatureLocation,Person,distinguishingFeatureLocation,Direct Mapping,4
+distinguishingFeatureAdditionalDetail,Person,distinguishingFeatureDetails,Direct Mapping,4

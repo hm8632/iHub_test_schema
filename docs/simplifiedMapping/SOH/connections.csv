@@ -1,0 +1,6 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+connectedToWho,Person,_PersonFields,"New POLE entity created, value remains the same",3
+connectedHow,Person,_PersonFields,"New POLE entity created, value remains the same",3
+connectionToVictim,Person,_PersonFields,"New POLE entity created, value remains the same",3
+relationshipToVictim,Person,_PersonFields,"New POLE entity created, value remains the same",3
+relationshipToVictimOtherDetails,Person,_PersonFields,"New POLE entity created, value remains the same",3

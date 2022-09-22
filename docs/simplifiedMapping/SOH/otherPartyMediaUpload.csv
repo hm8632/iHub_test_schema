@@ -1,0 +1,7 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+mediaUpload,Object (Media),,"New POLE entity created, value remains the same",3
+mediaUploadDescription,Object (Media),mediaUploadDescription,"New POLE entity created, value remains the same",3
+mediaEdited,Object (Media),mediaEdited,"New POLE entity created, value remains the same",3
+mediaEditedDetails,Object (Media),mediaEditedDetails,"New POLE entity created, value remains the same",3
+mediaType,Object (Media),mediaType,"New POLE entity created, value remains the same",3
+mediaTypeOtherDetails,Object (Media),mediaTypeOtherDetails,"New POLE entity created, value remains the same",3

@@ -1,7 +1,7 @@
 {
   "title": "addressAdditionalDetails",
   "x-stoplight": {
-    "id": "7dmyfqguv7kjo"
+    "id": "lpa8efc5nob9t"
   },
   "type": "object",
   "properties": {
@@ -10,15 +10,6 @@
       "minLength": 1,
       "maxLength": 1000,
       "description": "Description of the location"
-    },
-    "buildingType": {
-      "$ref": "../../../../common/types/location/BLDT.json#/buildingType"
-    },
-    "buildingTypeDetails": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 4000,
-      "description": "Additional details of the building type"
     },
     "dateMovedIn": {
       "type": "string",

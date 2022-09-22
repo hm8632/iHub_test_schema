@@ -1,7 +1,7 @@
 {
   "title": "submission",
   "x-stoplight": {
-    "id": "m3wuz9ijbh7yj"
+    "id": "eaqkp4yw1nsu6"
   },
   "allOf": [
     {
@@ -20,7 +20,8 @@
       "customerReferenceNumber": "DA-3-22-0142-IR01",
       "submitTime": "2022-06-10T13:06:21.090+01:00",
       "submissionId": "5af464ab-ed26-4a6e-b80e-588f35bfe78f",
-      "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+      "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
+      "submissionContent": "*****<A submission payload here>*****"
     }
   ],
   "description": ""

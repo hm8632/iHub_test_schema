@@ -1,11 +1,11 @@
 {
   "title": "officer",
   "x-stoplight": {
-    "id": "3ff6gxaqvup73"
+    "id": "o32fj7rdbpmfl"
   },
   "allOf": [
     {
-      "$ref": "./person.json"
+      "$ref": "./personBase.json"
     },
     {
       "$ref": "./components/officer/officerIdentification.json"

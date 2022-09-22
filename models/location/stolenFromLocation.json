@@ -1,0 +1,12 @@
+{
+  "title": "stolenFromLocation",
+  "x-stoplight": {
+    "id": "mi15cfacdweyn"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/stolenFromLocation/stolenFromLocationDetails.json"
+    }
+  ],
+  "description": "A descriptive location object depicting the location of which an item is stolen from"
+}

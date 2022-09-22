@@ -1,0 +1,6 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+howInvolvedInCrime,Person,,information preserved in linking,2
+victimDetailsImTheVictim,Person,,"New POLE entity created, value remains the same",3
+victimDetailsFromWitness,Person,,"New POLE entity created, value remains the same",3
+victimDetailsReportedOnBehalfOf,Person,,"New POLE entity created, value remains the same",3
+victimIsBusiness,Person,victimIsBusiness,"New POLE entity created, value remains the same",3

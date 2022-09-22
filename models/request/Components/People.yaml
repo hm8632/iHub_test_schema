@@ -1,6 +1,6 @@
 title: People
 x-stoplight:
-  id: 5nbio84ghhz6q
+  id: 8ua1zx48hdgnl
 anyOf:
   - $ref: ../../person/officer.json
   - $ref: ../../person/offender.json

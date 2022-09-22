@@ -1,0 +1,53 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+whosLocation,Event,whosLocation,Direct Mapping,4
+yourLocationConnectionDetails,Event,yourLocationConnectionDetails,Direct Mapping,4
+theirLocationConnectionDetails,Event,theirLocationConnectionDetails,Direct Mapping,4
+hadWeapon,Event,hadWeapon,Direct Mapping,4
+weaponTypeList,Object (Weapon),weaponType,"New POLE entity created, value remains the same",3
+weaponDetails,Object (Weapon),weaponDetails,"New POLE entity created, value remains the same",3
+weaponCalibre,Object (Weapon),weaponCalibre,"New POLE entity created, value remains the same",3
+weaponNabisReference,Object (Weapon),weaponNabisReference,"New POLE entity created, value remains the same",3
+weaponInsuranceCompany,Object (Weapon),,"New POLE entity created, value remains the same",3
+weaponInsurancePolicyNumber,Object (Weapon),,"New POLE entity created, value remains the same",3
+weaponIssuingOrganisation,Object (Weapon),,"New POLE entity created, value remains the same",3
+weaponImitation,Object (Weapon),,"New POLE entity created, value remains the same",3
+ammunitionType,Object (Weapon),,"New POLE entity created, value remains the same",3
+firearmWeaponType,Object (Weapon),weaponType,"New POLE entity created, value remains the same",3
+firearmType,Object (Weapon),weaponType,"New POLE entity created, value remains the same",3
+subjectedToHateCrime,Event,subjectedToHateCrime,Direct Mapping,4
+subjectedToHateCrimeDetails,Event,subjectedToHateCrimeDetails,Direct Mapping,4
+publicTransportCardType,Object (publicTransportCard),publicTransportCardType,"New POLE entity created, value remains the same",3
+publicTransportContactlessPaymentCard,Object (publicTransportCard),publicTransportContactlessPaymentCard,"New POLE entity created, value remains the same",3
+publicTransportCardNumber,Object (publicTransportCard),publicTransportCardNumber,"New POLE entity created, value remains the same",3
+mapLocation,Location,mapLocation,"New POLE entity created, value remains the same",3
+mapLocationCorrect,Location,mapLocationCorrect,"New POLE entity created, value remains the same",3
+mapLocationAdditionalDetails,Location,mapLocationAdditionalDetails,"New POLE entity created, value remains the same",3
+nicheLocation,Location,_AddressFields,"New POLE entity created, value remains the same",3
+locationAlarmFitted,Location,alarmFitted,"New POLE entity created, value remains the same",3
+locationAlarmFittedDetails,Location,alarmFittedDetails,"New POLE entity created, value remains the same",3
+locationDescription,Location,addressDescription,"New POLE entity created, value remains the same",3
+currentAddress,Location,_AddressFields,"New POLE entity created, value remains the same",3
+permanentResidence,Location,,information preserved in linking,2
+permanentAddress,Location,_AddressFields,"New POLE entity created, value remains the same",3
+dateMovedIn,Location,dateMovedIn,"New POLE entity created, value remains the same",3
+addressAlarmFitted,Location,alarmFitted,"New POLE entity created, value remains the same",3
+addressAlarmFittedDetails,Location,alarmFittedDetails,"New POLE entity created, value remains the same",3
+addressDescription,Location,addressDescription,"New POLE entity created, value remains the same",3
+sameAddressAsPersonReporting,Location,,information preserved in linking,2
+incidentEventsPreceeding,Event,incidentEventsPreceeding,,1
+incidentExactTimeKnown,Event,incidentExactTimeKnown,Direct Mapping,4
+incidentApproximateDate,Event,incidentApproximateDate,Direct Mapping,4
+incidentApproximateTime,Event,incidentApproximateTime,Direct Mapping,4
+incidentDescription,Event,incidentDescription,Direct Mapping,4
+incidentDateTimeDescription,Event,incidentDateTimeDescription,Direct Mapping,4
+incidentOnPublicTransport,Event,incidentOnPublicTransport,Direct Mapping,4
+incidentStillHappening,Event,incidentStillHappening,Direct Mapping,4
+incidentInfluencedByDrugsOrAlcohol,Event,incidentInfluencedByDrugsOrAlcohol,Direct Mapping,4
+incidentInfluencedByDrugsOrAlcoholDetails,Event,incidentInfluencedByDrugsOrAlcoholDetails,Direct Mapping,4
+incidentDateRange,Event,incidentStartDateTime,"Merges dateFrom and incidentStartTime into incidentEndStartTime, Merges dateTo and incidentEndTime into incidentEndDateTime",1
+incidentStartTime,Event,incidentStartDateTime,Merges dateFrom and incidentStartTime into incidentEndStartTime,1
+incidentEndTime,Event,incidentEndDateTime,Merges dateTo and incidentEndTime into incidentEndDateTime,1
+incidentReportedAlready,Event,incidentReportedAlready,Direct Mapping,4
+incidentReportedAlreadyReference,Event,incidentReportedAlreadyReference,Direct Mapping,4
+btpdetails,Event,_btpDetails,"New POLE entity created, value remains the same",3
+publicTransportDetails,Event,_ptDetails,"New POLE entity created, value remains the same",3

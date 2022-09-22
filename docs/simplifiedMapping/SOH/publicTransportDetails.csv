@@ -1,0 +1,5 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+publicTransportType,Event,publicTransportType,Direct Mapping,4
+publicTransportOther,Event,publicTransportOther,Direct Mapping,4
+publicTransportCompany,Event,publicTransportCompany,Direct Mapping,4
+publicTransportRouteDestination,Event,publicTransportRouteDestination,Direct Mapping,4

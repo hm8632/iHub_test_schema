@@ -1,0 +1,11 @@
+{
+  "title": "channelShift",
+  "x-stoplight": {
+    "id": "f13snn7g4wn28"
+  },
+  "allOf": [
+    {
+      "$ref": "./components/channelShift/channelShiftDetails.json"
+    }
+  ]
+}

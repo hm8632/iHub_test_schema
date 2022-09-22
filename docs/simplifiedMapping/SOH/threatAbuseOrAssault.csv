@@ -1,0 +1,7 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+physicallyAssaulted,Event,physicallyAssaulted,Direct Mapping,4
+physicallyAssaultedDetails,Event,physicallyAssaultedDetails,Direct Mapping,4
+targetedByOffender,Event,targetedByOffender,Direct Mapping,4
+targetedByOffenderDetails,Event,targetedByOffenderDetails,Direct Mapping,4
+subjectedToThreatAbuseOrAssault,Event,subjectedToThreatAbuseOrAssault,Direct Mapping,4
+subjectedToThreatAbuseOrAssaultDetails,Event,subjectedToThreatAbuseOrAssaultDetails,Direct Mapping,4

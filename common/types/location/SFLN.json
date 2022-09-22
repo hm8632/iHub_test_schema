@@ -1,0 +1,15 @@
+{
+  "stolenFromLocation": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "SFLN_0001",
+        "description": "Building (inside)"
+      },
+      {
+        "const": "SFLN_0002",
+        "description": "Other"
+      }
+    ]
+  }
+}

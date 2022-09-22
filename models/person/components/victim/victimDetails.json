@@ -1,7 +1,7 @@
 {
   "title": "victimDetails",
   "x-stoplight": {
-    "id": "mkfnrdz2hg415"
+    "id": "p61s70n144uj3"
   },
   "type": "object",
   "properties": {
@@ -12,10 +12,6 @@
     "victimAwareReported": {
       "type": "boolean",
       "description": "Whether the victim is aware that the incident has been reported"
-    },
-    "victimIsBusiness": {
-      "type": "boolean",
-      "description": "Whether the victim is a business"
     },
     "victimKnown": {
       "type": "boolean",

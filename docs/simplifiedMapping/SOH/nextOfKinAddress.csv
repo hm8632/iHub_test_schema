@@ -1,0 +1,13 @@
+Source SOH Field,Target POLE Entity,Target Data Model Field,Mapping Type,Priority
+buildingNumber,Location,buildingNumber,Direct Mapping,4
+buildingName,Location,buildingName,Direct Mapping,4
+streetName,Location,street,Direct Mapping,4
+townOrCity,Location,cityOrTown,Direct Mapping,4
+postcode,Location,postcode,Direct Mapping,4
+country,Location,country,Direct Mapping,4
+latitude,Location,locationLatitude,Direct Mapping,4
+longitude,Location,locationLongitude,Direct Mapping,4
+easting,Location,locationEasting,Direct Mapping,4
+northing,Location,locationNorthing,Direct Mapping,4
+isEditedInForm,Location,,Direct Mapping,4
+osUprn,Location,locationUPRN,Direct Mapping,4
