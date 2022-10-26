@@ -4,8 +4,7 @@
     "oas2",
     "oas3",
     "oas3.0",
-    "oas3.1",
-    "json-schema-2020-12"
+    "oas3.1"
   ],
   "aliases": {
     "API_Document": {
