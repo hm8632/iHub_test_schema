@@ -1,0 +1,43 @@
+{
+  "outcomeCategory": {
+    "type": "string",
+    "oneOf": [
+      {
+        "const": "awaiting-court-result",
+        "description": "Awaiting court outcome"
+      },
+      {
+        "const": "court-result-unavailable",
+        "description": "Court result unavailable"
+      },
+      {
+        "const": "unable-to-proceed",
+        "description": "Court case unable to proceed"
+      } ,
+      {
+        "const": "local-resolution",
+        "description": "Local resolution"
+      },
+      {
+        "const": "no-further-action",
+        "description": "Investigation complete; no suspect identified"
+      },
+      {
+        "const": "deprived-of-property",
+        "description": "Offender deprived of property"
+      },
+      {
+        "const": "fined",
+        "description": "Offender fined"
+      },
+      {
+        "const": "absolute-discharge",
+        "description": "Offender given absolute discharge"
+      },
+      {
+        "const": "cautioned",
+        "description": "Offender given a caution"
+      }
+    ]
+  }
+}
