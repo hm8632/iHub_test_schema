@@ -2,7 +2,7 @@
   "accent": {
     "description":"Accent",
     "title":"accent",
-    "$id":"https:\/\/schema.psanalytics.co.uk\/cvs\/ACNT.json",
+    "$id":"https://schema.psanalytics.co.uk/cvs/ACNT.json",
     "type": "string",
     "oneOf": [
       {
